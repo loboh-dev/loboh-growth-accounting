@@ -6,7 +6,7 @@ import logoDark from "@/assets/logo-dark.svg";
 import logoFordoctor from "@/assets/logos/fordoctor.svg";
 import logoAM from "@/assets/logos/am-contabilidade.webp";
 import logoPejota from "@/assets/logos/pejota.webp";
-import foundersSmoke from "@/assets/founders-smoke.svg";
+import foundersTransparent from "@/assets/founders-transparent.png";
 
 const LandingPage = () => {
   const scrollToContact = () => {
@@ -36,13 +36,13 @@ const LandingPage = () => {
         
         {/* Right - Partner Images */}
         <img 
-          src={foundersSmoke} 
+          src={foundersTransparent} 
           alt="Tiago Faria e Fayola Damaceno" 
           className="hidden lg:block absolute pointer-events-none z-20"
           style={{ 
             right: '0',
             bottom: '4px',
-            height: '80vh',
+            height: '95vh',
             width: 'auto'
           }}
         />
