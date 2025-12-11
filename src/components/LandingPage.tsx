@@ -81,22 +81,16 @@ const LandingPage = () => {
             </div>
             
             {/* Right - Partner Images with Smoke Effect */}
-            <div className="hidden lg:flex items-center justify-end relative h-[600px]">
+            <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-1/2 pointer-events-none">
               {/* Subtle ambient glow */}
-              <div className="absolute right-0 top-1/3 w-80 h-80 bg-primary/5 rounded-full blur-[120px]" />
+              <div className="absolute right-20 top-1/3 w-96 h-96 bg-primary/8 rounded-full blur-[150px]" />
               
               {/* SVG with founders and smoke effect */}
-              <div className="relative z-10 w-full h-full flex items-end justify-end">
-                <img 
-                  src={foundersSmoke} 
-                  alt="Tiago Faria e Fayola Damaceno" 
-                  className="h-full w-auto object-contain object-right-bottom max-w-none"
-                  style={{
-                    marginRight: '-4rem',
-                    filter: 'drop-shadow(0 0 60px rgba(84, 127, 191, 0.1))'
-                  }}
-                />
-              </div>
+              <img 
+                src={foundersSmoke} 
+                alt="Tiago Faria e Fayola Damaceno" 
+                className="absolute bottom-0 right-0 h-[90%] w-auto object-contain object-right-bottom"
+              />
             </div>
           </div>
         </div>
