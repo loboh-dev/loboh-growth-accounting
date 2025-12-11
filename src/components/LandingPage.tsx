@@ -6,6 +6,9 @@ import logoDark from "@/assets/logo-dark.svg";
 import logoFordoctor from "@/assets/logos/fordoctor.svg";
 import logoAM from "@/assets/logos/am-contabilidade.webp";
 import logoPejota from "@/assets/logos/pejota.webp";
+import tiagoFaria from "@/assets/tiago-faria.jpg";
+import fayolaDamaceno from "@/assets/fayola-damaceno.jpg";
+
 const LandingPage = () => {
   const scrollToContact = () => {
     document.getElementById('cta-final')?.scrollIntoView({
@@ -26,66 +29,105 @@ const LandingPage = () => {
       {/* Hero Section - Full Viewport */}
       <section className="relative min-h-screen flex items-center pt-16 bg-loboh-navy overflow-hidden">
         {/* Subtle pattern overlay */}
-        <div className="absolute inset-0 opacity-[0.03]" style={{
+        <div className="absolute inset-0 opacity-[0.02]" style={{
           backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
           backgroundSize: '32px 32px'
         }} />
         
-        <div className="container mx-auto px-4 relative z-10 py-12">
-          <div className="max-w-4xl">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6 animate-fade-up">
-              <Building2 className="w-4 h-4 text-primary" />
-              <span className="text-loboh-gray-200 text-sm font-medium">Exclusivo para Contabilidades</span>
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="grid lg:grid-cols-2 gap-8 items-center">
+            {/* Left Content */}
+            <div className="py-8">
+              {/* Badge */}
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-5 animate-fade-up">
+                <Building2 className="w-4 h-4 text-primary" />
+                <span className="text-loboh-gray-200 text-sm font-medium">Exclusivo para Contabilidades</span>
+              </div>
+              
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100">
+                Planejamento Comercial<br />
+                <span className="text-primary">Gratuito para 2026</span>
+              </h1>
+              
+              <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
+                Sessão estratégica de 60 minutos com o CEO da Loboh, exclusiva para contabilidades em expansão.
+              </p>
+              
+              {/* Benefits grid */}
+              <div className="grid grid-cols-2 gap-2 mb-6 animate-fade-up animation-delay-300">
+                {[
+                  "Metas SMART para 2026",
+                  "KPIs por canal de aquisição",
+                  "Diagnóstico de maturidade comercial",
+                  "Visibilidade dos recursos necessários"
+                ].map((benefit, index) => (
+                  <div key={index} className="flex items-center gap-2">
+                    <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
+                    <span className="text-loboh-gray-100 text-sm">{benefit}</span>
+                  </div>
+                ))}
+              </div>
+              
+              <div className="flex flex-col sm:flex-row gap-3 animate-fade-up animation-delay-400">
+                <Button variant="hero" size="lg" onClick={scrollToContact}>
+                  Quero meu Planejamento Gratuito
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+                <Button variant="heroOutline" size="default" onClick={() => document.getElementById('para-quem')?.scrollIntoView({
+                  behavior: 'smooth'
+                })}>
+                  Saiba mais
+                </Button>
+              </div>
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6 animate-fade-up animation-delay-100">
-              Planejamento Comercial<br />
-              <span className="text-primary">Gratuito para 2026</span>
-            </h1>
-            
-            <p className="text-lg md:text-xl text-loboh-gray-200 max-w-2xl mb-8 animate-fade-up animation-delay-200 leading-relaxed">
-              Sessão estratégica de 60 minutos com o CEO da Loboh, exclusiva para contabilidades em expansão. Receba metas claras, KPIs e um diagnóstico 360º da sua gestão comercial.
-            </p>
-            
-            {/* Benefits grid */}
-            <div className="grid sm:grid-cols-2 gap-3 mb-10 animate-fade-up animation-delay-300">
-              {[
-                "Metas SMART para 2026",
-                "KPIs por canal de aquisição",
-                "Diagnóstico de maturidade comercial",
-                "Visibilidade dos recursos necessários"
-              ].map((benefit, index) => (
-                <div key={index} className="flex items-center gap-3">
-                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
-                  <span className="text-loboh-gray-100 text-sm md:text-base">{benefit}</span>
+            {/* Right - Partner Images with Smoke Effect */}
+            <div className="hidden lg:flex items-center justify-end relative h-[500px]">
+              {/* Smoke effect from right */}
+              <div className="absolute inset-0 z-0">
+                <div className="absolute right-0 top-0 bottom-0 w-full bg-gradient-to-l from-loboh-gray-700/40 via-loboh-gray-800/20 to-transparent" />
+                <div className="absolute right-0 top-1/4 w-96 h-96 bg-loboh-gray-600/30 rounded-full blur-[100px]" />
+                <div className="absolute right-20 bottom-1/4 w-72 h-72 bg-primary/10 rounded-full blur-[80px]" />
+              </div>
+              
+              {/* Partner images */}
+              <div className="relative z-10 flex items-end gap-[-2rem]">
+                {/* Fayola */}
+                <div className="relative w-56 h-80 -mr-8">
+                  <div className="absolute inset-0 bg-gradient-to-t from-loboh-navy via-transparent to-transparent z-10" />
+                  <div className="absolute inset-0 bg-gradient-to-l from-transparent to-loboh-navy/50 z-10" />
+                  <img 
+                    src={fayolaDamaceno} 
+                    alt="Partner" 
+                    className="w-full h-full object-cover object-top grayscale"
+                    style={{ 
+                      maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
+                      WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)'
+                    }}
+                  />
                 </div>
-              ))}
-            </div>
-            
-            <div className="flex flex-col sm:flex-row gap-4 animate-fade-up animation-delay-400">
-              <Button variant="hero" size="xl" onClick={scrollToContact}>
-                Quero meu Planejamento Gratuito
-                <ArrowRight className="w-5 h-5" />
-              </Button>
-              <Button variant="heroOutline" size="lg" onClick={() => document.getElementById('para-quem')?.scrollIntoView({
-                behavior: 'smooth'
-              })}>
-                Saiba mais
-              </Button>
+                
+                {/* Tiago */}
+                <div className="relative w-64 h-96 z-20">
+                  <div className="absolute inset-0 bg-gradient-to-t from-loboh-navy via-transparent to-transparent z-10" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent to-loboh-navy/30 z-10" />
+                  <img 
+                    src={tiagoFaria} 
+                    alt="Partner" 
+                    className="w-full h-full object-cover object-top grayscale"
+                    style={{ 
+                      maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
+                      WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)'
+                    }}
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Blue accent line */}
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary" />
-        
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
-          <div className="w-6 h-10 rounded-full border-2 border-loboh-gray-400 flex items-start justify-center p-2">
-            <div className="w-1 h-2 bg-loboh-gray-400 rounded-full" />
-          </div>
-        </div>
       </section>
 
       {/* Para quem é */}
