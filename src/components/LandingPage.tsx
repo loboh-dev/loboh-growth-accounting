@@ -26,12 +26,21 @@ const LandingPage = () => {
       </nav>
 
       {/* Hero Section - Full Viewport */}
-      <section className="relative min-h-screen flex items-center pt-16 bg-loboh-navy overflow-hidden">
+      <section className="relative h-screen flex items-center bg-loboh-navy overflow-hidden">
         {/* Subtle pattern overlay */}
         <div className="absolute inset-0 opacity-[0.02]" style={{
           backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
           backgroundSize: '32px 32px'
         }} />
+        
+        {/* Right side ambient background */}
+        <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-1/2 pointer-events-none">
+          {/* Gradient overlay for depth */}
+          <div className="absolute inset-0 bg-gradient-to-l from-loboh-gray-800/30 via-loboh-gray-800/10 to-transparent" />
+          {/* Primary color glow */}
+          <div className="absolute right-10 top-1/4 w-[500px] h-[500px] bg-primary/6 rounded-full blur-[180px]" />
+          <div className="absolute right-40 bottom-1/4 w-80 h-80 bg-loboh-gray-600/20 rounded-full blur-[120px]" />
+        </div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
@@ -80,16 +89,14 @@ const LandingPage = () => {
               </div>
             </div>
             
-            {/* Right - Partner Images with Smoke Effect */}
-            <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-1/2 pointer-events-none">
-              {/* Subtle ambient glow */}
-              <div className="absolute right-20 top-1/3 w-96 h-96 bg-primary/8 rounded-full blur-[150px]" />
-              
-              {/* SVG with founders and smoke effect */}
+            {/* Right - Partner Images */}
+            <div className="hidden lg:block absolute right-0 top-16 bottom-0 w-[55%] pointer-events-none">
+              {/* SVG with founders and smoke effect - larger */}
               <img 
                 src={foundersSmoke} 
                 alt="Tiago Faria e Fayola Damaceno" 
-                className="absolute bottom-0 right-0 h-[90%] w-auto object-contain object-right-bottom"
+                className="absolute bottom-0 right-0 h-full w-auto object-contain object-right-bottom"
+                style={{ maxHeight: 'calc(100vh - 4rem)' }}
               />
             </div>
           </div>
