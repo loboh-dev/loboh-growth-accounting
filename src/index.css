@@ -187,44 +187,35 @@
 }
 
 @keyframes smoke-drift {
-  0% {
-    transform: translateX(100%) scaleX(1.5);
-    opacity: 0;
+  0%, 100% {
+    transform: translateX(0) scale(1);
+    opacity: 0.5;
   }
-  20% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: translateX(-50%) scaleX(2);
-    opacity: 0;
+  50% {
+    transform: translateX(-30%) scale(1.2);
+    opacity: 0.8;
   }
 }
 
 @keyframes smoke-drift-slow {
-  0% {
-    transform: translateX(80%) scaleX(1.2);
-    opacity: 0;
-  }
-  30% {
+  0%, 100% {
+    transform: translateX(10%) scale(1.1);
     opacity: 0.4;
   }
-  100% {
-    transform: translateX(-80%) scaleX(1.8);
-    opacity: 0;
+  50% {
+    transform: translateX(-40%) scale(1.3);
+    opacity: 0.6;
   }
 }
 
 @keyframes smoke-drift-fast {
-  0% {
-    transform: translateX(120%) scaleX(1);
-    opacity: 0;
-  }
-  15% {
+  0%, 100% {
+    transform: translateX(-10%) scale(0.9);
     opacity: 0.3;
   }
-  100% {
-    transform: translateX(-30%) scaleX(1.5);
-    opacity: 0;
+  50% {
+    transform: translateX(-50%) scale(1.1);
+    opacity: 0.5;
   }
 }
 
