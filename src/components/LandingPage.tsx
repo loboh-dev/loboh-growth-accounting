@@ -23,33 +23,54 @@ const LandingPage = () => {
         </div>
       </nav>
 
-      {/* Hero Section - Compact & Bold */}
-      <section className="relative min-h-[70vh] flex items-center pt-16 bg-loboh-navy overflow-hidden">
+      {/* Hero Section - Full Viewport */}
+      <section className="relative min-h-screen flex items-center pt-16 bg-loboh-navy overflow-hidden">
         {/* Subtle pattern overlay */}
-        <div className="absolute inset-0 opacity-5" style={{
+        <div className="absolute inset-0 opacity-[0.03]" style={{
           backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
-          backgroundSize: '40px 40px'
+          backgroundSize: '32px 32px'
         }} />
         
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-[1.1] mb-6 animate-fade-up">
+        <div className="container mx-auto px-4 relative z-10 py-12">
+          <div className="max-w-4xl">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6 animate-fade-up">
+              <Building2 className="w-4 h-4 text-primary" />
+              <span className="text-loboh-gray-200 text-sm font-medium">Exclusivo para Contabilidades</span>
+            </div>
+            
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-[1.1] mb-6 animate-fade-up animation-delay-100">
               Planejamento Comercial<br />
               <span className="text-primary">Gratuito para 2026</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-muted max-w-2xl mb-8 animate-fade-up animation-delay-200">
-              Sessão estratégica de 60 min com o CEO da Loboh. Metas claras, KPIs e diagnóstico 360º da sua gestão comercial.
+            <p className="text-lg md:text-xl text-loboh-gray-200 max-w-2xl mb-8 animate-fade-up animation-delay-200 leading-relaxed">
+              Sessão estratégica de 60 minutos com o CEO da Loboh, exclusiva para contabilidades em expansão. Receba metas claras, KPIs e um diagnóstico 360º da sua gestão comercial.
             </p>
+            
+            {/* Benefits grid */}
+            <div className="grid sm:grid-cols-2 gap-3 mb-10 animate-fade-up animation-delay-300">
+              {[
+                "Metas SMART para 2026",
+                "KPIs por canal de aquisição",
+                "Diagnóstico de maturidade comercial",
+                "Visibilidade dos recursos necessários"
+              ].map((benefit, index) => (
+                <div key={index} className="flex items-center gap-3">
+                  <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0" />
+                  <span className="text-loboh-gray-100 text-sm md:text-base">{benefit}</span>
+                </div>
+              ))}
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-up animation-delay-400">
               <Button variant="hero" size="xl" onClick={scrollToContact}>
-                Quero meu Planejamento
+                Quero meu Planejamento Gratuito
                 <ArrowRight className="w-5 h-5" />
               </Button>
               <Button variant="heroOutline" size="lg" onClick={() => document.getElementById('para-quem')?.scrollIntoView({
-              behavior: 'smooth'
-            })}>
+                behavior: 'smooth'
+              })}>
                 Saiba mais
               </Button>
             </div>
@@ -58,6 +79,13 @@ const LandingPage = () => {
 
         {/* Blue accent line */}
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary" />
+        
+        {/* Scroll indicator */}
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hidden md:block">
+          <div className="w-6 h-10 rounded-full border-2 border-loboh-gray-400 flex items-start justify-center p-2">
+            <div className="w-1 h-2 bg-loboh-gray-400 rounded-full" />
+          </div>
+        </div>
       </section>
 
       {/* Para quem é */}
