@@ -183,7 +183,7 @@ const LandingPage = () => {
                 Visão, Clareza, Racionalidade e Sonhos Realizáveis em apenas 60 minutos.
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Dá uma olhadinha no que preparamos para nossa Sessão Estratégica Gratuita.
+                Dá uma olhadinha no que preparamos para nossa<br />Sessão Estratégica Gratuita.
               </h2>
             </div>
             
