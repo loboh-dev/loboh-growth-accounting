@@ -39,9 +39,9 @@ const LandingPage = () => {
           className="hidden lg:block absolute pointer-events-none z-20" 
           style={{ 
             right: '0',
-            bottom: '1px',
-            width: '55%',
-            height: '82%'
+            bottom: '4px',
+            width: '60%',
+            height: '92%'
           }}
         >
           <img 
