@@ -34,6 +34,23 @@ const LandingPage = () => {
         }} />
         
         
+        {/* Right - Partner Images - positioned relative to section */}
+        <div 
+          className="hidden lg:block absolute pointer-events-none z-20" 
+          style={{ 
+            right: '0',
+            bottom: '1px',
+            width: '55%',
+            height: '82%'
+          }}
+        >
+          <img 
+            src={foundersSmoke} 
+            alt="Tiago Faria e Fayola Damaceno" 
+            className="w-full h-full object-contain object-right-bottom"
+          />
+        </div>
+        
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Left Content */}
@@ -79,22 +96,6 @@ const LandingPage = () => {
                   Saiba mais
                 </Button>
               </div>
-            </div>
-            
-            {/* Right - Partner Images */}
-            <div 
-              className="hidden lg:block absolute right-0 pointer-events-none z-20" 
-              style={{ 
-                width: '55%', 
-                bottom: '0',
-                top: '10%'
-              }}
-            >
-              <img 
-                src={foundersSmoke} 
-                alt="Tiago Faria e Fayola Damaceno" 
-                className="w-full h-full object-contain object-right-bottom"
-              />
             </div>
           </div>
         </div>
