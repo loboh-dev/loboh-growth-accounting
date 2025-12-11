@@ -45,26 +45,26 @@ const LandingPage = () => {
           }}
         >
           {/* Smoke layers */}
-          <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute inset-0 overflow-hidden" style={{ width: '150%', left: '-25%' }}>
             <div 
-              className="absolute inset-y-0 right-0 w-[200%] animate-smoke-drift opacity-0"
+              className="absolute inset-0 animate-smoke-drift"
               style={{
-                background: 'radial-gradient(ellipse 80% 50% at 50% 50%, hsl(214 47% 53% / 0.15) 0%, transparent 70%)',
-                filter: 'blur(40px)'
+                background: 'radial-gradient(ellipse 60% 80% at 70% 50%, hsl(214 47% 53% / 0.4) 0%, transparent 60%)',
+                filter: 'blur(60px)'
               }}
             />
             <div 
-              className="absolute inset-y-0 right-0 w-[200%] animate-smoke-drift-slow animation-delay-2000 opacity-0"
+              className="absolute inset-0 animate-smoke-drift-slow animation-delay-2000"
               style={{
-                background: 'radial-gradient(ellipse 60% 40% at 50% 60%, hsl(210 7% 50% / 0.2) 0%, transparent 60%)',
+                background: 'radial-gradient(ellipse 50% 70% at 60% 60%, hsl(210 20% 60% / 0.3) 0%, transparent 50%)',
+                filter: 'blur(80px)'
+              }}
+            />
+            <div 
+              className="absolute inset-0 animate-smoke-drift-fast animation-delay-4000"
+              style={{
+                background: 'radial-gradient(ellipse 70% 60% at 80% 40%, hsl(214 47% 53% / 0.25) 0%, transparent 55%)',
                 filter: 'blur(50px)'
-              }}
-            />
-            <div 
-              className="absolute inset-y-0 right-0 w-[200%] animate-smoke-drift-fast animation-delay-4000 opacity-0"
-              style={{
-                background: 'radial-gradient(ellipse 100% 60% at 50% 40%, hsl(214 47% 53% / 0.1) 0%, transparent 50%)',
-                filter: 'blur(30px)'
               }}
             />
           </div>
