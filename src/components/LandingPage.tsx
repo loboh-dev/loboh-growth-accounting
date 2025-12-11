@@ -6,8 +6,7 @@ import logoDark from "@/assets/logo-dark.svg";
 import logoFordoctor from "@/assets/logos/fordoctor.svg";
 import logoAM from "@/assets/logos/am-contabilidade.webp";
 import logoPejota from "@/assets/logos/pejota.webp";
-import tiagoFaria from "@/assets/tiago-faria.jpg";
-import fayolaDamaceno from "@/assets/fayola-damaceno.jpg";
+import foundersSmoke from "@/assets/founders-smoke.svg";
 
 const LandingPage = () => {
   const scrollToContact = () => {
@@ -82,45 +81,21 @@ const LandingPage = () => {
             </div>
             
             {/* Right - Partner Images with Smoke Effect */}
-            <div className="hidden lg:flex items-center justify-end relative h-[500px]">
-              {/* Smoke effect from right */}
-              <div className="absolute inset-0 z-0">
-                <div className="absolute right-0 top-0 bottom-0 w-full bg-gradient-to-l from-loboh-gray-700/40 via-loboh-gray-800/20 to-transparent" />
-                <div className="absolute right-0 top-1/4 w-96 h-96 bg-loboh-gray-600/30 rounded-full blur-[100px]" />
-                <div className="absolute right-20 bottom-1/4 w-72 h-72 bg-primary/10 rounded-full blur-[80px]" />
-              </div>
+            <div className="hidden lg:flex items-center justify-end relative h-[600px]">
+              {/* Subtle ambient glow */}
+              <div className="absolute right-0 top-1/3 w-80 h-80 bg-primary/5 rounded-full blur-[120px]" />
               
-              {/* Partner images */}
-              <div className="relative z-10 flex items-end gap-[-2rem]">
-                {/* Fayola */}
-                <div className="relative w-56 h-80 -mr-8">
-                  <div className="absolute inset-0 bg-gradient-to-t from-loboh-navy via-transparent to-transparent z-10" />
-                  <div className="absolute inset-0 bg-gradient-to-l from-transparent to-loboh-navy/50 z-10" />
-                  <img 
-                    src={fayolaDamaceno} 
-                    alt="Partner" 
-                    className="w-full h-full object-cover object-top grayscale"
-                    style={{ 
-                      maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
-                      WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)'
-                    }}
-                  />
-                </div>
-                
-                {/* Tiago */}
-                <div className="relative w-64 h-96 z-20">
-                  <div className="absolute inset-0 bg-gradient-to-t from-loboh-navy via-transparent to-transparent z-10" />
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent to-loboh-navy/30 z-10" />
-                  <img 
-                    src={tiagoFaria} 
-                    alt="Partner" 
-                    className="w-full h-full object-cover object-top grayscale"
-                    style={{ 
-                      maskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)',
-                      WebkitMaskImage: 'linear-gradient(to bottom, black 70%, transparent 100%)'
-                    }}
-                  />
-                </div>
+              {/* SVG with founders and smoke effect */}
+              <div className="relative z-10 w-full h-full flex items-end justify-end">
+                <img 
+                  src={foundersSmoke} 
+                  alt="Tiago Faria e Fayola Damaceno" 
+                  className="h-full w-auto object-contain object-right-bottom max-w-none"
+                  style={{
+                    marginRight: '-4rem',
+                    filter: 'drop-shadow(0 0 60px rgba(84, 127, 191, 0.1))'
+                  }}
+                />
               </div>
             </div>
           </div>
