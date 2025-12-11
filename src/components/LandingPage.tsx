@@ -7,7 +7,6 @@ import logoFordoctor from "@/assets/logos/fordoctor.svg";
 import logoAM from "@/assets/logos/am-contabilidade.webp";
 import logoPejota from "@/assets/logos/pejota.webp";
 import foundersTransparent from "@/assets/founders-transparent.png";
-
 const LandingPage = () => {
   const scrollToContact = () => {
     document.getElementById('cta-final')?.scrollIntoView({
@@ -29,50 +28,37 @@ const LandingPage = () => {
       <section className="relative h-screen flex items-center bg-loboh-navy overflow-visible">
         {/* Subtle pattern overlay */}
         <div className="absolute inset-0 opacity-[0.02]" style={{
-          backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
-          backgroundSize: '32px 32px'
-        }} />
+        backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
+        backgroundSize: '32px 32px'
+      }} />
         
         
         {/* Right - Partner Images with Smoke Effect */}
-        <div 
-          className="hidden lg:block absolute pointer-events-none z-20"
-          style={{ 
-            right: '0',
-            bottom: '4px',
-            height: '85vh',
-            width: 'auto'
-          }}
-        >
+        <div className="hidden lg:block absolute pointer-events-none z-20" style={{
+        right: '0',
+        bottom: '4px',
+        height: '85vh',
+        width: 'auto'
+      }}>
           {/* Smoke layers */}
-          <div className="absolute inset-0 overflow-hidden" style={{ width: '150%', left: '-25%' }}>
-            <div 
-              className="absolute inset-0 animate-smoke-drift"
-              style={{
-                background: 'radial-gradient(ellipse 60% 80% at 70% 50%, hsl(214 47% 53% / 0.4) 0%, transparent 60%)',
-                filter: 'blur(60px)'
-              }}
-            />
-            <div 
-              className="absolute inset-0 animate-smoke-drift-slow animation-delay-2000"
-              style={{
-                background: 'radial-gradient(ellipse 50% 70% at 60% 60%, hsl(210 20% 60% / 0.3) 0%, transparent 50%)',
-                filter: 'blur(80px)'
-              }}
-            />
-            <div 
-              className="absolute inset-0 animate-smoke-drift-fast animation-delay-4000"
-              style={{
-                background: 'radial-gradient(ellipse 70% 60% at 80% 40%, hsl(214 47% 53% / 0.25) 0%, transparent 55%)',
-                filter: 'blur(50px)'
-              }}
-            />
+          <div className="absolute inset-0 overflow-hidden" style={{
+          width: '150%',
+          left: '-25%'
+        }}>
+            <div className="absolute inset-0 animate-smoke-drift" style={{
+            background: 'radial-gradient(ellipse 60% 80% at 70% 50%, hsl(214 47% 53% / 0.4) 0%, transparent 60%)',
+            filter: 'blur(60px)'
+          }} />
+            <div className="absolute inset-0 animate-smoke-drift-slow animation-delay-2000" style={{
+            background: 'radial-gradient(ellipse 50% 70% at 60% 60%, hsl(210 20% 60% / 0.3) 0%, transparent 50%)',
+            filter: 'blur(80px)'
+          }} />
+            <div className="absolute inset-0 animate-smoke-drift-fast animation-delay-4000" style={{
+            background: 'radial-gradient(ellipse 70% 60% at 80% 40%, hsl(214 47% 53% / 0.25) 0%, transparent 55%)',
+            filter: 'blur(50px)'
+          }} />
           </div>
-          <img 
-            src={foundersTransparent} 
-            alt="Tiago Faria e Fayola Damaceno" 
-            className="h-full w-auto relative z-10"
-          />
+          <img src={foundersTransparent} alt="Tiago Faria e Fayola Damaceno" className="h-full w-auto relative z-10" />
         </div>
         
         <div className="container mx-auto px-4 relative z-10">
@@ -85,8 +71,8 @@ const LandingPage = () => {
                 <span className="text-loboh-gray-200 text-sm font-medium">Exclusivo para Contabilidades</span>
               </div>
               
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100">
-                Planejamento Comercial<br />
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100">Planejamento Comercial 2026
+Gratuito para 2026<br />
                 <span className="text-primary">Gratuito para 2026</span>
               </h1>
               
@@ -96,17 +82,10 @@ const LandingPage = () => {
               
               {/* Benefits grid */}
               <div className="grid grid-cols-2 gap-2 mb-6 animate-fade-up animation-delay-300">
-                {[
-                  "Metas SMART para 2026",
-                  "KPIs por canal de aquisição",
-                  "Diagnóstico de maturidade comercial",
-                  "Visibilidade dos recursos necessários"
-                ].map((benefit, index) => (
-                  <div key={index} className="flex items-center gap-2">
+                {["Metas SMART para 2026", "KPIs por canal de aquisição", "Diagnóstico de maturidade comercial", "Visibilidade dos recursos necessários"].map((benefit, index) => <div key={index} className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
                     <span className="text-loboh-gray-100 text-sm">{benefit}</span>
-                  </div>
-                ))}
+                  </div>)}
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3 animate-fade-up animation-delay-400">
@@ -115,8 +94,8 @@ const LandingPage = () => {
                   <ArrowRight className="w-5 h-5" />
                 </Button>
                 <Button variant="heroOutline" size="default" onClick={() => document.getElementById('para-quem')?.scrollIntoView({
-                  behavior: 'smooth'
-                })}>
+                behavior: 'smooth'
+              })}>
                   Saiba mais
                 </Button>
               </div>
