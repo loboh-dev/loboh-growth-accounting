@@ -87,7 +87,7 @@ const LandingPage = () => {
               
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100">
                 Planejamento Comercial<br />
-                <span className="text-primary">Gratuito para 2026</span>
+                <span className="text-primary">Gratuito 2026</span>
               </h1>
               
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
