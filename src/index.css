@@ -186,6 +186,48 @@
   }
 }
 
+@keyframes smoke-drift {
+  0% {
+    transform: translateX(100%) scaleX(1.5);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateX(-50%) scaleX(2);
+    opacity: 0;
+  }
+}
+
+@keyframes smoke-drift-slow {
+  0% {
+    transform: translateX(80%) scaleX(1.2);
+    opacity: 0;
+  }
+  30% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateX(-80%) scaleX(1.8);
+    opacity: 0;
+  }
+}
+
+@keyframes smoke-drift-fast {
+  0% {
+    transform: translateX(120%) scaleX(1);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateX(-30%) scaleX(1.5);
+    opacity: 0;
+  }
+}
+
 .animate-fade-up {
   animation: fade-up 0.6s ease-out forwards;
 }
@@ -202,9 +244,23 @@
   animation: pulse-glow 2s ease-in-out infinite;
 }
 
+.animate-smoke-drift {
+  animation: smoke-drift 8s ease-in-out infinite;
+}
+
+.animate-smoke-drift-slow {
+  animation: smoke-drift-slow 12s ease-in-out infinite;
+}
+
+.animate-smoke-drift-fast {
+  animation: smoke-drift-fast 6s ease-in-out infinite;
+}
+
 .animation-delay-100 { animation-delay: 100ms; }
 .animation-delay-200 { animation-delay: 200ms; }
 .animation-delay-300 { animation-delay: 300ms; }
 .animation-delay-400 { animation-delay: 400ms; }
 .animation-delay-500 { animation-delay: 500ms; }
 .animation-delay-600 { animation-delay: 600ms; }
+.animation-delay-2000 { animation-delay: 2000ms; }
+.animation-delay-4000 { animation-delay: 4000ms; }
