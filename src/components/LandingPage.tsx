@@ -42,7 +42,7 @@ const LandingPage = () => {
           style={{ 
             right: '0',
             bottom: '4px',
-            height: '95vh',
+            height: '85vh',
             width: 'auto'
           }}
         />
