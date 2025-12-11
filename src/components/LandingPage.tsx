@@ -14,107 +14,90 @@ const LandingPage = () => {
   };
   return <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-loboh-navy/95 backdrop-blur-md border-b border-muted/20">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-          <img src={logoDark} alt="Loboh" className="h-8" />
-          <Button variant="cta" size="sm" onClick={scrollToContact}>
-            Quero meu Planejamento
+          <img src={logoWhite} alt="Loboh" className="h-7" />
+          <Button variant="hero" size="sm" onClick={scrollToContact}>
+            Agendar Sessão
           </Button>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
-        <div className="absolute inset-0 bg-hero" />
-        <div className="absolute inset-0 opacity-20" style={{
-        backgroundImage: `url(${heroImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      }} />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-loboh-navy/90" />
+      {/* Hero Section - Compact & Bold */}
+      <section className="relative min-h-[70vh] flex items-center pt-16 bg-loboh-navy overflow-hidden">
+        {/* Subtle pattern overlay */}
+        <div className="absolute inset-0 opacity-5" style={{
+          backgroundImage: 'radial-gradient(circle at 1px 1px, white 1px, transparent 0)',
+          backgroundSize: '40px 40px'
+        }} />
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm mb-8 animate-fade-up animation-delay-100">
-              <Zap className="w-4 h-4 text-accent" />
-              <span className="text-primary-foreground text-sm font-medium">Sessão Estratégica Gratuita</span>
-            </div>
-            
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6 animate-fade-up animation-delay-200">
-              Planejamento Comercial Gratuito<br />
-              para Contabilidades que Querem<br />
-              <span className="text-accent">Crescer como Scale-ups em 2026</span>
+          <div className="max-w-3xl">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-[1.1] mb-6 animate-fade-up">
+              Planejamento Comercial<br />
+              <span className="text-primary">Gratuito para 2026</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-primary-foreground/80 max-w-3xl mx-auto mb-10 animate-fade-up animation-delay-200">
-              Receba uma sessão estratégica individual com o CEO da Loboh, Tiago Faria (Aspira). Em apenas 60 minutos, você terá metas claras para 2026, KPIs prontos para acompanhar, metas por canal e um diagnóstico 360º da sua gestão comercial, tudo sem custo.
+            <p className="text-lg md:text-xl text-muted max-w-2xl mb-8 animate-fade-up animation-delay-200">
+              Sessão estratégica de 60 min com o CEO da Loboh. Metas claras, KPIs e diagnóstico 360º da sua gestão comercial.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-400">
+            <div className="flex flex-col sm:flex-row gap-4 animate-fade-up animation-delay-400">
               <Button variant="hero" size="xl" onClick={scrollToContact}>
-                Quero meu Planejamento Gratuito
+                Quero meu Planejamento
                 <ArrowRight className="w-5 h-5" />
               </Button>
-              <Button variant="heroOutline" size="xl" onClick={() => document.getElementById('para-quem')?.scrollIntoView({
+              <Button variant="heroOutline" size="lg" onClick={() => document.getElementById('para-quem')?.scrollIntoView({
               behavior: 'smooth'
             })}>
-                Quero saber mais
+                Saiba mais
               </Button>
             </div>
           </div>
         </div>
-        
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 rounded-full border-2 border-primary-foreground/30 flex items-start justify-center p-2">
-            <div className="w-1 h-2 bg-primary-foreground/50 rounded-full" />
-          </div>
-        </div>
+
+        {/* Blue accent line */}
+        <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary" />
       </section>
 
       {/* Para quem é */}
-      <section id="para-quem" className="py-24 bg-background">
+      <section id="para-quem" className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-16">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Confira os critérios qualificatórios</span>
-              <p className="text-muted-foreground text-lg mt-4 mb-4">A sessão estratégica que <span className="font-bold text-foreground">contabilidades em crescimento</span> adorariam ter feito antes.</p>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">Para quem é essa Sessão Gratuita?</h2>
+            <div className="text-center mb-12">
+              <span className="text-primary font-medium text-sm uppercase tracking-widest">Critérios</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">Para quem é essa sessão?</h2>
+              <p className="text-muted-foreground">Contabilidades em crescimento que querem escalar em 2026.</p>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-4">
               {[{
               icon: Building2,
-              text: "Possuem 3 ou mais colaboradores na equipe comercial",
+              text: "Equipe comercial com 3+ colaboradores",
               highlight: false
             }, {
               icon: TrendingUp,
-              text: "Estão em expansão e querem mais escalabilidade e eficiência em 2026",
+              text: "Buscando escalabilidade e eficiência",
               highlight: false
             }, {
               icon: Users,
-              text: "Possuem pelo menos 1 canal de aquisição consistente de leads",
+              text: "Pelo menos 1 canal de aquisição consistente",
               highlight: false
             }, {
               icon: BarChart3,
-              text: "Querem trabalhar com dados, metas claras, previsibilidade e ritmo em 2026",
+              text: "Querem trabalhar com dados e metas claras",
               highlight: false
-            }, {
-              icon: Rocket,
-              text: "Que acreditem verdadeiramente no potencial de crescimento da sua contabilidade em 2026",
-              highlight: true
-            }].map((item, index) => <div key={index} className={`flex items-start gap-4 p-6 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 hover:-translate-y-1 ${item.highlight ? 'md:col-span-2 bg-black border-2 border-accent p-8' : 'bg-card border border-border'}`}>
-                  <div className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 ${item.highlight ? 'bg-accent/20' : 'bg-primary/10'}`}>
-                    <item.icon className={`w-6 h-6 ${item.highlight ? 'text-accent' : 'text-primary'}`} />
+            }].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-lg bg-secondary border border-border hover:border-primary/30 transition-all duration-200">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <item.icon className="w-5 h-5 text-primary" />
                   </div>
-                  <p className={`font-medium pt-2 ${item.highlight ? 'text-white text-lg' : 'text-foreground'}`}>{item.text}</p>
+                  <p className="text-foreground font-medium">{item.text}</p>
                 </div>)}
             </div>
             
-            <div className="text-center mt-12">
+            <div className="text-center mt-10">
               <Button variant="ctaOutline" size="lg" onClick={scrollToContact}>
-                Minha contabilidade vai crescer em 2026
+                Quero participar
                 <ChevronRight className="w-5 h-5" />
               </Button>
             </div>
@@ -208,60 +191,53 @@ const LandingPage = () => {
       </section>
 
       {/* Cases de Sucesso */}
-      <section className="py-24 bg-loboh-navy text-primary-foreground">
+      <section className="py-20 bg-loboh-navy text-primary-foreground">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6">
-                O que acontece quando as contabilidades usam o método de crescimento das scale-ups
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                Resultados com o método Loboh
               </h2>
-              <p className="text-primary-foreground/70 text-lg">
-                Resultados consistentes e previsíveis construídos pela Loboh com contabilidades em expansão.
+              <p className="text-muted">
+                Cases reais de contabilidades que escalaram.
               </p>
             </div>
             
-            <div className="grid lg:grid-cols-3 gap-8">
+            <div className="grid lg:grid-cols-3 gap-6">
               {/* Case ForDoctor */}
-              <div className="group p-8 rounded-2xl bg-loboh-gray-900/50 border border-primary-foreground/10 hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div className="h-16 mb-6 flex items-center">
-                  <img src={logoFordoctor} alt="ForDoctor" className="h-10 object-contain brightness-0 invert" />
+              <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
+                <div className="h-12 mb-4 flex items-center">
+                  <img src={logoFordoctor} alt="ForDoctor" className="h-8 object-contain brightness-0 invert" />
                 </div>
-                <div className="mb-4">
-                  <span className="text-5xl md:text-6xl font-bold text-accent">2x</span>
-                  <p className="text-xl font-semibold text-primary-foreground mt-2">mais conversão em todos os canais</p>
+                <div className="mb-3">
+                  <span className="text-4xl font-bold text-primary">2x</span>
+                  <p className="text-lg font-semibold text-primary-foreground mt-1">mais conversão</p>
                 </div>
-                <p className="text-primary-foreground/70 text-sm leading-relaxed">Em um cenário altamente competitivo, com novos entrantes investindo pesado em tráfego e aquisição, a ForDoctor precisava aumentar o aproveitamento de cada lead. Refinamos ICP, distribuímos metas por canal, estabelecemos processos padronizados para cada canal, implantamos rituais de acompanhamento e capacitamos a equipe em atendimento consultivo.</p>
-                <p className="text-accent font-semibold mt-4 text-sm">O resultado: o dobro de conversão em todos os canais em apenas 6 meses.</p>
+                <p className="text-muted text-sm leading-relaxed">Refinamos ICP, distribuímos metas por canal e capacitamos a equipe em atendimento consultivo.</p>
               </div>
 
-              {/* Case AM Contabilidade */}
-              <div className="group p-8 rounded-2xl bg-loboh-gray-900/50 border border-primary-foreground/10 hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div className="h-16 mb-6 flex items-center">
-                  <img src={logoAM} alt="AM Contabilidade" className="h-10 object-contain brightness-0 invert" />
+              {/* Case AM */}
+              <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
+                <div className="h-12 mb-4 flex items-center">
+                  <img src={logoAM} alt="AM Contabilidade" className="h-8 object-contain brightness-0 invert" />
                 </div>
-                <div className="mb-4">
-                  <span className="text-5xl md:text-6xl font-bold text-accent">3x</span>
-                  <p className="text-xl font-semibold text-primary-foreground mt-2">maior a conversão, cobrindo 100% de um canal paralisado</p>
+                <div className="mb-3">
+                  <span className="text-4xl font-bold text-primary">3x</span>
+                  <p className="text-lg font-semibold text-primary-foreground mt-1">maior conversão</p>
                 </div>
-                <p className="text-primary-foreground/70 text-sm leading-relaxed">A AM enfrentou um incidente crítico que paralisou completamente seu principal canal de aquisição. Em vez de perder o ano, construímos rapidamente um canal de indicações, estruturamos processos, redesenhamos prioridades comerciais e treinamos a equipe para maximizar o aproveitamento dos leads com atendimento consultivo.</p>
-                <p className="text-accent font-semibold mt-4 text-sm">
-                  O resultado: triplicamos a conversão e compensamos integralmente o canal que estava fora do ar.
-                </p>
+                <p className="text-muted text-sm leading-relaxed">Construímos canal de indicações e compensamos integralmente canal que estava fora do ar.</p>
               </div>
 
               {/* Case Pejota */}
-              <div className="group p-8 rounded-2xl bg-loboh-gray-900/50 border border-primary-foreground/10 hover:border-accent/30 transition-all duration-300 hover:-translate-y-1">
-                <div className="h-16 mb-6 flex items-center">
-                  <img src={logoPejota} alt="Pejota Contabilidade" className="h-10 object-contain brightness-0 invert" />
+              <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
+                <div className="h-12 mb-4 flex items-center">
+                  <img src={logoPejota} alt="Pejota" className="h-8 object-contain brightness-0 invert" />
                 </div>
-                <div className="mb-4">
-                  <span className="text-5xl md:text-6xl font-bold text-accent">2x</span>
-                  <p className="text-xl font-semibold text-primary-foreground mt-2">mais vendas e equipe mais enxuta</p>
+                <div className="mb-3">
+                  <span className="text-4xl font-bold text-primary">2x</span>
+                  <p className="text-lg font-semibold text-primary-foreground mt-1">mais vendas</p>
                 </div>
-                <p className="text-primary-foreground/70 text-sm leading-relaxed">Após dois anos de crescimento estabilizado, mergulhamos em dados, refinamos continuamente o ICP e destravamos novas alavancas comerciais com ajustes táticos e rituais de gestão. Em paralelo, otimizamos o fluxo de pré-vendas, reduzindo de 3 pessoas para 1 sem perder velocidade.</p>
-                <p className="text-accent font-semibold mt-4 text-sm">
-                  O resultado: um ano inteiro com 2x mais vendas e uma operação muito mais eficiente.
-                </p>
+                <p className="text-muted text-sm leading-relaxed">Refinamos ICP e destravamos alavancas comerciais com ajustes táticos e rituais de gestão.</p>
               </div>
             </div>
           </div>
@@ -362,38 +338,33 @@ const LandingPage = () => {
       </section>
 
       {/* CTA Final */}
-      <section id="cta-final" className="py-24 bg-hero">
+      <section id="cta-final" className="py-20 bg-loboh-navy">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-foreground/10 border border-primary-foreground/20 backdrop-blur-sm mb-8">
-              <Zap className="w-4 h-4 text-accent" />
-              <span className="text-primary-foreground text-sm font-medium">Agenda limitada</span>
-            </div>
-            
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-              Garanta sua Sessão Gratuita com o CEO da Loboh
+          <div className="max-w-2xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
+              Garanta sua Sessão Gratuita
             </h2>
             
-            <p className="text-xl text-primary-foreground/80 mb-10">
-              Agenda limitada para contabilidades em expansão.
+            <p className="text-muted mb-8">
+              60 minutos com o CEO da Loboh. Agenda limitada.
             </p>
             
             <Button variant="hero" size="xl">
-              Quero meu Planejamento Comercial Gratuito
+              Quero meu Planejamento Gratuito
               <ArrowRight className="w-5 h-5" />
             </Button>
             
-            <p className="text-primary-foreground/60 text-sm mt-8">Sessão de 60 minutos • 100% gratuita • Compromisso apenas com seu crescimento.</p>
+            <p className="text-muted/60 text-sm mt-6">100% gratuito • Compromisso apenas com seu crescimento.</p>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-8 bg-black border-t border-primary-foreground/10">
+      <footer className="py-6 bg-loboh-navy border-t border-muted/20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <img src={logoWhite} alt="Loboh" className="h-6" />
-            <p className="text-primary-foreground/60 text-sm">© 2025 Loboh. Todos os direitos reservados.</p>
+            <img src={logoWhite} alt="Loboh" className="h-5" />
+            <p className="text-muted/60 text-sm">© 2025 Loboh. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
