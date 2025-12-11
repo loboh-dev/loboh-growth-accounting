@@ -34,22 +34,18 @@ const LandingPage = () => {
         }} />
         
         
-        {/* Right - Partner Images - positioned relative to section */}
-        <div 
-          className="hidden lg:block absolute pointer-events-none z-20" 
+        {/* Right - Partner Images */}
+        <img 
+          src={foundersSmoke} 
+          alt="Tiago Faria e Fayola Damaceno" 
+          className="hidden lg:block absolute pointer-events-none z-20"
           style={{ 
             right: '0',
             bottom: '4px',
-            width: '60%',
-            height: '92%'
+            height: '80vh',
+            width: 'auto'
           }}
-        >
-          <img 
-            src={foundersSmoke} 
-            alt="Tiago Faria e Fayola Damaceno" 
-            className="w-full h-full object-contain object-right-bottom"
-          />
-        </div>
+        />
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
