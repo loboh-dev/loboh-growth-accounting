@@ -34,10 +34,8 @@ const LandingPage = () => {
         }} />
         
         
-        {/* Right - Partner Images */}
-        <img 
-          src={foundersTransparent} 
-          alt="Tiago Faria e Fayola Damaceno" 
+        {/* Right - Partner Images with Smoke Effect */}
+        <div 
           className="hidden lg:block absolute pointer-events-none z-20"
           style={{ 
             right: '0',
@@ -45,7 +43,37 @@ const LandingPage = () => {
             height: '85vh',
             width: 'auto'
           }}
-        />
+        >
+          {/* Smoke layers */}
+          <div className="absolute inset-0 overflow-hidden">
+            <div 
+              className="absolute inset-y-0 right-0 w-[200%] animate-smoke-drift opacity-0"
+              style={{
+                background: 'radial-gradient(ellipse 80% 50% at 50% 50%, hsl(214 47% 53% / 0.15) 0%, transparent 70%)',
+                filter: 'blur(40px)'
+              }}
+            />
+            <div 
+              className="absolute inset-y-0 right-0 w-[200%] animate-smoke-drift-slow animation-delay-2000 opacity-0"
+              style={{
+                background: 'radial-gradient(ellipse 60% 40% at 50% 60%, hsl(210 7% 50% / 0.2) 0%, transparent 60%)',
+                filter: 'blur(50px)'
+              }}
+            />
+            <div 
+              className="absolute inset-y-0 right-0 w-[200%] animate-smoke-drift-fast animation-delay-4000 opacity-0"
+              style={{
+                background: 'radial-gradient(ellipse 100% 60% at 50% 40%, hsl(214 47% 53% / 0.1) 0%, transparent 50%)',
+                filter: 'blur(30px)'
+              }}
+            />
+          </div>
+          <img 
+            src={foundersTransparent} 
+            alt="Tiago Faria e Fayola Damaceno" 
+            className="h-full w-auto relative z-10"
+          />
+        </div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
