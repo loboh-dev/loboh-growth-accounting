@@ -240,8 +240,8 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">O que acontece quando Contabilidades usam
-o Método de Crescimento das Scale-Ups<br />
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">O que acontece quando Contabilidades usam o Método de Crescimento das Scale-Ups
+              <br />
                 o método de Crescimento das Scale-Ups
               </h2>
               <p className="text-muted">Ganhos reais em Escalabilidade, Eficiência e Resultados</p>
