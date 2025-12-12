@@ -157,7 +157,7 @@ const LandingPage = () => {
             <div className="text-center mb-16">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Por que você não pode perder essa oportunidade exclusiva?</span>
               <p className="text-muted-foreground text-lg mt-4 mb-4">
-                Visão, Clareza, Racionalidade e Sonhos Realizáveis em apenas 60 minutos.
+                Visão, Clareza, Racionalidade e Previsibilidade em apenas 60 minutos.
               </p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Dá uma olhadinha no que preparamos para nossa Sessão Estratégica Gratuita.
