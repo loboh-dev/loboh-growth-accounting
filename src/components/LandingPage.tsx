@@ -35,7 +35,7 @@ const LandingPage = () => {
         
         {/* Right - Partner Images with Smoke Effect */}
         <div className="hidden lg:block absolute pointer-events-none z-20" style={{
-        right: '0',
+        right: '-80px',
         bottom: '4px',
         height: '85vh',
         width: 'auto'
@@ -76,12 +76,11 @@ const LandingPage = () => {
                 <span className="text-primary">Gratuito 2026</span>
               </h1>
               
-              <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">Sessão estratégica de 60 minutos com o CEO da Loboh, 
-exclusiva para contabilidades em expansão.</p>
+              <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">Sessão estratégica de 60 minutos com o CEO da Loboh, exclusiva para <span className="font-bold">contabilidades em expansão</span>.</p>
               
               {/* Benefits grid */}
               <div className="grid grid-cols-2 gap-2 mb-6 animate-fade-up animation-delay-300">
-                {["Metas SMART para 2026", "KPIs por canal de aquisição", "Diagnóstico de maturidade comercial", "Visibilidade dos recursos necessários"].map((benefit, index) => <div key={index} className="flex items-center gap-2">
+                {["Metas SMART para 2026", "KPIs por canal de aquisição", "Diagnóstico de maturidade comercial", "O que fazer para bater metas"].map((benefit, index) => <div key={index} className="flex items-center gap-2">
                     <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
                     <span className="text-loboh-gray-100 text-sm">{benefit}</span>
                   </div>)}
