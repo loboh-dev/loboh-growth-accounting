@@ -35,7 +35,7 @@ const LandingPage = () => {
         
         {/* Right - Partner Images with Smoke Effect */}
         <div className="hidden lg:block absolute pointer-events-none z-20" style={{
-        right: '-80px',
+        right: '-150px',
         bottom: '4px',
         height: '85vh',
         width: 'auto'
