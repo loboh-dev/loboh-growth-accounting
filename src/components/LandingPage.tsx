@@ -7,6 +7,8 @@ import logoFordoctor from "@/assets/logos/fordoctor.svg";
 import logoAM from "@/assets/logos/am-contabilidade.webp";
 import logoPejota from "@/assets/logos/pejota.webp";
 import foundersTransparent from "@/assets/founders-transparent.png";
+import { Link } from "react-router-dom";
+
 const LandingPage = () => {
   const scrollToContact = () => {
     document.getElementById('cta-final')?.scrollIntoView({
@@ -393,10 +395,12 @@ const LandingPage = () => {
               60 minutos com o CEO da Loboh. Agenda limitada.
             </p>
             
-            <Button variant="hero" size="xl">
-              Quero meu Planejamento Gratuito
-              <ArrowRight className="w-5 h-5" />
-            </Button>
+            <Link to="/Formulario">
+              <Button variant="hero" size="xl">
+                Quero meu Planejamento Gratuito
+                <ArrowRight className="w-5 h-5" />
+              </Button>
+            </Link>
             
             <p className="text-muted/60 text-sm mt-6">100% gratuito • Compromisso apenas com seu crescimento.</p>
           </div>
