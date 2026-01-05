@@ -1,4 +1,4 @@
-import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck } from "lucide-react";
+import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-consulting.jpg";
 import logoWhite from "@/assets/logo-white.svg";
@@ -21,7 +21,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <img src={logoWhite} alt="Loboh" className="h-7" />
           <Button variant="hero" size="sm" onClick={scrollToContact}>
-            Agendar Sessão
+            Quero crescer como scale-up
           </Button>
         </div>
       </nav>
@@ -74,29 +74,30 @@ const LandingPage = () => {
               </div>
               
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100">
-                Planejamento Comercial<br />
-                <span className="text-primary">Gratuito 2026</span>
+                Aumente a receita da sua contabilidade com o<br />
+                <span className="text-primary">método das scale-ups.</span>
               </h1>
               
-              <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">Sessão estratégica de 60 minutos com o CEO da Loboh, exclusiva para <span className="font-bold">contabilidades em expansão</span>.</p>
+              <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
+                Ajude sua contabilidade a crescer como empresas que escalam de verdade: <span className="font-bold">mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender de indicações ou esforço heroico do dono.
+              </p>
               
-              {/* Benefits grid */}
-              <div className="grid grid-cols-2 gap-2 mb-6 animate-fade-up animation-delay-300">
-                {["Metas SMART para 2026", "KPIs por canal de aquisição", "Diagnóstico de maturidade comercial", "O que fazer para bater metas"].map((benefit, index) => <div key={index} className="flex items-center gap-2">
-                    <CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0" />
-                    <span className="text-loboh-gray-100 text-sm">{benefit}</span>
-                  </div>)}
+              {/* Benefits grid - Logo bar */}
+              <div className="flex items-center gap-6 mb-6 animate-fade-up animation-delay-300 opacity-60">
+                <img src={logoFordoctor} alt="ForDoctor" className="h-6 object-contain brightness-0 invert" />
+                <img src={logoAM} alt="AM Contabilidade" className="h-6 object-contain brightness-0 invert" />
+                <img src={logoPejota} alt="Pejota" className="h-6 object-contain brightness-0 invert" />
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3 animate-fade-up animation-delay-400">
                 <Button variant="hero" size="lg" onClick={scrollToContact}>
-                  Quero meu Planejamento Gratuito
+                  Quero crescer como scale-up
                   <ArrowRight className="w-5 h-5" />
                 </Button>
-                <Button variant="heroOutline" size="default" onClick={() => document.getElementById('para-quem')?.scrollIntoView({
+                <Button variant="heroOutline" size="default" onClick={() => document.getElementById('problema')?.scrollIntoView({
                 behavior: 'smooth'
               })}>
-                  Saiba mais
+                  Entender o método
                 </Button>
               </div>
             </div>
@@ -107,90 +108,98 @@ const LandingPage = () => {
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary" />
       </section>
 
-      {/* Para quem é */}
-      <section id="para-quem" className="py-20 bg-background">
+      {/* O Problema Silencioso */}
+      <section id="problema" className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <span className="text-primary font-medium text-sm uppercase tracking-widest">Critérios</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">Para quem é essa sessão?</h2>
-              <p className="text-muted-foreground">Contabilidades em crescimento que querem escalar em 2026.</p>
+              <span className="text-primary font-medium text-sm uppercase tracking-widest">Diagnóstico</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">O crescimento da maioria das contabilidades trava por motivos invisíveis</h2>
             </div>
             
             <div className="grid md:grid-cols-2 gap-4">
               {[{
-              icon: Building2,
-              text: "Equipe comercial com 3+ colaboradores",
-              highlight: false
+              icon: AlertTriangle,
+              text: "Crescimento depende demais de indicação"
             }, {
               icon: TrendingUp,
-              text: "Buscando escalabilidade e eficiência",
-              highlight: false
-            }, {
-              icon: Users,
-              text: "Pelo menos 1 canal de aquisição consistente",
-              highlight: false
+              text: "Leads entram, mas não viram vendas"
             }, {
               icon: BarChart3,
-              text: "Querem trabalhar com dados e metas claras",
-              highlight: false
+              text: "Falta previsibilidade de receita"
+            }, {
+              icon: Users,
+              text: "Dono preso na operação comercial"
+            }, {
+              icon: Eye,
+              text: "Decisões tomadas sem dados claros"
             }].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-lg bg-secondary border border-border hover:border-primary/30 transition-all duration-200">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <item.icon className="w-5 h-5 text-primary" />
+                  <div className="w-10 h-10 rounded-lg bg-destructive/10 flex items-center justify-center flex-shrink-0">
+                    <item.icon className="w-5 h-5 text-destructive" />
                   </div>
                   <p className="text-foreground font-medium">{item.text}</p>
                 </div>)}
             </div>
             
-            <div className="text-center mt-10">
-              <Button variant="ctaOutline" size="lg" onClick={scrollToContact}>
-                Quero participar
-                <ChevronRight className="w-5 h-5" />
-              </Button>
+            <div className="text-center mt-10 p-6 rounded-xl bg-secondary border border-border">
+              <p className="text-lg font-semibold text-foreground">
+                Contabilidades não quebram por falta de clientes.<br />
+                <span className="text-primary">Elas travam por falta de método.</span>
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* O que você vai receber */}
+      {/* O Método das Scale-ups */}
       <section className="py-24 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto">
             <div className="text-center mb-16">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Por que você não pode perder essa oportunidade exclusiva?</span>
-              <p className="text-muted-foreground text-lg mt-4 mb-4">
-                Visão, Clareza, Racionalidade e Previsibilidade em apenas 60 minutos.
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Posicionamento</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
+                O mesmo método usado por empresas que escalam receita de forma consistente
+              </h2>
+              <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+                A Loboh aplica na contabilidade os princípios usados por scale-ups: processos claros, gestão orientada a dados, execução disciplinada e capacitação contínua.
               </p>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Dá uma olhadinha no que preparamos para nossa<br />Sessão Estratégica Gratuita.
+              <p className="text-foreground font-semibold text-lg mt-6">
+                Não é sobre "vender mais".<br />
+                É sobre construir um <span className="text-primary">ativo de crescimento previsível</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Metodologia Loboh - 4 Pilares */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16">
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Metodologia Loboh</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
+                4 Pilares para Crescimento Previsível
               </h2>
             </div>
             
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
               {[{
-              icon: Target,
-              title: "Metas Comerciais SMART para 2026",
-              desc: "O primeiro passo para previsibilidade é ter uma meta SMART. Nosso método exclusivo de definição de metas tem média de assertividade de 96% em nossos clientes. Somos agressivos e realistas!"
+              icon: BarChart3,
+              title: "Gestão",
+              desc: "Metas claras, indicadores certos, rituais de acompanhamento e decisões baseadas em dados."
             }, {
               icon: GitBranch,
-              title: "Metas Comerciais Smart por Canal de Aquisição",
-              desc: "Saber quais canais priorizar é o que vai te trazer eficiência operacional. Tenha à sua disposição benchmarking de dezenas de empresas do setor somada à experiência de 10 anos escalando times de alta performance em empresas líderes em seus segmentos."
+              title: "Processos",
+              desc: "Funil bem definido, cadências, critérios de qualificação e previsibilidade comercial."
             }, {
-              icon: BarChart3,
-              title: "KPIs para acompanhamento por canal de aquisição",
-              desc: "Os KPIs te permitem prever o resultado. Saber quantos leads, oportunidades, as conversões e ticket médio necessários para o atingimento do objetivo é essencial para uma gestão comercial efetiva."
+              icon: Monitor,
+              title: "Tecnologia",
+              desc: "CRM, automações e dashboards que dão visibilidade real da operação."
             }, {
-              icon: Eye,
-              title: "Visibilidade dos Recursos Necessários",
-              desc: "Baseado em sua meta, histórico e benchmarkings de mercado, definimos quais recursos de pessoas, tecnologias, estratégias e métodos que vocês precisarão adotar para o alcance das metas definidas."
-            }, {
-              icon: MessageCircleQuestion,
-              title: "Insights Estratégicos, Táticos e Operacionais de Gestão",
-              desc: "Aproveite o momento para tirar dúvidas com um líder e gestor que escalou equipes de vendas vencedoras em Scale-ups como ContaAzul, Gupy e Rock Content."
-            }, {
-              icon: ClipboardCheck,
-              title: "Diagnóstico de Maturidade de Gestão Comercial",
-              desc: "Entenda os pontos fortes e os pontos de melhoria da sua gestão comercial. Faremos uma avaliação 360º da sua Gestão, Tecnologia, Capacitação e Cultura em vendas."
+              icon: GraduationCap,
+              title: "Capacitação",
+              desc: "Treinamento prático do time para vender melhor, com consistência e método."
             }].map((item, index) => <div key={index} className="group p-6 rounded-xl bg-card border border-border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                   <div className="w-14 h-14 rounded-xl bg-cta/10 flex items-center justify-center mb-4 group-hover:bg-cta/20 transition-colors">
                     <item.icon className="w-7 h-7 text-primary" />
@@ -201,52 +210,67 @@ const LandingPage = () => {
             </div>
             
             <div className="text-center mt-12 p-6 rounded-xl bg-primary/5 border border-primary/20">
-              <p className="text-xl font-semibold text-foreground mb-4">Tudo isso sem custo.</p>
-              <Button variant="cta" size="lg" onClick={scrollToContact}>
-                Solicitar minha sessão gratuita
-                <ArrowRight className="w-5 h-5" />
-              </Button>
+              <p className="text-xl font-semibold text-foreground">
+                Scale-ups não crescem no improviso.<br />
+                <span className="text-primary">Elas crescem com gestão.</span>
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Como funciona */}
-      <section className="py-24 bg-background">
+      {/* O que muda na prática */}
+      <section className="py-24 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Alinhamento de Expectativas</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">Como a reunião funciona?</h2>
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 text-accent font-semibold">
-                <Calendar className="w-5 h-5" />
-                <span>Duração: 60 minutos</span>
-              </div>
-              <p className="text-muted-foreground text-lg mt-6">Conduzida diretamente pelo CEO da Loboh, Tiago Faria (Aspira).</p>
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Resultados</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">O que muda na prática</h2>
             </div>
             
-            <div className="space-y-4">
-              {["Mapear sua estrutura comercial atual", "Definir metas realistas e agressivas para 2026", "Identificar quais canais são mais eficientes para sua operação", "Distribuir a meta entre os canais", "Definir seus KPIs por canal de aquisição (leads, oportunidades, conversões, Ticket médio)", "Desenhar os recursos necessários para que o plano aconteça"].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm">
-                  <div className="w-10 h-10 rounded-full bg-cta flex items-center justify-center flex-shrink-0 text-primary-foreground font-bold">
-                    {index + 1}
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[{
+              icon: Target,
+              text: "Mais leads qualificados"
+            }, {
+              icon: TrendingUp,
+              text: "Melhor aproveitamento das oportunidades"
+            }, {
+              icon: Rocket,
+              text: "Conversões mais altas"
+            }, {
+              icon: Zap,
+              text: "Ciclo de vendas mais curto"
+            }, {
+              icon: LineChart,
+              text: "Receita previsível"
+            }, {
+              icon: Users,
+              text: "Menos dependência do dono"
+            }].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm">
+                  <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
+                    <item.icon className="w-5 h-5 text-accent" />
                   </div>
-                  <p className="text-foreground font-medium">{item}</p>
+                  <p className="text-foreground font-medium">{item.text}</p>
                 </div>)}
+            </div>
+            
+            <div className="text-center mt-10">
+              <p className="text-lg font-semibold text-foreground">
+                Crescimento não é sorte. <span className="text-primary">É sistema.</span>
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cases de Sucesso */}
+      {/* Prova Social / Cases */}
       <section className="py-20 bg-loboh-navy text-primary-foreground">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">O que acontece quando Contabilidades usam o Método de Crescimento das Scale-Ups
-              <br />
-                o método de Crescimento das Scale-Ups
-              </h2>
-              <p className="text-muted">Ganhos reais em Escalabilidade, Eficiência e Resultados</p>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Resultados reais em contabilidades reais</h2>
+              <p className="text-muted">Transformações de operação comercial, crescimento de receita e times mais organizados.</p>
             </div>
             
             <div className="grid lg:grid-cols-3 gap-6">
@@ -259,7 +283,7 @@ const LandingPage = () => {
                   <span className="text-4xl font-bold text-primary">2x</span>
                   <p className="text-lg font-semibold text-primary-foreground mt-1">mais conversão</p>
                 </div>
-                <p className="text-muted text-sm leading-relaxed">Refinamos ICP, distribuímos metas por canal e capacitamos a equipe em atendimento consultivo.</p>
+                <p className="text-muted text-sm leading-relaxed">Transformação completa da operação comercial com processos claros e gestão orientada a dados.</p>
               </div>
 
               {/* Case AM */}
@@ -271,7 +295,7 @@ const LandingPage = () => {
                   <span className="text-4xl font-bold text-primary">3x</span>
                   <p className="text-lg font-semibold text-primary-foreground mt-1">maior conversão</p>
                 </div>
-                <p className="text-muted text-sm leading-relaxed">Construímos canal de indicações e compensamos integralmente canal que estava fora do ar.</p>
+                <p className="text-muted text-sm leading-relaxed">Crescimento de receita consistente com redução de esforço operacional do dono.</p>
               </div>
 
               {/* Case Pejota */}
@@ -283,21 +307,59 @@ const LandingPage = () => {
                   <span className="text-4xl font-bold text-primary">2x</span>
                   <p className="text-lg font-semibold text-primary-foreground mt-1">mais vendas</p>
                 </div>
-                <p className="text-muted text-sm leading-relaxed">Refinamos ICP e destravamos alavancas comerciais com ajustes táticos e rituais de gestão.</p>
+                <p className="text-muted text-sm leading-relaxed">Times mais organizados e produtivos com método validado de scale-ups.</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Autoridade */}
+      {/* Por que a Loboh */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Mais de 20 anos de experiência em matemática comercial</span>
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Diferencial</span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4">
-                Quem vai conduzir sua sessão?
+                Por que a Loboh é diferente de consultorias tradicionais
+              </h2>
+            </div>
+            
+            <div className="grid sm:grid-cols-2 gap-4">
+              {[{
+              icon: Target,
+              text: "Especialistas em vendas e crescimento"
+            }, {
+              icon: Rocket,
+              text: "Atuação prática, não teórica"
+            }, {
+              icon: CheckCircle2,
+              text: "Foco em execução e resultado"
+            }, {
+              icon: Award,
+              text: "Método validado em múltiplas empresas"
+            }, {
+              icon: TrendingUp,
+              text: "Pensamento de scale-up aplicado à contabilidade"
+            }].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm hover:shadow-md transition-all duration-300">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <item.icon className="w-5 h-5 text-primary" />
+                  </div>
+                  <p className="text-foreground font-medium">{item.text}</p>
+                </div>)}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Autoridade - Tiago */}
+      <section className="py-24 bg-secondary">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Quem está por trás</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4">
+                Liderança com experiência em scale-ups
               </h2>
             </div>
             
@@ -319,65 +381,14 @@ const LandingPage = () => {
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
-                    <span>20+ anos de experiência em bancos de dados, 10+ anos liderando vendas</span>
+                    <span>10+ anos liderando vendas em scale-ups</span>
                   </li>
                   <li className="flex items-center gap-3">
                     <span className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
-                    <span>Co-fundador da agência global de SEO Netlinks</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <span className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
-                    <span>Criador da metodologia Loboh Sales Agile</span>
+                    <span>Criador da metodologia Loboh de crescimento</span>
                   </li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Por que foram selecionadas */}
-      <section className="py-24 bg-secondary">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <span className="text-primary font-semibold text-sm uppercase tracking-wider">Seleção</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">Por que empresas como a sua foram selecionadas?</h2>
-            <p className="text-muted-foreground text-lg mb-12">
-              Selecionamos contabilidades que demonstram sinais claros de expansão:
-            </p>
-            
-            <div className="grid sm:grid-cols-2 gap-4">
-              {["Site moderno e atualizado", "Presença ativa no Instagram ou LinkedIn", "Time comercial estruturado ou em formação", "Engajamento digital crescente"].map((item, index) => <div key={index} className="flex items-center gap-3 p-5 rounded-xl bg-card border border-border shadow-sm">
-                  <CheckCircle2 className="w-6 h-6 text-accent flex-shrink-0" />
-                  <p className="text-foreground font-medium">{item}</p>
-                </div>)}
-            </div>
-            
-            <p className="text-lg text-foreground mt-12 font-medium">
-              Essas são as empresas que mais se beneficiam do nosso planejamento.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefícios */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-16">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Benefícios</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-                Benefícios diretos para sua contabilidade
-              </h2>
-            </div>
-            
-            <div className="grid sm:grid-cols-2 gap-4">
-              {["Clareza total sobre como crescer em 2026", "Aumento de previsibilidade de receita", "Estratégia desenhada sob medida para sua operação", "Entendimento de quais canais priorizar", "Otimização de pessoas, processos e tecnologia", "Redução de desperdícios e decisões baseadas em achismo"].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm hover:shadow-md transition-all duration-300">
-                  <div className="w-8 h-8 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
-                    <CheckCircle2 className="w-5 h-5 text-accent" />
-                  </div>
-                  <p className="text-foreground font-medium">{item}</p>
-                </div>)}
             </div>
           </div>
         </div>
@@ -388,21 +399,28 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
-              Garanta sua Sessão Gratuita
+              Pronto para crescer como uma scale-up?
             </h2>
             
             <p className="text-muted mb-8">
-              60 minutos com o CEO da Loboh. Agenda limitada.
+              Descubra como estruturar vendas, gestão e crescimento previsível na sua contabilidade.
             </p>
             
-            <Link to="/Formulario">
-              <Button variant="hero" size="xl">
-                Quero meu Planejamento Gratuito
-                <ArrowRight className="w-5 h-5" />
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/Formulario">
+                <Button variant="hero" size="xl">
+                  Agendar conversa estratégica
+                  <ArrowRight className="w-5 h-5" />
+                </Button>
+              </Link>
+              <Button variant="heroOutline" size="lg" onClick={() => document.getElementById('problema')?.scrollIntoView({
+              behavior: 'smooth'
+            })}>
+                Quero entender o método
               </Button>
-            </Link>
+            </div>
             
-            <p className="text-muted/60 text-sm mt-6">100% gratuito • Compromisso apenas com seu crescimento.</p>
+            <p className="text-muted/60 text-sm mt-6">Sem compromisso • Foco total no seu crescimento.</p>
           </div>
         </div>
       </section>
