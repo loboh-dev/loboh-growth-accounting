@@ -35,10 +35,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Upload dist
+      - name: Upload build
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: build
 
       - name: Deploy
         id: deployment
