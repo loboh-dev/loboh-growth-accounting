@@ -35,6 +35,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Add CNAME
+        run: echo "loboh.co" > dist/CNAME
+
       - name: Upload dist
         uses: actions/upload-pages-artifact@v3
         with:
