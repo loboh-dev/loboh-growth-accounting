@@ -15,7 +15,7 @@ const LandingPage = () => {
       behavior: 'smooth'
     });
   };
-  return <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background overflow-x-hidden">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-loboh-navy/95 backdrop-blur-md border-b border-muted/20">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
@@ -37,14 +37,16 @@ const LandingPage = () => {
         
         {/* Right - Partner Images with Smoke Effect */}
         <div className="hidden lg:block absolute pointer-events-none z-20" style={{
-        right: '-80px',
+          // aqui estava -85, mas as imagens dos sócios estavam cobrindo
+        right: '-130px',
         bottom: '4px',
         height: '85vh',
-        width: 'auto'
+        width: 'translateX(80px)'
       }}>
           {/* Smoke layers */}
           <div className="absolute inset-0 overflow-hidden" style={{
-          width: '150%',
+            // aqui tava 100 ao invés de 70, mas deu uma diminuida no espaço em branco da tela
+          width: '70',
           left: '-25%'
         }}>
             <div className="absolute inset-0 animate-smoke-drift" style={{
