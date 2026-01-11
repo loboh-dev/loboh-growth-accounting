@@ -8,6 +8,7 @@ import logoAM from "@/assets/logos/am-contabilidade.webp";
 import logoPejota from "@/assets/logos/pejota.webp";
 import foundersTransparent from "@/assets/founders-transparent.png";
 import { Link } from "react-router-dom";
+import BottleneckInfographic from "@/components/BottleneckInfographic";
 
 const LandingPage = () => {
   const scrollToContact = () => {
@@ -108,48 +109,8 @@ const LandingPage = () => {
         <div className="absolute bottom-0 left-0 right-0 h-1 bg-primary" />
       </section>
 
-      {/* O Problema Silencioso */}
-      <section id="problema" className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="text-primary font-medium text-sm uppercase tracking-widest">Diagnóstico</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">O crescimento da maioria das contabilidades trava por motivos invisíveis</h2>
-            </div>
-            
-            <div className="grid md:grid-cols-2 gap-4">
-              {[{
-              icon: AlertTriangle,
-              text: "Crescimento depende demais de indicação"
-            }, {
-              icon: TrendingUp,
-              text: "Leads entram, mas não viram vendas"
-            }, {
-              icon: BarChart3,
-              text: "Falta previsibilidade de receita"
-            }, {
-              icon: Users,
-              text: "Dono preso na operação comercial"
-            }, {
-              icon: Eye,
-              text: "Decisões tomadas sem dados claros"
-            }].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-lg bg-secondary border border-border hover:border-primary/30 transition-all duration-200">
-                  <div className="w-10 h-10 rounded-lg bg-destructive/10 flex items-center justify-center flex-shrink-0">
-                    <item.icon className="w-5 h-5 text-destructive" />
-                  </div>
-                  <p className="text-foreground font-medium">{item.text}</p>
-                </div>)}
-            </div>
-            
-            <div className="text-center mt-10 p-6 rounded-xl bg-secondary border border-border">
-              <p className="text-lg font-semibold text-foreground">
-                Contabilidades não quebram por falta de clientes.<br />
-                <span className="text-primary">Elas travam por falta de método.</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* O Problema - Infográfico Animado */}
+      <BottleneckInfographic />
 
       {/* O Método das Scale-ups */}
       <section className="py-24 bg-secondary">
