@@ -212,8 +212,8 @@ const BottleneckInfographic = () => {
             transition={{ delay: 0.8, duration: 0.5 }}
           >
             <p className="text-xl md:text-2xl font-semibold text-foreground">
-              Contabilidades não quebram por falta de clientes.<br />
-              <span className="text-primary">Elas travam por falta de método.</span>
+              Se a sua Contabilidade passou por isso em 2025,<br />
+              <span className="text-primary">chegou a hora de mudar!</span>
             </p>
           </motion.div>
         </div>
