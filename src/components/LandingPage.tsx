@@ -1,4 +1,4 @@
-import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck } from "lucide-react";
+import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck, Crosshair, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-consulting.jpg";
 import logoWhite from "@/assets/logo-white.svg";
@@ -133,34 +133,38 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Metodologia Loboh - 4 Pilares */}
+      {/* Metodologia Loboh - 5 Pilares */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Metodologia Loboh</span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-                4 Pilares para Crescimento Previsível
+                5 Pilares para Crescimento Comercial Previsível
               </h2>
             </div>
             
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {[{
               icon: BarChart3,
               title: "Gestão",
-              desc: "Metas claras, indicadores certos, rituais de acompanhamento e decisões baseadas em dados."
+              desc: "Metas claras, KPIs bem definidos e rituais de acompanhamento que garantem direção, disciplina de execução e decisões baseadas em dados."
             }, {
-              icon: GitBranch,
-              title: "Processos",
-              desc: "Funil bem definido, cadências, critérios de qualificação e previsibilidade comercial."
+              icon: Crosshair,
+              title: "Oferta",
+              desc: "Definição clara de ICP, personas, mercado e posicionamento para concentrar esforços comerciais nos clientes certos e aumentar conversão."
             }, {
               icon: Monitor,
               title: "Tecnologia",
-              desc: "CRM, automações e dashboards que dão visibilidade real da operação."
+              desc: "Automação, Business Intelligence, stack de tecnologia comercial e integrações que dão visibilidade real da operação e escalam a performance."
             }, {
               icon: GraduationCap,
               title: "Capacitação",
-              desc: "Treinamento prático do time para vender melhor, com consistência e método."
+              desc: "Treinamento contínuo, processos documentados, gestão do conhecimento e plano de desenvolvimento individual para execução com excelência."
+            }, {
+              icon: Heart,
+              title: "Cultura",
+              desc: "Cultura de vendas orientada a resultado, com plano de carreira, remuneração variável e incentivos que geram engajamento e alta performance."
             }].map((item, index) => <div key={index} className="group p-6 rounded-xl bg-card border border-border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
                   <div className="w-14 h-14 rounded-xl bg-cta/10 flex items-center justify-center mb-4 group-hover:bg-cta/20 transition-colors">
                     <item.icon className="w-7 h-7 text-primary" />
