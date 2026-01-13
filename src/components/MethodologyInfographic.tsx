@@ -16,7 +16,6 @@ const pillars = [
       { icon: MapPin, label: "Mercado" },
       { icon: MessageSquare, label: "Posicionamento" },
     ],
-    isBase: true,
   },
   {
     number: 2,
@@ -32,7 +31,6 @@ const pillars = [
       { icon: UsersRound, label: "Estrutura do time" },
       { icon: CalendarCheck, label: "Rituais de gestão" },
     ],
-    isBase: true,
   },
   {
     number: 3,
@@ -48,7 +46,6 @@ const pillars = [
       { icon: Layers, label: "Stack Comercial" },
       { icon: Link2, label: "Integrações" },
     ],
-    isBase: false,
   },
   {
     number: 4,
@@ -64,7 +61,6 @@ const pillars = [
       { icon: Brain, label: "Gestão do conhecimento" },
       { icon: TrendingUp, label: "PDI" },
     ],
-    isBase: false,
   },
   {
     number: 5,
@@ -80,7 +76,6 @@ const pillars = [
       { icon: DollarSign, label: "Remuneração variável" },
       { icon: Gift, label: "Incentivos" },
     ],
-    isBase: false,
   },
 ];
 
@@ -123,37 +118,15 @@ export default function MethodologyInfographic() {
                   viewport={{ once: true, margin: "-50px" }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  <div
-                    className={`h-full p-5 rounded-2xl bg-card border shadow-sm hover:shadow-lg transition-all duration-300 ${
-                      pillar.isBase
-                        ? "border-primary/30 bg-primary/5"
-                        : "border-border"
-                    }`}
-                  >
+                  <div className="h-full p-5 rounded-2xl bg-primary/5 border border-primary/30 shadow-sm hover:shadow-lg transition-all duration-300">
                     {/* Pillar Header */}
                     <div className="flex items-center gap-3 mb-3">
-                      <div
-                        className={`w-10 h-10 rounded-xl flex items-center justify-center ${
-                          pillar.isBase
-                            ? "bg-primary text-primary-foreground"
-                            : "bg-primary/10"
-                        }`}
-                      >
-                        <pillar.icon
-                          className={`w-5 h-5 ${
-                            pillar.isBase ? "" : "text-primary"
-                          }`}
-                        />
+                      <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-primary text-primary-foreground">
+                        <pillar.icon className="w-5 h-5" />
                       </div>
                       <div>
                         <div className="flex items-center gap-2">
-                          <span
-                            className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
-                              pillar.isBase
-                                ? "bg-primary text-primary-foreground"
-                                : "bg-primary/10 text-primary"
-                            }`}
-                          >
+                          <span className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold bg-primary text-primary-foreground">
                             {pillar.number}
                           </span>
                           <h3 className="text-lg font-bold text-foreground">
@@ -208,37 +181,15 @@ export default function MethodologyInfographic() {
                   viewport={{ once: true, margin: "-50px" }}
                   transition={{ duration: 0.5, delay: (index + 3) * 0.1 }}
                 >
-                  <div
-                    className={`h-full p-5 rounded-2xl bg-card border shadow-sm hover:shadow-lg transition-all duration-300 ${
-                      pillar.isBase
-                        ? "border-primary/30 bg-primary/5"
-                        : "border-border"
-                    }`}
-                  >
+                  <div className="h-full p-5 rounded-2xl bg-primary/5 border border-primary/30 shadow-sm hover:shadow-lg transition-all duration-300">
                     {/* Pillar Header */}
                     <div className="flex items-center gap-3 mb-3">
-                      <div
-                        className={`w-10 h-10 rounded-xl flex items-center justify-center ${
-                          pillar.isBase
-                            ? "bg-primary text-primary-foreground"
-                            : "bg-primary/10"
-                        }`}
-                      >
-                        <pillar.icon
-                          className={`w-5 h-5 ${
-                            pillar.isBase ? "" : "text-primary"
-                          }`}
-                        />
+                      <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-primary text-primary-foreground">
+                        <pillar.icon className="w-5 h-5" />
                       </div>
                       <div>
                         <div className="flex items-center gap-2">
-                          <span
-                            className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
-                              pillar.isBase
-                                ? "bg-primary text-primary-foreground"
-                                : "bg-primary/10 text-primary"
-                            }`}
-                          >
+                          <span className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold bg-primary text-primary-foreground">
                             {pillar.number}
                           </span>
                           <h3 className="text-lg font-bold text-foreground">
