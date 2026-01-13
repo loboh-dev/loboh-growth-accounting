@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, ArrowRight, RotateCcw, Users, Target, MapPin, MessageSquare, Flag, Activity, UsersRound, CalendarCheck, Cpu, LineChart, Layers, Link2, BookOpen, FileText, Brain, TrendingUp, Trophy, DollarSign, Gift } from "lucide-react";
+import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, RotateCcw, Users, Target, MapPin, MessageSquare, Flag, Activity, UsersRound, CalendarCheck, Cpu, LineChart, Layers, Link2, BookOpen, FileText, Brain, TrendingUp, Trophy, DollarSign, Gift, ArrowRight } from "lucide-react";
 
 const pillars = [
   {
@@ -111,242 +111,181 @@ export default function MethodologyInfographic() {
             </h2>
           </motion.div>
 
-          {/* Pillars Flow */}
-          <div className="relative">
-            {/* Connection Line - Desktop */}
-            <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-primary/20 via-primary/40 to-primary/20 -translate-x-1/2" />
-
-            {pillars.map((pillar, index) => {
-              const isEven = index % 2 === 1;
-              const isLast = index === pillars.length - 1;
-
-              return (
+          {/* Pillars Grid */}
+          <div className="space-y-6">
+            {/* First Row - 3 pillars */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {pillars.slice(0, 3).map((pillar, index) => (
                 <motion.div
                   key={pillar.number}
-                  className={`relative mb-8 lg:mb-0 ${
-                    index < pillars.length - 1 ? "lg:pb-12" : ""
-                  }`}
-                  initial={{ opacity: 0, x: isEven ? 50 : -50 }}
-                  whileInView={{ opacity: 1, x: 0 }}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-50px" }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                 >
-                  {/* Desktop Layout */}
                   <div
-                    className={`hidden lg:flex items-center gap-8 ${
-                      isEven ? "flex-row-reverse" : ""
+                    className={`h-full p-5 rounded-2xl bg-card border shadow-sm hover:shadow-lg transition-all duration-300 ${
+                      pillar.isBase
+                        ? "border-primary/30 bg-primary/5"
+                        : "border-border"
                     }`}
                   >
-                    {/* Card */}
-                    <div
-                      className={`w-[calc(50%-2rem)] ${
-                        isEven ? "text-left" : "text-right"
-                      }`}
-                    >
+                    {/* Pillar Header */}
+                    <div className="flex items-center gap-3 mb-3">
                       <div
-                        className={`inline-block p-6 rounded-2xl bg-card border shadow-sm hover:shadow-lg transition-all duration-300 ${
-                          pillar.isBase
-                            ? "border-primary/30 bg-primary/5"
-                            : "border-border"
-                        }`}
-                      >
-                        {/* Pillar Header */}
-                        <div
-                          className={`flex items-center gap-3 mb-3 ${
-                            isEven ? "" : "justify-end"
-                          }`}
-                        >
-                          {!isEven && (
-                            <div>
-                              <h3 className="text-xl font-bold text-foreground">
-                                {pillar.title}
-                              </h3>
-                              <p className="text-sm text-primary font-medium">
-                                {pillar.subtitle}
-                              </p>
-                            </div>
-                          )}
-                          <div
-                            className={`w-12 h-12 rounded-xl flex items-center justify-center ${
-                              pillar.isBase
-                                ? "bg-primary text-primary-foreground"
-                                : "bg-primary/10"
-                            }`}
-                          >
-                            <pillar.icon
-                              className={`w-6 h-6 ${
-                                pillar.isBase ? "" : "text-primary"
-                              }`}
-                            />
-                          </div>
-                          {isEven && (
-                            <div>
-                              <h3 className="text-xl font-bold text-foreground">
-                                {pillar.title}
-                              </h3>
-                              <p className="text-sm text-primary font-medium">
-                                {pillar.subtitle}
-                              </p>
-                            </div>
-                          )}
-                        </div>
-
-                        {/* Highlight */}
-                        <p
-                          className={`text-muted-foreground font-medium mb-2 ${
-                            isEven ? "text-left" : "text-right"
-                          }`}
-                        >
-                          {pillar.highlight}
-                        </p>
-
-                        {/* Includes */}
-                        <div
-                          className={`flex flex-wrap gap-2 mb-4 ${
-                            isEven ? "justify-start" : "justify-end"
-                          }`}
-                        >
-                          {pillar.includes.map((item, i) => (
-                            <span
-                              key={i}
-                              className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-muted text-xs font-medium text-muted-foreground"
-                            >
-                              <item.icon className="w-3 h-3" />
-                              {item.label}
-                            </span>
-                          ))}
-                        </div>
-
-                        {/* Description */}
-                        <p
-                          className={`text-sm text-muted-foreground mb-3 ${
-                            isEven ? "text-left" : "text-right"
-                          }`}
-                        >
-                          {pillar.description}
-                        </p>
-
-                        {/* Note */}
-                        <p
-                          className={`text-xs text-primary/80 italic ${
-                            isEven ? "text-left" : "text-right"
-                          }`}
-                        >
-                          {pillar.note}
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Center Node */}
-                    <div className="relative z-10 flex flex-col items-center">
-                      <div
-                        className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm ${
+                        className={`w-10 h-10 rounded-xl flex items-center justify-center ${
                           pillar.isBase
                             ? "bg-primary text-primary-foreground"
-                            : "bg-card border-2 border-primary text-primary"
+                            : "bg-primary/10"
                         }`}
                       >
-                        {pillar.number}
-                      </div>
-                      {!isLast && (
-                        <div className="flex flex-col items-center mt-2">
-                          <ArrowRight className="w-4 h-4 text-primary/50 rotate-90" />
-                        </div>
-                      )}
-                    </div>
-
-                    {/* Spacer */}
-                    <div className="w-[calc(50%-2rem)]" />
-                  </div>
-
-                  {/* Mobile Layout */}
-                  <div className="lg:hidden">
-                    <div
-                      className={`p-5 rounded-2xl bg-card border shadow-sm ${
-                        pillar.isBase
-                          ? "border-primary/30 bg-primary/5"
-                          : "border-border"
-                      }`}
-                    >
-                      {/* Header */}
-                      <div className="flex items-center gap-3 mb-3">
-                        <div
-                          className={`w-10 h-10 rounded-xl flex items-center justify-center ${
-                            pillar.isBase
-                              ? "bg-primary text-primary-foreground"
-                              : "bg-primary/10"
+                        <pillar.icon
+                          className={`w-5 h-5 ${
+                            pillar.isBase ? "" : "text-primary"
                           }`}
-                        >
-                          <pillar.icon
-                            className={`w-5 h-5 ${
-                              pillar.isBase ? "" : "text-primary"
-                            }`}
-                          />
-                        </div>
-                        <div className="flex-1">
-                          <div className="flex items-center gap-2">
-                            <span
-                              className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
-                                pillar.isBase
-                                  ? "bg-primary text-primary-foreground"
-                                  : "bg-primary/10 text-primary"
-                              }`}
-                            >
-                              {pillar.number}
-                            </span>
-                            <h3 className="text-lg font-bold text-foreground">
-                              {pillar.title}
-                            </h3>
-                          </div>
-                          <p className="text-sm text-primary font-medium">
-                            {pillar.subtitle}
-                          </p>
-                        </div>
+                        />
                       </div>
-
-                      {/* Highlight */}
-                      <p className="text-muted-foreground font-medium mb-3">
-                        {pillar.highlight}
-                      </p>
-
-                      {/* Includes */}
-                      <div className="flex flex-wrap gap-2 mb-3">
-                        {pillar.includes.map((item, i) => (
+                      <div>
+                        <div className="flex items-center gap-2">
                           <span
-                            key={i}
-                            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-muted text-xs font-medium text-muted-foreground"
+                            className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
+                              pillar.isBase
+                                ? "bg-primary text-primary-foreground"
+                                : "bg-primary/10 text-primary"
+                            }`}
                           >
-                            <item.icon className="w-3 h-3" />
-                            {item.label}
+                            {pillar.number}
                           </span>
-                        ))}
+                          <h3 className="text-lg font-bold text-foreground">
+                            {pillar.title}
+                          </h3>
+                        </div>
+                        <p className="text-sm text-primary font-medium">
+                          {pillar.subtitle}
+                        </p>
                       </div>
-
-                      {/* Description */}
-                      <p className="text-sm text-muted-foreground mb-2">
-                        {pillar.description}
-                      </p>
-
-                      {/* Note */}
-                      <p className="text-xs text-primary/80 italic">
-                        {pillar.note}
-                      </p>
                     </div>
 
-                    {/* Mobile Connector */}
-                    {!isLast && (
-                      <div className="flex justify-center py-3">
-                        <ArrowRight className="w-5 h-5 text-primary/50 rotate-90" />
-                      </div>
-                    )}
+                    {/* Highlight */}
+                    <p className="text-muted-foreground font-medium mb-3 text-sm">
+                      {pillar.highlight}
+                    </p>
+
+                    {/* Includes */}
+                    <div className="flex flex-wrap gap-2 mb-3">
+                      {pillar.includes.map((item, i) => (
+                        <span
+                          key={i}
+                          className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-muted text-xs font-medium text-muted-foreground"
+                        >
+                          <item.icon className="w-3 h-3" />
+                          {item.label}
+                        </span>
+                      ))}
+                    </div>
+
+                    {/* Description */}
+                    <p className="text-sm text-muted-foreground mb-2">
+                      {pillar.description}
+                    </p>
+
+                    {/* Note */}
+                    <p className="text-xs text-primary/80 italic">
+                      {pillar.note}
+                    </p>
                   </div>
                 </motion.div>
-              );
-            })}
+              ))}
+            </div>
+
+            {/* Second Row - 2 pillars centered */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+              {pillars.slice(3, 5).map((pillar, index) => (
+                <motion.div
+                  key={pillar.number}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.5, delay: (index + 3) * 0.1 }}
+                >
+                  <div
+                    className={`h-full p-5 rounded-2xl bg-card border shadow-sm hover:shadow-lg transition-all duration-300 ${
+                      pillar.isBase
+                        ? "border-primary/30 bg-primary/5"
+                        : "border-border"
+                    }`}
+                  >
+                    {/* Pillar Header */}
+                    <div className="flex items-center gap-3 mb-3">
+                      <div
+                        className={`w-10 h-10 rounded-xl flex items-center justify-center ${
+                          pillar.isBase
+                            ? "bg-primary text-primary-foreground"
+                            : "bg-primary/10"
+                        }`}
+                      >
+                        <pillar.icon
+                          className={`w-5 h-5 ${
+                            pillar.isBase ? "" : "text-primary"
+                          }`}
+                        />
+                      </div>
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span
+                            className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold ${
+                              pillar.isBase
+                                ? "bg-primary text-primary-foreground"
+                                : "bg-primary/10 text-primary"
+                            }`}
+                          >
+                            {pillar.number}
+                          </span>
+                          <h3 className="text-lg font-bold text-foreground">
+                            {pillar.title}
+                          </h3>
+                        </div>
+                        <p className="text-sm text-primary font-medium">
+                          {pillar.subtitle}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Highlight */}
+                    <p className="text-muted-foreground font-medium mb-3 text-sm">
+                      {pillar.highlight}
+                    </p>
+
+                    {/* Includes */}
+                    <div className="flex flex-wrap gap-2 mb-3">
+                      {pillar.includes.map((item, i) => (
+                        <span
+                          key={i}
+                          className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-muted text-xs font-medium text-muted-foreground"
+                        >
+                          <item.icon className="w-3 h-3" />
+                          {item.label}
+                        </span>
+                      ))}
+                    </div>
+
+                    {/* Description */}
+                    <p className="text-sm text-muted-foreground mb-2">
+                      {pillar.description}
+                    </p>
+
+                    {/* Note */}
+                    <p className="text-xs text-primary/80 italic">
+                      {pillar.note}
+                    </p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
 
             {/* Feedback Loop Arrow */}
             <motion.div
-              className="mt-8 lg:mt-12 flex justify-center"
+              className="flex justify-center pt-4"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
