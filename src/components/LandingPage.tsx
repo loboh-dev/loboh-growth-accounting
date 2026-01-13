@@ -113,21 +113,102 @@ const LandingPage = () => {
       {/* O Problema - Infográfico Animado */}
       <BottleneckInfographic />
 
-      {/* O Método das Scale-ups */}
+      {/* Seção: O que NÃO funciona */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+                Crescimento previsível não vem de modinha.
+              </h2>
+              <p className="text-xl text-muted-foreground">
+                Vem de <span className="text-primary font-semibold">gestão comercial básica bem feita</span>.
+              </p>
+              <p className="text-muted-foreground mt-4">O mercado está cheio de atalhos.</p>
+            </div>
+            
+            <div className="grid sm:grid-cols-2 gap-4 mb-12">
+              {[
+                "Clubinhos de networking caros e genéricos",
+                "Mentorias que inspiram, mas não mudam a operação",
+                "Promessas de automação total sem processo",
+                "Discursos de IA sem base, sem dados e sem gestão"
+              ].map((item, index) => (
+                <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-destructive/5 border border-destructive/20">
+                  <AlertTriangle className="w-5 h-5 text-destructive flex-shrink-0" />
+                  <p className="text-foreground">{item}</p>
+                </div>
+              ))}
+            </div>
+            
+            <div className="text-center">
+              <p className="text-lg font-semibold text-muted-foreground">
+                Nada disso sustenta crescimento no médio e longo prazo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Seção: O que REALMENTE funciona */}
       <section className="py-24 bg-secondary">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-16">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Posicionamento</span>
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-12">
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">O que funciona</span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
-                O mesmo método usado por empresas que escalam receita de forma consistente
+                O que nunca saiu de moda nas empresas que mais crescem
               </h2>
-              <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-                A Loboh aplica na contabilidade os princípios usados por scale-ups: processos claros, gestão orientada a dados, execução disciplinada e capacitação contínua.
+            </div>
+            
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+              {[
+                { icon: GitBranch, text: "Go to Market estruturado por canal" },
+                { icon: ClipboardCheck, text: "Processos bem definidos" },
+                { icon: BarChart3, text: "Indicadores confiáveis" },
+                { icon: Target, text: "Execução disciplinada" },
+                { icon: TrendingUp, text: "Ciclos contínuos de melhoria" }
+              ].map((item, index) => (
+                <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <item.icon className="w-5 h-5 text-primary" />
+                  </div>
+                  <p className="text-foreground font-medium">{item.text}</p>
+                </div>
+              ))}
+            </div>
+            
+            <div className="text-center">
+              <p className="text-xl font-bold text-foreground">
+                Sem hacks. Sem atalhos. <span className="text-primary">Sem fórmula pronta.</span>
               </p>
-              <p className="text-foreground font-semibold text-lg mt-6">
-                Não é sobre "vender mais".<br />
-                É sobre construir um <span className="text-primary">ativo de crescimento previsível</span>.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Seção: Nosso Posicionamento */}
+      <section className="py-24 bg-loboh-navy">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-8">
+              A Loboh não é mais uma promessa.
+            </h2>
+            
+            <div className="space-y-2 text-lg text-muted mb-10">
+              <p>Não somos curso.</p>
+              <p>Não somos mentoria.</p>
+              <p>Não somos consultoria hands off.</p>
+            </div>
+            
+            <p className="text-xl text-primary-foreground leading-relaxed mb-10">
+              Somos uma empresa de <span className="text-primary font-semibold">serviços e tecnologia para vendas</span> que entra na operação, estrutura, executa, mede e evolui junto com o cliente.
+            </p>
+            
+            <div className="inline-block p-6 rounded-2xl bg-primary/10 border border-primary/30">
+              <p className="text-muted text-sm uppercase tracking-wider mb-2">Chamamos isso de</p>
+              <p className="text-2xl md:text-3xl font-bold text-primary">
+                Gestão Comercial como Serviço
               </p>
             </div>
           </div>
