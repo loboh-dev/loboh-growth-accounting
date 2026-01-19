@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, ArrowRight, Circle } from "lucide-react";
+import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, ArrowRight, Circle, Check } from "lucide-react";
 
 const pillars = [
   {
@@ -16,7 +16,7 @@ const pillars = [
     title: "Gestão",
     description: "Metas claras, KPIs confiáveis e rituais de acompanhamento transformam intuição em decisões baseadas em dados.",
     includes: ["Metas", "KPIs", "Estrutura do time", "Rituais de gestão"],
-    results: ["Previsibilidade de receita", "Redução de riscos operacionais"],
+    results: ["Previsibilidade de receita", "Redução de riscos operacionais", "Ritmo constante de vendas"],
   },
   {
     number: 3,
@@ -95,10 +95,15 @@ export default function MethodologyInfographic() {
 
         {/* Results */}
         <div className="pt-3 border-t border-border/50">
-          <span className="text-sm font-bold text-foreground">Resultado: </span>
-          <span className="text-sm text-muted-foreground">
-            {pillar.results.join(" • ")}
-          </span>
+          <span className="text-sm font-bold text-foreground block mb-2">Resultado:</span>
+          <div className="space-y-1.5">
+            {pillar.results.map((result, i) => (
+              <div key={i} className="flex items-center gap-2">
+                <Check className="w-4 h-4 text-primary flex-shrink-0" strokeWidth={2.5} />
+                <span className="text-sm text-muted-foreground">{result}</span>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </motion.div>
