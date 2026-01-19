@@ -192,27 +192,27 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-8">
-              A Loboh não é mais uma promessa.
+              A Loboh não é "mais uma promessa".
             </h2>
             
-            <div className="space-y-4 text-lg text-muted mb-12">
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                  <X className="w-5 h-5 text-red-500" />
+            <div className="space-y-4 text-lg text-muted mb-12 max-w-lg mx-auto">
+              <div className="flex items-center gap-3">
+                <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
+                  <X className="w-4 h-4 text-red-500" />
                 </div>
-                <p className="text-left">Não somos curso que você vê 1 vez e não aplica.</p>
+                <p>Não somos curso que você vê 1 vez e não aplica.</p>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                  <X className="w-5 h-5 text-red-500" />
+              <div className="flex items-center gap-3">
+                <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
+                  <X className="w-4 h-4 text-red-500" />
                 </div>
-                <p className="text-left">Não somos mentoria que só entrega template.</p>
+                <p>Não somos mentoria que só entrega template.</p>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                  <X className="w-5 h-5 text-red-500" />
+              <div className="flex items-center gap-3">
+                <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
+                  <X className="w-4 h-4 text-red-500" />
                 </div>
-                <p className="text-left">Não somos consultoria que só te fala o que fazer.</p>
+                <p>Não somos consultoria que só te fala o que fazer.</p>
               </div>
             </div>
             
