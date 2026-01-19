@@ -124,9 +124,6 @@ const LandingPage = () => {
               <p className="text-xl text-muted-foreground">
                 Vem de <span className="text-primary font-semibold">gestão comercial otimizada continuamente</span>.
               </p>
-              <p className="text-xl text-muted-foreground">
-                Vem de <span className="text-primary font-semibold">gestão comercial básica bem feita</span>.
-              </p>
               <p className="text-muted-foreground mt-4">O mercado está cheio de atalhos.</p>
             </div>
             
