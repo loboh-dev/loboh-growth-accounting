@@ -222,7 +222,7 @@ const LandingPage = () => {
                   <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <X className="w-4 h-4 text-red-500" />
                   </div>
-                  <p className="text-lg text-muted flex-1"><span className="font-bold text-primary-foreground">Consultoria</span> que te <span className="font-bold text-primary-foreground">entrega um projeto</span> e te <span className="font-bold text-primary-foreground">abandona sem resultados</span>.</p>
+                  <p className="text-lg text-muted flex-1"><span className="font-bold text-primary-foreground">Consultoria</span> que <span className="font-bold text-primary-foreground">entrega um projeto</span> e te <span className="font-bold text-primary-foreground">abandona sem resultados</span>.</p>
                 </div>
               </div>
             </div>
