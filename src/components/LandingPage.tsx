@@ -196,13 +196,13 @@ const LandingPage = () => {
             </h2>
             
             <div className="space-y-2 text-lg text-muted mb-10">
-              <p>Não somos curso.</p>
-              <p>Não somos mentoria.</p>
-              <p>Não somos consultoria hands off.</p>
+              <p>Não somos curso que você vê 1 vez e não aplica.</p>
+              <p>Não somos mentoria que só entrega template.</p>
+              <p>Não somos consultoria que só te fala o que fazer.</p>
             </div>
             
             <p className="text-xl text-primary-foreground leading-relaxed mb-10">
-              Somos uma empresa de <span className="text-primary font-semibold">serviços e tecnologia para vendas</span> que entra na operação, planeja, executa, mede e evolui junto com o cliente.
+              Somos uma empresa de <span className="text-primary font-semibold">Serviços Profissionais para Vendas</span>. Entramos na operação, estruturamos, executamos, medimos e evoluímos junto com o cliente.
             </p>
             
             <div className="inline-block p-6 rounded-2xl bg-primary/10 border border-primary/30">
