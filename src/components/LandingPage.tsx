@@ -202,7 +202,7 @@ const LandingPage = () => {
             </div>
             
             <p className="text-xl text-primary-foreground leading-relaxed mb-10">
-              Somos uma empresa de <span className="text-primary font-semibold">serviços e tecnologia para vendas</span> que entra na operação, estrutura, executa, mede e evolui junto com o cliente.
+              Somos uma empresa de <span className="text-primary font-semibold">serviços e tecnologia para vendas</span> que entra na operação, planeja, executa, mede e evolui junto com o cliente.
             </p>
             
             <div className="inline-block p-6 rounded-2xl bg-primary/10 border border-primary/30">
