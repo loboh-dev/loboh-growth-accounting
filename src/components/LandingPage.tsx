@@ -195,38 +195,38 @@ const LandingPage = () => {
               A Loboh não é "mais uma promessa".
             </h2>
             
-            <div className="space-y-4 text-lg text-muted mb-12 max-w-lg mx-auto">
-              <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                  <X className="w-4 h-4 text-red-500" />
+            <div className="space-y-4 text-lg text-muted mb-12 max-w-lg mx-auto text-left">
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
-                <p>Não somos curso que você vê 1 vez e não aplica.</p>
+                <p className="flex-1">Não somos curso que você vê 1 vez e não aplica.</p>
               </div>
-              <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                  <X className="w-4 h-4 text-red-500" />
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
-                <p>Não somos mentoria que só entrega template.</p>
+                <p className="flex-1">Não somos mentoria que só entrega template.</p>
               </div>
-              <div className="flex items-center gap-3">
-                <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
-                  <X className="w-4 h-4 text-red-500" />
+              <div className="flex items-start gap-3">
+                <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
-                <p>Não somos consultoria que te entrega um projeto e te abandona sem resultados.</p>
+                <p className="flex-1">Não somos consultoria que te entrega um projeto e te abandona sem resultados.</p>
               </div>
             </div>
             
-            <div className="bg-primary/10 border border-primary/30 rounded-2xl p-8 mb-10">
-              <div className="flex items-start justify-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-primary/30 flex items-center justify-center flex-shrink-0 mt-1">
-                  <Check className="w-6 h-6 text-primary" />
+            <div className="bg-primary/10 border border-primary/30 rounded-2xl p-8 mb-10 max-w-lg mx-auto">
+              <div className="flex items-start gap-4">
+                <div className="w-8 h-8 rounded-full bg-primary/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                  <Check className="w-5 h-5 text-primary" />
                 </div>
-                <div className="text-left">
+                <div className="text-left flex-1">
                   <p className="text-xl text-primary-foreground leading-relaxed">
                     Somos uma empresa de <span className="text-primary font-semibold">Serviços Profissionais para Vendas</span>.
                   </p>
                   <p className="text-xl text-primary-foreground leading-relaxed mt-2">
-                    Entramos na operação, estruturamos, executamos, medimos e evoluímos junto com o cliente.
+                    Entramos na operação, estruturamos, executamos, medimos e evoluímos continuamente junto com o cliente.
                   </p>
                 </div>
               </div>
