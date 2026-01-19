@@ -231,7 +231,7 @@ const LandingPage = () => {
                     Somos uma empresa de <span className="text-primary font-bold" style={{ fontFamily: 'Oxanium, sans-serif' }}>Serviços Profissionais para Vendas</span>.
                   </p>
                   <p className="text-xl text-primary-foreground leading-relaxed mt-2">
-                    Entramos na operação, estruturamos, executamos, medimos e evoluímos continuamente junto com o cliente.
+                    Entramos na operação, estruturamos, executamos, medimos e evoluímos continuamente junto com o cliente para alcance das metas de crescimento da empresa.
                   </p>
                 </div>
               </div>
