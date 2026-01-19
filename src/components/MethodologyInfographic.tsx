@@ -189,21 +189,6 @@ export default function MethodologyInfographic() {
               ))}
             </div>
 
-            {/* Feedback Loop Arrow */}
-            <motion.div
-              className="flex justify-center pt-4"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.5 }}
-            >
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
-                <RotateCcw className="w-4 h-4 text-primary" />
-                <span className="text-sm text-primary font-medium">
-                  Cultura retroalimenta Oferta — evolução contínua
-                </span>
-              </div>
-            </motion.div>
           </div>
 
           {/* Results */}
