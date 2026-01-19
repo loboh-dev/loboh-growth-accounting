@@ -197,7 +197,7 @@ const LandingPage = () => {
             </h2>
             
             <p className="text-2xl md:text-3xl font-bold text-red-500 mb-8" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-              Não somos
+              Não Somos
             </p>
             
             <div className="space-y-4 text-lg text-muted mb-12 max-w-lg mx-auto text-left">
