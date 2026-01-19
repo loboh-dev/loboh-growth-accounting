@@ -212,7 +212,7 @@ const LandingPage = () => {
                 <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0">
                   <X className="w-4 h-4 text-red-500" />
                 </div>
-                <p>Não somos consultoria que só te fala o que fazer.</p>
+                <p>Não somos consultoria que te entrega um projeto e te abandona sem resultados.</p>
               </div>
             </div>
             
