@@ -167,7 +167,7 @@ const LandingPage = () => {
                 { icon: ClipboardCheck, text: "Processos bem definidos" },
                 { icon: BarChart3, text: "Indicadores confiáveis" },
                 { icon: Target, text: "Execução disciplinada" },
-                { icon: Users, text: "Equipe comercial altamente capacitada" },
+                { icon: Users, text: "Equipe comercial capacitada" },
                 { icon: TrendingUp, text: "Ciclos contínuos de melhoria" }
               ].map((item, index) => (
                 <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm">
