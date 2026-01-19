@@ -65,9 +65,9 @@ const pillars = [
 ];
 
 const results = [
-  "Crescimento previsível",
   "Execução consistente",
   "Máquina de vendas sustentável",
+  "Crescimento previsível",
 ];
 
 export default function MethodologyInfographic() {
