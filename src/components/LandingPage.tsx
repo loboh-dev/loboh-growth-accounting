@@ -200,9 +200,9 @@ const LandingPage = () => {
               Não Somos
             </p>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12 max-w-4xl mx-auto">
+            <div className="flex flex-col gap-4 mb-12 max-w-2xl mx-auto">
               <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-6 text-left">
-                <div className="flex items-start gap-3">
+                <div className="flex items-start gap-4">
                   <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <X className="w-4 h-4 text-red-500" />
                   </div>
@@ -210,7 +210,7 @@ const LandingPage = () => {
                 </div>
               </div>
               <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-6 text-left">
-                <div className="flex items-start gap-3">
+                <div className="flex items-start gap-4">
                   <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <X className="w-4 h-4 text-red-500" />
                   </div>
@@ -218,7 +218,7 @@ const LandingPage = () => {
                 </div>
               </div>
               <div className="bg-red-500/10 border border-red-500/30 rounded-2xl p-6 text-left">
-                <div className="flex items-start gap-3">
+                <div className="flex items-start gap-4">
                   <div className="w-7 h-7 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <X className="w-4 h-4 text-red-500" />
                   </div>
