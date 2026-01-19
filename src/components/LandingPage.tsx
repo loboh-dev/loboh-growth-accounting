@@ -130,7 +130,7 @@ const LandingPage = () => {
             <div className="grid sm:grid-cols-2 gap-4 mb-12">
               {[
                 "Clubinhos de networking caros e genéricos",
-                "Mentorias que inspiram, mas não mudam a operação",
+                "Mentorias que não mudam a sua operação",
                 "Promessas de automação total sem processo",
                 "Discursos de IA sem base, sem dados e sem gestão"
               ].map((item, index) => (
