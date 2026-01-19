@@ -124,7 +124,7 @@ const LandingPage = () => {
               <p className="text-xl text-muted-foreground">
                 Vem de <span className="text-primary font-semibold">gestão comercial otimizada continuamente</span>.
               </p>
-              <p className="text-muted-foreground mt-4">O mercado está cheio de atalhos.</p>
+              <p className="text-muted-foreground mt-4">O mercado está cheio de atalhos e falsas promessas de crescimento rápido.</p>
             </div>
             
             <div className="grid sm:grid-cols-2 gap-4 mb-12">
