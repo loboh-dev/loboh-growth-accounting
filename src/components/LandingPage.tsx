@@ -266,18 +266,18 @@ const LandingPage = () => {
             </div>
             
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {[{
+{[{
               icon: Target,
               text: "Mais leads qualificados"
-            }, {
-              icon: TrendingUp,
-              text: "Melhor aproveitamento das oportunidades"
             }, {
               icon: Rocket,
               text: "Conversões mais altas"
             }, {
               icon: Zap,
               text: "Ciclo de vendas mais curto"
+            }, {
+              icon: TrendingUp,
+              text: "Mais previsibilidade de receita"
             }, {
               icon: LineChart,
               text: "Time mais engajado e produtivo"
