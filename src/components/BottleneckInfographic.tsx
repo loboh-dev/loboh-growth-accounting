@@ -83,7 +83,7 @@ const BottleneckInfographic = () => {
             transition={{ duration: 0.5 }}
           >
             <span className="text-primary font-medium text-sm uppercase tracking-widest">Diagnóstico</span>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-3 mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
               Como o dono da contabilidade vira<br />
               o maior <span className="text-primary">gargalo do crescimento</span> do negócio
             </h2>

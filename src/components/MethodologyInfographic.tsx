@@ -101,7 +101,7 @@ export default function MethodologyInfographic() {
             <span className="text-primary font-semibold text-sm uppercase tracking-wider">
               Metodologia Loboh
             </span>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
               A jornada para construir uma máquina de vendas previsível
             </h2>
           </motion.div>

@@ -75,7 +75,7 @@ const LandingPage = () => {
                 <span className="text-loboh-gray-200 text-sm font-medium">Exclusivo para Contabilidades</span>
               </div>
               
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 Aumente a receita da sua contabilidade com o<br />
                 <span className="text-primary">método das scale-ups.</span>
               </h1>
@@ -118,7 +118,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 Crescimento previsível não vem de modinha.
               </h2>
               <p className="text-xl text-muted-foreground">
@@ -156,7 +156,7 @@ const LandingPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">O que funciona</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 O que nunca saiu de moda nas empresas que mais crescem
               </h2>
             </div>
@@ -251,7 +251,7 @@ const LandingPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Resultados</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6">O que muda na prática</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6" style={{ fontFamily: 'Oxanium, sans-serif' }}>O que muda na prática</h2>
             </div>
             
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -295,7 +295,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Resultados reais em contabilidades reais</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>Resultados reais em contabilidades reais</h2>
               <p className="text-muted">Transformações de operação comercial, crescimento de receita e times mais organizados.</p>
             </div>
             
@@ -346,7 +346,7 @@ const LandingPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Diferencial</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 Por que a Loboh é diferente de consultorias tradicionais
               </h2>
             </div>
@@ -384,7 +384,7 @@ const LandingPage = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Quem está por trás</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 Liderança com experiência em scale-ups
               </h2>
             </div>
@@ -424,7 +424,7 @@ const LandingPage = () => {
       <section id="cta-final" className="py-20 bg-loboh-navy">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
               Pronto para crescer como uma scale-up?
             </h2>
             
