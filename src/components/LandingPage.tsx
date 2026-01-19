@@ -200,19 +200,19 @@ const LandingPage = () => {
                 <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
-                <p className="flex-1">Não somos curso que você <span className="font-semibold text-foreground">vê 1 vez e não aplica</span>.</p>
+                <p className="flex-1">Não somos curso que você <span className="font-semibold text-primary-foreground">vê 1 vez e não aplica</span>.</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
-                <p className="flex-1">Não somos <span className="font-semibold text-foreground">mentoria</span> que <span className="font-semibold text-foreground">só entrega template</span>.</p>
+                <p className="flex-1">Não somos <span className="font-semibold text-primary-foreground">mentoria</span> que <span className="font-semibold text-primary-foreground">só entrega template</span>.</p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-6 h-6 rounded-full bg-red-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <X className="w-3.5 h-3.5 text-red-500" />
                 </div>
-                <p className="flex-1">Não somos consultoria que te <span className="font-semibold text-foreground">entrega um projeto</span> e te <span className="font-semibold text-foreground">abandona sem resultados</span>.</p>
+                <p className="flex-1">Não somos consultoria que te <span className="font-semibold text-primary-foreground">entrega um projeto</span> e te <span className="font-semibold text-primary-foreground">abandona sem resultados</span>.</p>
               </div>
             </div>
             
