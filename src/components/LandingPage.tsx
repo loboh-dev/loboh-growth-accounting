@@ -216,7 +216,7 @@ const LandingPage = () => {
               </div>
             </div>
             
-            <div className="bg-primary/10 border border-primary/30 rounded-2xl p-8 mb-10 max-w-lg mx-auto">
+            <div className="bg-primary/10 border border-primary/30 rounded-2xl p-8 mb-10">
               <div className="flex items-start gap-4">
                 <div className="w-8 h-8 rounded-full bg-primary/30 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="w-5 h-5 text-primary" />
