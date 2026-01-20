@@ -20,6 +20,17 @@
     <link rel="canonical" href="https://loboh.com.br" />
   </head>
 
+  <script>
+      // Redirect ONLY when user accesses lp.domain.com.br directly
+      if (
+        location.hostname === "lp.loboh.com.br" &&
+        location.pathname === "/" &&
+        !location.hash
+      ) {
+        location.replace("https://loboh.com.br");
+      }
+  </script>
+  
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>

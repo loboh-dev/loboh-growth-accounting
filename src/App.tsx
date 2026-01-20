@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Formulario from "./pages/Formulario/Formulario";
+// import Contabilidade from "./pages/Contabilidade"
 
 const queryClient = new QueryClient();
 
@@ -15,9 +16,10 @@ const App = () => (
       <Toaster />
       <Sonner />
       <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="/" element={<Index />} /> */}
+        <Route path="/contabilidade" element={<Index />} />
         <Route path="/formulario" element={<Formulario />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </TooltipProvider>
   </QueryClientProvider>
