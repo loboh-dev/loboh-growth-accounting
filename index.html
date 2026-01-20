@@ -21,18 +21,12 @@
   </head>
 
   <script>
-  const redirectPath = sessionStorage.getItem("redirectPath");
-
-  if (redirectPath) {
-    sessionStorage.removeItem("redirectPath");
-    history.replaceState(null, "", redirectPath);
-  } else if (
-    location.hostname === "lp.loboh.com.br" &&
-    location.pathname === "/"
-  ) {
-    location.replace("https://loboh.com.br");
-  }
-</script>
+    const redirectPath = sessionStorage.getItem("redirectPath");
+    if (redirectPath) {
+      sessionStorage.removeItem("redirectPath");
+      history.replaceState(null, "", redirectPath);
+    }
+  </script>
   
   <body>
     <div id="root"></div>
