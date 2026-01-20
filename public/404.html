@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <script>
-      // Redirect any unknown path back to index.html
+      const path = location.pathname + location.search + location.hash;
+      sessionStorage.setItem("redirectPath", path);
       location.replace("/");
     </script>
   </head>
