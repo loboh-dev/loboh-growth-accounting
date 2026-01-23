@@ -118,75 +118,101 @@ const LandingPage = () => {
       {/* O Problema - Infográfico Animado */}
       <BottleneckInfographic />
 
-      {/* Seção: O que NÃO funciona */}
+      {/* Seção: Escolha seu caminho - Winners vs Losers Consolidado */}
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                Crescimento previsível não vem de modinha.
+                Você quer <span className="text-primary">resultado</span> ou quer <span className="text-destructive">mais do mesmo</span>?
               </h2>
-              <p className="text-xl text-muted-foreground">
-                Vem de <span className="text-primary font-semibold">gestão comercial otimizada continuamente</span>.
+              <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
+                O mercado está cheio de atalhos e falsas promessas de crescimento rápido. Compare e decida onde investir seu tempo e dinheiro.
               </p>
-              <p className="text-muted-foreground mt-4">O mercado está cheio de atalhos e falsas promessas de crescimento rápido.</p>
             </div>
             
-            <div className="grid sm:grid-cols-2 gap-4 mb-12">
-              {[
-                "Clubinhos de networking caros e genéricos",
-                "Mentorias que não mudam a sua operação",
-                "Promessas de automação total sem processo",
-                "Discursos de IA sem base, sem dados e sem gestão"
-              ].map((item, index) => (
-                <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-destructive/5 border border-destructive/20">
-                  <AlertTriangle className="w-5 h-5 text-destructive flex-shrink-0" />
-                  <p className="text-foreground">{item}</p>
+            <div className="grid lg:grid-cols-2 gap-8">
+              {/* Coluna LOSERS - Modinha */}
+              <div className="relative">
+                <div className="absolute -top-4 left-6 px-4 py-1 bg-destructive text-destructive-foreground text-sm font-bold uppercase tracking-wider rounded-full" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                  Modinha
                 </div>
-              ))}
-            </div>
-            
-            <div className="text-center">
-              <p className="text-lg font-semibold text-muted-foreground">
-                Nada disso sustenta crescimento no médio e longo prazo.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Seção: O que REALMENTE funciona */}
-      <section className="py-24 bg-secondary">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">O que funciona</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                O que nunca saiu de moda nas empresas que mais crescem
-              </h2>
-            </div>
-            
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
-              {[
-                { icon: GitBranch, text: "Go to Market estruturado" },
-                { icon: ClipboardCheck, text: "Processos bem definidos" },
-                { icon: BarChart3, text: "Indicadores confiáveis" },
-                { icon: Target, text: "Execução disciplinada" },
-                { icon: Users, text: "Equipe comercial capacitada" },
-                { icon: TrendingUp, text: "Ciclos contínuos de melhoria" }
-              ].map((item, index) => (
-                <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <item.icon className="w-5 h-5 text-primary" />
+                <div className="bg-destructive/5 border-2 border-destructive/30 rounded-3xl p-8 pt-10 h-full">
+                  <p className="text-destructive font-bold text-lg mb-6 uppercase tracking-wider" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    Caminho "fácil", resultado difícil
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    {[
+                      { title: "Cursinho gravado", desc: "Assiste uma vez, não aplica nada. Zero acompanhamento." },
+                      { title: "Mentoria de palco", desc: "Grupo lotado, templates genéricos, zero personalização." },
+                      { title: "Consultoria de projeto", desc: "Entrega um PDF bonito e desaparece. Você que se vire." },
+                      { title: "Clubinhos de networking", desc: "Caros, genéricos e sem aplicação prática no seu contexto." },
+                      { title: "Promessas de automação mágica", desc: "Sem processo, sem dados, sem gestão real." },
+                    ].map((item, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <div className="w-6 h-6 rounded-full bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <X className="w-4 h-4 text-destructive" />
+                        </div>
+                        <div>
+                          <p className="font-bold text-foreground">{item.title}</p>
+                          <p className="text-muted-foreground text-sm">{item.desc}</p>
+                        </div>
+                      </div>
+                    ))}
                   </div>
-                  <p className="text-foreground font-medium">{item.text}</p>
+                  
+                  <div className="border-t border-destructive/20 pt-6">
+                    <p className="text-destructive font-semibold italic text-center">"Boa sorte com a execução!"</p>
+                    <p className="text-muted-foreground text-sm text-center mt-2">Passageiro. Genérico. Sem resultado sustentável.</p>
+                  </div>
                 </div>
-              ))}
+              </div>
+              
+              {/* Coluna WINNERS - Atemporal */}
+              <div className="relative">
+                <div className="absolute -top-4 left-6 px-4 py-1 bg-primary text-primary-foreground text-sm font-bold uppercase tracking-wider rounded-full" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                  Atemporal
+                </div>
+                <div className="bg-primary/5 border-2 border-primary/30 rounded-3xl p-8 pt-10 h-full">
+                  <p className="text-primary font-bold text-lg mb-6 uppercase tracking-wider" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    Caminho certo, resultado garantido
+                  </p>
+                  
+                  <div className="space-y-4 mb-8">
+                    {[
+                      { title: "Capacitação contínua + monitoramento", desc: "Treinamento aplicado na prática com acompanhamento semanal." },
+                      { title: "Serviços 100% personalizados", desc: "Construído no contexto da sua contabilidade. Nada de template." },
+                      { title: "Gestão Comercial com Loboh Sales Agile", desc: "Melhoria contínua baseada em dados, sprints e ajustes semanais." },
+                      { title: "Go to Market estruturado", desc: "Processos definidos, indicadores confiáveis, execução disciplinada." },
+                      { title: "Equipe comercial capacitada", desc: "Time treinado e engajado com ciclos contínuos de melhoria." },
+                    ].map((item, index) => (
+                      <div key={index} className="flex items-start gap-3">
+                        <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Check className="w-4 h-4 text-primary" />
+                        </div>
+                        <div>
+                          <p className="font-bold text-foreground">{item.title}</p>
+                          <p className="text-muted-foreground text-sm">{item.desc}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                  
+                  <div className="border-t border-primary/20 pt-6">
+                    <p className="text-primary font-semibold italic text-center">"A gente executa junto com você."</p>
+                    <p className="text-muted-foreground text-sm text-center mt-2">Perene. Personalizado. Resultado sustentável.</p>
+                  </div>
+                </div>
+              </div>
             </div>
             
-            <div className="text-center">
-              <p className="text-xl font-bold text-foreground">
-                Sem hacks. Sem atalhos. <span className="text-primary">Sem fórmula pronta.</span>
+            <div className="text-center mt-12">
+              <p className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                A diferença entre <span className="text-destructive">comprar informação</span> e <span className="text-primary">contratar execução</span>.
+              </p>
+              <p className="text-muted-foreground">
+                Crescimento previsível não vem de modinha. Vem de <span className="text-primary font-semibold">gestão comercial otimizada continuamente</span>.
               </p>
             </div>
           </div>
@@ -258,89 +284,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Seção: Comparação Winners vs Losers */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                Você quer <span className="text-primary">resultado</span> ou quer <span className="text-destructive">mais do mesmo</span>?
-              </h2>
-              <p className="text-muted-foreground text-lg">Compare e decida onde investir seu tempo e dinheiro.</p>
-            </div>
-            
-            <div className="grid lg:grid-cols-2 gap-6">
-              {/* Coluna LOSERS */}
-              <div className="space-y-4">
-                <div className="text-center mb-6">
-                  <span className="text-destructive font-bold text-xl uppercase tracking-wider" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                    O que o mercado oferece
-                  </span>
-                </div>
-                
-                {[
-                  { title: "Cursinho gravado", desc: "Assiste uma vez, não aplica nada. Zero acompanhamento." },
-                  { title: "Mentoria de palco", desc: "Grupo lotado, templates genéricos, zero personalização." },
-                  { title: "Consultoria de projeto", desc: "Entrega um PDF bonito e desaparece. Você que se vire." },
-                ].map((item, index) => (
-                  <div key={index} className="bg-destructive/5 border border-destructive/30 rounded-2xl p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-8 h-8 rounded-full bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <X className="w-5 h-5 text-destructive" />
-                      </div>
-                      <div className="flex-1">
-                        <p className="font-bold text-foreground text-lg" style={{ fontFamily: 'Oxanium, sans-serif' }}>{item.title}</p>
-                        <p className="text-muted-foreground mt-1">{item.desc}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-                
-                <div className="text-center pt-4">
-                  <p className="text-destructive font-semibold italic">"Boa sorte com a execução!"</p>
-                </div>
-              </div>
-              
-              {/* Coluna WINNERS */}
-              <div className="space-y-4">
-                <div className="text-center mb-6">
-                  <span className="text-primary font-bold text-xl uppercase tracking-wider" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                    O que a Loboh entrega
-                  </span>
-                </div>
-                
-                {[
-                  { title: "Capacitação contínua + monitoramento", desc: "Treinamento aplicado na prática, com acompanhamento semanal da evolução." },
-                  { title: "Serviços 100% personalizados", desc: "Construído no contexto da sua contabilidade. Nada de template." },
-                  { title: "Gestão Comercial com método ágil", desc: "Melhoria contínua, sprints, ajustes semanais. Artesanal + IA." },
-                ].map((item, index) => (
-                  <div key={index} className="bg-primary/5 border border-primary/30 rounded-2xl p-6">
-                    <div className="flex items-start gap-4">
-                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <Check className="w-5 h-5 text-primary" />
-                      </div>
-                      <div className="flex-1">
-                        <p className="font-bold text-foreground text-lg" style={{ fontFamily: 'Oxanium, sans-serif' }}>{item.title}</p>
-                        <p className="text-muted-foreground mt-1">{item.desc}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-                
-                <div className="text-center pt-4">
-                  <p className="text-primary font-semibold italic">"A gente executa junto com você."</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="text-center mt-12">
-              <p className="text-xl font-bold text-foreground">
-                A diferença entre <span className="text-destructive">comprar informação</span> e <span className="text-primary">contratar execução</span>.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Metodologia Loboh - 5 Pilares Infográfico */}
       <MethodologyInfographic />
