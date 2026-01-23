@@ -245,7 +245,7 @@ const ComparisonSection = () => {
           >
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                Duas diferenças entre <span className="text-muted-foreground">comprar informação</span> e <span className="text-primary">contratar execução</span>
+                As duas diferenças entre <span className="text-muted-foreground">comprar informação</span> e <span className="text-primary">contratar execução</span>
               </h3>
             </div>
 
@@ -267,31 +267,12 @@ const ComparisonSection = () => {
                 </div>
                 
                 <div className="relative z-10 pt-3">
-                  <h4 className="text-xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                  <h4 className="text-xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                     O Resultado
                   </h4>
-                  
-                  <div className="space-y-3">
-                    <div className="flex items-center gap-3 p-3 rounded-lg bg-destructive/5 border border-destructive/20">
-                      <div className="w-7 h-7 rounded-md bg-destructive/20 flex items-center justify-center flex-shrink-0">
-                        <X className="w-4 h-4 text-destructive" />
-                      </div>
-                      <div>
-                        <p className="text-muted-foreground text-xs uppercase tracking-wider">Informação</p>
-                        <p className="text-foreground/70 text-sm">Você sabe mais. Talvez.</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 border border-primary/30">
-                      <div className="w-7 h-7 rounded-md bg-primary/20 flex items-center justify-center flex-shrink-0">
-                        <Check className="w-4 h-4 text-primary" />
-                      </div>
-                      <div>
-                        <p className="text-primary text-xs uppercase tracking-wider">Execução</p>
-                        <p className="text-foreground font-medium text-sm">Você vende mais. Sempre.</p>
-                      </div>
-                    </div>
-                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    O resultado de contratar execução é <span className="text-primary font-semibold">real</span>.
+                  </p>
                 </div>
               </motion.div>
 
@@ -312,31 +293,12 @@ const ComparisonSection = () => {
                 </div>
                 
                 <div className="relative z-10 pt-3">
-                  <h4 className="text-xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                  <h4 className="text-xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                     O Processo
                   </h4>
-                  
-                  <div className="space-y-3">
-                    <div className="flex items-center gap-3 p-3 rounded-lg bg-destructive/5 border border-destructive/20">
-                      <div className="w-7 h-7 rounded-md bg-destructive/20 flex items-center justify-center flex-shrink-0">
-                        <X className="w-4 h-4 text-destructive" />
-                      </div>
-                      <div>
-                        <p className="text-muted-foreground text-xs uppercase tracking-wider">Informação</p>
-                        <p className="text-foreground/70 text-sm">Você consome. E esquece.</p>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/10 border border-accent/30">
-                      <div className="w-7 h-7 rounded-md bg-accent/20 flex items-center justify-center flex-shrink-0">
-                        <Check className="w-4 h-4 text-accent" />
-                      </div>
-                      <div>
-                        <p className="text-accent text-xs uppercase tracking-wider">Execução</p>
-                        <p className="text-foreground font-medium text-sm">Você se compromete. E transforma.</p>
-                      </div>
-                    </div>
-                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Você tem que <span className="text-accent font-semibold">topar construir</span>.
+                  </p>
                 </div>
               </motion.div>
             </div>
