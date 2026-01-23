@@ -131,10 +131,10 @@ const LandingPage = () => {
       <MethodologyInfographic />
 
       {/* O que muda na prática */}
-      <section className="py-24 bg-secondary">
+      <section className="py-12 md:py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-16">
+            <div className="text-center mb-10">
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">Resultados</span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4 mb-6" style={{ fontFamily: 'Oxanium, sans-serif' }}>O que muda na prática</h2>
             </div>
@@ -176,7 +176,7 @@ const LandingPage = () => {
       </section>
 
       {/* Prova Social / Cases */}
-      <section className="py-20 bg-loboh-navy text-primary-foreground">
+      <section className="py-12 md:py-16 bg-loboh-navy text-primary-foreground">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-12">
@@ -227,13 +227,13 @@ const LandingPage = () => {
 
 
       {/* Storytelling - Credibilidade e Multidisciplinaridade */}
-      <section className="py-24 bg-background">
+      <section className="py-12 md:py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             
             {/* Header com filosofia */}
             <motion.div 
-              className="text-center mb-16"
+              className="text-center mb-10"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -252,7 +252,7 @@ const LandingPage = () => {
             </motion.div>
 
             {/* Triangulação Visual */}
-            <div className="grid lg:grid-cols-3 gap-8 mb-16">
+            <div className="grid lg:grid-cols-3 gap-6 mb-10">
               
               {/* Pilar 1 - Scale-ups */}
               <motion.div 
@@ -467,7 +467,7 @@ const LandingPage = () => {
       </section>
 
       {/* CTA Final */}
-      <section id="cta-final" className="py-20 bg-loboh-navy">
+      <section id="cta-final" className="py-12 md:py-16 bg-loboh-navy">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
