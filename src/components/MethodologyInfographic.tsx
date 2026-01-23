@@ -168,7 +168,7 @@ export default function MethodologyInfographic() {
               <p className="text-sm text-muted-foreground">
                 É <span className="font-semibold text-foreground">muita frente aberta</span> para uma liderança cuidar sozinha.
                 <br />
-                <span className="text-primary font-medium">Você precisa de ritmo e execução mão na massa.</span>
+                <span className="text-primary font-medium">Você precisa de ritmo. Nós orquestramos e executamos para você.</span>
               </p>
             </div>
           </motion.div>
@@ -186,7 +186,9 @@ export default function MethodologyInfographic() {
                 Implementação em <span className="text-primary">65 dias</span>
               </h3>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Construímos a base sólida da sua operação comercial. <span className="font-semibold text-foreground">Sem essa estrutura, nada funciona de verdade.</span>
+                Sem playbook não tem processo. Sem processo não tem dados. <span className="font-semibold text-foreground">Sem dados, como automatizar e ganhar escala?</span>
+                <br className="hidden md:block" />
+                <span className="text-primary font-medium">Preparamos seu time de vendas para escala de verdade.</span>
               </p>
             </div>
 
