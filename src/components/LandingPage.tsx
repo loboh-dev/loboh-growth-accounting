@@ -258,6 +258,90 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* Seção: Comparação Winners vs Losers */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-5xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                Você quer <span className="text-primary">resultado</span> ou quer <span className="text-destructive">mais do mesmo</span>?
+              </h2>
+              <p className="text-muted-foreground text-lg">Compare e decida onde investir seu tempo e dinheiro.</p>
+            </div>
+            
+            <div className="grid lg:grid-cols-2 gap-6">
+              {/* Coluna LOSERS */}
+              <div className="space-y-4">
+                <div className="text-center mb-6">
+                  <span className="text-destructive font-bold text-xl uppercase tracking-wider" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    O que o mercado oferece
+                  </span>
+                </div>
+                
+                {[
+                  { title: "Cursinho gravado", desc: "Assiste uma vez, não aplica nada. Zero acompanhamento." },
+                  { title: "Mentoria de palco", desc: "Grupo lotado, templates genéricos, zero personalização." },
+                  { title: "Consultoria de projeto", desc: "Entrega um PDF bonito e desaparece. Você que se vire." },
+                ].map((item, index) => (
+                  <div key={index} className="bg-destructive/5 border border-destructive/30 rounded-2xl p-6">
+                    <div className="flex items-start gap-4">
+                      <div className="w-8 h-8 rounded-full bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <X className="w-5 h-5 text-destructive" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="font-bold text-foreground text-lg" style={{ fontFamily: 'Oxanium, sans-serif' }}>{item.title}</p>
+                        <p className="text-muted-foreground mt-1">{item.desc}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+                
+                <div className="text-center pt-4">
+                  <p className="text-destructive font-semibold italic">"Boa sorte com a execução!"</p>
+                </div>
+              </div>
+              
+              {/* Coluna WINNERS */}
+              <div className="space-y-4">
+                <div className="text-center mb-6">
+                  <span className="text-primary font-bold text-xl uppercase tracking-wider" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    O que a Loboh entrega
+                  </span>
+                </div>
+                
+                {[
+                  { title: "Capacitação contínua + monitoramento", desc: "Treinamento aplicado na prática, com acompanhamento semanal da evolução." },
+                  { title: "Serviços 100% personalizados", desc: "Construído no contexto da sua contabilidade. Nada de template." },
+                  { title: "Gestão Comercial com método ágil", desc: "Melhoria contínua, sprints, ajustes semanais. Artesanal + IA." },
+                ].map((item, index) => (
+                  <div key={index} className="bg-primary/5 border border-primary/30 rounded-2xl p-6">
+                    <div className="flex items-start gap-4">
+                      <div className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                        <Check className="w-5 h-5 text-primary" />
+                      </div>
+                      <div className="flex-1">
+                        <p className="font-bold text-foreground text-lg" style={{ fontFamily: 'Oxanium, sans-serif' }}>{item.title}</p>
+                        <p className="text-muted-foreground mt-1">{item.desc}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+                
+                <div className="text-center pt-4">
+                  <p className="text-primary font-semibold italic">"A gente executa junto com você."</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="text-center mt-12">
+              <p className="text-xl font-bold text-foreground">
+                A diferença entre <span className="text-destructive">comprar informação</span> e <span className="text-primary">contratar execução</span>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Metodologia Loboh - 5 Pilares Infográfico */}
       <MethodologyInfographic />
 
