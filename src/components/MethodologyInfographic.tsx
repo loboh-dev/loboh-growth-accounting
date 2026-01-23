@@ -273,23 +273,21 @@ export default function MethodologyInfographic() {
               <div className="hidden md:block relative">
                 <div className="flex justify-center">
                   {/* Container 600x600, centro em 300,300 */}
-                  {/* Caixas 180x~100px posicionadas sobre círculo de raio 200 */}
-                  {/* Análise: centro-topo (300, 100) → left=210, top=50 */}
-                  {/* Planejamento: direita-centro (500, 300) → left=410, top=250 */}
-                  {/* Execução: centro-baixo (300, 500) → left=210, top=450 */}
-                  {/* Revisão: esquerda-centro (100, 300) → left=10, top=250 */}
+                  {/* Círculo de raio 220px centrado em 300,300 */}
+                  {/* Caixas 180px de largura, ~100px altura, posicionadas sobre o círculo */}
                   <div className="relative w-[600px] h-[600px]">
                     
-                    {/* Círculo de fundo para guia visual - invisível mas ajuda a alinhar */}
+                    {/* Círculo base com setas - como o círculo do Sprint ampliado */}
                     <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 600 600">
                       <defs>
-                        <linearGradient id="circleGradient" gradientUnits="userSpaceOnUse" x1="300" y1="100" x2="300" y2="500">
-                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.8" />
-                          <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="0.8" />
+                        <linearGradient id="circleGradient" gradientUnits="userSpaceOnUse" x1="300" y1="80" x2="300" y2="520">
+                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.7" />
+                          <stop offset="50%" stopColor="hsl(var(--primary))" stopOpacity="0.5" />
+                          <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="0.7" />
                         </linearGradient>
                         
-                        <marker id="arrowHead" markerWidth="12" markerHeight="10" refX="10" refY="5" orient="auto" markerUnits="userSpaceOnUse">
-                          <path d="M 0 0 L 12 5 L 0 10 L 3 5 Z" fill="hsl(var(--primary))" />
+                        <marker id="arrowHead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+                          <path d="M 0 0 L 10 4 L 0 8 L 2 4 Z" fill="hsl(var(--primary))" />
                         </marker>
                         
                         <filter id="arrowGlow" x="-50%" y="-50%" width="200%" height="200%">
@@ -301,12 +299,21 @@ export default function MethodologyInfographic() {
                         </filter>
                       </defs>
                       
+                      {/* Centro: 300, 300 | Raio: 220 */}
+                      {/* Pontos cardinais no círculo: */}
+                      {/* Topo: (300, 80) | Direita: (520, 300) | Baixo: (300, 520) | Esquerda: (80, 300) */}
+                      
+                      {/* Caixas de 180x100 centradas nos pontos cardinais: */}
+                      {/* Análise (topo): centro em (300, 80) → caixa de (210, 30) a (390, 130) */}
+                      {/* Planejamento (direita): centro em (520, 300) → caixa de (430, 250) a (590, 350) - ajustado para (410, 250) a (590, 350) */}
+                      {/* Execução (baixo): centro em (300, 520) → caixa de (210, 470) a (390, 570) */}
+                      {/* Revisão (esquerda): centro em (80, 300) → caixa de (10, 250) a (190, 350) */}
+                      
                       {/* Arco 1: Análise → Planejamento (quadrante superior direito) */}
-                      {/* De baixo-direita da caixa Análise até esquerda-topo da caixa Planejamento */}
-                      {/* Análise: caixa em (210,50) 180x100 → canto inferior direito: (390, 150) */}
-                      {/* Planejamento: caixa em (410,250) 180x100 → borda esquerda centro-topo: (410, 270) */}
+                      {/* Começa na borda inferior direita da caixa Análise e termina na borda esquerda superior da caixa Planejamento */}
+                      {/* Ângulo: ~60° a ~30° (sentido horário no círculo) */}
                       <motion.path 
-                        d="M 385 145 A 200 200 0 0 1 415 265" 
+                        d="M 390 120 A 220 220 0 0 1 420 260" 
                         stroke="url(#circleGradient)" 
                         strokeWidth="3" 
                         fill="none" 
@@ -320,11 +327,9 @@ export default function MethodologyInfographic() {
                       />
                       
                       {/* Arco 2: Planejamento → Execução (quadrante inferior direito) */}
-                      {/* Da borda esquerda-baixo do Planejamento até canto superior-direito da Execução */}
-                      {/* Planejamento: borda esquerda centro-baixo: (410, 330) */}
-                      {/* Execução: caixa em (210,450) → canto superior direito: (390, 455) */}
+                      {/* Começa na borda esquerda inferior da caixa Planejamento e termina na borda superior direita da caixa Execução */}
                       <motion.path 
-                        d="M 415 335 A 200 200 0 0 1 385 455" 
+                        d="M 420 340 A 220 220 0 0 1 390 480" 
                         stroke="url(#circleGradient)" 
                         strokeWidth="3" 
                         fill="none" 
@@ -338,11 +343,9 @@ export default function MethodologyInfographic() {
                       />
                       
                       {/* Arco 3: Execução → Revisão (quadrante inferior esquerdo) */}
-                      {/* Do canto superior-esquerdo da Execução até borda direita-baixo da Revisão */}
-                      {/* Execução: canto superior esquerdo: (215, 455) */}
-                      {/* Revisão: caixa em (10,250) → borda direita centro-baixo: (190, 330) */}
+                      {/* Começa na borda superior esquerda da caixa Execução e termina na borda direita inferior da caixa Revisão */}
                       <motion.path 
-                        d="M 215 455 A 200 200 0 0 1 185 335" 
+                        d="M 210 480 A 220 220 0 0 1 180 340" 
                         stroke="url(#circleGradient)" 
                         strokeWidth="3" 
                         fill="none" 
@@ -356,11 +359,9 @@ export default function MethodologyInfographic() {
                       />
                       
                       {/* Arco 4: Revisão → Análise (quadrante superior esquerdo) */}
-                      {/* Da borda direita-topo da Revisão até canto inferior-esquerdo da Análise */}
-                      {/* Revisão: borda direita centro-topo: (190, 270) */}
-                      {/* Análise: canto inferior esquerdo: (215, 145) */}
+                      {/* Começa na borda direita superior da caixa Revisão e termina na borda inferior esquerda da caixa Análise */}
                       <motion.path 
-                        d="M 185 265 A 200 200 0 0 1 215 145" 
+                        d="M 180 260 A 220 220 0 0 1 210 120" 
                         stroke="url(#circleGradient)" 
                         strokeWidth="3" 
                         fill="none" 
@@ -383,9 +384,10 @@ export default function MethodologyInfographic() {
                     </div>
                     
                     {/* Análise - Topo Centro */}
+                    {/* Caixa centralizada no ponto (300, 80) do círculo: left = 300 - 90 = 210, top = 30 */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '50px', left: '210px' }}
+                      style={{ top: '30px', left: '210px' }}
                       initial={{ opacity: 0, y: -20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
@@ -403,9 +405,10 @@ export default function MethodologyInfographic() {
                     </motion.div>
                     
                     {/* Planejamento - Direita Centro */}
+                    {/* Caixa com borda esquerda tocando o círculo em x=420: left = 420, top = 300 - 50 = 250 */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '250px', left: '410px' }}
+                      style={{ top: '250px', left: '420px' }}
                       initial={{ opacity: 0, x: 20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
@@ -423,9 +426,10 @@ export default function MethodologyInfographic() {
                     </motion.div>
                     
                     {/* Execução - Baixo Centro */}
+                    {/* Caixa centralizada no ponto (300, 520): left = 210, top = 480 */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '450px', left: '210px' }}
+                      style={{ top: '480px', left: '210px' }}
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
@@ -443,9 +447,10 @@ export default function MethodologyInfographic() {
                     </motion.div>
                     
                     {/* Revisão - Esquerda Centro */}
+                    {/* Caixa com borda direita tocando o círculo em x=180: left = 180 - 180 = 0, top = 250 */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '250px', left: '10px' }}
+                      style={{ top: '250px', left: '0px' }}
                       initial={{ opacity: 0, x: -20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
