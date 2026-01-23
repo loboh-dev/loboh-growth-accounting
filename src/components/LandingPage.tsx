@@ -86,7 +86,7 @@ const LandingPage = () => {
               </h1>
               
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-3 animate-fade-up animation-delay-200 leading-relaxed">
-                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe comercial para imprimir um <span className="font-bold">ritmo constante e eficiente</span> de vendas.
+                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe comercial aplicando <span className="font-bold">método validado em scale-ups de sucesso</span> no Brasil.
               </p>
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
                 <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender apenas de indicações ou esforço heroico do dono.
