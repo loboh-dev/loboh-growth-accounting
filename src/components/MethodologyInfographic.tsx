@@ -1,40 +1,35 @@
 import { motion } from "framer-motion";
-import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, ArrowRight, ArrowDown, Check, BookOpen, Settings, Users, Repeat, Search, ClipboardList, Play, RefreshCw } from "lucide-react";
+import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, ArrowDown, Check, BookOpen, Settings, Users, Repeat, Search, ClipboardList, Play, RefreshCw } from "lucide-react";
 
 const pillars = [
   {
     number: 1,
     icon: Crosshair,
     title: "Oferta",
-    shortDesc: "ICP, personas e posicionamento",
     includes: ["ICP", "Personas", "Mercado", "Posicionamento"],
   },
   {
     number: 2,
     icon: BarChart3,
     title: "Gestão",
-    shortDesc: "Metas, KPIs e rituais",
     includes: ["Metas", "KPIs", "Estrutura do time", "Rituais"],
   },
   {
     number: 3,
     icon: Monitor,
     title: "Tecnologia",
-    shortDesc: "Stack, automações e BI",
     includes: ["Automação", "BI", "Stack Comercial", "Integrações"],
   },
   {
     number: 4,
     icon: GraduationCap,
     title: "Capacitação",
-    shortDesc: "Treinamento e processos",
     includes: ["Treinamento", "Processos", "Conhecimento", "PDI"],
   },
   {
     number: 5,
     icon: Heart,
     title: "Cultura",
-    shortDesc: "Engajamento e retenção",
     includes: ["Cultura", "Carreira", "Remuneração", "Incentivos"],
   },
 ];
@@ -70,22 +65,22 @@ const agileCycle = [
   {
     icon: Search,
     title: "Análise",
-    description: "Analisamos os dados e identificamos as causas raízes da performance.",
+    description: "Identificamos causas raízes e oportunidades de maior impacto.",
   },
   {
     icon: ClipboardList,
     title: "Planejamento",
-    description: "Planejamos e priorizamos as ações para aumento de performance.",
+    description: "Priorizamos ações pelo maior resultado com menor esforço.",
   },
   {
     icon: Play,
     title: "Execução",
-    description: "Gerenciamos a execução das ações planejadas no Sprint.",
+    description: "Acompanhamos a execução mão na massa das ações planejadas.",
   },
   {
     icon: RefreshCw,
     title: "Revisão",
-    description: "Revisamos as ações executadas e os resultados alcançados.",
+    description: "Revisamos resultados e ajustamos o próximo ciclo.",
   },
 ];
 
@@ -100,7 +95,7 @@ export default function MethodologyInfographic() {
     <section className="py-24 bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          {/* Header - Tom positivo, sem vermelho */}
+          {/* Header */}
           <motion.div
             className="text-center mb-16"
             initial={{ opacity: 0, y: 20 }}
@@ -119,7 +114,7 @@ export default function MethodologyInfographic() {
             </p>
           </motion.div>
 
-          {/* Loboh assume os 5 pilares */}
+          {/* 5 áreas críticas - todos os itens visíveis */}
           <motion.div
             className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/30 mb-12"
             initial={{ opacity: 0, y: 20 }}
@@ -128,15 +123,12 @@ export default function MethodologyInfographic() {
             transition={{ duration: 0.5, delay: 0.1 }}
           >
             <div className="text-center mb-8">
-              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                <span className="text-primary">Gestão Comercial como Serviço</span>
-              </h3>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Cuidamos de <span className="font-semibold text-foreground">5 áreas críticas</span> que precisam funcionar em sincronia para que sua máquina comercial nunca pare.
+                Cuidamos de <span className="font-semibold text-primary">5 áreas críticas</span> que precisam funcionar em sincronia para que sua máquina comercial nunca pare.
               </p>
             </div>
 
-            {/* Visual dos 5 pilares */}
+            {/* Visual dos 5 pilares com TODOS os itens */}
             <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
               {pillars.map((pillar, index) => (
                 <motion.div
@@ -152,14 +144,14 @@ export default function MethodologyInfographic() {
                     <Check className="w-3 h-3 text-primary-foreground" strokeWidth={3} />
                   </div>
                   
-                  <div className="flex items-center gap-2 mb-2">
+                  <div className="flex items-center gap-2 mb-3">
                     <div className="w-7 h-7 rounded-full flex items-center justify-center bg-primary/10 text-primary">
                       <pillar.icon className="w-4 h-4" strokeWidth={2} />
                     </div>
                     <span className="font-bold text-foreground text-sm">{pillar.title}</span>
                   </div>
                   <div className="flex flex-wrap gap-1">
-                    {pillar.includes.slice(0, 3).map((item, i) => (
+                    {pillar.includes.map((item, i) => (
                       <span
                         key={i}
                         className="inline-block px-2 py-0.5 rounded-full bg-primary/10 text-[10px] text-primary font-medium"
@@ -167,14 +159,17 @@ export default function MethodologyInfographic() {
                         {item}
                       </span>
                     ))}
-                    {pillar.includes.length > 3 && (
-                      <span className="inline-block px-2 py-0.5 rounded-full bg-primary/10 text-[10px] text-primary font-medium">
-                        +{pillar.includes.length - 3}
-                      </span>
-                    )}
                   </div>
                 </motion.div>
               ))}
+            </div>
+            
+            <div className="text-center mt-6">
+              <p className="text-sm text-muted-foreground">
+                É <span className="font-semibold text-foreground">muita frente aberta</span> para uma liderança cuidar sozinha.
+                <br />
+                <span className="text-primary font-medium">Você precisa de ritmo e execução mão na massa.</span>
+              </p>
             </div>
           </motion.div>
 
@@ -233,12 +228,12 @@ export default function MethodologyInfographic() {
             <div className="flex flex-col items-center gap-2">
               <ArrowDown className="w-8 h-8 text-primary animate-bounce" />
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-                A partir daí, ciclos ágeis contínuos
+                Depois, ciclos contínuos de melhoria
               </span>
             </div>
           </motion.div>
 
-          {/* Gestão de Vendas Ágil */}
+          {/* Gestão de Vendas Ágil - Visual de Ciclo */}
           <motion.div
             className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/30"
             initial={{ opacity: 0, y: 20 }}
@@ -251,56 +246,124 @@ export default function MethodologyInfographic() {
                 <span className="text-primary">Gestão de Vendas Ágil</span>
               </h3>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Orquestramos ações em <span className="font-semibold text-foreground">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span>,
+                Rodamos sprints que orquestram ações em <span className="font-semibold text-foreground">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span>,
                 <br className="hidden md:block" />
-                sempre priorizando o que gera <span className="font-semibold text-foreground">maior resultado por esforço</span>.
+                sempre atacando o que gera <span className="font-semibold text-primary">maior resultado por esforço</span>.
               </p>
             </div>
 
-            {/* Ciclo Ágil */}
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-              {agileCycle.map((phase, index) => (
-                <motion.div
-                  key={phase.title}
-                  className="relative p-5 rounded-xl bg-card border border-primary/30 shadow-sm"
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.3, delay: 0.1 + index * 0.1 }}
-                >
-                  {/* Arrow connector on desktop */}
-                  {index < agileCycle.length - 1 && (
-                    <div className="hidden lg:block absolute -right-3 top-1/2 -translate-y-1/2 z-10">
-                      <ArrowRight className="w-6 h-6 text-primary" />
+            {/* Ciclo Visual Circular */}
+            <div className="relative mb-8">
+              {/* Desktop: Ciclo circular */}
+              <div className="hidden md:block relative">
+                <div className="flex justify-center">
+                  <div className="relative w-[400px] h-[400px]">
+                    {/* Círculo de conexão */}
+                    <div className="absolute inset-8 rounded-full border-2 border-dashed border-primary/30" />
+                    
+                    {/* Centro do ciclo */}
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary/10 border-2 border-primary flex items-center justify-center">
+                      <div className="text-center">
+                        <Repeat className="w-6 h-6 text-primary mx-auto mb-1" />
+                        <span className="text-xs font-bold text-primary">SPRINT</span>
+                      </div>
                     </div>
-                  )}
-                  
-                  <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                      <phase.icon className="w-5 h-5 text-primary" />
-                    </div>
-                    <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                      {phase.title}
-                    </h4>
+                    
+                    {/* 4 fases posicionadas em círculo */}
+                    {agileCycle.map((phase, index) => {
+                      const positions = [
+                        { top: '0', left: '50%', transform: 'translateX(-50%)' },
+                        { top: '50%', right: '0', transform: 'translateY(-50%)' },
+                        { bottom: '0', left: '50%', transform: 'translateX(-50%)' },
+                        { top: '50%', left: '0', transform: 'translateY(-50%)' },
+                      ];
+                      const pos = positions[index];
+                      
+                      return (
+                        <motion.div
+                          key={phase.title}
+                          className="absolute w-36 p-4 rounded-xl bg-card border-2 border-primary/50 shadow-lg"
+                          style={pos}
+                          initial={{ opacity: 0, scale: 0.8 }}
+                          whileInView={{ opacity: 1, scale: 1 }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.4, delay: 0.2 + index * 0.15 }}
+                        >
+                          <div className="flex items-center gap-2 mb-2">
+                            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+                              <phase.icon className="w-4 h-4 text-primary-foreground" />
+                            </div>
+                            <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                              {phase.title}
+                            </h4>
+                          </div>
+                          <p className="text-xs text-muted-foreground leading-relaxed">{phase.description}</p>
+                        </motion.div>
+                      );
+                    })}
+                    
+                    {/* Setas de fluxo */}
+                    <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 400 400">
+                      {/* Setas curvas conectando os elementos */}
+                      <defs>
+                        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                          <polygon points="0 0, 10 3.5, 0 7" fill="hsl(var(--primary))" />
+                        </marker>
+                      </defs>
+                      {/* Top -> Right */}
+                      <path d="M 250 80 Q 310 120 320 180" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
+                      {/* Right -> Bottom */}
+                      <path d="M 320 220 Q 310 280 250 320" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
+                      {/* Bottom -> Left */}
+                      <path d="M 150 320 Q 90 280 80 220" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
+                      {/* Left -> Top */}
+                      <path d="M 80 180 Q 90 120 150 80" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
+                    </svg>
                   </div>
-                  <p className="text-sm text-muted-foreground">{phase.description}</p>
-                </motion.div>
-              ))}
-            </div>
-
-            {/* Cycle indicator */}
-            <motion.div
-              className="flex justify-center mb-8"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.5 }}
-            >
-              <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
-                <Repeat className="w-4 h-4 text-primary" />
-                <span className="text-sm font-medium text-primary">Ciclo contínuo de melhoria</span>
+                </div>
               </div>
-            </motion.div>
+              
+              {/* Mobile: Grid com setas */}
+              <div className="md:hidden grid grid-cols-2 gap-3">
+                {agileCycle.map((phase, index) => (
+                  <motion.div
+                    key={phase.title}
+                    className="relative p-4 rounded-xl bg-card border-2 border-primary/50 shadow-md"
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.3, delay: 0.1 + index * 0.1 }}
+                  >
+                    <div className="absolute -top-2 -left-2 w-6 h-6 rounded-full bg-primary flex items-center justify-center text-xs font-bold text-primary-foreground">
+                      {index + 1}
+                    </div>
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
+                        <phase.icon className="w-4 h-4 text-primary" />
+                      </div>
+                      <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        {phase.title}
+                      </h4>
+                    </div>
+                    <p className="text-xs text-muted-foreground">{phase.description}</p>
+                  </motion.div>
+                ))}
+              </div>
+              
+              {/* Mobile cycle indicator */}
+              <motion.div
+                className="md:hidden flex justify-center mt-4"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.5 }}
+              >
+                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
+                  <Repeat className="w-4 h-4 text-primary" />
+                  <span className="text-sm font-medium text-primary">Ciclo contínuo</span>
+                </div>
+              </motion.div>
+            </div>
 
             {/* Resultado Final */}
             <div className="pt-6 border-t border-primary/20">
