@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, ArrowDown, Check, BookOpen, Settings, Users, Repeat, Search, ClipboardList, Play, RefreshCw } from "lucide-react";
+import { Crosshair, BarChart3, Monitor, GraduationCap, Heart, ArrowDown, Check, X, BookOpen, Settings, Users, Repeat, Search, ClipboardList, Play, RefreshCw } from "lucide-react";
 
 const pillars = [
   {
@@ -92,12 +92,12 @@ const finalResults = [
 
 export default function MethodologyInfographic() {
   return (
-    <section className="py-24 bg-background overflow-hidden">
+    <section className="py-16 md:py-20 bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           {/* Header */}
           <motion.div
-            className="text-center mb-16"
+            className="text-center mb-12"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -110,13 +110,136 @@ export default function MethodologyInfographic() {
               Sem atalhos. Sem fórmulas prontas. Sem hacks.
             </h2>
             <p className="text-xl text-primary font-semibold" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-              Execução Disciplinada da Gestão Comercial.
+              Gestão Comercial Profissional.
             </p>
+          </motion.div>
+
+          {/* Visual: Duas Diferenças - Design Artesanal */}
+          <motion.div
+            className="mb-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <div className="text-center mb-8">
+              <h3 className="text-xl md:text-2xl font-bold text-foreground mb-2" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                Duas diferenças entre <span className="text-muted-foreground">comprar informação</span> e <span className="text-primary">contratar execução</span>
+              </h3>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* Diferença 1 - O Resultado */}
+              <motion.div
+                className="relative"
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+              >
+                <div className="relative p-6 md:p-8 rounded-2xl bg-loboh-navy border border-primary/20 overflow-hidden">
+                  {/* Decorative */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
+                  
+                  {/* Number Badge */}
+                  <div className="absolute -top-3 -left-3 w-12 h-12 rounded-xl bg-primary flex items-center justify-center shadow-lg shadow-primary/30 z-20">
+                    <span className="text-xl font-bold text-white" style={{ fontFamily: 'Oxanium, sans-serif' }}>1</span>
+                  </div>
+                  
+                  <div className="relative z-10 pt-4">
+                    <h4 className="text-xl md:text-2xl font-bold text-white mb-5" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                      O Resultado
+                    </h4>
+                    
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3 p-3 rounded-lg bg-white/5 border border-white/10">
+                        <div className="w-8 h-8 rounded-md bg-destructive/20 flex items-center justify-center flex-shrink-0">
+                          <X className="w-4 h-4 text-destructive" />
+                        </div>
+                        <div>
+                          <p className="text-white/50 text-xs uppercase tracking-wider">Informação</p>
+                          <p className="text-white/70 text-sm">Você sabe mais. Talvez.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/15 border border-primary/40">
+                        <div className="w-8 h-8 rounded-md bg-primary/30 flex items-center justify-center flex-shrink-0">
+                          <Check className="w-4 h-4 text-primary" />
+                        </div>
+                        <div>
+                          <p className="text-primary text-xs uppercase tracking-wider">Execução</p>
+                          <p className="text-white font-medium text-sm">Você vende mais. Sempre.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="mt-5 pt-4 border-t border-white/10">
+                      <p className="text-loboh-gray-300 text-xs leading-relaxed italic">
+                        "Conhecimento sem aplicação é entretenimento. Execução sem conhecimento é improviso. Nós entregamos os dois — integrados."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Diferença 2 - O Processo */}
+              <motion.div
+                className="relative"
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.3 }}
+              >
+                <div className="relative p-6 md:p-8 rounded-2xl bg-card border border-border overflow-hidden">
+                  {/* Decorative */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-full blur-3xl" />
+                  
+                  {/* Number Badge */}
+                  <div className="absolute -top-3 -left-3 w-12 h-12 rounded-xl bg-accent flex items-center justify-center shadow-lg shadow-accent/30 z-20">
+                    <span className="text-xl font-bold text-white" style={{ fontFamily: 'Oxanium, sans-serif' }}>2</span>
+                  </div>
+                  
+                  <div className="relative z-10 pt-4">
+                    <h4 className="text-xl md:text-2xl font-bold text-foreground mb-5" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                      O Processo
+                    </h4>
+                    
+                    <div className="space-y-3">
+                      <div className="flex items-center gap-3 p-3 rounded-lg bg-muted/50 border border-border">
+                        <div className="w-8 h-8 rounded-md bg-destructive/10 flex items-center justify-center flex-shrink-0">
+                          <X className="w-4 h-4 text-destructive" />
+                        </div>
+                        <div>
+                          <p className="text-muted-foreground text-xs uppercase tracking-wider">Informação</p>
+                          <p className="text-muted-foreground text-sm">Você consome. E esquece.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/10 border border-accent/40">
+                        <div className="w-8 h-8 rounded-md bg-accent/30 flex items-center justify-center flex-shrink-0">
+                          <Check className="w-4 h-4 text-accent" />
+                        </div>
+                        <div>
+                          <p className="text-accent text-xs uppercase tracking-wider">Execução</p>
+                          <p className="text-foreground font-medium text-sm">Você se compromete. E transforma.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div className="mt-5 pt-4 border-t border-border">
+                      <p className="text-muted-foreground text-xs leading-relaxed italic">
+                        "Execução exige comprometimento. Quem quer atalho, compra curso. Quem quer resultado, contrata gestão."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
           </motion.div>
 
           {/* 5 áreas críticas - todos os itens visíveis */}
           <motion.div
-            className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/30 mb-12"
+            className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/30 mb-10"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -165,9 +288,9 @@ export default function MethodologyInfographic() {
             </div>
           </motion.div>
 
-          {/* Fundo preto forte - CTA de ritmo */}
+          {/* Fundo preto forte - CTA de ritmo - Copy melhorada */}
           <motion.div
-            className="p-6 md:p-8 rounded-2xl bg-foreground mb-12"
+            className="p-6 md:p-8 rounded-2xl bg-foreground mb-10"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -175,10 +298,10 @@ export default function MethodologyInfographic() {
           >
             <div className="text-center">
               <p className="text-sm text-background/70 mb-2">
-                É <span className="font-semibold text-background">muita frente aberta</span> para uma liderança cuidar sozinha.
+                São <span className="font-semibold text-background">múltiplas frentes estratégicas</span> para uma liderança gerir sozinha.
               </p>
               <p className="text-lg md:text-xl font-bold text-background" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                Você precisa de ritmo. <span className="text-primary">Nós orquestramos e executamos para você.</span>
+                Você precisa de ritmo e método. <span className="text-primary">Nós orquestramos e executamos para você.</span>
               </p>
             </div>
           </motion.div>
