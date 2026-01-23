@@ -1,0 +1,3028 @@
+    
+    <!doctype html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Permissions-Policy" content="picture-in-picture=*">
+
+	<script type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/js/pardot.js"></script>
+	<script type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/js/gclid.js"></script>
+
+	<!-- Google Tag Manager -->
+	<script type="868750ae2319464296f478dc-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M3QDMX3');</script>
+<!-- End Google Tag Manager -->
+
+<!-- FAVICON -->
+<link rel="icon" href="https://www.zenvia.com/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://www.zenvia.com/favicon.png" type="image/png">
+<link rel="icon" href="https://www.zenvia.com/favicon.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="https://www.zenvia.com/favicon.png" sizes="180x180">
+
+<script src="https://kit.fontawesome.com/2a7fc67a92.js" crossorigin="anonymous" type="868750ae2319464296f478dc-text/javascript"></script>
+<!-- css comum -->
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/resources/css/menu.css" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/01-bootstrap-minify.min.css" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/02-fonts.css" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/03-colors.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/11-precos-site.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/04-buttons.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/05-guide.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/06-style.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/06-components.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/08-footer.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/09-menu.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/07-header.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/12-produtos.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/23-faq.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/24-cases.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/25-tabs-accordion.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/26-modal-popup.css?time=1769114025" media="All">
+<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/27-preform.css?time=1769114025" media="All">
+
+
+
+
+
+<!-- Start VWO Async SmartCode -->
+<link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
+<script type='text/javascript' data-cfasync="false" id='vwoCode'>
+	window._vwo_code||function(){var e=862761,t=!1,i=window,n=document,o=n.querySelector("#vwoCode"),r="_vwo_"+e+"_settings",s={};try{var a=JSON.parse(localStorage.getItem("_vwo_"+e+"_config"));s=a&&"object"==typeof a?a:{}}catch(e){}var d="session"===s.stT?i.sessionStorage:i.localStorage;code={use_existing_jquery:function(){return"undefined"!=typeof use_existing_jquery?use_existing_jquery:void 0},library_tolerance:function(){return"undefined"!=typeof library_tolerance?library_tolerance:void 0},settings_tolerance:function(){return s.sT||2e3},hide_element_style:function(){return"{"+(s.hES||"opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important")+"}"},hide_element:function(){return performance.getEntriesByName("first-contentful-paint")[0]?"":"string"==typeof s.hE?s.hE:"body"},getVersion:function(){return 2.1},finish:function(i){if(!t){t=!0;var o=n.getElementById("_vis_opt_path_hides");o&&o.parentNode.removeChild(o),i&&((new Image).src="https://dev.visualwebsiteoptimizer.com/ee.gif?a="+e+i)}},finished:function(){return t},addScript:function(e){var t=n.createElement("script");t.type="text/javascript",e.src?t.src=e.src:t.text=e.text,n.getElementsByTagName("head")[0].appendChild(t)},load:function(e,t){var o=this.getSettings(),s=n.createElement("script");if(t=t||{},o)s.textContent=o,n.getElementsByTagName("head")[0].appendChild(s),i.VWO&&!VWO.caE||(d.removeItem(r),this.load(e));else{var a=new XMLHttpRequest;a.open("GET",e,!0),a.withCredentials=!t.dSC,a.responseType=t.responseType||"text",a.onload=function(){if(t.onloadCb)return t.onloadCb(a,e);200===a.status?_vwo_code.addScript({text:a.responseText}):_vwo_code.finish("&e=loading_failure:"+e)},a.onerror=function(){if(t.onerrorCb)return t.onerrorCb(e);_vwo_code.finish("&e=loading_failure:"+e)},a.send()}},getSettings:function(){try{var e=d.getItem(r);if(!e)return;return e=JSON.parse(e),Date.now()>e.e?void d.removeItem(r):e.s}catch(e){return}},init:function(){if(!(n.URL.indexOf("__vwo_disable__")>-1)){var t,s=this.settings_tolerance();if(i._vwo_settings_timer=setTimeout((function(){_vwo_code.finish(),d.removeItem(r)}),s),"body"!==this.hide_element()){t=n.createElement("style");var a=this.hide_element(),c=a?a+this.hide_element_style():"",_=n.getElementsByTagName("head")[0];t.setAttribute("id","_vis_opt_path_hides"),o&&t.setAttribute("nonce",o.nonce),t.setAttribute("type","text/css"),t.styleSheet?t.styleSheet.cssText=c:t.appendChild(n.createTextNode(c)),_.appendChild(t)}else{t=n.getElementsByTagName("head")[0],(c=n.createElement("div")).style.cssText="z-index: 2147483647 !important;position: fixed !important;left: 0 !important;top: 0 !important;width: 100% !important;height: 100% !important;background: white !important;",c.setAttribute("id","_vis_opt_path_hides"),c.classList.add("_vis_hide_layer"),t.parentNode.insertBefore(c,t.nextSibling)}var l="https://dev.visualwebsiteoptimizer.com/j.php?a="+e+"&u="+encodeURIComponent(n.URL)+"&vn=2.1";-1!==i.location.search.indexOf("_vwo_xhr")?this.addScript({src:l}):this.load(l+"&x=true")}}},i._vwo_code=code,code.init()}();
+</script>
+<!-- End VWO Async SmartCode -->
+
+<!-- consulta request_uri -->
+<!-- end consulta request_uri -->
+
+
+
+<link rel="alternate" hreflang="pt" href="https://www.zenvia.com/" />
+<link rel="alternate" hreflang="es" href="https://www.zenvia.com/es-mx/" />
+
+
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	
+	<!-- This site is optimized with the Yoast SEO plugin v26.6 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Zenvia | Automação de atendimento com IA</title>
+	<meta name="description" content="Automação de atendimento inteligente e fluida. Automatize o atendimento com IA, fluxos e integrações em um só lugar." />
+	<link rel="canonical" href="https://www.zenvia.com/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Zenvia | Plataforma de comunicação" />
+	<meta property="og:description" content="Automação de atendimento inteligente e fluida. Automatize o atendimento com IA, fluxos e integrações em um só lugar." />
+	<meta property="og:url" content="https://www.zenvia.com/" />
+	<meta property="og:site_name" content="Zenvia" />
+	<meta property="article:publisher" content="https://www.facebook.com/Zenvia.Inc" />
+	<meta property="article:modified_time" content="2025-11-03T17:21:30+00:00" />
+	<meta property="og:image" content="https://www.zenvia.com/wp-content/uploads/2022/12/zenvia.jpg" />
+	<meta property="og:image:width" content="500" />
+	<meta property="og:image:height" content="285" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@zenvia_" />
+	<meta name="google-site-verification" content="wyRBiKt-Te0DVkFtsPb_Kyhkj5BsMLQVit_zvTjUXnE" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//use.fontawesome.com' />
+<script type="868750ae2319464296f478dc-text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.zenvia.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.zenvia.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{fill:currentColor;height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id='font-awesome-svg-styles-default-inline-css' type='text/css'>
+.svg-inline--fa {
+  display: inline-block;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
+</style>
+<link rel='stylesheet' id='font-awesome-svg-styles-css' href='https://www.zenvia.com/wp-content/uploads/font-awesome/v7.0.0/css/svg-with-js.css' type='text/css' media='all' />
+<style id='font-awesome-svg-styles-inline-css' type='text/css'>
+   .wp-block-font-awesome-icon svg::before,
+   .wp-rich-text-font-awesome-icon svg::before {content: unset;}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--bg-eletric-pink: #EC0886;--wp--preset--color--bg-eletric-pink-200: #FFCBDD;--wp--preset--color--bg-eletric-pink-400: #FC7CAE;--wp--preset--color--bg-magic-purple: #8E09CF;--wp--preset--color--bg-magic-purple-200: #E5D1F8;--wp--preset--color--bg-magic-purple-400: #C392EB;--wp--preset--color--bg-white: #ffffff;--wp--preset--color--bg-black: #000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='dashicons-css' href='https://www.zenvia.com/wp-includes/css/dashicons.min.css?ver=6.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css' href='https://www.zenvia.com/wp-includes/css/admin-bar.min.css?ver=6.8.3' type='text/css' media='all' />
+<style id='admin-bar-inline-css' type='text/css'>
+
+    /* Hide CanvasJS credits for P404 charts specifically */
+    #p404RedirectChart .canvasjs-chart-credit {
+        display: none !important;
+    }
+    
+    #p404RedirectChart canvas {
+        border-radius: 6px;
+    }
+
+    .p404-redirect-adminbar-weekly-title {
+        font-weight: bold;
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 6px;
+    }
+
+    #wpadminbar #wp-admin-bar-p404_free_top_button .ab-icon:before {
+        content: "\f103";
+        color: #dc3545;
+        top: 3px;
+    }
+    
+    #wp-admin-bar-p404_free_top_button .ab-item {
+        min-width: 80px !important;
+        padding: 0px !important;
+    }
+    
+    /* Ensure proper positioning and z-index for P404 dropdown */
+    .p404-redirect-adminbar-dropdown-wrap { 
+        min-width: 0; 
+        padding: 0;
+        position: static !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button_dropdown {
+        position: static !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button_dropdown .ab-item {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .p404-redirect-dropdown-container {
+        min-width: 340px;
+        padding: 18px 18px 12px 18px;
+        background: #23282d !important;
+        color: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+        margin-top: 10px;
+        position: relative !important;
+        z-index: 999999 !important;
+        display: block !important;
+        border: 1px solid #444;
+    }
+    
+    /* Ensure P404 dropdown appears on hover */
+    #wpadminbar #wp-admin-bar-p404_free_top_button .p404-redirect-dropdown-container { 
+        display: none !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button:hover .p404-redirect-dropdown-container { 
+        display: block !important;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button:hover #wp-admin-bar-p404_free_top_button_dropdown .p404-redirect-dropdown-container {
+        display: block !important;
+    }
+    
+    .p404-redirect-card {
+        background: #2c3338;
+        border-radius: 8px;
+        padding: 18px 18px 12px 18px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border: 1px solid #444;
+    }
+    
+    .p404-redirect-btn {
+        display: inline-block;
+        background: #dc3545;
+        color: #fff !important;
+        font-weight: bold;
+        padding: 5px 22px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: background 0.2s, box-shadow 0.2s;
+        margin-top: 8px;
+        box-shadow: 0 2px 8px rgba(220,53,69,0.15);
+        text-align: center;
+        line-height: 1.6;
+    }
+    
+    .p404-redirect-btn:hover {
+        background: #c82333;
+        color: #fff !important;
+        box-shadow: 0 4px 16px rgba(220,53,69,0.25);
+    }
+    
+    /* Prevent conflicts with other admin bar dropdowns */
+    #wpadminbar .ab-top-menu > li:hover > .ab-item,
+    #wpadminbar .ab-top-menu > li.hover > .ab-item {
+        z-index: auto;
+    }
+    
+    #wpadminbar #wp-admin-bar-p404_free_top_button:hover > .ab-item {
+        z-index: 999998 !important;
+    }
+    
+</style>
+<link rel='stylesheet' id='wpml-menu-item-0-css' href='https://www.zenvia.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.min.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='zv--main-style-css' href='https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/style.css?ver=1.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-official-css' href='https://use.fontawesome.com/releases/v7.0.0/css/all.css' type='text/css' media='all' integrity="sha384-tGBVFh2h9Zcme3k9gJLbGqDpD+jRd419j/6N32rharcTZa1X6xgxug6pFMGonjxU" crossorigin="anonymous" />
+<link rel='stylesheet' id='font-awesome-official-v4shim-css' href='https://use.fontawesome.com/releases/v7.0.0/css/v4-shims.css' type='text/css' media='all' integrity="sha384-NNMojup/wze+7MYNfppFkt1PyEfFX0wIGvCNanAQxX/+oI4LFnrP0EzKH7HTqLke" crossorigin="anonymous" />
+<script type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/vendor/qrcode/build/qrcode.min.js?ver=1.4.4" id="lib--qrcode-js"></script>
+<script type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/js/global-components/index.bundle.js?ver=1.1.3" id="zv--global-components-js"></script>
+<link rel="https://api.w.org/" href="https://www.zenvia.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.zenvia.com/wp-json/wp/v2/pages/7" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.zenvia.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.8.3" />
+<link rel='shortlink' href='https://www.zenvia.com/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.zenvia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.zenvia.com%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.zenvia.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.zenvia.com%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.8.5 stt:1,42,2,68,66;" />
+
+
+<!-- This site is optimized with the Schema plugin v1.7.9.6 - https://schema.press -->
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","@id":"https:\/\/www.zenvia.com\/#organization","name":"Zenvia Inc.","url":"https:\/\/www.zenvia.com\/","logo":{"@type":"ImageObject","url":"https:\/\/www.zenvia.com\/wp-content\/uploads\/2021\/04\/logo.png","width":209,"height":50,"caption":"Zenvia","@id":"https:\/\/www.zenvia.com\/#logo"}}</script>
+
+
+
+<!-- This site is optimized with the Schema plugin v1.7.9.6 - https://schema.press -->
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "@id": "https://www.zenvia.com",
+                "name": "Home"
+            }
+        }
+    ]
+}</script>
+
+<link rel="icon" href="https://www.zenvia.com/wp-content/uploads/2021/04/cropped-favicon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.zenvia.com/wp-content/uploads/2021/04/cropped-favicon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.zenvia.com/wp-content/uploads/2021/04/cropped-favicon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.zenvia.com/wp-content/uploads/2021/04/cropped-favicon-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.zcc main {
+    overflow: hidden;
+}
+
+body #blackfriday-promos {
+	display: none !important;
+}
+
+html[lang="es-mx"] footer .title-tools,
+html[lang="es-mx"] footer .title-developers, html[lang="es-ES"] footer .title-tools,
+html[lang="es-ES"] footer .title-developers, html[lang="en-US"] footer .title-tools,
+html[lang="en-US"] footer .title-developers {
+	display:none;
+}
+footer .footer-menu ul li.subtitle > a {
+	font-family: 'nunito_sansextrabold';
+} 
+.bg-ative-modo-zenvia.bg-video-wrap {
+    background-color: black;
+} 
+.menu-termos-de-uso-container {
+	position:relative;
+}  
+.menu-termos-traducao a {
+	color:#b13a98;
+	text-decoration:none;
+} 
+  
+html[lang="es-mx"] li#menu-item-68160,
+html[lang="es-mx"] .footer-menu nav:nth-child(3),
+html[lang="es-ES"] .footer-menu nav:nth-child(3){
+	display:none !important;
+} 
+
+
+/* BLOG - IMAGENS NO ARTIGO */
+#page-blog-post #page-blog-post-content code.language-javascript {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+
+.bg-header.d-block.w-100.py-4.hide-blackfriday { display:none }
+		</style>
+		
+
+<meta property="og:title" content="Zenvia - Zenvia | Solução de IA completa para vender mais e atender melhor" />
+
+<meta property="og:description" content="A Zenvia tem uma solução de IA completa para sua empresa vender mais, atender melhor e otimizar a experiência dos clientes. Conheça!" />
+
+<meta property="og:image" content="https://www.zenvia.com/wp-content/uploads/2025/06/thumb-nova-home-2025-pt.jpg" />
+
+
+<meta name="description" content="A Zenvia tem uma solução de IA completa para sua empresa vender mais, atender melhor e otimizar a experiência dos clientes. Conheça!"/>
+
+<!-- Início do aviso de consentimento de cookies OneTrust para www.zenvia.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="868750ae2319464296f478dc-text/javascript" charset="UTF-8" data-domain-script="ab6142a5-79a7-45e2-82a2-c0f4ec1a69ac"></script>
+<script type="868750ae2319464296f478dc-text/javascript">
+	function OptanonWrapper() {}
+</script>
+<!-- Final do aviso de consentimento de cookies OneTrust para www.zenvia.com -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="868750ae2319464296f478dc-text/javascript"></script>
+
+
+<script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous" type="868750ae2319464296f478dc-text/javascript"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+<script type="868750ae2319464296f478dc-text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script defer type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/js/carousel.js"></script>
+<script defer type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/js/efeito-home.js"></script>
+
+
+
+		
+		
+		
+
+
+					<link rel="preload" href="https://www.zenvia.com/wp-content/uploads/2025/02/zenvia-banner-site-zcc.webp" as="image" media="(min-width: 768px)" fetchpriority="high">
+			<link rel="preload" href="https://www.zenvia.com/wp-content/uploads/2024/12/bg-home-zcc.webp" as="image" media="(max-width: 767px)" fetchpriority="high">
+		
+		
+		
+					<link type="text/css" rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/17-termos.css" media="All">
+		
+		
+
+		<!-- <script src='https://cdn.rawgit.com/josephg/noisejs/master/perlin.js'></script> -->
+		<script defer type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/js/custom.js?time=1769114025" defer></script>
+
+
+					<!-- masterbots v2 - orbita -->
+			<script type="868750ae2319464296f478dc-text/javascript" src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/js/masterbots-v2.js" defer></script>
+			<!-- masterbots v2 - orbita -->
+		
+		
+		<script type="868750ae2319464296f478dc-text/javascript">
+			window.onload = function() {
+			// Remove classe "loading"
+			document.body.classList.remove('loading');
+		};
+	</script>
+
+
+			<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="868750ae2319464296f478dc-text/javascript"></script>
+		<script type="868750ae2319464296f478dc-text/javascript">
+			AOS.init();
+		</script>
+	
+
+
+			<script type='application/ld+json'>
+			{
+				"@context": "http:\/\/schema.org",
+				"@type": "WebSite",
+				"@id": "#website",
+				"url": "https:\/\/www.zenvia.com\/",
+				"name": "Zenvia",
+				"potentialAction": {
+				"@type": "SearchAction",
+				"target": "https:\/\/www.zenvia.com\/?s={search_term_string}",
+				"query-input": "required name=search_term_string"
+			}
+		}
+	</script>
+
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+
+
+
+</head>
+
+
+<body class="home wp-singular page-template-default page page-id-7 wp-theme-zenvia-wp-theme secondary-menu-active  bg-magic-purple-1000 sombra-header-dark">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3QDMX3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+	<style>
+		.teste-ab-latam-block {
+			display: none;
+		}
+	</style>
+
+			<style>
+			.smk-altu-button-chat {
+				display: none !important;
+			}
+			@media (max-width: 1199px) {
+				.smk-altu-button-chat {
+					display: block;
+				}
+				#footer-fixed-bar {
+					position:fixed;
+					bottom:0;
+					left:0;
+					z-index: 9999;
+					font-size:12px;
+				}
+				.footer-fixed-bar-wrapper {
+					max-width:400px;
+					width: 100%;
+				}
+				#whatsapp-zoe-form.whatsapp-zoe-float.ballon {
+					display: none !important;
+				}
+				.cta-cliente,
+				.cta-comprar {
+					white-space: nowrap;
+					cursor: pointer;
+				}
+				.cta-cliente i {
+					display: block;
+					margin-right: 1rem;
+					width: 17px;
+					height: 17px;
+					background-image: url('https://www.zenvia.com/wp-content/uploads/2024/09/icone-atendimento-purple.svg');
+					background-size: contain;
+					background-repeat: no-repeat;
+					filter: invert(1) brightness(100);
+					background-position: center;
+				}
+				.cta-comprar i {
+					display: block;
+					margin-right: 1rem;
+					width: 17px;
+					height: 17px;
+					background-image: url('https://www.zenvia.com/wp-content/uploads/2023/08/icon-whatsapp-white.svg');
+					background-size: contain;
+					background-repeat: no-repeat;
+					background-position: center;
+				}
+				body:not(.page-id-17070) .smk-altu-button-chat {
+					display: none !important;
+				}
+				#onetrust-consent-sdk #ot-sdk-btn-floating.ot-floating-button {
+					z-index: 999 !important;
+				}
+				#btn-maximize.maximize-btn {
+					display: none !important;
+				}
+				.smk-altu-a-content {
+					z-index: 99999 !important;
+					position:relative !important;
+				}
+				.smk-altu-chat-box {
+					z-index: auto !important;
+				}
+				#chat .header-actions #btn-minimize {
+					display: none !important;
+				}
+			}
+		</style>
+
+		<div class="d-flex d-xl-none flex-wrap align-items-center justify-content-center col-12 p-3 bg-black" id="footer-fixed-bar">
+			<div class="footer-fixed-bar-wrapper d-flex flex-wrap align-items-center justify-content-between">
+				<div class="d-flex align-items-center text-white font-exo2-500">Fale conosco:</div>
+				<div class="d-flex align-items-center">
+					<span id="cta-cliente" class="cta-cliente d-inline-flex align-items-center mx-auto bg-magic-purple text-white px-2 py-1 font-exo2-500"><i class="my-1 me-2"></i> Já sou cliente</span>
+				</div>
+				<div class="d-flex align-items-center">
+					<span id="whatsapp-zoe-form" class="cta-comprar d-inline-flex align-items-center mx-auto bg-eletric-pink text-white px-2 py-1 font-exo2-500"><i class="my-1 me-2"></i> Quero comprar</span>
+					<div id="pre-zoe-form">
+						<div class="pre-zoe-content bg-white p-3 position-absolute" style="width:86%;left:7%!important;left:auto;bottom:20px;">
+							<span class="close-btn" aria-label="Close">&times;</span>
+							<span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+							<iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://prime.altubots.com/tag/zenvia/e2f23b0189824b0fa4df90a1/tag.js" type="868750ae2319464296f478dc-text/javascript"></script>
+
+		<script type="868750ae2319464296f478dc-text/javascript">
+			document.querySelector('#cta-cliente').addEventListener('click', function() {
+				document.querySelector('.smk-altu-button-chat').click();
+			});
+		</script>
+	
+
+	
+	<header id="main-header" class="no-blog w-100">
+									<style type="text/css">
+
+					#blackfriday-bar a, #blackfriday-bar p {
+						font-size: 14px !important;
+					}
+					@media (max-width: 600px) {
+						#blackfriday-bar a, #blackfriday-bar p {
+							font-size: 10px !important;
+						}
+						div#banner-home-bg {
+							margin-top: 40px;
+						}
+					}
+				</style>
+				<div id="blackfriday-bar" style=" 
+				width: 100%;
+				background: #238737;
+				color: white; 
+				padding: 10px 0;
+				text-align: center; 
+				">
+				<div class="container-xl position-relative">
+					<p class="mb-0" style="font-size: 14px;">
+						Sua empresa vende mais no <b>WhatsApp com a Zenvia</b>. <a href="https://www.zenvia.com/zenvia-e-whatsapp/" target="_blank" class="text-white" style="text-decoration: underline;"><b>Saiba mais aqui</b></a> e comece a anunciar já!!
+					</p>
+
+					<button type="button" class="d-none d-md-block" id="close-bar" aria-label="Fechar aviso" style="
+					position: absolute;
+					right: 10px;
+					top: 0;
+					background: transparent;
+					border: none;
+					color: white;
+					font-size: 18px;
+					cursor: pointer;
+					line-height: 1;
+					">
+					×
+				</button>
+			</div>
+			<script type="868750ae2319464296f478dc-text/javascript">
+				document.getElementById("close-bar").addEventListener("click", function () {
+					const bar = document.getElementById("blackfriday-bar");
+					bar.style.transition = "opacity 0.3s ease";
+					bar.style.opacity = "0";
+					setTimeout(() => (bar.style.display = "none"), 300);
+				});
+			</script>
+		</div>
+	 
+ 
+<div id="main-top" class="col-12 p-1 p-lg-2">
+	<div class="container-xl d-flex justify-content-between align-items-center position-relative" style="z-index:2;">
+		<div class="logo col-4">
+			<a id="logo-anchor" class="main-header-search" href="https://www.zenvia.com">
+				<img src="https://www.zenvia.com/wp-content/uploads/2025/02/logo_zenvia.svg" width="179" height="43" alt="Zenvia" title="Zenvia">
+			</a>
+		</div>
+		<nav class="d-none d-xl-flex col-8 justify-content-end">
+			<ul id="main-menu-super-topo" class="menu"><li id="menu-item-83575" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83575"><a href="#" data-button-color="none">Institucional</a>
+<ul class="sub-menu">
+	<li id="menu-item-83590" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83590"><a href="https://www.zenvia.com/sobre/" data-button-color="none">Sobre</a></li>
+	<li id="menu-item-209941" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-209941"><a target="_blank" href="https://www.zenvia.com/demonstracao/" data-button-color="none">Biblioteca de Demos</a></li>
+	<li id="menu-item-83751" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83751"><a target="_blank" href="https://investors.zenvia.com/" data-button-color="none">Investidores</a></li>
+	<li id="menu-item-125431" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125431"><a href="https://www.zenvia.com/pod-z/" data-button-color="none">Podcast Zenvia</a></li>
+	<li id="menu-item-83582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-83582"><a target="_blank" href="https://www.zenvia.com/jobs/" data-button-color="none">Carreiras</a></li>
+	<li id="menu-item-139717" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139717"><a href="https://www.zenvia.com/imprensa/" data-button-color="none">Imprensa</a></li>
+</ul>
+</li>
+<li id="menu-item-83583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83583"><a href="https://www.zenvia.com/fale-conosco/" data-button-color="none">Fale conosco</a></li>
+<li id="menu-item-83585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-83585"><a href="#" data-button-color="none">Login</a>
+<ul class="sub-menu">
+	<li id="menu-item-134442" class="external-link link-zv-plataforma menu-item menu-item-type-custom menu-item-object-custom menu-item-134442"><a href="https://app.zenvia.com/" data-button-color="none">Customer Cloud</a></li>
+	<li id="menu-item-83589" class="external-link link-zv-plataforma menu-item menu-item-type-custom menu-item-object-custom menu-item-83589"><a target="_blank" href="https://app.zenvia.com/welcome" data-button-color="none">Plataforma</a></li>
+	<li id="menu-item-83588" class="external-link link-zv-connect menu-item menu-item-type-custom menu-item-object-custom menu-item-83588"><a target="_blank" href="https://www.zenvia360.com.br/system/" data-button-color="none">Zenvia Connect</a></li>
+	<li id="menu-item-83587" class="external-link link-zv-conversion menu-item menu-item-type-custom menu-item-object-custom menu-item-83587"><a target="_blank" href="https://web.zenvia.com/zenvia-conversion/login" data-button-color="none">Zenvia Conversion</a></li>
+	<li id="menu-item-83586" class="external-link link-zv-totalvoice menu-item menu-item-type-custom menu-item-object-custom menu-item-83586"><a target="_blank" href="https://voice-app.zenvia.com/painel/login.php" data-button-color="none">Zenvia Voz</a></li>
+</ul>
+</li>
+<li id="menu-item-wpml-ls-352-pt-br" class="menu-item wpml-ls-slot-352 wpml-ls-item wpml-ls-item-pt-br wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-352-pt-br"><a href="https://www.zenvia.com/" role="menuitem" data-button-color="none"><span class="wpml-ls-display">PT</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-wpml-ls-352-en" class="menu-item wpml-ls-slot-352 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-352-en"><a href="https://www.zenvia.com/en/" title="Mudar para EN" aria-label="Mudar para EN" role="menuitem" data-button-color="none"><span class="wpml-ls-display">EN</span></a></li>
+	<li id="menu-item-wpml-ls-352-es-mx" class="menu-item wpml-ls-slot-352 wpml-ls-item wpml-ls-item-es-mx wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-352-es-mx"><a href="https://www.zenvia.com/es-mx/" title="Mudar para ES" aria-label="Mudar para ES" role="menuitem" data-button-color="none"><span class="wpml-ls-display">ES</span></a></li>
+	<li id="menu-item-wpml-ls-352-es" class="menu-item wpml-ls-slot-352 wpml-ls-item wpml-ls-item-es wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-352-es"><a href="https://www.zenvia.com/es/" title="Mudar para ES" aria-label="Mudar para ES" role="menuitem" data-button-color="none"><span class="wpml-ls-display">ES</span></a></li>
+	<li id="menu-item-wpml-ls-352-arg" class="menu-item wpml-ls-slot-352 wpml-ls-item wpml-ls-item-arg wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-352-arg"><a href="https://www.zenvia.com/arg/" title="Mudar para ES" aria-label="Mudar para ES" role="menuitem" data-button-color="none"><span class="wpml-ls-display">ES</span></a></li>
+</ul>
+</li>
+</ul>		</nav>
+
+		<nav class="menu-mobile d-flex d-xl-none col-4 justify-content-end">
+			<div class="hamburger d-flex justify-content-center align-items-center p-4"><span class="lines"></span></div>
+			<div class="menu-mobile-content">
+				<div class="container" id="menu-topo-mobile">
+					<ul id="main-menu-mobile" class="menu"><li id="menu-item-184455" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-184455"><a href="#" data-button-color="none">Produtos</a>
+<ul class="sub-menu">
+	<li id="menu-item-184465" class="submenu-hide menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-184465"><a href="#" data-button-color="none">menu</a>
+	<ul class="sub-menu">
+		<li id="menu-item-184456" class="zcc zcc-br menu-item menu-item-type-post_type menu-item-object-page menu-item-184456"><a href="https://www.zenvia.com/customer-cloud/" data-button-color="none">Conheça a Customer Cloud</a></li>
+		<li id="menu-item-192458" class="agentes-de-ia agentes-de-ia-br menu-item menu-item-type-post_type menu-item-object-page menu-item-192458"><a href="https://www.zenvia.com/customer-cloud-agentes-de-ia/" data-button-color="none">Agentes de IA</a></li>
+		<li id="menu-item-208030" class="zv-gcc gcc-br menu-item menu-item-type-post_type menu-item-object-page menu-item-208030"><a href="https://www.zenvia.com/integracao-de-dados/" data-button-color="none">Integração de Dados <i class="fa-sharp fa-solid fa-bolt" aria-hidden="true"></i></a></li>
+		<li id="menu-item-198948" class="zv-integracoes integracoes-br menu-item menu-item-type-post_type menu-item-object-page menu-item-198948"><a href="https://www.zenvia.com/integracao-de-dados/conectores-nativos/" data-button-color="none">Conectores Nativos</a></li>
+		<li id="menu-item-211768" class="menu-whatsapp menu-whatsapp-br menu-item menu-item-type-post_type menu-item-object-page menu-item-211768"><a href="https://www.zenvia.com/whatsapp-ab/" data-button-color="none">WhatsApp</a></li>
+		<li id="menu-item-211769" class="canais-zenvia canais-zenvia-br menu-item menu-item-type-post_type menu-item-object-page menu-item-211769"><a href="https://www.zenvia.com/canais/" data-button-color="none">Zenvia APIs &#038; Canais</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-140858" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140858"><a href="#" data-button-color="none">Soluções</a>
+<ul class="sub-menu">
+	<li id="menu-item-140860" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140860"><a data-button-color="none">Por Jornada</a>
+	<ul class="sub-menu">
+		<li id="menu-item-140863" class="zv-atrair zv-atrair-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140863"><a href="https://www.zenvia.com/atrair/" data-button-color="none">Atrair leads</a></li>
+		<li id="menu-item-140864" class="zv-converter zv-converter-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140864"><a href="https://www.zenvia.com/converter/" data-button-color="none">Vender mais</a></li>
+		<li id="menu-item-140865" class="zv-servir zv-servir-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140865"><a href="https://www.zenvia.com/servir/" data-button-color="none">Atender melhor</a></li>
+		<li id="menu-item-140866" class="zv-nutrir zv-nutrir-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140866"><a href="https://www.zenvia.com/nutrir/" data-button-color="none">Engajar clientes</a></li>
+		<li id="menu-item-141003" class="zv-chatbot zv-chatbot-br menu-item menu-item-type-post_type menu-item-object-page menu-item-141003"><a href="https://www.zenvia.com/bots/" data-button-color="none">Automatizar conversas</a></li>
+		<li id="menu-item-211776" class="zv-canais zv-enterprise-br menu-item menu-item-type-post_type menu-item-object-page menu-item-211776"><a href="https://www.zenvia.com/enterprise/" data-button-color="none">Enterprise</a></li>
+	</ul>
+</li>
+	<li id="menu-item-140861" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140861"><a data-button-color="none">Por Segmento</a>
+	<ul class="sub-menu">
+		<li id="menu-item-140867" class="zv-varejo zv-varejo-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140867"><a href="https://www.zenvia.com/segmentos/varejo/" data-button-color="none">Varejo</a></li>
+		<li id="menu-item-188585" class="zv-seguros zv-seguros-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188585"><a href="https://www.zenvia.com/segmentos/seguro/" data-button-color="none">Seguros</a></li>
+		<li id="menu-item-188596" class="zv-financeiro zv-financeiro-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188596"><a href="https://www.zenvia.com/segmentos/financeiro/" data-button-color="none">Serviços Financeiros</a></li>
+		<li id="menu-item-188591" class="zv-educacao zv-educacao-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188591"><a href="https://www.zenvia.com/segmentos/educacao/" data-button-color="none">Educação</a></li>
+		<li id="menu-item-188595" class="zv-saude zv-saude-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188595"><a href="https://www.zenvia.com/segmentos/saude/" data-button-color="none">Saúde</a></li>
+		<li id="menu-item-199906" class="zv-construcao zv-construcao-br menu-item menu-item-type-post_type menu-item-object-page menu-item-199906"><a href="https://www.zenvia.com/segmentos/construcao/" data-button-color="none">Construção</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-87141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87141"><a href="https://www.zenvia.com/precos/" data-button-color="none">Preços</a></li>
+<li id="menu-item-91087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91087"><a href="https://www.zenvia.com/casos-de-sucesso/" data-button-color="none">Clientes</a></li>
+<li id="menu-item-134173" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-134173"><a data-button-color="none">Parceiros</a>
+<ul class="sub-menu">
+	<li id="menu-item-135738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-135738"><a href="https://www.zenvia.com/partners/" data-button-color="none">Parceiros</a>
+	<ul class="sub-menu">
+		<li id="menu-item-135829" class="mb-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-135829"><a href="https://www.zenvia.com/partners/" data-button-color="none">O Programa</a></li>
+	</ul>
+</li>
+	<li id="menu-item-189259" class="menu-franquias menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-189259"><a href="https://www.zenvia.com/partners/franquias/" data-button-color="none">Franquias</a>
+	<ul class="sub-menu">
+		<li id="menu-item-189261" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189261"><a href="https://www.zenvia.com/partners/franquias/#encontre-uma-franquia" data-button-color="none">Encontre uma Franquia</a></li>
+		<li id="menu-item-189260" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189260"><a href="https://www.zenvia.com/partners/franquias/#quero-ser-franqueado" data-button-color="none">Seja um Franqueado</a></li>
+		<li id="menu-item-210206" class="portal-desenvolvedor menu-item menu-item-type-post_type menu-item-object-page menu-item-210206"><a href="https://www.zenvia.com/devs/" data-button-color="none">Portal do Desenvolvedor</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-87144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87144"><a target="_blank" href="https://www.zenvia.com/blog/" data-button-color="none">Blog</a></li>
+</ul>
+					<span id="menu-buttons-mobile" class="text-center d-flex flex-wrap col-12 justify-content-center pt-3">
+						<ul id="main-menu-mobile-ctas" class="menu">
+															<li class="loja-virtual">
+									<a href="https://www.zenvia.com/demonstracao/?evento-ab" target="_blank" class="link-menu-compre-online">Ver Demonstrações</a>
+								</li>
+								<li id="whatsapp-zoe-form" class="button button-pink button-zoe w2 ms-3 py-0 px-3" style="display:inline-flex !important;">
+									<span style="padding:.5rem 1rem .5rem 0;font-size:16px;display:block;line-height:24px">Atendimento para vendas</span>
+								</li>
+								<div id="pre-zoe-form" class="position-relative">
+									<div class="pre-zoe-content bg-white p-3 position-absolute" style="width:300px;right:0!important;left:auto;">
+										<span class="close-btn" aria-label="Close">&times;</span>
+										<span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+										<iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+									</div>
+								</div>
+								<li class="button-purple"><a href="https://zenvia.movidesk.com/kb" target="_blank">Central de Ajuda</a></li>
+								   
+							</ul>
+						</span>
+						<div id="menu-idiomas" class="d-flex justify-content-center align-items-center col-12 pt-4" style="">
+							<a class="language-pt mx-2 current" href="https://www.zenvia.com">
+								<p class="d-flex align-items-center float-left">PT</p>
+							</a>
+							<a class="language-esp mx-2 " href="https://www.zenvia.com/es-mx">
+								<p class="d-flex align-items-center float-left">ES</p>
+							</a>
+							<a class="language-eng mx-2 " href="https://www.zenvia.com/en">
+								<p class="d-flex align-items-center float-left">EN</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div class="container d-none d-xl-flex justify-content-between align-items-center mt-xl-2 position-relative" style="z-index:1">
+			<nav class="col-7 px-0" id="menu-topo">
+				<ul id="main-menu-desktop" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-184455"><a href="#" data-button-color="none">Produtos</a>
+<ul class="sub-menu">
+	<li class="submenu-hide menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-184465"><a href="#" data-button-color="none">menu</a>
+	<ul class="sub-menu">
+		<li class="zcc zcc-br menu-item menu-item-type-post_type menu-item-object-page menu-item-184456"><a href="https://www.zenvia.com/customer-cloud/" data-button-color="none">Conheça a Customer Cloud</a></li>
+		<li class="agentes-de-ia agentes-de-ia-br menu-item menu-item-type-post_type menu-item-object-page menu-item-192458"><a href="https://www.zenvia.com/customer-cloud-agentes-de-ia/" data-button-color="none">Agentes de IA</a></li>
+		<li class="zv-gcc gcc-br menu-item menu-item-type-post_type menu-item-object-page menu-item-208030"><a href="https://www.zenvia.com/integracao-de-dados/" data-button-color="none">Integração de Dados <i class="fa-sharp fa-solid fa-bolt" aria-hidden="true"></i></a></li>
+		<li class="zv-integracoes integracoes-br menu-item menu-item-type-post_type menu-item-object-page menu-item-198948"><a href="https://www.zenvia.com/integracao-de-dados/conectores-nativos/" data-button-color="none">Conectores Nativos</a></li>
+		<li class="menu-whatsapp menu-whatsapp-br menu-item menu-item-type-post_type menu-item-object-page menu-item-211768"><a href="https://www.zenvia.com/whatsapp-ab/" data-button-color="none">WhatsApp</a></li>
+		<li class="canais-zenvia canais-zenvia-br menu-item menu-item-type-post_type menu-item-object-page menu-item-211769"><a href="https://www.zenvia.com/canais/" data-button-color="none">Zenvia APIs &#038; Canais</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140858"><a href="#" data-button-color="none">Soluções</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140860"><a data-button-color="none">Por Jornada</a>
+	<ul class="sub-menu">
+		<li class="zv-atrair zv-atrair-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140863"><a href="https://www.zenvia.com/atrair/" data-button-color="none">Atrair leads</a></li>
+		<li class="zv-converter zv-converter-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140864"><a href="https://www.zenvia.com/converter/" data-button-color="none">Vender mais</a></li>
+		<li class="zv-servir zv-servir-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140865"><a href="https://www.zenvia.com/servir/" data-button-color="none">Atender melhor</a></li>
+		<li class="zv-nutrir zv-nutrir-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140866"><a href="https://www.zenvia.com/nutrir/" data-button-color="none">Engajar clientes</a></li>
+		<li class="zv-chatbot zv-chatbot-br menu-item menu-item-type-post_type menu-item-object-page menu-item-141003"><a href="https://www.zenvia.com/bots/" data-button-color="none">Automatizar conversas</a></li>
+		<li class="zv-canais zv-enterprise-br menu-item menu-item-type-post_type menu-item-object-page menu-item-211776"><a href="https://www.zenvia.com/enterprise/" data-button-color="none">Enterprise</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-140861"><a data-button-color="none">Por Segmento</a>
+	<ul class="sub-menu">
+		<li class="zv-varejo zv-varejo-br menu-item menu-item-type-post_type menu-item-object-page menu-item-140867"><a href="https://www.zenvia.com/segmentos/varejo/" data-button-color="none">Varejo</a></li>
+		<li class="zv-seguros zv-seguros-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188585"><a href="https://www.zenvia.com/segmentos/seguro/" data-button-color="none">Seguros</a></li>
+		<li class="zv-financeiro zv-financeiro-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188596"><a href="https://www.zenvia.com/segmentos/financeiro/" data-button-color="none">Serviços Financeiros</a></li>
+		<li class="zv-educacao zv-educacao-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188591"><a href="https://www.zenvia.com/segmentos/educacao/" data-button-color="none">Educação</a></li>
+		<li class="zv-saude zv-saude-br menu-item menu-item-type-custom menu-item-object-custom menu-item-188595"><a href="https://www.zenvia.com/segmentos/saude/" data-button-color="none">Saúde</a></li>
+		<li class="zv-construcao zv-construcao-br menu-item menu-item-type-post_type menu-item-object-page menu-item-199906"><a href="https://www.zenvia.com/segmentos/construcao/" data-button-color="none">Construção</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87141"><a href="https://www.zenvia.com/precos/" data-button-color="none">Preços</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91087"><a href="https://www.zenvia.com/casos-de-sucesso/" data-button-color="none">Clientes</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-134173"><a data-button-color="none">Parceiros</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-135738"><a href="https://www.zenvia.com/partners/" data-button-color="none">Parceiros</a>
+	<ul class="sub-menu">
+		<li class="mb-0 menu-item menu-item-type-post_type menu-item-object-page menu-item-135829"><a href="https://www.zenvia.com/partners/" data-button-color="none">O Programa</a></li>
+	</ul>
+</li>
+	<li class="menu-franquias menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-189259"><a href="https://www.zenvia.com/partners/franquias/" data-button-color="none">Franquias</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189261"><a href="https://www.zenvia.com/partners/franquias/#encontre-uma-franquia" data-button-color="none">Encontre uma Franquia</a></li>
+		<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-189260"><a href="https://www.zenvia.com/partners/franquias/#quero-ser-franqueado" data-button-color="none">Seja um Franqueado</a></li>
+		<li class="portal-desenvolvedor menu-item menu-item-type-post_type menu-item-object-page menu-item-210206"><a href="https://www.zenvia.com/devs/" data-button-color="none">Portal do Desenvolvedor</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87144"><a target="_blank" href="https://www.zenvia.com/blog/" data-button-color="none">Blog</a></li>
+</ul>			</nav>
+			<nav class="col-5 px-0 justify-content-end d-flex d2">
+
+									<ul id="main-menu-desktop-ctas" class="menu">
+						<li><a href="https://www.zenvia.com/demonstracao/?evento-ab" target="_blank" class="button button-outline-white link-menu-compre-online">Ver Demonstrações</a></li>
+						<li class="button-zoe-header">
+							<a href="https://zenvia.movidesk.com/kb" target="_blank" class="button button-purple ms-3 py-0 px-3 d-none" style="display:inline-flex !important;">Central de Ajuda</a>
+							<div class="d-none">
+								<span id="whatsapp-zoe-form" class="button button-zoe ms-3 py-0 px-3" style="display:inline-flex !important;">Fale com um consultor</span>
+								<div id="pre-zoe-form" class="position-relative">
+									<div class="pre-zoe-content bg-white p-3 position-absolute" style="width:300px;right:0!important;left:auto;">
+										<span class="close-btn" aria-label="Close">&times;</span>
+										<span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+										<iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl?6" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+					   
+
+				</nav>
+			</div>
+			<div class="bg-shadow"></div>
+
+		</div>
+	</div>
+</header>
+
+
+ 
+	<style type="text/css">
+		/* BOTÃO COM EFEITO HOLOGRÁFICO */
+		.cd-button {
+			min-width: 172px;
+			position: relative;
+			padding: 12px 22px;
+			font-size: 16px;
+			color: #ffffff;
+			background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+			border: none; 
+			cursor: pointer;
+			overflow: hidden;
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+			letter-spacing: 1px;
+			margin: 0 auto;
+			text-decoration: none;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+			text-transform: uppercase;
+		}
+
+		/* Hover principal */
+		.cd-button:hover {
+			transform: scale(1.05);
+			box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+			color: #fff;
+		}
+
+		/* TEXTO */
+		.cd-button-text {
+			position: relative;
+			z-index: 10;
+			white-space: nowrap;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+
+/* ------------------------------
+   EFEITO DE DIFRAÇÃO RADIAL
+   -------------------------------- */
+   .cd-effect-radial {
+   	position: absolute;
+   	inset: 0;
+   	opacity: 0.6;
+   	pointer-events: none;
+   	transition: opacity 0.5s ease;
+   	background: radial-gradient(
+   		circle at center,
+   		rgba(255, 255, 255, 0.35) 0%,
+   		transparent 60%
+   		);
+   }
+
+   .cd-button:hover .cd-effect-radial {
+   	opacity: 1;
+   }
+
+/* ------------------------------
+   EFEITO HOLOGRÁFICO ROTATIVO
+   -------------------------------- */
+   .cd-effect-holographic {
+   	position: absolute;
+   	inset: -50%;
+   	opacity: 0.45;
+   	pointer-events: none;
+   	background: conic-gradient(
+   		from 0deg,
+   		#ff00ff 0deg,
+   		#00ffff 60deg,
+   		#ffff00 120deg,
+   		#00ff00 180deg,
+   		#ff0000 240deg,
+   		#ff00ff 300deg,
+   		#00ffff 360deg
+   		);
+   	filter: blur(30px);
+   	animation: cd-spin 3s linear infinite;
+   	transition: opacity 0.5s ease;
+   }
+
+   .cd-button:hover .cd-effect-holographic {
+   	opacity: 0.7;
+   }
+
+/* ------------------------------
+   EFEITO DE REFLEXO (SHINE)
+   -------------------------------- */
+   .cd-effect-shine {
+   	position: absolute;
+   	inset: 0;
+   	pointer-events: none;
+   	background: linear-gradient(
+   		90deg,
+   		transparent 0%,
+   		rgba(255, 255, 255, 0.35) 50%,
+   		transparent 100%
+   		);
+   	transform: translateX(-120%) skewX(-12deg);
+   	opacity: 0;
+   }
+
+   .cd-button:hover .cd-effect-shine {
+   	opacity: 1;
+   	animation: cd-shine 1.5s ease-in-out infinite;
+   }
+
+/* ------------------------------
+   EFEITO DE GLOW NAS BORDAS
+   -------------------------------- */
+   .cd-effect-glow {
+   	position: absolute;
+   	inset: 0; 
+   	pointer-events: none;
+   	opacity: 0;
+   	box-shadow:
+   	inset 0 0 20px rgba(255, 0, 255, 0.6),
+   	inset 0 0 40px rgba(0, 255, 255, 0.4),
+   	0 0 30px rgba(255, 0, 255, 0.4),
+   	0 0 60px rgba(0, 255, 255, 0.3);
+   	transition: opacity 0.5s ease;
+   }
+
+   .cd-button:hover .cd-effect-glow {
+   	opacity: 1;
+   	color: #fff;
+   }
+
+/* ------------------------------
+   ANIMAÇÕES
+   -------------------------------- */
+   @keyframes cd-spin {
+   	0% {
+   		transform: rotate(0deg);
+   	}
+   	100% {
+   		transform: rotate(360deg);
+   	}
+   }
+
+   @keyframes cd-shine {
+   	0% {
+   		transform: translateX(-120%) skewX(-12deg);
+   	}
+   	100% {
+   		transform: translateX(220%) skewX(-12deg);
+   	}
+   }
+
+</style>
+<div data-pagina="Home PT"></div>
+<div id="banner-home-bg">
+	<div id="banner-home">
+		<div class="banner-home-item banner-1" data-contexto="Banner Home - Posição 1 - Padrão"> 
+			<div class="bg-header-slider col-12 d-block">
+				<div class="container h-100 d-flex align-items-center justify-content-center">
+					<div class="row col-12 align-items-center justify-content-center text-center" style="position: relative;">
+						<div class="col-12 col-lg-10 mb-2 mb-lg-0 px-0 mb-lg-5">
+							<span class="text-white mb-0 mb-lg-3 zcc-home-title">
+								<h1 class="h1 font-exo2-600 mb-3">Revolucione a jornada do seu cliente com uma solução de IA completa <i class="sparkle-white sparkle-title"></i></h1>
+								<h2 class="h5 d-block font-exo2-500 zcc-home-legenda">Venda mais e atenda melhor oferecendo experiências mais pessoais, envolventes e fluidas.</h2>
+							</span> 
+							<div class="d-block d-md-flex justify-content-center align-items-center mt-4">
+								<span id="whatsapp-zoe-form" class="evento-site button button-pink">Agende uma demo</span>
+								<div id="pre-zoe-form" style="display: none;">
+									<div class="pre-zoe-content bg-white p-3" style="max-width: 400px;">
+										<span class="close-btn" aria-label="Close">&times;</span>
+										<span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+										<iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+									</div>
+								</div>
+								<a href="https://www.zenvia.com/customer-cloud/" target="_blank" class="evento-site button button-outline-white mt-4 mt-md-0 ms-md-3 d-inline-block d-lg-inline" rel="noopener">Conheça a solução</a> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>                     
+		</div> 
+		<div class="banner-home-item banner-2" data-contexto="Banner Home - Posição 2 - WhatsApp"> 
+			<div class="bg-header-slider col-12 d-block">
+				<div class="container h-100 d-flex align-items-center justify-content-center">
+					<div class="row col-12 align-items-center justify-content-center text-center" style="position: relative;">
+						<div class="col-12 col-lg-10 mb-2 mb-lg-0 px-0 mb-lg-5">
+							<span class="text-white mb-0 mb-lg-3 zcc-home-title">
+								<h1 class="h1 font-exo2-600 mb-3">Utilize o canal WhatsApp para vender mais e atender melhor</h1>
+								<h2 class="h5 d-block font-exo2-500 zcc-home-legenda">Use o WhatsApp como um canal estratégico de atendimento e vendas, com automações inteligentes que integram dados e inteligência artificial. </h2>
+							</span> 
+							<div class="d-block d-md-flex justify-content-center align-items-center mt-4">
+								<span id="whatsapp-zoe-form" class="evento-site button button-pink">Agende uma demo</span>
+								<div id="pre-zoe-form" style="display: none;">
+									<div class="pre-zoe-content bg-white p-3" style="max-width: 400px;">
+										<span class="close-btn" aria-label="Close">&times;</span>
+										<span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+										<iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+									</div>
+								</div>
+								<a href="https://www.zenvia.com/whatsapp/" target="_blank" class="evento-site button button-outline-white mt-4 mt-md-0 ms-md-3 d-inline-block d-lg-inline" rel="noopener">Conheça a solução</a> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>                     
+		</div> 
+		<div class="banner-home-item banner-4 ra1000" data-contexto="Banner Home - Posição 3 - RA1000"> 
+			<div class="bg-header-slider col-12 d-block">
+				<div class="container h-100 d-flex align-items-center justify-content-center">
+					<div class="row col-12 align-items-center justify-content-center text-center mt-md-5" style="position: relative;">
+						<div class="col-12 col-lg-10 mb-2 mb-lg-0 px-0 mb-lg-5 mt-md-5">
+							<span class="text-white mb-0 mb-lg-3 zcc-home-title">
+								<h1 class="h1 font-exo2-600 mb-3">Conquistamos o Selo RA1000!</h1>
+								<h2 class="h5 d-block font-exo2-500 zcc-home-legenda">A ReclameAqui reconhece com este selo as empresas com os maiores indicadores de reputação e excelência em atendimento.</h2>
+								<figure class="d-block d-md-none" style="height: 200px;">
+									<img src="https://www.zenvia.com/wp-content/uploads/2025/09/selo-RA-1000.webp" alt="Novidades Zenvia" title="Novidades Zenvia" width="250" height="" class="img-fluid text-center mx-auto mt-3" style="float: right;">
+								</figure>
+							</span> 
+							<div class="d-block d-md-flex justify-content-center align-items-center mt-4">
+								<a href="https://www.linkedin.com/posts/zenvia-inc_esse-reconhecimento-comprova-nosso-compromisso-activity-7369009233800892417-I2Gm/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABBLFB0BIccVMFJlOniWdinFfgwjJKL3vIo" target="_blank" class="evento-site button button-pink mt-4 mt-md-0" rel="noopener">SAIBA MAIS</a> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>                     
+		</div> 	  
+	</div>
+
+</div>
+
+
+<script type="868750ae2319464296f478dc-text/javascript">
+	jQuery('#banner-home').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: false,
+		arrows: false,
+		autoplay: true,
+		dots: true
+	});                        
+</script>
+
+
+
+
+
+
+
+<!-- NOVA HOME 2025 -->
+
+<!-- SLIDE HOME HEADER PT -->
+ 
+<!-- SLIDE HOME HEADER ES -->
+
+<!-- FIM NOVA HOME 2025 -->
+
+ 
+
+
+
+
+
+
+
+
+<main
+  id="page-default"
+  class="page-blocks-container below-main-header position-relative "> 
+  <!-- Page blocks -->
+  
+<script src="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/js/gcc.js?5" type="868750ae2319464296f478dc-text/javascript"></script> 
+<link rel="stylesheet" href="https://www.zenvia.com/wp-content/themes/zenvia-wp-theme/assets/css/gcc.css?v=4">
+<style>  
+.sombra-header-dark .painted-text {
+  background: linear-gradient(to right, #C2D3F9 0%, #FC7CAE 49.777%, #B272E3 100%); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-out;
+}
+.sombra-header-dark #scrollContainer {
+    background: #380155;
+}
+.sombra-header-dark .button-gradient {
+    border: 1px solid transparent;
+    background: linear-gradient(#380155, #380155) padding-box, /* fundo real */ linear-gradient(90deg, #C2D3F9 0%, #FC7CAE 49.78%, #B272E3 100%) border-box;
+    color: #FFC94A;
+    min-height: 48px;
+}
+.sombra-header-dark #descriptionText {
+    color: #fff;
+}
+.sombra-header-dark .gray-text {
+  color: #55037F; 
+}
+.container-fluid {
+    overflow: hidden;
+}
+.interactive-section {
+  position: relative;
+  height: 400vh; 
+}
+
+.sticky-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: hidden;
+} 
+
+.scroll-controlled-section .main-content {
+  position: relative;
+  z-index: 10;
+  height: 100%;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+}
+
+#interactive-section .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  align-items: center; 
+  width: 100%;
+}
+
+
+.title-section {
+  position: relative;
+  z-index: 10;
+} 
+
+.content-area {
+  position: relative;
+  z-index: 10;
+  width: 1116px;
+  height: 400px;
+  display: flex;
+  align-items: center; 
+}
+
+.content-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+	filter: blur(30px); 
+	background-position: 50% 40%;
+	transition: filter .6s ease, opacity .6s ease, background-position 0.8s ease;
+}
+
+.content-block.active {
+  opacity: 1;
+	background-position: 50% 50%;
+	filter: blur(0);
+}
+
+.block-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+} 
+
+@media (max-width: 1200px) {
+  .title-container,
+  .content-area {
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .block-content {
+    flex-direction: column;
+    gap: 2rem;
+  } 
+} 
+</style>
+
+ 
+
+<script type="868750ae2319464296f478dc-text/javascript">
+  $(document).ready(function(){
+    $('.flip-slider').slick({
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      arrows: false,  
+      dots: true,  
+      autoplay: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2
+          }
+        }
+      ]
+    });
+
+    // Flip no clique para mobile
+    $('.flip-card-inner').on('click', function() {
+      if ($(window).width() < 769) {
+        $(this).toggleClass('flip-active');
+      }
+    });
+
+    // IntersectionObserver para flipar o primeiro card ao aparecer na tela
+    const sliderElement = document.querySelector('.flip-slider');
+    if (sliderElement) {
+      const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Quando aparecer na viewport, flipa o primeiro card
+            const firstCard = sliderElement.querySelector('.flip-card-inner');
+            if (firstCard) {
+              firstCard.classList.add('flip-active');
+            }
+            // Para de observar depois que já flipou
+            observer.unobserve(sliderElement);
+          }
+        });
+      }, {
+        threshold: 0.5 // Executa quando 50% da div estiver visível
+      });
+      
+      observer.observe(sliderElement);
+    }
+  });
+</script>
+
+<style>
+ /* Espaçamento entre os slides */
+ .flip-slider .slick-slide {
+  padding: 0 10px; /* metade da margem desejada */
+  box-sizing: border-box;
+}
+
+/* Garante que os slides não ultrapassem */
+.flip-slider {
+  margin: 0 -10px; /* negativo da margem para compensar nas bordas */
+}
+
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px; 
+  height: auto;
+  min-height: 185px;
+}
+.flip-card-inner {
+  height: 100%;
+}
+
+.flip-card-front, .flip-card-back {
+  height: 100%;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+@media (min-width: 769px) {
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  flex-direction: column;
+}
+
+.flip-card-front {
+  background: url('https://www.zenvia.com/wp-content/uploads/2025/05/bg_cards_canais.webp');
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.flip-card-back {
+  background-color: #55037F;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front.zenvia {
+  background: url('https://www.zenvia.com/wp-content/uploads/2025/04/bg_cards_canais_zenvia.webp') !important;
+}
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-card-inner.flip-active {
+  transform: rotateY(180deg);
+}
+ul.clientes.carousel li { 
+  padding: 0 20px;
+}
+.carousel-overlay { 
+  height: 100px;
+}
+.carousel-overlay::before { 
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(56, 1, 85, 1) 90%)  !important;
+}
+.carousel-overlay::after { 
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(56, 1, 85, 1) 90%) !important;
+}
+main#page-default {
+  padding-bottom: 0 !important;
+}
+.depoimentos-dark .bg-magic-purple-100 {
+  background: url(https://www.zenvia.com/wp-content/uploads/2025/04/bg-color-depoimentos-2.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  padding-top: 80px !important;
+}
+.depoimentos-dark .row.text-center h2 {
+  color: #FFF;
+}
+.depoimentos-dark .slick-slider .slick-arrow {
+  filter: invert(1) !important;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-magic-purple-800.hover:hover {
+    background-color: #F7F1FD;
+    color: #7306A9;
+    transform: scale(1.1);
+  }
+  .bg-magic-purple-800.hover:hover .bg-neutral-light-100 {
+    background-color: #7306A9;
+  }
+  .segmentos.hover:hover {
+    transform: scale(1.1);
+  }
+  .segmentos.hover:hover .bg-eletric-pink-700 {
+   background-color: #E30781;
+ }
+}
+
+
+figure.neon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.neon-circulo {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: 50px;
+  border-radius: 100%;
+  background: rgba(227, 7, 129, 0.2);
+  filter: blur(30px);
+  z-index: 1;
+}
+</style>
+
+
+
+<div data-pagina="Nova Home Dark PT"></div>
+<div class="container-fluid py-4 bg-magic-purple-1000" data-contexto="Clientes"> 
+<div class="container-xxl d-flex flex-wrap pt-3 pt-lg-5 mb-5 pb-2 overflow-hidden position-relative">
+    <div class="col-12 text-center"><h2 class="h2 text-white font-exo2-500 mb-5">Já são mais de <b>10 mil clientes</b> moldando um novo mundo de experiências.</h2></div>
+    <ul class="clientes carousel col-12 d-flex">
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/anima-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/casas-bahia-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/mapfre-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/mercado-livre-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/pet-love-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/santander-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/serasa-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+                <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/anima-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/casas-bahia-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/mapfre-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/mercado-livre-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/pet-love-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/santander-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/serasa-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+                <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/anima-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/casas-bahia-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/mapfre-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/mercado-livre-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/pet-love-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/santander-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+        <li><figure><img decoding="async" class="img-fluid" src="https://www.zenvia.com/wp-content/uploads/2025/06/serasa-logo-white.webp" alt="Cliente Zenvia" title="Cliente Zenvia" loading="lazy"></figure></li>
+    </ul>
+    <div class="carousel-overlay col-12"></div>
+ 
+   </div>
+</div>
+
+
+
+<div class="container-fluid pt-0 py-4 bg-magic-purple-1000 text-white" data-contexto="Experiência unificada"> 
+   <div class="container-xl">
+      <div class="row justify-content-center align-items-center">
+         <div class="col-12 col-lg-6 text-center text-lg-start order-1 order-lg-2 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1500">
+            <h3 class="h3 font-exo2-500 mb-4">A experiência do seu cliente unificada de ponta a ponta com automação de atendimento. <b>Tudo em um só lugar</b>.</h3>
+            <p>Uma solução de IA completa, <b>unificada</b> e <b>multicanal</b> que permite que sua empresa gerencie toda jornada do cliente, <b>da atração ao pós-venda</b>. Tornando a experiência com a sua marca mais <b>pessoal, envolvente e fluida</b> por meio de interações mais rápidas, estratégicas e eficientes.</p> 
+<div class="d-none d-md-flex justify-content-md-center justify-content-lg-start  align-items-center mt-4">
+            <span id="whatsapp-zoe-form" class="evento-site button button-pink">Agende uma demo</span><div id="pre-zoe-form">
+   <div class="pre-zoe-content bg-white p-3" style="max-width: 400px;">
+      <span class="close-btn" aria-label="Close">&times;</span>
+      <span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+      <iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+   </div>
+</div>
+            <a href="/precos/" target="_blank" class="evento-site button button-outline-white ms-3 d-inline" rel="noopener">Ver Planos</a> 
+         </div>
+
+         </div>
+         <div class="col-12 col-lg-6 text-center order-2 order-lg-1 mt-4 mt-lg-0" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1500">
+            <figure>
+               <img decoding="async" alt="A experiência do seu cliente unificada de ponta a ponta. Tudo em um só lugar." title="A experiência do seu cliente unificada de ponta a ponta. Tudo em um só lugar." src="/wp-content/uploads/2025/05/nova-home-dark-1.webp" width="546" height="546" class="img-fluid" loading="lazy">
+            </figure>
+<div class="row d-flex d-md-none text-center mt-4">
+      <div class="col-12 col-md-6">
+         <span id="whatsapp-zoe-form" class="evento-site w-auto button button-pink mb-3">Agende uma demo</span><div id="pre-zoe-form">
+   <div class="pre-zoe-content bg-white p-3" style="max-width: 400px;">
+      <span class="close-btn" aria-label="Close">&times;</span>
+      <span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+      <iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+   </div>
+</div>
+      </div>
+      <div class="col-12 col-md-6">
+         <a href="/precos/" target="_blank" class="evento-site w-auto button button-outline-white" rel="noopener">Ver Planos</a> 
+      </div> 
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+
+
+<div class="container-fluid py-4 bg-magic-purple-1000 text-white" data-contexto="Vídeo Full"> 
+  <div class="container-xl">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-lg-10 text-center">
+        <h2 class="h2 font-exo2-600 mb-5">Dê o play e veja como vender mais e atender melhor com Zenvia Customer Cloud.</h2>
+      </div>
+      <div class="col-12 text-center">
+      <div class="youtube-player evento-site" data-id="3Q7GHRyPqpA" role="button" tabindex="0">  
+<div class="image-container-video">
+         <img decoding="async" src="https://www.zenvia.com/wp-content/uploads/2025/06/thumb-video-scaled.webp" alt="YouTube Thumbnail" title="Zenvia"> 
+         <div class="play-icon"></div>   
+  <button class="evento-site cta-fake-video" style="color:transprent;">Play Video</button>   
+</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+.cta-fake-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+    color: transparent;
+}
+.image-container-video {
+  position: relative;
+  display: inline-block;
+}
+.youtube-player {
+    cursor: pointer;
+    max-width: 735px;
+    margin: 0 auto;
+}
+.image-container-video img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+  width: 60px;
+  height: 60px;  
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  pointer-events: none;
+}
+
+</style>
+<script type="868750ae2319464296f478dc-text/javascript">
+    document.querySelectorAll('.youtube-player').forEach(player => {
+        player.addEventListener('click', function () {
+            const videoId = player.getAttribute('data-id');
+            const iframe = document.createElement('iframe');
+            iframe.setAttribute('src', `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1`);
+            iframe.setAttribute('frameborder', '0');
+            iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+            iframe.setAttribute('allowfullscreen', 'true');
+            iframe.style.width = '100%';
+            iframe.style.height = '415px';
+
+            player.innerHTML = ''; // Remove a miniatura e botão de play
+            player.appendChild(iframe); // Adiciona o iframe com autoplay
+        });
+    });
+</script>
+
+
+
+<div class="scroll-controlled-section">  
+<div class="section-before">
+<div class="container-fluid py-4 bg-magic-purple-1000 text-white" data-contexto="Benefícios ZCC">
+   <div class="container-xl">
+      <div class="row">
+         <div class="col-12 mx-auto text-center mb-5">
+            <h2 class="font-exo2-600 mb-3">Benefícios da Zenvia Customer Cloud para a jornada do seu cliente.</h2>
+            <p class="h5 font-exo2-500">Centralize a operação de vendas e acelere a automação de atendimento em uma única solução.</p>
+         </div>
+      </div>
+      <div class="row justify-content-center">
+         <ul class="row text-center carousel-one-mobile-only-beneficios">
+            <li class="col-12 col-md-6 col-xl-3 mb-0 mb-md-4">
+               <div class="bg-magic-purple-800 hover p-4 h-100">
+                  <span class="icon-71 icon-omnichannel bg-neutral-light-100"></span>
+                  <p class="font-exo2-600 d-block px-1 font-large">Multicanalidade de ponta a ponta</p>
+                  <p class="mb-0">Ofereça uma jornada com automação de atendimento entre os canais de comunicação mais eficientes.</p>
+               </div>
+            </li>
+            <li class="col-12 col-md-6 col-xl-3 mb-0 mb-md-4">
+               <div class="bg-magic-purple-800 hover p-4 h-100">
+                  <span class="icon-71 icon-user-chat bg-neutral-light-100"></span>
+                  <p class="font-exo2-600 d-block px-1 font-large">Experiência rápida com fluidez</p>
+                  <p class="mb-0">Conte com um portfólio completo, eliminando a necessidade de contratação de diversas soluções.</p>
+               </div>
+            </li>
+            <li class="col-12 col-md-6 col-xl-3 mb-0 mb-md-4">
+               <div class="bg-magic-purple-800 hover p-4 h-100">
+                  <span class="icon-71 icon-heart bg-neutral-light-100"></span>
+                  <p class="font-exo2-600 d-block px-1 font-large">Jornada do cliente eficiente</p>
+                  <p class="mb-0">Impressione seu cliente desde o primeiro contato até o pós-venda com recursos completos e fáceis de usar.</p>
+               </div>
+            </li>
+            <li class="col-12 col-md-6 col-xl-3 mb-0 mb-md-4">
+               <div class="bg-magic-purple-800 hover p-4 h-100">
+                  <span class="icon-71 icon-chart-histogram bg-neutral-light-100"></span>
+                  <p class="font-exo2-600 d-block px-1 font-large">Monitoramento e análise de dados</p>
+                  <p class="mb-0">Tome decisões mais rápidas e estratégicas com dashboards inteligentes e insights unificados em um só lugar.</p>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+</div>
+
+
+
+<div class="interactive-section" id="interactive-section">
+  <div class="sticky-container bg-magic-purple-1000 py-5"> 
+    <div class="main-content">
+              <div class="title-section">
+          <div class="">
+            <div class="container-xl d-none d-md-block">
+              <div class="row">
+                <div class="col-12 text-center text-white titulo">
+                  <h2 class="h3 font-exo2-600 mb-2">Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud.</h2>
+                  <p class="h5 font-exo2-500">Da atração de leads e atendimento até a construção de chatbots e geração de insights para fidelizar clientes.</p>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="content-wrapper"> 
+
+
+        <div class="content-area justify-content-md-center text-white mt-4" id="content-area"> 
+          <div class="content-block active" data-block="0">
+            <div class="block-content">
+              <div class="atrair row justify-content-center">
+                <div class="col-12 col-md-6 tela order-2 order-md-1 mt-4 mt-md-0">
+                  <figure class="neon-wrapper">
+                    <img decoding="async" alt="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" title="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/home-atrair-pt.webp" width="" height="" class="img-fluid" loading="lazy">
+                    <div class="neon-circulo"></div>
+                  </figure>
+                </div>
+                <div class="col-12 col-md-6 desc text-center text-md-start order-1 order-md-2">
+                  <p><small>SOLUÇÃO COMPLETA PARA</small></p>
+                  <p class="d-inline h5 font-exo2-600 p-2 text-center text-md-start bg-eletric-pink">ATRAIR CLIENTES</p>
+                  <p class="mt-3 h4 font-exo2-500">Atraia mais leads com campanhas personalizadas e disparos em massa por diversos canais.</p>
+                  <ul class="mt-4 text-start">
+                    <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                      <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                      Disparos de campanhas em massa com fluxos e réguas automatizadas
+                    </li>
+                    <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                      <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                      Segmentação e agrupamento de contatos personalizados para sua base
+                    </li>
+                    <li class="d-flex align-items-center" style="font-size:14px;">
+                      <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                      Análises e relatórios completos sobre a performance das campanhas
+                    </li>
+                  </ul>
+                  <a href="https://www.zenvia.com/atrair/" target="_blank" class="evento-site button button-outline-white mt-4" rel="noopener">Saiba como</a> 
+                </div>
+              </div> 
+            </div>
+          </div>
+
+          <!-- Bloco 2 - Vender Mais -->
+          <div class="content-block" data-block="1">
+            <div class="block-content">
+             <div class="vender row justify-content-center">
+              <div class="col-12 col-md-6 tela order-2 order-md-1 mt-4 mt-md-0">
+                <figure class="neon-wrapper">
+                  <img decoding="async" alt="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" title="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/home-converter-pt.webp" width="" height="" class="img-fluid" loading="lazy">
+                  <div class="neon-circulo"></div>
+                </figure>
+              </div>
+              <div class="col-12 col-md-6 desc text-center text-md-start order-1 order-md-2">
+                <p><small>SOLUÇÃO COMPLETA PARA</small></p>
+                <p class="d-inline h5 font-exo2-600 p-2 text-center text-md-start" style="background: #8E09CF;">VENDER MAIS</p>
+                <p class="mt-3 h4 font-exo2-500">Centralize a operação comercial, reduza tempo de resposta e aumente sua conversão de vendas com automação de atendimento.</p>
+                <ul class="mt-4 text-start">
+                  <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Caixa de atendimento unificada para os canais preferidos dos seus clientes
+                  </li>
+                  <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Triagem com atribuição automatizada para aumentar a produtividade do time
+                  </li>
+                  <li class="d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Integrações nativas com diversas ferramentas para potencializar o atendimento
+                  </li>
+                </ul>
+                <a href="https://www.zenvia.com/converter/" target="_blank" class="evento-site button button-outline-white mt-4" rel="noopener">Saiba como</a> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bloco 3 - Atender Melhor -->
+        <div class="content-block" data-block="2">
+          <div class="block-content">
+            <div class="atender row justify-content-center">
+              <div class="col-12 col-md-6 tela order-2 order-md-1 mt-4 mt-md-0">
+                <figure class="neon-wrapper">
+                  <img decoding="async" alt="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" title="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/home-nutrir-pt.webp" width="" height="" class="img-fluid" loading="lazy">
+                  <div class="neon-circulo"></div>
+                </figure>
+              </div>
+              <div class="col-12 col-md-6 desc text-center text-md-start order-1 order-md-2">
+                <p><small>SOLUÇÃO COMPLETA PARA</small></p>
+                <p class="d-inline h5 font-exo2-600 p-2 text-center text-md-start" style="background: #1515CC;">ATENDER MELHOR</p>
+                <p class="mt-3 h4 font-exo2-500">Centralize seu atendimento pós-venda com automação de atendimento e gestão completa de tickets.</p>
+                <ul class="mt-4 text-start">
+                  <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Painel de atendimento organizado e personalizável para tickets de chat e e-mail
+                  </li>
+                  <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Configuração de gatilhos e notificações para ações automáticas em tickets
+                  </li>
+                  <li class="d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Base de conhecimento completa e personalizada com IA generativa
+                  </li>
+                </ul>
+                <a href="https://www.zenvia.com/servir/" target="_blank" class="evento-site button button-outline-white mt-4" rel="noopener">Saiba como</a> 
+              </div>
+            </div> 
+          </div>
+        </div>
+
+        <!-- Bloco 4 - Engajar Clientes -->
+        <div class="content-block" data-block="3">
+          <div class="block-content">
+            <div class="engajar row justify-content-center">
+              <div class="col-12 col-md-6 tela order-2 order-md-1 mt-4 mt-md-0">
+                <figure class="neon-wrapper">
+                  <img decoding="async" alt="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" title="Unifique, automatize e evolua a experiência do cliente com Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/home-servir-pt.webp" width="" height="" class="img-fluid" loading="lazy">
+                  <div class="neon-circulo"></div>
+                </figure>
+              </div>
+              <div class="col-12 col-md-6 desc text-center text-md-start order-1 order-md-2">
+                <p><small>SOLUÇÃO COMPLETA PARA</small></p>
+                <p class="d-inline h5 font-exo2-600 p-2 text-center text-md-start" style="background: #FFD300;">ENGAJAR CLIENTES</p>
+                <p class="mt-3 h4 font-exo2-500">Utilize dados e agentes de IA para personalizar o atendimento e fidelizar clientes.</p>
+                <ul class="mt-4 text-start">
+                  <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Dados centralizados em CDP para identificar e sugerir ações com a base
+                  </li>
+                  <li class="mb-1 d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Integração nativa com ERPs para conectar dados e automatizar a operação
+                  </li>
+                  <li class="d-flex align-items-center" style="font-size:14px;">
+                    <figure> <img decoding="async" alt="Zenvia Customer Cloud" title="Zenvia Customer Cloud" src="/wp-content/uploads/2025/05/icon-ul-li.svg" width="24" height="24" class="img-fluid" >  </figure>
+                    Chatbots inteligentes criados em minutos com o poder da IA generativa
+                  </li>
+                </ul>
+                <a href="https://www.zenvia.com/nutrir/" target="_blank" class="evento-site button button-outline-white mt-4" rel="noopener">Saiba como</a> 
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div class="section-after">
+   <div class="container-fluid py-4 bg-magic-purple-1000 text-white" data-contexto="Agente de IA"> 
+      <div class="container-xl">
+         <div class="row justify-content-center align-items-center">
+                        <div class="col-12 col-lg-6 text-center mt-4 mt-lg-0" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+               <figure>
+                  <img decoding="async" alt="Transforme a experiência do cliente com os nossos Agentes de IA." title="Transforme a experiência do cliente com os nossos Agentes de IA." src="/wp-content/uploads/2025/05/nova-home-agentes-ia.webp" width="546" height="546" class="img-fluid" loading="lazy">
+               </figure>
+               <div class="row d-flex d-md-none text-center mt-4">
+                  <div class="col-12 col-md-6"> 
+                     <a href="https://www.zenvia.com/customer-cloud-agentes-de-ia/" target="_blank" class="evento-site w-auto button button-pink mb-3" rel="noopener">Saiba mais</a> 
+                  </div>
+                  <div class="col-12 col-md-6">
+                     <span id="whatsapp-zoe-form" class="evento-site w-auto button button-outline-white ">Agende uma demo</span><div id="pre-zoe-form">
+   <div class="pre-zoe-content bg-white p-3" style="max-width: 400px;">
+      <span class="close-btn" aria-label="Close">&times;</span>
+      <span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+      <iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+   </div>
+</div>
+                  </div> 
+               </div>
+            </div>
+            <div class="col-12 col-lg-6 text-center text-lg-start mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+               <h3 class="h3 font-exo2-500 mb-4">Transforme a experiência do cliente com automação de atendimento e <b>Agentes de IA</b> <i class="sparkle sparkle-pink"></i></h3>
+               <p>Com a <b>Zenvia Customer Cloud</b>, sua operação conta com <b>agentes de IA</b> que automatizam tarefas repetitivas, geram insights e mantêm o atendimento eficiente. Assim seu time foca nas decisões estratégicas que realmente importam. Deixe os agentes trabalharem por você!</p> 
+               <div class="d-none d-md-flex  justify-content-md-center justify-content-lg-start align-items-center mt-4"> 
+                  <a href="https://www.zenvia.com/customer-cloud-agentes-de-ia/" target="_blank" class=" me-3 evento-site button button-pink" rel="noopener">Saiba mais</a> 
+                  <span id="whatsapp-zoe-form" class="evento-site button button-outline-white d-inline">Agende uma demo</span><div id="pre-zoe-form">
+   <div class="pre-zoe-content bg-white p-3" style="max-width: 400px;">
+      <span class="close-btn" aria-label="Close">&times;</span>
+      <span class="texto d-block font-nunito-sans-400 text-black text-start mb-2">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+      <iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+   </div>
+</div>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+
+
+
+<!-- Container principal do efeito interativo -->
+<div class="main-container" id="scrollContainer">
+  <div class="sticky-section">
+    <div class="content-wrapper">
+
+      <!-- Imagem Interativa - ZCC Sandwich -->
+      <div class="image-container order-1 order-md-1">
+        <div class="sandwich-container">
+
+          <!-- Frame Base - desce 180px -->
+          <div class="frame frame-base">
+            <div class="image"></div>
+          </div>
+
+          <!-- Frame Infinito - desce 60px -->
+          <div class="frame frame-infinito">
+            <div class="image"></div>
+          </div>
+
+          <!-- Frame Topo - sobe 150px -->
+          <div class="frame frame-topo">
+            <div class="image"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Texto da Direita -->
+      <div class="text-container order-2 order-md-2">
+
+        <!-- Conteúdo Principal -->
+        <div class="content-main">
+
+          <!-- Título com efeito de scroll painting -->
+          <div class="title-container">
+            <p class="main-text font-exo2-300 h2">
+              <span class="title-semibold font-exo2-600">
+                <span id="titleText">Zenvia Customer Cloud: </span>
+              </span>
+              <span class="body-light">
+                <span id="bodyText">solução hiperconectada que integra seus dados com CDP nativo para uma visão 360º dos clientes e personalização da experiência.</span>
+              </span>
+            </p>
+          </div>
+
+          <!-- Texto descritivo -->
+          <div class="description-text" id="descriptionText">
+            <p>
+              <span>Na Zenvia sua empresa conecta dados, canais e inteligência artificial para entregar experiências únicas em todos os pontos de contato.</span>
+              <span class="description-bold" id="descriptionBold"></span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Botões -->
+        <div class="buttons-container">
+          <div id="primaryButton">
+            <a href="https://www.zenvia.com/integracao-de-dados/" target="_blank" class="evento-site w-auto button cta-button">Saiba mais</a> 
+          </div>
+          <div>
+            <a class="button button-gradient w-auto evento-site" href="https://www.zenvia.com/precos/" target="_blank">Ver Planos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="depoimentos-dark"  data-contexto="Depoimentos">
+<div class="container-fluid bg-magic-purple-100 py-5 pb-3 pb-lg-0 my-5 mt-3 mt-md-5">
+   <div class="container-xl">
+      <div class="row text-center">
+		  <div class="col-12">
+         <h2 class="font-exo2-600 mb-5">Com a <span class="d-inline-block p-1 bg-eletric-pink text-white font-exo2-600 mb-0">Zenvia Customer Cloud</span>, histórias reais geram resultados incríveis!</h2>
+      </div>
+		  </div>
+      <div class="row justify-content-center">
+         <ul class="carousel-one-depoimentos slick-dots-line position-relative">
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Casas Bahia" title="Case de Sucesso - Casas Bahia" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-casas-bahia-foto.webp" loading="lazy">
+                     </figure>
+					  <figure class="logo-top d-none">
+                          <img decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-casas-bahia.svg" width="140" height="40" alt="Case de Sucesso - Casas Bahia" title="Case de Sucesso - Casas Bahia"> 
+                      </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-casas-bahia.svg" width="140" height="40" alt="Case de Sucesso - Casas Bahia" title="Case de Sucesso - Casas Bahia"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">27%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento na retenção</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">76%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de taxa de satisfação</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">+2Mi</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de redução nos custos</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“Conseguimos sair de um cenário muito caótico para mudar a experiência do cliente. Quando fazemos uma pesquisa de satisfação com nossos consumidores, percebemos que aqueles que são atendidos pelos canais digitais trazem uma nota 28% maior do que aqueles que são atendidos por ‘humanos’. Foi uma experiência bem legal e que trouxe grande satisfação.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Fabricia Ruiz Braga</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Gerente de Projetos de Atendimento ao Cliente no <b>Grupo Casas Bahia</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/grupo-casas-bahia/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Mercado Livre" title="Case de Sucesso - Mercado Livre" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-ml-foto.webp" loading="lazy">
+                     </figure>
+					  <figure class="logo-top d-none">
+                           <img decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-mercado-livre-2.webp" width="140" height="39" alt="Case de Sucesso - Mercado Livre" title="Case de Sucesso - Mercado Livre"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-mercado-livre-2.webp" width="140" height="39" alt="Case de Sucesso - Mercado Livre" title="Case de Sucesso - Mercado Livre"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">80%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">do tempo de atendimento otimizado</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">100%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">dos chamados abertos pela solução Zenvia</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">90%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">dos chamados atendidos dentro do SLA</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“A Zenvia revolucionou o nosso setor de atendimento, melhorou os processos para os agentes e possibilitou uma visualização mais fácil das demandas para os gestores. Foi um grande marco entre o que era o nosso atendimento e o que é hoje, nos ajudando a oferecer um suporte de excelência para os nossos assessores.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Tania Natali Costa</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Coordenadora de Suporte de Classificados no <b>Mercado Livre</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/mercado-livre/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Petlove" title="Case de Sucesso - Petlove" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-petlove-foto.webp" loading="lazy">
+                     </figure>
+					  <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-petlove.svg" width="140" height="39" alt="Case de Sucesso - Petlove" title="Case de Sucesso - Petlove"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-petlove.svg" width="140" height="39" alt="Case de Sucesso - Petlove" title="Case de Sucesso - Petlove"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">14%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de redução de CAC nos canais digitais</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">220%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento nos atendimentos ativos</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">90%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento nos atendimentos receptivos</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“Sempre tivemos a intenção de atender bem os clientes resolvendo o problema de uma maneira humana e eficiente. Nosso negócio requer um atendimento ágil, pois estamos tratando de algo importante que é a saúde dos pets e em alguns casos precisamos agir muito rápido, a Zenvia nos ajuda a executar essa atividade com muita eficiência.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Murillo Trauer</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Diretor da <b>Petlove</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/petlove/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - MAPFRE" title="Case de Sucesso - MAPFRE" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-mapfre-foto.webp" loading="lazy">
+                     </figure>
+                        <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-mapfre.svg" width="140" height="39" alt="Case de Sucesso - MAPFRE" title="Case de Sucesso - MAPFRE"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-mapfre.svg" width="140" height="39" alt="Case de Sucesso - MAPFRE" title="Case de Sucesso - MAPFRE"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">88%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">dos acessos no bot vindos do WhatsApp</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">28%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de redução no transbordo humano</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">55%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de redução no tempo para abrir um sinistro</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“O atendimento ágil proporcionado pela Zenvia nos canais digitais da MAPFRE representa uma mudança importante na forma como os clientes e segurados experienciam o setor de seguros. A capacidade de acessar informações, efetuar solicitações e acionar assistência de maneira rápida e conveniente, a qualquer hora e em qualquer lugar, transforma a experiência do usuário.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Patrícia Rossi</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Diretora de CSC, Processos e Automação na <b>MAPFRE</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/mapfre/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Serasa Experian" title="Case de Sucesso - Serasa Experian" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-serasa-foto.webp" loading="lazy">
+                     </figure>
+                        <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-serasa.webp" width="140" height="51" alt="Case de Sucesso - Serasa Experian" title="Case de Sucesso - Serasa Experian"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-serasa.webp" width="140" height="51" alt="Case de Sucesso - Serasa Experian" title="Case de Sucesso - Serasa Experian"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">25%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de redução em cancelamentos</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">54%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento na utilização dos produtos </p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">55%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de redução no tempo de abertura de chamado</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“A Zenvia foi a solução escolhida para escalar customer success para toda nossa base de clientes e atuar no momento certo, pois era necessário uma ferramenta, com a tecnologia que suportasse a estratégia de atuação com os clientes.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Daniela Takehissa</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Gerente de Sucesso do Cliente na <b>Serasa Experian</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/serasa-experian/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Ânima Educação" title="Case de Sucesso - Ânima Educação" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-anima-foto.webp" loading="lazy">
+                     </figure>
+                        <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-anima.webp" width="140" height="39" alt="Case de Sucesso - Ânima Educação" title="Case de Sucesso - Ânima Educação"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-anima.webp" width="140" height="39" alt="Case de Sucesso - Ânima Educação" title="Case de Sucesso - Ânima Educação"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">18%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento na conversão via disparos</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-5">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">31%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">redução na taxa de abandono</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">19%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento na conversão orgânica</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“Hoje nós conseguimos entender exatamente o motivo do abandono dos alunos e saber qual parte da operação não agradou. Anteriormente, tínhamos uma taxa maior e sem entender o porquê dessa saída. Hoje, com a Zenvia, isso faz toda a diferença.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Gil Cabrera</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Coordenador de Planejamento e Qualidade na <b>Ânima Educação</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/anima-ead/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Plural Saúde" title="Case de Sucesso - Plural Saúde" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-plural-foto.webp" loading="lazy">
+                     </figure>
+                        <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-plural.webp" width="140" height="39" alt="Case de Sucesso - Plural Saúde" title="Case de Sucesso - Plural Saúde"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-plural.webp" width="140" height="39" alt="Case de Sucesso - Plural Saúde" title="Case de Sucesso - Plural Saúde"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">30%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento na conversão de clientes</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">100%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de ganho na carteira de clientes</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“Antes de adotar a solução da Zenvia, chegamos a perder um cliente por causa do tempo de resposta. A solução Zenvia trouxe automação, facilitando a qualificação de leads, que foi importante para a definição de persona e o agrupamento de informações sobre os clientes, melhorando o fluxo de atendimento e a experiência deles.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Fabio Lapolli</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Head de Marketing na <b>Plural Saúde</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/plural-saude/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Boavista Tecnologia" title="Case de Sucesso - Boavista Tecnologia" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-boavista-foto.webp" loading="lazy">
+                     </figure>
+                        <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-boavista.svg" width="140" height="39" alt="Case de Sucesso - Boavista Tecnologia" title="Case de Sucesso - Boavista Tecnologia"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-boavista.svg" width="140" height="39" alt="Case de Sucesso - Boavista Tecnologia" title="Case de Sucesso - Boavista Tecnologia"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">92%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de índice de satisfação dos clientes</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">20%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de redução no tempo de implementação</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">95%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">dos chamados atendidos dentro do SLA</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“A ferramenta antiga não transformava automaticamente os e-mails recebidos em ticket, por isso, eu precisava de um agente exclusivamente para identificar esses contatos por e-mail e, então, abrir um ticket junto ao suporte. Percebemos logo na primeira semana que a Zenvia organizou e otimizou o nosso fluxo de trabalho e isso foi incrível.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Jocélia Andrade</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Head de Customer Experience na <b>Boavista Tecnologia</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/boavista-tecnologia/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+            <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Crédito Real" title="Case de Sucesso - Crédito Real" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/04/depoimento-creditoreal-foto.webp" loading="lazy">
+                     </figure>
+                        <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-creditoreal.webp" width="140" height="47" alt="Case de Sucesso - Crédito Real" title="Case de Sucesso - Crédito Real"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/04/logo-creditoreal.webp" width="140" height="47" alt="Case de Sucesso - Crédito Real" title="Case de Sucesso - Crédito Real"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">25%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de aumento nos contratos</p>
+                           </div>
+                           <div class="col-4 px-lg-5">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">+139mil</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">mensagens enviadas aos clientes</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“Hoje conseguimos desenhar uma jornada em que o cliente consegue chegar sozinho até a parte de enviar a documentação da locação. O nosso cliente comunica para o bot o que ele está procurando e consegue fazer o agendamento de visita diretamente pelo WhatsApp. Existem ferramentas que são muito robóticas, mas com a Zenvia, temos a vantagem de conectar a parte humana, dando essas duas opções ao cliente.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Priscila Santos</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Gerente de Projetos na <b>Crédito Real</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/credito-real/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+                        <li>
+               <div class="row align-items-center mx-auto text-center text-md-start">
+                  <div class="col-12 col-md-3 col-xl-2 pe-md-0 foto">
+                     <figure class="d-flex justify-content-center justify-content-xl-end">
+                        <img decoding="async" style="box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.20);" alt="Case de Sucesso - Mitre" title="Case de Sucesso - Mitre" width="166" height="166" class="rounded-circle img-fluid" src="/wp-content/uploads/2025/05/depoimento-mitre-foto.webp" loading="lazy">
+                     </figure>
+                        <figure class="logo-top d-none">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/05/logo-mitre.webp" width="140" height="40" alt="Case de Sucesso - Mitre" title="Case de Sucesso - Mitre"> 
+                        </figure>
+                  </div>
+                  <div class="col-12 col-md-9 col-xl-10 p-3 p-md-5 pt-5 bg-white">
+                     <div class="px-md-4 pt-5 pt-md-0">
+                        <figure class="mb-4 logo-middle">
+                           <img loading="lazy" decoding="async" class="img-fluid mx-auto mx-md-0" src="/wp-content/uploads/2025/05/logo-mitre.webp" width="140" height="40" alt="Case de Sucesso - Mitre" title="Case de Sucesso - Mitre"> 
+                        </figure>
+                        <div class="row justify-content-center text-center mb-4">
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">1.200</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">chamados por mês</p>
+                           </div>
+                           <div class="col-4 border-end border-dark px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">98%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">de satisfação de NPS</p>
+                           </div>
+                           <div class="col-4 px-lg-4">
+                              <p class="h1 font-large-mobile font-exo2-600 text-eletric-pink">100%</p>
+                              <p class="font-exo2-600 font-small-mobile" style="color:#333;">pesquisas respondidas</p>
+                           </div>
+                        </div>
+                        <p class="mb-4 font-nunito-sans-300">“A Zenvia nos deu total assistência, configurando e treinando o time para usarmos a solução. Após o ínicio da operação todas as expectativas foram atendidas e usamos a Zenvia como principal solução de atendimento.”</p>
+                        <p class="mb-0" style="font-size:14px;"><b>Aline Pontes</b></p>
+                        <p class="font-small font-nunito-sans-300 mb-4">Gerente de Governança de TI na <b>Mitre Construtora</b></p>
+                        <a class="button button-pink" href="https://www.zenvia.com/casos-de-sucesso/mitre/" target="_blank" rel="noopener">Ler case completo</a> 
+                     </div>
+                  </div>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </div>
+</div>
+<style type="text/css">
+   @media (min-width: 768px) {
+   .foto { 
+   margin-right: -50px;
+   z-index: 1;
+   }
+   }
+   @media (max-width: 767px) {
+   .foto {
+   margin-bottom: -70px;
+   z-index: 1;
+   }
+   .font-small-mobile {
+   font-size:12px;
+   line-height: normal;
+   }
+   .font-large-mobile {
+   font-size: 20px;
+   }
+   }
+</style>
+</div>
+
+
+
+<div class="container-fluid py-4 p-md-5 bg-magic-purple-1000 text-white d-none d-md-block"  data-contexto="Canais"> 
+  <div class="container-xl">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-md-4 mb-4">
+        <h2 class="font-exo2-600 mb-3">Múltiplos canais, para uma experiência única.</h2>
+        <p class="">Conecte-se ao seu cliente, onde ele estiver. Crie jornadas unificadas e inteligentes que integram todos os pontos de contato.</p>
+      </div> 
+      <div class="col-12 col-md-8 p-0">
+        <div class="row canais">
+
+          <!-- Coluna 1 (2 linhas) -->
+          <div class="col-6 col-lg-3 d-flex flex-column justify-content-center">
+            <div class="mb-4 w-100 flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front"><span class="d-block icon-71 icon-rcs bg-neutral-light-100"></span></div>
+                <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+                ">90%</span>dos celulares brasileiros são <b>Androids</b>, com <b>59 milhões de usuários</b> mensais no <b>RCS</b>. Implemente agora na sua operação!</small></div>
+              </div>
+            </div>
+            <div class="mb-4 w-100 flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">  
+                  <figure>
+                <img decoding="async" src="/wp-content/uploads/2025/05/sparkles-canais.svg" class="img-fluid" />
+              </figure>
+              </div>
+              <div class="flip-card-back text-center"><small><span style="display: block;font-size: 24px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+              ">Solução de IA completa</span></small></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna 2 (3 linhas) -->
+        <div class="col-6 col-lg-3 d-flex flex-column align-items-center">
+          <div class="mb-4 w-100 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"><span class="mb-2 icon-71 icon-whatsapp bg-neutral-light-100"></span><h5 class="font-exo2-600" style="font-size:14px !important;">WhatsApp</h5></div>
+              <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+              ">2,95bi</span>de pessoas ao redor do mundo utilizam o aplicativo <b>WhatsApp</b> para conversas. Esteja presente nele!</small></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"><span class="mb-2 icon-71 icon-instagram bg-neutral-light-100"></span><h5 class="font-exo2-600" style="font-size:14px !important;">Instagram</h5></div>
+              <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+              ">81%</span>das pessoas <b>buscam por produtos e serviços no Instagram</b>. Conecte-se com o seu público!</small></div>
+            </div>
+          </div>
+          <div class="mb-4 w-100 flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front"><span class="mb-2 icon-71 icon-facebook bg-neutral-light-100"></span><h5 class="font-exo2-600" style="font-size:14px !important;">Facebook Messenger</h5></div>
+              <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+              ">20bi</span><b>de mensagens</b> são trocadas todos os meses no <b>Messenger</b>. Engaje seus leads e clientes por lá!</small></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna 3 (2 linhas) -->
+        <div class="col-6 col-lg-3 d-flex flex-column align-items-center justify-content-center">
+          <div class="mb-4 w-100 flip-card">
+            <div class="flip-card-inner">
+             <div class="flip-card-front"><span class="mb-2 icon-71 icon-user-chat bg-neutral-light-100"></span><h5 class="font-exo2-600" style="font-size:14px !important;">Personalização</h5></div> 
+             <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+             ">71%</span>dos consumidores esperam interações personalizadas e <b>76% se decepcionam</b> quando elas não acontecem.</small></div>
+           </div>
+         </div>
+         <div class="mb-4 w-100 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><span class="d-block icon-71 icon-sms bg-neutral-light-100"></span></div>
+            <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+            ">90%</span>das mensagens enviadas por <b>SMS</b> são <b>lidas em até 3 minutos</b>. Escolha o canal com <b>98% de taxa de leitura</b> e engaje em tempo real!</small></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Coluna 4 (3 linhas) -->
+      <div class="col-6 col-lg-3 d-flex flex-column align-items-center">
+        <div class="mb-4 w-100 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front"><span class="mb-2 icon-71 icon-email-message bg-neutral-light-100"></span><h5 class="font-exo2-600" style="font-size:14px !important;">E-mail</h5></div>
+            <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+            ">91%</span><b>dos consumidores</b> ainda preferem o <b>e-mail</b> para interações com marcas. Fortaleça sua comunicação!</small></div>
+          </div>
+        </div>
+        <div class="mb-4 w-100 flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front zenvia">
+              <figure>
+                <img decoding="async" src="/wp-content/uploads/2025/05/zenvia-canal.svg" class="img-fluid" />
+              </figure>
+            </div>
+            <div class="flip-card-back text-center"><small><span style="display: block;font-size: 14px;    margin-bottom: 10px;font-style: normal;font-weight: 400;font-family: 'Exo2-regular' !important;
+            ">Multicanalidade de verdade só com a</span>
+            <figure class="text-center mx-auto">
+                <img decoding="async" src="/wp-content/uploads/2025/05/zenvia-canal-escrita.svg" class="text-center mx-auto img-fluid" />
+              </figure>
+          </small></div>
+        </div>
+      </div>
+      <div class="mb-4 w-100 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front"><span class="mb-2 icon-71 icon-conversations bg-neutral-light-100"></span><h5 class="font-exo2-600" style="font-size:14px !important;">Webchat</h5></div>
+          <div class="flip-card-back"><small><span style="display: block;font-size: 36px;font-style: normal;font-weight: 600;font-family: 'Exo2-regular' !important;
+          ">40%</span>dos <b>visitantes buscam comunicação em tempo real</b>. Implemente o <b>webchat</b> em seu site hoje mesmo!</small></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</div> 
+</div>
+</div>
+
+
+
+<div class="container-fluid pt-5 py-4 py-md-5 bg-magic-purple-1000 text-white d-block d-md-none" data-contexto="Canais">
+  <div class="container-xl">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-md-4 mb-4 text-center">
+        <h2 class="font-exo2-600 mb-3">Múltiplos canais, para uma experiência única.</h2>
+        <p>Conecte-se ao seu cliente, onde ele estiver. Crie jornadas unificadas e inteligentes que integram todos os pontos de contato.</p>
+      </div>
+    </div>
+
+ 
+<div class="row flip-slider">
+    <!-- Primeira linha de cards -->
+    <div class="row">
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner automatico" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="d-block icon-71 icon-rcs bg-neutral-light-100"></span>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">90%</span>
+              dos celulares brasileiros são <b>Androids</b>, com <b>59 milhões de usuários</b> mensais no <b>RCS</b>. Implemente agora na sua operação!
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <figure>
+              <img decoding="async" src="/wp-content/uploads/2025/05/sparkles-canais.svg" class="img-fluid" alt="Ilustração canais" />
+            </figure>
+          </div>
+          <div class="flip-card-back text-center">
+            <small>
+              <span style="display: block; font-size: 24px; font-weight: 600; font-family: 'Exo2-regular' !important;">Solução de IA completa</span>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segunda linha -->
+    <div class="row">
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="mb-2 icon-71 icon-whatsapp bg-neutral-light-100"></span>
+            <h5 class="font-exo2-600 text-center" style="font-size: 14px !important;">WhatsApp</h5>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">2,95bi</span>
+              de pessoas ao redor do mundo utilizam o aplicativo <b>WhatsApp</b> para conversas. Esteja presente nele!
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="mb-2 icon-71 icon-instagram bg-neutral-light-100"></span>
+            <h5 class="font-exo2-600 text-center" style="font-size: 14px !important;">Instagram</h5>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">81%</span>
+              das pessoas <b>buscam por produtos e serviços no Instagram</b>. Conecte-se com o seu público!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Terceira linha -->
+    <div class="row">
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="mb-2 icon-71 icon-facebook bg-neutral-light-100"></span>
+            <h5 class="font-exo2-600 text-center" style="font-size: 14px !important;">Facebook Messenger</h5>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">20bi</span>
+              <b>de mensagens</b> são trocadas todos os meses no <b>Messenger</b>. Engaje seus leads e clientes por lá!
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="mb-2 icon-71 icon-user-chat bg-neutral-light-100"></span>
+            <h5 class="font-exo2-600 text-center" style="font-size: 14px !important;">Personalização</h5>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">71%</span>
+              dos consumidores esperam interações personalizadas e <b>76% se decepcionam</b> quando elas não acontecem.
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quarta linha -->
+    <div class="row">
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="d-block icon-71 icon-sms bg-neutral-light-100"></span>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">90%</span>
+              das mensagens enviadas por <b>SMS</b> são <b>lidas em até 3 minutos</b>. Escolha o canal com <b>98% de taxa de leitura</b> e engaje em tempo real!
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="mb-2 icon-71 icon-email-message bg-neutral-light-100"></span>
+            <h5 class="font-exo2-600 text-center" style="font-size: 14px !important;">E-mail</h5>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">91%</span>
+              <b>dos consumidores</b> ainda preferem o <b>e-mail</b> para interações com marcas. Fortaleça sua comunicação!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quinta linha -->
+    <div class="row">
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front zenvia">
+            <figure>
+              <img decoding="async" src="/wp-content/uploads/2025/05/zenvia-canal.svg" class="img-fluid" alt="Zenvia canal" />
+            </figure>
+          </div>
+          <div class="flip-card-back text-center">
+            <small>
+              <span style="display: block; font-size: 14px; margin-bottom: 10px; font-weight: 400; font-family: 'Exo2-regular' !important;">
+                Multicanalidade de verdade só com a
+              </span>
+              <figure class="text-center mx-auto">
+                <img decoding="async" src="/wp-content/uploads/2025/05/zenvia-canal-escrita.svg" class="img-fluid text-center mx-auto" alt="Zenvia canal escrita" />
+              </figure>
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-4 flip-card">
+        <div class="flip-card-inner" style="min-height: 195px;">
+          <div class="flip-card-front">
+            <span class="mb-2 icon-71 icon-conversations bg-neutral-light-100"></span>
+            <h5 class="font-exo2-600 text-center" style="font-size: 14px !important;">Webchat</h5>
+          </div>
+          <div class="flip-card-back">
+            <small>
+              <span style="display: block; font-size: 36px; font-weight: 600; font-family: 'Exo2-regular' !important;">40%</span>
+              dos <b>visitantes buscam comunicação em tempo real</b>. Implemente o <b>webchat</b> em seu site hoje mesmo!
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+</div>
+
+
+
+<div class="container-fluid py-4 bg-magic-purple-1000 text-white segmentos-home"> 
+  <div class="container-xl pt-2" data-contexto="Segmentos">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-12 col-md-10 text-center">
+        <h2 class="h2 font-exo2-600 text-white mb-5">
+          Descubra como nossa solução transforma e impulsiona a experiência de empresas dos mais variados segmentos
+        </h2>
+      </div> 
+    </div>
+
+    <div class="row justify-content-center carousel-one-mobile-only-beneficios">
+      
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="segmentos hover d-flex flex-column h-100">
+          <figure>
+            <img decoding="async" class="w-100" src="/wp-content/uploads/2025/05/varejo.webp" loading="lazy" alt="Zenvia Customer Cloud - Segmentos - Varejo" title="Zenvia Customer Cloud - Segmentos - Varejo" />
+          </figure>
+          <div class="p-4 bg-eletric-pink-700 h-100 d-flex flex-column">
+            <h5 class="h5 font-exo2-600">Varejo</h5>
+            <p style="font-size: 14px;">Revolucione seu varejo para atrair clientes e vender até 2x mais em todos os canais</p>
+            <div class="mt-auto">
+              <a href="/segmentos/varejo/" target="_blank" class="evento-site font-exo2-600 d-inline-flex align-items-center gap-1 text-decoration-underline text-white mt-3">
+                Ver Segmento <span class="icon-24 icon-arrow-button bg-neutral-light-100"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="segmentos hover d-flex flex-column h-100">
+          <figure>
+            <img decoding="async" class="w-100" src="/wp-content/uploads/2025/05/s-financeiros.webp" loading="lazy" alt="Zenvia Customer Cloud - Segmentos - Serviços Financeiros" title="Zenvia Customer Cloud - Segmentos - Serviços Financeiros" />
+          </figure>
+          <div class="p-4 bg-eletric-pink-700 h-100 d-flex flex-column">
+            <h5 class="h5 font-exo2-600">Serviços Financeiros</h5>
+            <p style="font-size: 14px;">Transforme as relações da sua instituição financeira oferecendo uma experiência diferenciada e segura</p>
+            <div class="mt-auto">
+              <a href="/segmentos/financeiro/" target="_blank" class="evento-site font-exo2-600 d-inline-flex align-items-center gap-1 text-decoration-underline text-white mt-3">
+                Ver Segmento <span class="icon-24 icon-arrow-button bg-neutral-light-100"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="segmentos hover d-flex flex-column h-100">
+          <figure>
+            <img decoding="async" class="w-100" src="/wp-content/uploads/2025/05/educacao.webp" loading="lazy" alt="Zenvia Customer Cloud - Segmentos - Educação" title="Zenvia Customer Cloud - Segmentos - Educação" />
+          </figure>
+          <div class="p-4 bg-eletric-pink-700 h-100 d-flex flex-column">
+            <h5 class="h5 font-exo2-600">Educação</h5>
+            <p style="font-size: 14px;">Inove a jornada do seu aluno da captação a retenção, com um atendimento personalizado e eficiente</p>
+            <div class="mt-auto">
+              <a href="/segmentos/educacao/" target="_blank" class="evento-site font-exo2-600 d-inline-flex align-items-center gap-1 text-decoration-underline text-white mt-3">
+                Ver Segmento <span class="icon-24 icon-arrow-button bg-neutral-light-100"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="segmentos hover d-flex flex-column h-100">
+          <figure>
+            <img decoding="async" class="w-100" src="/wp-content/uploads/2025/05/saude.webp" loading="lazy" alt="Zenvia Customer Cloud - Segmentos - Saúde" title="Zenvia Customer Cloud - Segmentos - Saúde" />
+          </figure>
+          <div class="p-4 bg-eletric-pink-700 h-100 d-flex flex-column">
+            <h5 class="h5 font-exo2-600">Saúde</h5>
+            <p style="font-size: 14px;">Crie experiências envolventes com a solução ideal para cuidar da comunicação com pacientes</p>
+            <div class="mt-auto">
+              <a href="/segmentos/saude/" target="_blank" class="evento-site font-exo2-600 d-inline-flex align-items-center gap-1 text-decoration-underline text-white mt-3">
+                Ver Segmento <span class="icon-24 icon-arrow-button bg-neutral-light-100"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="segmentos hover d-flex flex-column h-100">
+          <figure>
+            <img decoding="async" class="w-100" src="/wp-content/uploads/2025/05/seguros.webp" loading="lazy" alt="Zenvia Customer Cloud - Segmentos - Seguros" title="Zenvia Customer Cloud - Segmentos - Seguros" />
+          </figure>
+          <div class="p-4 bg-eletric-pink-700 h-100 d-flex flex-column">
+            <h5 class="h5 font-exo2-600">Seguros</h5>
+            <p style="font-size: 14px;">Torne o atendimento para seu segurado mais ágil e humanizado e evolua seus indicadores com rapidez</p>
+            <div class="mt-auto">
+              <a href="/segmentos/seguro/" target="_blank" class="evento-site font-exo2-600 d-inline-flex align-items-center gap-1 text-decoration-underline text-white mt-3">
+                Ver Segmento <span class="icon-24 icon-arrow-button bg-neutral-light-100"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="segmentos hover d-flex flex-column h-100">
+          <figure>
+            <img decoding="async" class="w-100" src="/wp-content/uploads/2025/05/construcao.webp" loading="lazy" alt="Zenvia Customer Cloud - Segmentos - Construção" title="Zenvia Customer Cloud - Segmentos - Construção" />
+          </figure>
+          <div class="p-4 bg-eletric-pink-700 h-100 d-flex flex-column">
+            <h5 class="h5 font-exo2-600">Construção</h5>
+            <p style="font-size: 14px;">Centralize canais e otimize a jornada do cliente da sua construtora ou incorporadora</p>
+            <div class="mt-auto">
+              <a href="/segmentos/construcao" target="_blank" class="evento-site font-exo2-600 d-inline-flex align-items-center gap-1 text-decoration-underline text-white mt-3">
+                Ver Segmento <span class="icon-24 icon-arrow-button bg-neutral-light-100"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid py-4 bg-magic-purple-1000"  data-contexto="Blog Rodapé">
+   <div class="container-xl pb-2">
+      <div class="row">
+         <div class="col-12 text-center">
+            <h2 class="h2 font-exo2-600 text-white mb-3">Aprofunde seu conhecimento com conteúdos do nosso blog.</h2>
+            <p class="h5 font-exo2-500 text-white mb-5">Mantenha sua empresa atualizado sobre as principais tendências de experiência do cliente.</p>
+         </div>
+     </div>
+     <div class="row justify-content-center carousel-one-mobile-only-beneficios">     
+         <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-3">
+            <div class="box bg-white h-100" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+               <figure class="w-100 d-none d-lg-block">
+                  <img decoding="async" style="height: 150px; object-fit: cover;object-position:center;" class="w-100" src="/wp-content/uploads/2024/02/blog-1-zcc-home.jpg" loading="lazy" alt="Zenvia" title="Zenvia" />
+               </figure>
+               <div class="p-4">
+                  <p class="text-center text-md-start h4 font-exo2-600 mb-4">Inteligência Artificial Generativa: encante seus clientes com essa inovação</p> 
+                  <div class="col-12 text-center">
+                     <a class="button button-pink evento-site" href="https://www.zenvia.com/blog/inteligencia-artificial-generativa/" target="_blank" rel="noopener">Confira agora</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-3">
+            <div class="box bg-white h-100" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+               <figure class="w-100 d-none d-lg-block">
+                  <img decoding="async" style="height: 150px; object-fit: cover;object-position:center;" class="w-100" src="/wp-content/uploads/2024/02/blog-2-zcc-home.jpg" loading="lazy" alt="Zenvia" title="Zenvia" />
+               </figure>
+               <div class="p-4">
+                  <p class="text-center text-md-start h4 font-exo2-600 mb-4">Experiência do cliente e Inteligência artificial: conheça os usos para sua empresa</p> 
+                  <div class="col-12 text-center">
+                     <a class="button button-pink evento-site" href="https://www.zenvia.com/blog/experiencia-cliente-inteligencia-artificial/" target="_blank" rel="noopener">Confira agora</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-12 col-md-6 col-lg-4 mb-5 mb-md-3">
+            <div class="box bg-white h-100" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+               <figure class="w-100 d-none d-lg-block">
+                  <img decoding="async" style="height: 150px; object-fit: cover;object-position:top;" class="w-100" src="/wp-content/uploads/2024/02/blog-3-zcc-home.jpg" alt="Zenvia" title="Zenvia" loading="lazy" />
+               </figure>
+               <div class="p-4">
+                  <p class="text-center text-md-start h4 font-exo2-600 mb-4">Experiência do cliente: conheça os benefícios de investir</p> 
+                  <div class="col-12 text-center">
+                     <a class="button button-pink evento-site" href="https://www.zenvia.com/blog/experiencia-do-cliente-os-beneficios-de-investir/" target="_blank" rel="noopener">Confira agora</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+          </div>
+      </div>
+   </div>
+</div>
+
+
+
+<script type="868750ae2319464296f478dc-text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    const observer = new IntersectionObserver(
+      function (entries, observer) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const flipCards = entry.target.querySelectorAll('.flip-card-inner.automatico');
+            flipCards.forEach(card => card.classList.add('flip-active'));
+            // Para que isso aconteça apenas uma vez, você pode remover o observer:
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.3 } // ajusta conforme a visibilidade desejada
+    );
+
+    const flipSlider = document.querySelector('.flip-slider');
+    if (flipSlider) {
+      observer.observe(flipSlider);
+    }
+  });
+</script>
+</main>
+
+<!--
+CONVERSION START
+-->
+<!--
+CONVERSION END
+-->
+
+
+
+
+    
+    
+    <span id="whatsapp-zoe-form" class="whatsapp-zoe whatsapp-zoe-float ballon ballon-br">
+        <span class="close-ballon d-none d-xl-flex">x</span>
+        <span class="whatsapp-zoe-mensagem d-none d-xl-flex"><span>Para <b>falar com o time de vendas</b> clique aqui.</span></span>
+        <span class="icon" id="whatsapp-zoe-floating"></span>
+    </span>
+                <div id="pre-zoe-form" class="form-ballon">
+                <div class="pre-zoe-content bg-white p-3">
+                    <span class="close-btn" aria-label="Close">&times;</span>
+                    <span class="texto d-block font-nunito-sans-400 text-black text-start">Olá! Informe seu <b>e-mail corporativo</b> abaixo para iniciar a conversa no WhatsApp.</span>
+                    <iframe loading="lazy" src="https://docs.zenvia.com/l/843713/2023-08-08/pwkrtl" width="100%" height="105" type="text/html" frameborder="0" allowtransparency="true" style="border: 0;"></iframe>
+                </div>
+            </div>
+            
+    
+    
+    <footer id="main-footer" class="text-white">
+
+        <div class="footer-content py-4">
+            <div class="container">
+                <div class="row">
+
+                    <!-- MENU -->
+                    <div class="col-12 col-md-8 col-xl-9">
+                        <div class="footer-menu">
+                            <div class="row">
+
+                                <div class="col-12 col-md-6 col-xl-4 mb-3 mb-md-4 mb-xl-0 x1">
+                                    <span class="title title-institucional">Institucional</span>
+                                    <ul id="footer-menu-1" class="zv-footer-menu"><li id="menu-item-70767" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70767"><a target="_blank" href="https://www.zenvia.com/sobre/" data-button-color="none">Sobre a Zenvia</a></li>
+<li id="menu-item-70775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70775"><a target="_blank" href="https://investors.zenvia.com/" data-button-color="none">Investidores</a></li>
+<li id="menu-item-199947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199947"><a target="_blank" href="https://www.zenvia.com/partners/franquias/" data-button-color="none">Franquias</a></li>
+<li id="menu-item-70769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-70769"><a target="_blank" href="https://www.zenvia.com/jobs" data-button-color="none">Carreiras</a></li>
+<li id="menu-item-139716" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-139716"><a target="_blank" href="https://www.zenvia.com/imprensa/" data-button-color="none">Imprensa</a></li>
+<li id="menu-item-125432" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125432"><a target="_blank" href="https://www.zenvia.com/pod-z/" data-button-color="none">Podcast Zenvia</a></li>
+<li id="menu-item-70772" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70772"><a target="_blank" href="https://www.zenvia.com/blog/" data-button-color="none">Blog</a></li>
+<li id="menu-item-199908" class="title title-institucional mt-3 menu-item menu-item-type-custom menu-item-object-custom menu-item-199908"><a data-button-color="none">Termos e Políticas</a></li>
+<li id="menu-item-199909" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199909"><a target="_blank" href="https://www.zenvia.com/seguranca-da-informacao/" data-button-color="none">Segurança da Informação</a></li>
+<li id="menu-item-70771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70771"><a target="_blank" href="https://www.zenvia.com/etica-conduta/" data-button-color="none">Ética e Conduta</a></li>
+<li id="menu-item-70774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70774"><a target="_blank" href="https://www.zenvia.com/termos/" data-button-color="none">Termos e Contratos</a></li>
+<li id="menu-item-70776" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-70776"><a target="_blank" href="https://www.zenvia.com/politica-de-privacidade/" data-button-color="none">Política de Privacidade</a></li>
+</ul>                                </div>
+
+                                <div class="col-12 col-md-6 col-xl-4 mb-3 mb-md-4 mb-xl-0 x2">
+                                    <span class="title title-solutions">Soluções Zenvia</span>
+                                    <ul id="footer-menu-2" class="zv-footer-menu"><li id="menu-item-134215" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134215"><a target="_blank" href="https://www.zenvia.com/customer-cloud/" data-button-color="none">Customer Cloud</a></li>
+<li id="menu-item-199910" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199910"><a target="_blank" href="https://www.zenvia.com/customer-cloud-agentes-de-ia/" data-button-color="none">Agentes de IA</a></li>
+<li id="menu-item-199911" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199911"><a target="_blank" href="https://www.zenvia.com/integracao-de-dados/conectores-nativos/" data-button-color="none">Integrações</a></li>
+<li id="menu-item-134216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134216"><a target="_blank" href="https://www.zenvia.com/enterprise/" data-button-color="none">Enterprise</a></li>
+<li id="menu-item-199912" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199912"><a target="_blank" href="https://www.zenvia.com/customer-cloud/help/" data-button-color="none">Interactionz</a></li>
+<li id="menu-item-199913" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199913"><a target="_blank" href="https://www.zenvia.com/precos/" data-button-color="none">Planos e Preços</a></li>
+<li id="menu-item-199914" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-199914"><a target="_blank" href="https://zenvia.movidesk.com/kb" data-button-color="none">Central de Ajuda</a></li>
+</ul>                                    <span class="title title-tools mt-4">Canais</span>
+                                    <ul id="footer-menu-3" class="zv-footer-menu"><li id="menu-item-134218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134218"><a target="_blank" href="https://www.zenvia.com/whatsapp/" data-button-color="none">WhatsApp</a></li>
+<li id="menu-item-134221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134221"><a target="_blank" href="https://www.zenvia.com/sms/" data-button-color="none">SMS</a></li>
+<li id="menu-item-134222" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134222"><a target="_blank" href="https://www.zenvia.com/rcs/" data-button-color="none">RCS</a></li>
+<li id="menu-item-134220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-134220"><a target="_blank" href="https://www.zenvia.com/voz/" data-button-color="none">Voz</a></li>
+</ul>                                </div>
+
+                                <div class="col-12 col-md-6 col-xl-4 mb-3 mb-md-4 mb-xl-0 x4">
+                                    <span class="title title-developers">Desenvolvedores</span>
+                                    <ul id="footer-menu-5" class="zv-footer-menu"><li id="menu-item-91780" class="subtitle menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-91780"><a data-button-color="none">Documentações e Recursos</a>
+<ul class="sub-menu">
+	<li id="menu-item-91781" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91781"><a target="_blank" href="https://zenvia.github.io/zenvia-openapi-spec/v2/#tag/WhatsApp" data-button-color="none">WhatsApp</a></li>
+	<li id="menu-item-91782" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91782"><a target="_blank" href="https://zenvia.github.io/zenvia-openapi-spec/v2/#tag/Instagram" data-button-color="none">Instagram</a></li>
+	<li id="menu-item-91783" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91783"><a target="_blank" href="https://zenvia.github.io/zenvia-openapi-spec/v2/#tag/SMS" data-button-color="none">SMS</a></li>
+	<li id="menu-item-91784" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91784"><a target="_blank" href="https://totalvoice.github.io/totalvoice-docs/#introducao" data-button-color="none">Voz</a></li>
+	<li id="menu-item-91786" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91786"><a target="_blank" href="https://zenvia.github.io/zenvia-openapi-spec/v2/#section/SDKs" data-button-color="none">SDK</a></li>
+	<li id="menu-item-91790" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-91790"><a target="_blank" href="https://status.zenvia.com/" data-button-color="none">Status Plataforma</a></li>
+	<li id="menu-item-209939" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-209939"><a target="_blank" href="https://www.zenvia.com/demonstracao/" data-button-color="none">Biblioteca de Demos</a></li>
+</ul>
+</li>
+</ul>                                    <div>
+                                                                     </div>
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+                <!-- FIM MENU -->
+
+
+                <!-- ENDERECOS -->
+                <div class="col-12 col-md-4 col-xl-3 pt-4 mt-4 pt-md-0 mt-md-0 footer-address">
+                    <div class="footer-address-content">
+                        <span class="title">Endereço de contato</span>
+
+                        <details class="mb-3 mb-md-0">
+                            <summary class="pb-0">Brasil</summary>
+                            <div class="w-100">
+                                <span>Av. Paulista, 2.800</span>
+                                <span>18º andar - conj. 182</span>
+                                <span>Bela Vista</span>
+                            </div>
+                        </details>
+
+                        <details class="mb-3 mb-md-0">
+                            <summary class="pb-0">Argentina</summary>
+                            <div class="w-100">
+                                <span>GRIERSON 255, Piso 6, C1426BAH</span>
+                                <span>CABA</span>
+                            </div>
+                        </details>
+
+                        <details class="mb-3 mb-md-0">
+                            <summary class="pb-0">México</summary>
+                            <div class="w-100">
+                                <span>Ciudad de México</span>
+                                <span>Wisconsin No. 13</span>
+                                <span>Col. Nápoles, Del. Benito Juárez</span>
+                                <span>C.P. 03810</span>
+                            </div>
+                        </details>
+
+                    </div>
+                    <div class="d-flex flex-wrap align-items-center col-12 px-0 pt-4">
+                        <div class="mb-3 mb-md-0">
+                          <a href="https://www.reclameaqui.com.br/empresa/zenvia/" target="_blank" class="btn-reclame-aqui-rodape text-center">
+                            <img alt="Selo Reclame Aqui" title="Selo Reclame Aqui" class="img-fluid" width="" height="65" border="0" src="https://www.zenvia.com/wp-content/uploads/2025/09/selo-ra.webp" style="max-width: 130px;" />
+                        </a>
+                    </div>
+                    <div class="d-block align-items-center ms-4 ms-md-0"> 
+                        <a href="https://www.getapp.com/marketing-software/a/zenvia/" target="_blank" class="ms-md-3 d-block text-center mx-auto mb-3"> <img border="0" height="69" src="https://brand-assets.getapp.com/badge/72ed84e8-10ac-44ca-a17d-4d2a38248573.png" /> </a>
+                        <a class="d-block text-center mx-auto ms-md-3" href="https://www.capterra.com/p/200368/zenvia/reviews/" target="_blank"> <img height="33" border="0" src="https://brand-assets.capterra.com/badge/a9e2637a-04fc-42dd-9939-65a9e2e95d95.svg" /> </a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- FIM ENDERECOS -->
+
+
+            <!-- COPYRIGHT -->
+            <div class="col-12 copyright pt-5 mt-3 pt-md-4">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6 col-xl-3 order-1 d-flex justify-content-center justify-content-md-start">
+                        <figure class="m-0">
+                            <img src="https://www.zenvia.com/wp-content/uploads/2025/02/logo_zenvia.svg" width="179" height="43" alt="Zenvia" title="Zenvia">
+                            <!-- php echo wp_get_attachment_image_src(carbon_get_theme_option('zv__logo_header'), 'full')[0]; -->
+                        </figure>
+                    </div>
+                    <div class="disclaimer color-light-grey col-12 col-xl-6 text-center my-3 mb-md-0 mt-xl-0 order-4 order-md-2">
+                        <span>ZENVIA 14.096.190/0001-05 © 2025 Todos os direitos reservados</span>
+                    </div>
+                    <div class="col-12 py-4 py-md-0 col-md-6 col-xl-3 d-flex justify-content-center justify-content-md-end order-3">
+                        <a href="https://www.facebook.com/Zenvia.Inc" class="social-icons social-facebook" target="_blank" title="Facebook">Facebook</a>
+                        <a href="https://www.linkedin.com/company/zenvia-inc/" class="social-icons social-linkedin" target="_blank" title="Linkedin">Linkedin</a>
+                        <a href="https://www.youtube.com/c/CanalZenvia" class="social-icons social-youtube" target="_blank" title="Youtube">Youtube</a>
+                        <a href="https://www.instagram.com/zenvia/" class="social-icons social-instagram" target="_blank" title="Instagram">Instagram</a>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM COPYRIGHT -->
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</footer>
+
+
+<!-- CONVERSION START -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "url": "https://www.zenvia.com/",
+        "sameAs": [
+        "https://www.youtube.com/c/CanalZenvia",
+        "https://www.facebook.com/Zenvia.Inc/",
+        "https://www.instagram.com/zenvia/",
+        "https://www.linkedin.com/company/zenvia-inc/"
+        ],
+        "image": "https://www.zenvia.com/wp-content/uploads/2021/04/logo.png",
+        "logo": "https://www.zenvia.com/wp-content/uploads/2021/04/logo.png",
+        "name": "Zenvia",
+        "address": [{
+        "@type": "PostalAddress",
+        "addressLocality": "São Paulo, Brasil",
+        "addressRegion": "SP",
+        "postalCode": "01310-300",
+        "streetAddress": "Av. Paulista, 2300 - 18º andar - conj. 182 Bela Vista"
+    }],
+    "email": "atendimento@zenvia.com",
+    "contactPoint": [
+    {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "url": "https://www.zenvia.com/es-mx/",
+        "areaServed": "MX",
+        "availableLanguage": "es"
+    },
+    {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "url": "https://www.zenvia.com/en/",
+        "areaServed": "US",
+        "availableLanguage": "en"
+    }
+    ]
+}
+</script>
+<!-- CONVERSION END -->
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/zenvia-wp-theme\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="868750ae2319464296f478dc-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9c27f65648870d30',t:'MTc2OTE3ODM0Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>
+
+

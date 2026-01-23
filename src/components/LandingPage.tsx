@@ -5,7 +5,7 @@ import logoWhite from "@/assets/logo-white.svg";
 import logoDark from "@/assets/logo-dark.svg";
 import logoGupy from "@/assets/logos/gupy.svg";
 import logoRockContent from "@/assets/logos/rock-content.png";
-import logoMovidesk from "@/assets/logos/movidesk.jpg";
+import logoMovidesk from "@/assets/logos/movidesk-new.svg";
 import logoContaAzul from "@/assets/logos/contaazul.svg";
 import foundersTransparent from "@/assets/founders-transparent.png";
 import { Link } from "react-router-dom";
@@ -89,11 +89,11 @@ const LandingPage = () => {
               </p>
               
               {/* Benefits grid - Logo bar */}
-              <div className="flex items-center gap-6 mb-6 animate-fade-up animation-delay-300 opacity-60">
-                <img src={logoGupy} alt="Gupy" className="h-6 object-contain brightness-0 invert" />
-                <img src={logoRockContent} alt="Rock Content" className="h-6 object-contain brightness-0 invert" />
-                <img src={logoMovidesk} alt="Movidesk" className="h-6 object-contain brightness-0 invert" />
-                <img src={logoContaAzul} alt="ContaAzul" className="h-6 object-contain brightness-0 invert" />
+              <div className="flex items-center gap-8 mb-6 animate-fade-up animation-delay-300 opacity-60">
+                <img src={logoGupy} alt="Gupy" className="h-5 w-auto object-contain brightness-0 invert" />
+                <img src={logoRockContent} alt="Rock Content" className="h-5 w-auto object-contain brightness-0 invert" />
+                <img src={logoMovidesk} alt="Movidesk" className="h-5 w-auto object-contain brightness-0 invert" />
+                <img src={logoContaAzul} alt="ContaAzul" className="h-5 w-auto object-contain brightness-0 invert" />
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3 animate-fade-up animation-delay-400">
