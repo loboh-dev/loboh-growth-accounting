@@ -235,20 +235,111 @@ const ComparisonSection = () => {
             </div>
           </div>
 
-          {/* Conclusão */}
+          {/* Conclusão - Duas Diferenças */}
           <motion.div 
-            className="text-center mt-12"
+            className="mt-12"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.8 }}
           >
-            <p className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-              A diferença entre <span className="text-destructive">comprar informação</span> e <span className="text-primary">contratar execução</span>.
-            </p>
-            <p className="text-muted-foreground">
-              Crescimento previsível não vem de modinha. Vem de <span className="text-primary font-semibold">gestão comercial otimizada continuamente</span>.
-            </p>
+            <div className="text-center mb-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                Duas diferenças entre <span className="text-muted-foreground">comprar informação</span> e <span className="text-primary">contratar execução</span>
+              </h3>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-6">
+              {/* Diferença 1 - O Resultado */}
+              <motion.div
+                className="relative p-6 rounded-2xl bg-card border-2 border-primary/30 overflow-hidden"
+                initial={{ opacity: 0, x: -30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.9 }}
+              >
+                {/* Decorative gradient */}
+                <div className="absolute top-0 right-0 w-24 h-24 bg-primary/10 rounded-full blur-2xl" />
+                
+                {/* Number Badge */}
+                <div className="absolute -top-3 -left-3 w-10 h-10 rounded-xl bg-primary flex items-center justify-center shadow-lg shadow-primary/30 z-10">
+                  <span className="text-lg font-bold text-primary-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>1</span>
+                </div>
+                
+                <div className="relative z-10 pt-3">
+                  <h4 className="text-xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    O Resultado
+                  </h4>
+                  
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3 p-3 rounded-lg bg-destructive/5 border border-destructive/20">
+                      <div className="w-7 h-7 rounded-md bg-destructive/20 flex items-center justify-center flex-shrink-0">
+                        <X className="w-4 h-4 text-destructive" />
+                      </div>
+                      <div>
+                        <p className="text-muted-foreground text-xs uppercase tracking-wider">Informação</p>
+                        <p className="text-foreground/70 text-sm">Você sabe mais. Talvez.</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 border border-primary/30">
+                      <div className="w-7 h-7 rounded-md bg-primary/20 flex items-center justify-center flex-shrink-0">
+                        <Check className="w-4 h-4 text-primary" />
+                      </div>
+                      <div>
+                        <p className="text-primary text-xs uppercase tracking-wider">Execução</p>
+                        <p className="text-foreground font-medium text-sm">Você vende mais. Sempre.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Diferença 2 - O Processo */}
+              <motion.div
+                className="relative p-6 rounded-2xl bg-card border-2 border-accent/30 overflow-hidden"
+                initial={{ opacity: 0, x: 30 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 1 }}
+              >
+                {/* Decorative gradient */}
+                <div className="absolute top-0 right-0 w-24 h-24 bg-accent/10 rounded-full blur-2xl" />
+                
+                {/* Number Badge */}
+                <div className="absolute -top-3 -left-3 w-10 h-10 rounded-xl bg-accent flex items-center justify-center shadow-lg shadow-accent/30 z-10">
+                  <span className="text-lg font-bold text-white" style={{ fontFamily: 'Oxanium, sans-serif' }}>2</span>
+                </div>
+                
+                <div className="relative z-10 pt-3">
+                  <h4 className="text-xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    O Processo
+                  </h4>
+                  
+                  <div className="space-y-3">
+                    <div className="flex items-center gap-3 p-3 rounded-lg bg-destructive/5 border border-destructive/20">
+                      <div className="w-7 h-7 rounded-md bg-destructive/20 flex items-center justify-center flex-shrink-0">
+                        <X className="w-4 h-4 text-destructive" />
+                      </div>
+                      <div>
+                        <p className="text-muted-foreground text-xs uppercase tracking-wider">Informação</p>
+                        <p className="text-foreground/70 text-sm">Você consome. E esquece.</p>
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/10 border border-accent/30">
+                      <div className="w-7 h-7 rounded-md bg-accent/20 flex items-center justify-center flex-shrink-0">
+                        <Check className="w-4 h-4 text-accent" />
+                      </div>
+                      <div>
+                        <p className="text-accent text-xs uppercase tracking-wider">Execução</p>
+                        <p className="text-foreground font-medium text-sm">Você se compromete. E transforma.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
           </motion.div>
         </div>
       </div>
