@@ -269,70 +269,112 @@ export default function MethodologyInfographic() {
 
             {/* Ciclo Visual Circular */}
             <div className="relative mb-8">
-              {/* Desktop: Ciclo circular */}
+              {/* Desktop: Ciclo circular - leitura esquerda-direita, cima-baixo */}
               <div className="hidden md:block relative">
                 <div className="flex justify-center">
-                  <div className="relative w-[400px] h-[400px]">
+                  <div className="relative w-[520px] h-[420px]">
                     {/* Círculo de conexão */}
-                    <div className="absolute inset-8 rounded-full border-2 border-dashed border-background/30" />
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full border-2 border-dashed border-background/30" />
                     
                     {/* Centro do ciclo */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary border-2 border-primary flex items-center justify-center">
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-primary flex items-center justify-center z-10">
                       <div className="text-center">
-                        <Repeat className="w-6 h-6 text-primary-foreground mx-auto mb-1" />
-                        <span className="text-xs font-bold text-primary-foreground">SPRINT</span>
+                        <Repeat className="w-5 h-5 text-primary-foreground mx-auto mb-0.5" />
+                        <span className="text-[10px] font-bold text-primary-foreground">SPRINT</span>
                       </div>
                     </div>
                     
-                    {/* 4 fases posicionadas em círculo */}
-                    {agileCycle.map((phase, index) => {
-                      const positions = [
-                        { top: '0', left: '50%', transform: 'translateX(-50%)' },
-                        { top: '50%', right: '0', transform: 'translateY(-50%)' },
-                        { bottom: '0', left: '50%', transform: 'translateX(-50%)' },
-                        { top: '50%', left: '0', transform: 'translateY(-50%)' },
-                      ];
-                      const pos = positions[index];
-                      
-                      return (
-                        <motion.div
-                          key={phase.title}
-                          className="absolute w-36 p-4 rounded-xl bg-background border border-background/20 shadow-xl"
-                          style={pos}
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          whileInView={{ opacity: 1, scale: 1 }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.4, delay: 0.2 + index * 0.15 }}
-                        >
-                          <div className="flex items-center gap-2 mb-2">
-                            <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                              <phase.icon className="w-4 h-4 text-primary-foreground" />
-                            </div>
-                            <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                              {phase.title}
-                            </h4>
-                          </div>
-                          <p className="text-xs text-muted-foreground leading-relaxed">{phase.description}</p>
-                        </motion.div>
-                      );
-                    })}
+                    {/* Análise - Superior Esquerdo */}
+                    <motion.div
+                      className="absolute top-0 left-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.4, delay: 0.2 }}
+                    >
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+                          <Search className="w-4 h-4 text-primary-foreground" />
+                        </div>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                          Análise
+                        </h4>
+                      </div>
+                      <p className="text-xs text-muted-foreground leading-relaxed">Identificamos causas raízes e oportunidades de maior impacto.</p>
+                    </motion.div>
                     
-                    {/* Setas de fluxo */}
-                    <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 400 400">
-                      {/* Setas curvas conectando os elementos */}
+                    {/* Planejamento - Superior Direito */}
+                    <motion.div
+                      className="absolute top-0 right-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.4, delay: 0.35 }}
+                    >
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+                          <ClipboardList className="w-4 h-4 text-primary-foreground" />
+                        </div>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                          Planejamento
+                        </h4>
+                      </div>
+                      <p className="text-xs text-muted-foreground leading-relaxed">Priorizamos ações pelo maior resultado com menor esforço.</p>
+                    </motion.div>
+                    
+                    {/* Execução - Inferior Direito */}
+                    <motion.div
+                      className="absolute bottom-0 right-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.4, delay: 0.5 }}
+                    >
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+                          <Play className="w-4 h-4 text-primary-foreground" />
+                        </div>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                          Execução
+                        </h4>
+                      </div>
+                      <p className="text-xs text-muted-foreground leading-relaxed">Acompanhamos a execução mão na massa das ações planejadas.</p>
+                    </motion.div>
+                    
+                    {/* Revisão - Inferior Esquerdo */}
+                    <motion.div
+                      className="absolute bottom-0 left-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
+                      initial={{ opacity: 0, scale: 0.8 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.4, delay: 0.65 }}
+                    >
+                      <div className="flex items-center gap-2 mb-2">
+                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+                          <RefreshCw className="w-4 h-4 text-primary-foreground" />
+                        </div>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                          Revisão
+                        </h4>
+                      </div>
+                      <p className="text-xs text-muted-foreground leading-relaxed">Revisamos resultados e ajustamos o próximo ciclo.</p>
+                    </motion.div>
+                    
+                    {/* Setas de fluxo - sentido horário */}
+                    <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 520 420">
                       <defs>
-                        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
-                          <polygon points="0 0, 10 3.5, 0 7" fill="hsl(var(--primary))" />
+                        <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+                          <polygon points="0 0, 8 3, 0 6" fill="hsl(var(--primary))" />
                         </marker>
                       </defs>
-                      {/* Top -> Right */}
-                      <path d="M 250 80 Q 310 120 320 180" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
-                      {/* Right -> Bottom */}
-                      <path d="M 320 220 Q 310 280 250 320" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
-                      {/* Bottom -> Left */}
-                      <path d="M 150 320 Q 90 280 80 220" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
-                      {/* Left -> Top */}
-                      <path d="M 80 180 Q 90 120 150 80" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.6" />
+                      {/* Análise -> Planejamento (topo esquerda -> topo direita) */}
+                      <path d="M 180 55 Q 260 30 340 55" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
+                      {/* Planejamento -> Execução (topo direita -> baixo direita) */}
+                      <path d="M 465 115 Q 490 210 465 305" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
+                      {/* Execução -> Revisão (baixo direita -> baixo esquerda) */}
+                      <path d="M 340 365 Q 260 390 180 365" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
+                      {/* Revisão -> Análise (baixo esquerda -> topo esquerda) */}
+                      <path d="M 55 305 Q 30 210 55 115" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
                     </svg>
                   </div>
                 </div>
