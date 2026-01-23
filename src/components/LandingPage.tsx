@@ -144,11 +144,11 @@ const LandingPage = () => {
                   
                   <div className="space-y-4 mb-8">
                     {[
+                      { title: "Clubinhos de networking", desc: "Foco em status e ambiência. Ninguém bota a mão na massa por você." },
                       { title: "Cursinho gravado", desc: "Assiste uma vez, não aplica nada. Zero acompanhamento." },
                       { title: "Mentoria de palco", desc: "Grupo lotado, templates genéricos, zero personalização." },
                       { title: "Consultoria de projeto", desc: "Entrega um PDF bonito e desaparece. Você que se vire." },
-                      { title: "Clubinhos de networking", desc: "Caros, genéricos e sem aplicação prática no seu contexto." },
-                      { title: "Promessas de automação mágica", desc: "Sem processo, sem dados, sem gestão real." },
+                      { title: "Promessa de automação mágica com IA", desc: "Sem processo, sem dados, sem gestão real. Não garante resultado." },
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3">
                         <div className="w-6 h-6 rounded-full bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -176,16 +176,16 @@ const LandingPage = () => {
                 </div>
                 <div className="bg-primary/5 border-2 border-primary/30 rounded-3xl p-8 pt-10 h-full">
                   <p className="text-primary font-bold text-lg mb-6 uppercase tracking-wider" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                    Caminho certo, resultado garantido
+                    Esforço correto, resultado previsível
                   </p>
                   
                   <div className="space-y-4 mb-8">
                     {[
+                      { title: "Go to Market estruturado", desc: "Processos definidos, indicadores confiáveis, execução disciplinada." },
                       { title: "Capacitação contínua + monitoramento", desc: "Treinamento aplicado na prática com acompanhamento semanal." },
                       { title: "Serviços 100% personalizados", desc: "Construído no contexto da sua contabilidade. Nada de template." },
                       { title: "Gestão Comercial com Loboh Sales Agile", desc: "Melhoria contínua baseada em dados, sprints e ajustes semanais." },
-                      { title: "Go to Market estruturado", desc: "Processos definidos, indicadores confiáveis, execução disciplinada." },
-                      { title: "Equipe comercial capacitada", desc: "Time treinado e engajado com ciclos contínuos de melhoria." },
+                      { title: "IA aplicada em processos validados e dados íntegros", desc: "Tecnologia a serviço de uma operação que já funciona." },
                     ].map((item, index) => (
                       <div key={index} className="flex items-start gap-3">
                         <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-0.5">
