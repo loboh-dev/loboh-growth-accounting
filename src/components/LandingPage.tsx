@@ -85,7 +85,7 @@ const LandingPage = () => {
                 Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe de vendas aplicando método validado em scale-ups de sucesso no Brasil.
               </p>
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
-                <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender apenas de indicações.
+                <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender apenas de indicações ou esforço heroico do dono.
               </p>
               
               {/* Benefits grid - Logo bar */}
