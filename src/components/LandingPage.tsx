@@ -1,5 +1,6 @@
 import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck, X, Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-consulting.jpg";
 import logoWhite from "@/assets/logo-white.svg";
 import logoDark from "@/assets/logo-dark.svg";
@@ -180,9 +181,22 @@ const LandingPage = () => {
                   winner: { title: "Gestão Comercial com Loboh Sales Agile", desc: "Melhoria contínua baseada em dados, sprints e ajustes semanais." }
                 },
               ].map((row, index) => (
-                <div key={index} className="grid lg:grid-cols-2 gap-4">
+                <motion.div 
+                  key={index} 
+                  className="grid lg:grid-cols-2 gap-4"
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.3, delay: index * 0.15 }}
+                >
                   {/* Item Loser */}
-                  <div className="bg-destructive/5 border border-destructive/20 rounded-xl p-4 flex items-start gap-3">
+                  <motion.div 
+                    className="bg-destructive/5 border border-destructive/20 rounded-xl p-4 flex items-start gap-3"
+                    initial={{ opacity: 0, x: -30 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ duration: 0.4, delay: index * 0.15 }}
+                  >
                     <div className="w-6 h-6 rounded-full bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <X className="w-4 h-4 text-destructive" />
                     </div>
@@ -190,10 +204,26 @@ const LandingPage = () => {
                       <p className="font-bold text-foreground">{row.loser.title}</p>
                       <p className="text-muted-foreground text-sm">{row.loser.desc}</p>
                     </div>
-                  </div>
+                  </motion.div>
+                  
+                  {/* Seta conectora - visível no desktop */}
+                  <motion.div 
+                    className="hidden lg:flex absolute left-1/2 transform -translate-x-1/2 items-center justify-center z-10"
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.3, delay: index * 0.15 + 0.2 }}
+                  >
+                  </motion.div>
                   
                   {/* Item Winner */}
-                  <div className="bg-primary/5 border border-primary/20 rounded-xl p-4 flex items-start gap-3">
+                  <motion.div 
+                    className="bg-primary/5 border border-primary/20 rounded-xl p-4 flex items-start gap-3"
+                    initial={{ opacity: 0, x: 30 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ duration: 0.4, delay: index * 0.15 + 0.15 }}
+                  >
                     <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <Check className="w-4 h-4 text-primary" />
                     </div>
@@ -201,23 +231,41 @@ const LandingPage = () => {
                       <p className="font-bold text-foreground">{row.winner.title}</p>
                       <p className="text-muted-foreground text-sm">{row.winner.desc}</p>
                     </div>
-                  </div>
-                </div>
+                  </motion.div>
+                </motion.div>
               ))}
             </div>
             
             {/* Rodapé de comparação */}
-            <div className="grid lg:grid-cols-2 gap-8 mt-6">
-              <div className="bg-destructive/5 border-2 border-destructive/30 rounded-3xl p-6 text-center">
+            <motion.div 
+              className="grid lg:grid-cols-2 gap-8 mt-6"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.8 }}
+            >
+              <motion.div 
+                className="bg-destructive/5 border-2 border-destructive/30 rounded-3xl p-6 text-center"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.9 }}
+              >
                 <p className="text-destructive font-semibold italic">"Boa sorte com a execução!"</p>
                 <p className="text-muted-foreground text-sm mt-2">Passageiro. Genérico. Sem resultado sustentável.</p>
-              </div>
+              </motion.div>
               
-              <div className="bg-primary/5 border-2 border-primary/30 rounded-3xl p-6 text-center">
+              <motion.div 
+                className="bg-primary/5 border-2 border-primary/30 rounded-3xl p-6 text-center"
+                initial={{ opacity: 0, x: 20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 1.0 }}
+              >
                 <p className="text-primary font-semibold italic">"A gente executa junto com você."</p>
                 <p className="text-muted-foreground text-sm mt-2">Perene. Personalizado. Resultado sustentável.</p>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
             
             <div className="text-center mt-12">
               <p className="text-2xl font-bold text-foreground mb-2" style={{ fontFamily: 'Oxanium, sans-serif' }}>
