@@ -121,7 +121,7 @@ export default function MethodologyInfographic() {
           >
             <div className="text-center mb-8">
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                Cuidamos de <span className="font-semibold text-primary">5 áreas críticas</span> que precisam funcionar em sincronia para que sua máquina comercial nunca pare.
+                Cuidamos de <span className="font-semibold text-primary">5 áreas críticas</span> que precisam funcionar em sincronia para que seu time comercial imprima um <span className="font-semibold text-foreground">ritmo constante e eficiente</span> de vendas.
               </p>
             </div>
 
