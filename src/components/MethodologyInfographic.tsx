@@ -272,6 +272,11 @@ export default function MethodologyInfographic() {
               {/* Desktop: Ciclo em cruz com Análise no topo */}
               <div className="hidden md:block relative">
                 <div className="flex justify-center">
+                  {/* Container 560x560, caixas 180px, altura ~110px estimada */}
+                  {/* Análise: top=0, left=190 (centro), bottom da caixa ~110 */}
+                  {/* Planejamento: right=0 (left=380), top=225 (centro vertical) */}
+                  {/* Execução: bottom=0 (top=450), left=190 (centro) */}
+                  {/* Revisão: left=0, top=225 (centro vertical) */}
                   <div className="relative w-[560px] h-[560px]">
                     
                     {/* Centro do ciclo */}
@@ -282,10 +287,10 @@ export default function MethodologyInfographic() {
                       </div>
                     </div>
                     
-                    {/* Análise - Topo Centro (exatamente centralizado horizontalmente) */}
+                    {/* Análise - Topo Centro */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '0px', left: '50%', transform: 'translateX(-50%)' }}
+                      style={{ top: '0px', left: '190px' }}
                       initial={{ opacity: 0, y: -20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
@@ -302,10 +307,10 @@ export default function MethodologyInfographic() {
                       <p className="text-xs text-muted-foreground leading-relaxed">Identificamos causas raízes e oportunidades de maior impacto.</p>
                     </motion.div>
                     
-                    {/* Planejamento - Direita Centro (exatamente centralizado verticalmente) */}
+                    {/* Planejamento - Direita Centro */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '50%', right: '0px', transform: 'translateY(-50%)' }}
+                      style={{ top: '225px', left: '380px' }}
                       initial={{ opacity: 0, x: 20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
@@ -322,10 +327,10 @@ export default function MethodologyInfographic() {
                       <p className="text-xs text-muted-foreground leading-relaxed">Priorizamos ações pelo maior resultado com menor esforço.</p>
                     </motion.div>
                     
-                    {/* Execução - Baixo Centro (exatamente centralizado horizontalmente) */}
+                    {/* Execução - Baixo Centro */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ bottom: '0px', left: '50%', transform: 'translateX(-50%)' }}
+                      style={{ top: '450px', left: '190px' }}
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
@@ -342,10 +347,10 @@ export default function MethodologyInfographic() {
                       <p className="text-xs text-muted-foreground leading-relaxed">Acompanhamos a execução mão na massa das ações planejadas.</p>
                     </motion.div>
                     
-                    {/* Revisão - Esquerda Centro (exatamente centralizado verticalmente) */}
+                    {/* Revisão - Esquerda Centro */}
                     <motion.div
                       className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '50%', left: '0px', transform: 'translateY(-50%)' }}
+                      style={{ top: '225px', left: '0px' }}
                       initial={{ opacity: 0, x: -20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
@@ -362,96 +367,97 @@ export default function MethodologyInfographic() {
                       <p className="text-xs text-muted-foreground leading-relaxed">Revisamos resultados e ajustamos o próximo ciclo.</p>
                     </motion.div>
                     
-                    {/* Setas sofisticadas de fluxo - sentido horário, fora das caixas */}
-                    <svg className="absolute inset-0 w-full h-full pointer-events-none z-0" viewBox="0 0 560 560">
+                    {/* Setas conectando as bordas das caixas - sentido horário */}
+                    {/* Análise: x=190-370, y=0-110 */}
+                    {/* Planejamento: x=380-560, y=225-335 */}
+                    {/* Execução: x=190-370, y=450-560 */}
+                    {/* Revisão: x=0-180, y=225-335 */}
+                    <svg className="absolute inset-0 w-full h-full pointer-events-none z-5" viewBox="0 0 560 560">
                       <defs>
-                        {/* Gradiente para as setas */}
-                        <linearGradient id="arrowGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.4" />
+                        <linearGradient id="arrowGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.5" />
                           <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="1" />
                         </linearGradient>
-                        <linearGradient id="arrowGradient2" x1="100%" y1="0%" x2="0%" y2="100%">
-                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.4" />
+                        <linearGradient id="arrowGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.5" />
                           <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="1" />
                         </linearGradient>
-                        <linearGradient id="arrowGradient3" x1="100%" y1="100%" x2="0%" y2="0%">
-                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.4" />
+                        <linearGradient id="arrowGrad3" x1="100%" y1="0%" x2="0%" y2="0%">
+                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.5" />
                           <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="1" />
                         </linearGradient>
-                        <linearGradient id="arrowGradient4" x1="0%" y1="100%" x2="100%" y2="0%">
-                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.4" />
+                        <linearGradient id="arrowGrad4" x1="0%" y1="100%" x2="0%" y2="0%">
+                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.5" />
                           <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="1" />
                         </linearGradient>
                         
-                        {/* Ponta de seta elegante */}
-                        <marker id="arrowHead" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse">
-                          <path d="M 0 0 L 10 4 L 0 8 L 2 4 Z" fill="hsl(var(--primary))" />
+                        <marker id="arrowTip" markerWidth="12" markerHeight="10" refX="11" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+                          <path d="M 0 0 L 12 5 L 0 10 L 3 5 Z" fill="hsl(var(--primary))" />
                         </marker>
                         
-                        {/* Glow effect */}
-                        <filter id="arrowGlow" x="-50%" y="-50%" width="200%" height="200%">
-                          <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                        <filter id="glowEffect" x="-50%" y="-50%" width="200%" height="200%">
+                          <feGaussianBlur stdDeviation="2" result="blur"/>
                           <feMerge>
-                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="blur"/>
                             <feMergeNode in="SourceGraphic"/>
                           </feMerge>
                         </filter>
                       </defs>
                       
-                      {/* Seta 1: Análise -> Planejamento (canto superior direito) */}
+                      {/* Seta 1: Análise (borda direita, 370,55) -> Planejamento (borda topo, 470,225) */}
                       <motion.path 
-                        d="M 365 120 C 420 120, 440 160, 440 200" 
-                        stroke="url(#arrowGradient1)" 
-                        strokeWidth="2.5" 
+                        d="M 370 55 Q 470 55, 470 225" 
+                        stroke="url(#arrowGrad1)" 
+                        strokeWidth="2" 
                         fill="none" 
                         strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
+                        markerEnd="url(#arrowTip)"
+                        filter="url(#glowEffect)"
                         initial={{ pathLength: 0, opacity: 0 }}
                         whileInView={{ pathLength: 1, opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, delay: 0.4 }}
                       />
                       
-                      {/* Seta 2: Planejamento -> Execução (canto inferior direito) */}
+                      {/* Seta 2: Planejamento (borda baixo, 470,335) -> Execução (borda direita, 370,505) */}
                       <motion.path 
-                        d="M 440 360 C 440 400, 420 440, 365 440" 
-                        stroke="url(#arrowGradient2)" 
-                        strokeWidth="2.5" 
+                        d="M 470 335 Q 470 505, 370 505" 
+                        stroke="url(#arrowGrad2)" 
+                        strokeWidth="2" 
                         fill="none" 
                         strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
+                        markerEnd="url(#arrowTip)"
+                        filter="url(#glowEffect)"
                         initial={{ pathLength: 0, opacity: 0 }}
                         whileInView={{ pathLength: 1, opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, delay: 0.55 }}
                       />
                       
-                      {/* Seta 3: Execução -> Revisão (canto inferior esquerdo) */}
+                      {/* Seta 3: Execução (borda esquerda, 190,505) -> Revisão (borda baixo, 90,335) */}
                       <motion.path 
-                        d="M 195 440 C 140 440, 120 400, 120 360" 
-                        stroke="url(#arrowGradient3)" 
-                        strokeWidth="2.5" 
+                        d="M 190 505 Q 90 505, 90 335" 
+                        stroke="url(#arrowGrad3)" 
+                        strokeWidth="2" 
                         fill="none" 
                         strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
+                        markerEnd="url(#arrowTip)"
+                        filter="url(#glowEffect)"
                         initial={{ pathLength: 0, opacity: 0 }}
                         whileInView={{ pathLength: 1, opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.8, delay: 0.7 }}
                       />
                       
-                      {/* Seta 4: Revisão -> Análise (canto superior esquerdo) */}
+                      {/* Seta 4: Revisão (borda topo, 90,225) -> Análise (borda esquerda, 190,55) */}
                       <motion.path 
-                        d="M 120 200 C 120 160, 140 120, 195 120" 
-                        stroke="url(#arrowGradient4)" 
-                        strokeWidth="2.5" 
+                        d="M 90 225 Q 90 55, 190 55" 
+                        stroke="url(#arrowGrad4)" 
+                        strokeWidth="2" 
                         fill="none" 
                         strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
+                        markerEnd="url(#arrowTip)"
+                        filter="url(#glowEffect)"
                         initial={{ pathLength: 0, opacity: 0 }}
                         whileInView={{ pathLength: 1, opacity: 1 }}
                         viewport={{ once: true }}
