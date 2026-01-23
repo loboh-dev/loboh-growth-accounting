@@ -80,8 +80,11 @@ const LandingPage = () => {
                 para Contabilidades
               </h1>
               
+              <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-3 animate-fade-up animation-delay-200 leading-relaxed">
+                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe de vendas aplicando o método das scale-ups que mais crescem no Brasil.
+              </p>
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
-                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe de vendas aplicando o método das scale-ups que mais crescem no Brasil. <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender de indicações ou esforço heroico do dono.
+                <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender de indicações ou esforço heroico do dono.
               </p>
               
               {/* Benefits grid - Logo bar */}
