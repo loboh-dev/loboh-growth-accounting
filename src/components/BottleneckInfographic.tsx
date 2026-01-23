@@ -121,7 +121,7 @@ const BottleneckInfographic = () => {
                         <div className={`flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center font-bold text-lg ${
                           isLast 
                             ? 'bg-destructive text-destructive-foreground' 
-                            : 'bg-primary text-primary-foreground'
+                            : 'bg-muted-foreground text-background'
                         }`}>
                           {step.number}
                         </div>
@@ -130,9 +130,9 @@ const BottleneckInfographic = () => {
                         <div className={`flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center transition-colors ${
                           isLast 
                             ? 'bg-destructive/10 group-hover:bg-destructive/20' 
-                            : 'bg-primary/10 group-hover:bg-primary/20'
+                            : 'bg-background border border-border group-hover:bg-muted'
                         }`}>
-                          <step.icon className={`w-6 h-6 ${isLast ? 'text-destructive' : 'text-primary'}`} />
+                          <step.icon className={`w-6 h-6 ${isLast ? 'text-destructive' : 'text-foreground'}`} />
                         </div>
                         
                         {/* Text */}
@@ -148,7 +148,7 @@ const BottleneckInfographic = () => {
                     <div className="hidden lg:flex w-2/12 justify-center items-center relative h-24">
                       {/* Horizontal line to center */}
                       <motion.div 
-                        className={`absolute top-1/2 h-0.5 ${isLast ? 'bg-destructive' : 'bg-primary'}`}
+                        className={`absolute top-1/2 h-0.5 ${isLast ? 'bg-destructive' : 'bg-muted-foreground/50'}`}
                         style={{ 
                           width: '50%',
                           [isEven ? 'right' : 'left']: '50%'
@@ -161,7 +161,7 @@ const BottleneckInfographic = () => {
                       
                       {/* Center dot */}
                       <motion.div 
-                        className={`w-3 h-3 rounded-full z-10 ${isLast ? 'bg-destructive' : 'bg-primary'}`}
+                        className={`w-3 h-3 rounded-full z-10 ${isLast ? 'bg-destructive' : 'bg-muted-foreground'}`}
                         initial={{ scale: 0 }}
                         whileInView={{ scale: 1 }}
                         viewport={{ once: true }}
@@ -176,7 +176,7 @@ const BottleneckInfographic = () => {
                   {/* Vertical connector to next row */}
                   {!isLast && (
                     <motion.div 
-                      className="hidden lg:block absolute left-1/2 -translate-x-1/2 w-0.5 h-6 bg-primary"
+                      className="hidden lg:block absolute left-1/2 -translate-x-1/2 w-0.5 h-6 bg-destructive"
                       style={{ top: '100%' }}
                       initial={{ scaleY: 0, originY: 0 }}
                       whileInView={{ scaleY: 1 }}
@@ -194,7 +194,7 @@ const BottleneckInfographic = () => {
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1 + 0.3 }}
                     >
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className={isSecondToLast ? "text-destructive" : "text-primary"}>
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" className="text-destructive">
                         <path d="M10 20L0 8H20L10 20Z" fill="currentColor" />
                       </svg>
                     </motion.div>
