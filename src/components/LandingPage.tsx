@@ -76,7 +76,7 @@ const LandingPage = () => {
               </div>
               
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-[1.1] mb-4 animate-fade-up animation-delay-100" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                <span className="text-primary">Gestão Comercial como um Serviço</span><br />
+                <span className="text-primary">Serviços de Gestão Comercial</span><br />
                 para Contabilidades
               </h1>
               
