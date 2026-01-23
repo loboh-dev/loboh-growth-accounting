@@ -3,9 +3,10 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-consulting.jpg";
 import logoWhite from "@/assets/logo-white.svg";
 import logoDark from "@/assets/logo-dark.svg";
-import logoFordoctor from "@/assets/logos/fordoctor.svg";
-import logoAM from "@/assets/logos/am-contabilidade.webp";
-import logoPejota from "@/assets/logos/pejota.webp";
+import logoGupy from "@/assets/logos/gupy.svg";
+import logoRockContent from "@/assets/logos/rock-content.png";
+import logoMovidesk from "@/assets/logos/movidesk.jpg";
+import logoContaAzul from "@/assets/logos/contaazul.svg";
 import foundersTransparent from "@/assets/founders-transparent.png";
 import { Link } from "react-router-dom";
 import BottleneckInfographic from "@/components/BottleneckInfographic";
@@ -89,9 +90,10 @@ const LandingPage = () => {
               
               {/* Benefits grid - Logo bar */}
               <div className="flex items-center gap-6 mb-6 animate-fade-up animation-delay-300 opacity-60">
-                <img src={logoFordoctor} alt="ForDoctor" className="h-6 object-contain brightness-0 invert" />
-                <img src={logoAM} alt="AM Contabilidade" className="h-6 object-contain brightness-0 invert" />
-                <img src={logoPejota} alt="Pejota" className="h-6 object-contain brightness-0 invert" />
+                <img src={logoGupy} alt="Gupy" className="h-6 object-contain brightness-0 invert" />
+                <img src={logoRockContent} alt="Rock Content" className="h-6 object-contain brightness-0 invert" />
+                <img src={logoMovidesk} alt="Movidesk" className="h-6 object-contain brightness-0 invert" />
+                <img src={logoContaAzul} alt="ContaAzul" className="h-6 object-contain brightness-0 invert" />
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3 animate-fade-up animation-delay-400">
@@ -314,10 +316,10 @@ const LandingPage = () => {
             </div>
             
             <div className="grid lg:grid-cols-3 gap-6">
-              {/* Case ForDoctor */}
+              {/* Case Gupy */}
               <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
                 <div className="h-12 mb-4 flex items-center">
-                  <img src={logoFordoctor} alt="ForDoctor" className="h-8 object-contain brightness-0 invert" />
+                  <img src={logoGupy} alt="Gupy" className="h-8 object-contain brightness-0 invert" />
                 </div>
                 <div className="mb-3">
                   <span className="text-4xl font-bold text-primary">2x</span>
@@ -326,10 +328,10 @@ const LandingPage = () => {
                 <p className="text-muted text-sm leading-relaxed">Transformação completa da operação comercial com processos claros e gestão orientada a dados.</p>
               </div>
 
-              {/* Case AM */}
+              {/* Case Rock Content */}
               <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
                 <div className="h-12 mb-4 flex items-center">
-                  <img src={logoAM} alt="AM Contabilidade" className="h-8 object-contain brightness-0 invert" />
+                  <img src={logoRockContent} alt="Rock Content" className="h-8 object-contain brightness-0 invert" />
                 </div>
                 <div className="mb-3">
                   <span className="text-4xl font-bold text-primary">3x</span>
@@ -338,10 +340,10 @@ const LandingPage = () => {
                 <p className="text-muted text-sm leading-relaxed">Crescimento de receita consistente com redução de esforço operacional do dono.</p>
               </div>
 
-              {/* Case Pejota */}
+              {/* Case Movidesk */}
               <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
                 <div className="h-12 mb-4 flex items-center">
-                  <img src={logoPejota} alt="Pejota" className="h-8 object-contain brightness-0 invert" />
+                  <img src={logoMovidesk} alt="Movidesk" className="h-8 object-contain brightness-0 invert" />
                 </div>
                 <div className="mb-3">
                   <span className="text-4xl font-bold text-primary">2x</span>
