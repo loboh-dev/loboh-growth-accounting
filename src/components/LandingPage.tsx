@@ -223,43 +223,6 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Por que a Loboh */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-16">
-              <span className="text-primary font-semibold text-sm uppercase tracking-wider">Diferencial</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                Por que a Loboh é diferente de consultorias tradicionais
-              </h2>
-            </div>
-            
-            <div className="grid sm:grid-cols-2 gap-4">
-              {[{
-              icon: Target,
-              text: "Especialistas em vendas e crescimento"
-            }, {
-              icon: Rocket,
-              text: "Atuação prática, não teórica"
-            }, {
-              icon: CheckCircle2,
-              text: "Foco em execução e resultado"
-            }, {
-              icon: Award,
-              text: "Método validado em múltiplas empresas"
-            }, {
-              icon: TrendingUp,
-              text: "Pensamento de scale-up aplicado à contabilidade"
-            }].map((item, index) => <div key={index} className="flex items-center gap-4 p-5 rounded-xl bg-card border border-border shadow-sm hover:shadow-md transition-all duration-300">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                    <item.icon className="w-5 h-5 text-primary" />
-                  </div>
-                  <p className="text-foreground font-medium">{item.text}</p>
-                </div>)}
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Autoridade - Tiago */}
       <section className="py-24 bg-secondary">
