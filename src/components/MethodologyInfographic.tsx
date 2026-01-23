@@ -267,31 +267,26 @@ export default function MethodologyInfographic() {
               </p>
             </div>
 
-            {/* Ciclo Visual em Cruz */}
+            {/* Ciclo Visual Profissional */}
             <div className="relative mb-8">
-              {/* Desktop: Ciclo em cruz com Análise no topo */}
+              {/* Desktop: Ciclo elegante */}
               <div className="hidden md:block relative">
                 <div className="flex justify-center">
-                  {/* Container 600x600, centro em 300,300 */}
-                  {/* Círculo de raio 220px centrado em 300,300 */}
-                  {/* Caixas 180px de largura, ~100px altura, posicionadas sobre o círculo */}
-                  <div className="relative w-[600px] h-[600px]">
+                  <div className="relative w-[580px] h-[520px]">
                     
-                    {/* Círculo base com setas - como o círculo do Sprint ampliado */}
-                    <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 600 600">
+                    {/* Círculo elegante de fundo - contínuo, passando por trás das caixas */}
+                    <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 580 520">
                       <defs>
-                        <linearGradient id="circleGradient" gradientUnits="userSpaceOnUse" x1="300" y1="80" x2="300" y2="520">
-                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.7" />
-                          <stop offset="50%" stopColor="hsl(var(--primary))" stopOpacity="0.5" />
-                          <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="0.7" />
+                        {/* Gradiente suave para o círculo */}
+                        <linearGradient id="cycleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.6" />
+                          <stop offset="50%" stopColor="hsl(var(--primary))" stopOpacity="0.8" />
+                          <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="0.6" />
                         </linearGradient>
                         
-                        <marker id="arrowHead" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse">
-                          <path d="M 0 0 L 10 4 L 0 8 L 2 4 Z" fill="hsl(var(--primary))" />
-                        </marker>
-                        
-                        <filter id="arrowGlow" x="-50%" y="-50%" width="200%" height="200%">
-                          <feGaussianBlur stdDeviation="2" result="blur"/>
+                        {/* Glow suave */}
+                        <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+                          <feGaussianBlur stdDeviation="3" result="blur"/>
                           <feMerge>
                             <feMergeNode in="blur"/>
                             <feMergeNode in="SourceGraphic"/>
@@ -299,168 +294,106 @@ export default function MethodologyInfographic() {
                         </filter>
                       </defs>
                       
-                      {/* Centro: 300, 300 | Raio: 220 */}
-                      {/* Pontos cardinais no círculo: */}
-                      {/* Topo: (300, 80) | Direita: (520, 300) | Baixo: (300, 520) | Esquerda: (80, 300) */}
-                      
-                      {/* Caixas de 180x100 centradas nos pontos cardinais: */}
-                      {/* Análise (topo): centro em (300, 80) → caixa de (210, 30) a (390, 130) */}
-                      {/* Planejamento (direita): centro em (520, 300) → caixa de (430, 250) a (590, 350) - ajustado para (410, 250) a (590, 350) */}
-                      {/* Execução (baixo): centro em (300, 520) → caixa de (210, 470) a (390, 570) */}
-                      {/* Revisão (esquerda): centro em (80, 300) → caixa de (10, 250) a (190, 350) */}
-                      
-                      {/* Arco 1: Análise → Planejamento (quadrante superior direito) */}
-                      {/* Começa na borda inferior direita da caixa Análise e termina na borda esquerda superior da caixa Planejamento */}
-                      {/* Ângulo: ~60° a ~30° (sentido horário no círculo) */}
-                      <motion.path 
-                        d="M 390 120 A 220 220 0 0 1 420 260" 
-                        stroke="url(#circleGradient)" 
-                        strokeWidth="3" 
-                        fill="none" 
-                        strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
+                      {/* Elipse principal - o ciclo contínuo */}
+                      {/* Centro: 290, 260 | rx: 240 | ry: 200 */}
+                      <motion.ellipse
+                        cx="290"
+                        cy="260"
+                        rx="240"
+                        ry="200"
+                        fill="none"
+                        stroke="url(#cycleGradient)"
+                        strokeWidth="2.5"
+                        filter="url(#softGlow)"
                         initial={{ pathLength: 0, opacity: 0 }}
                         whileInView={{ pathLength: 1, opacity: 1 }}
                         viewport={{ once: true }}
-                        transition={{ duration: 0.7, delay: 0.3 }}
-                      />
-                      
-                      {/* Arco 2: Planejamento → Execução (quadrante inferior direito) */}
-                      {/* Começa na borda esquerda inferior da caixa Planejamento e termina na borda superior direita da caixa Execução */}
-                      <motion.path 
-                        d="M 420 340 A 220 220 0 0 1 390 480" 
-                        stroke="url(#circleGradient)" 
-                        strokeWidth="3" 
-                        fill="none" 
-                        strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
-                        initial={{ pathLength: 0, opacity: 0 }}
-                        whileInView={{ pathLength: 1, opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.7, delay: 0.5 }}
-                      />
-                      
-                      {/* Arco 3: Execução → Revisão (quadrante inferior esquerdo) */}
-                      {/* Começa na borda superior esquerda da caixa Execução e termina na borda direita inferior da caixa Revisão */}
-                      <motion.path 
-                        d="M 210 480 A 220 220 0 0 1 180 340" 
-                        stroke="url(#circleGradient)" 
-                        strokeWidth="3" 
-                        fill="none" 
-                        strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
-                        initial={{ pathLength: 0, opacity: 0 }}
-                        whileInView={{ pathLength: 1, opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.7, delay: 0.7 }}
-                      />
-                      
-                      {/* Arco 4: Revisão → Análise (quadrante superior esquerdo) */}
-                      {/* Começa na borda direita superior da caixa Revisão e termina na borda inferior esquerda da caixa Análise */}
-                      <motion.path 
-                        d="M 180 260 A 220 220 0 0 1 210 120" 
-                        stroke="url(#circleGradient)" 
-                        strokeWidth="3" 
-                        fill="none" 
-                        strokeLinecap="round"
-                        markerEnd="url(#arrowHead)"
-                        filter="url(#arrowGlow)"
-                        initial={{ pathLength: 0, opacity: 0 }}
-                        whileInView={{ pathLength: 1, opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.7, delay: 0.9 }}
+                        transition={{ duration: 1.2, ease: "easeOut" }}
                       />
                     </svg>
                     
-                    {/* Centro do ciclo */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary flex items-center justify-center z-20 shadow-2xl">
+                    {/* Centro do ciclo - SPRINT */}
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary flex items-center justify-center z-20 shadow-xl">
                       <div className="text-center">
                         <Repeat className="w-6 h-6 text-primary-foreground mx-auto mb-1" />
                         <span className="text-xs font-bold text-primary-foreground tracking-wide">SPRINT</span>
                       </div>
                     </div>
                     
-                    {/* Análise - Topo Centro */}
-                    {/* Caixa centralizada no ponto (300, 80) do círculo: left = 300 - 90 = 210, top = 30 */}
+                    {/* Análise - Topo */}
                     <motion.div
-                      className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '30px', left: '210px' }}
+                      className="absolute w-[180px] p-4 rounded-2xl bg-background border border-border/50 shadow-lg z-10"
+                      style={{ top: '10px', left: '200px' }}
                       initial={{ opacity: 0, y: -20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: 0.2 }}
+                      transition={{ duration: 0.5, delay: 0.2 }}
                     >
                       <div className="flex items-center gap-3 mb-2">
-                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                          <Search className="w-5 h-5 text-primary-foreground" />
+                        <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
+                          <Search className="w-4 h-4 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Análise
                         </h4>
                       </div>
                       <p className="text-xs text-muted-foreground leading-relaxed">Identificamos causas raízes e oportunidades de maior impacto.</p>
                     </motion.div>
                     
-                    {/* Planejamento - Direita Centro */}
-                    {/* Caixa com borda esquerda tocando o círculo em x=420: left = 420, top = 300 - 50 = 250 */}
+                    {/* Planejamento - Direita */}
                     <motion.div
-                      className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '250px', left: '420px' }}
+                      className="absolute w-[180px] p-4 rounded-2xl bg-background border border-border/50 shadow-lg z-10"
+                      style={{ top: '200px', right: '0px' }}
                       initial={{ opacity: 0, x: 20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: 0.35 }}
+                      transition={{ duration: 0.5, delay: 0.4 }}
                     >
                       <div className="flex items-center gap-3 mb-2">
-                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                          <ClipboardList className="w-5 h-5 text-primary-foreground" />
+                        <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
+                          <ClipboardList className="w-4 h-4 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Planejamento
                         </h4>
                       </div>
                       <p className="text-xs text-muted-foreground leading-relaxed">Priorizamos ações pelo maior resultado com menor esforço.</p>
                     </motion.div>
                     
-                    {/* Execução - Baixo Centro */}
-                    {/* Caixa centralizada no ponto (300, 520): left = 210, top = 480 */}
+                    {/* Execução - Baixo */}
                     <motion.div
-                      className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '480px', left: '210px' }}
+                      className="absolute w-[180px] p-4 rounded-2xl bg-background border border-border/50 shadow-lg z-10"
+                      style={{ bottom: '10px', left: '200px' }}
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: 0.5 }}
+                      transition={{ duration: 0.5, delay: 0.6 }}
                     >
                       <div className="flex items-center gap-3 mb-2">
-                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                          <Play className="w-5 h-5 text-primary-foreground" />
+                        <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
+                          <Play className="w-4 h-4 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Execução
                         </h4>
                       </div>
                       <p className="text-xs text-muted-foreground leading-relaxed">Acompanhamos a execução mão na massa das ações planejadas.</p>
                     </motion.div>
                     
-                    {/* Revisão - Esquerda Centro */}
-                    {/* Caixa com borda direita tocando o círculo em x=180: left = 180 - 180 = 0, top = 250 */}
+                    {/* Revisão - Esquerda */}
                     <motion.div
-                      className="absolute w-[180px] p-4 rounded-xl bg-background border border-border shadow-xl z-10"
-                      style={{ top: '250px', left: '0px' }}
+                      className="absolute w-[180px] p-4 rounded-2xl bg-background border border-border/50 shadow-lg z-10"
+                      style={{ top: '200px', left: '0px' }}
                       initial={{ opacity: 0, x: -20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: 0.65 }}
+                      transition={{ duration: 0.5, delay: 0.8 }}
                     >
                       <div className="flex items-center gap-3 mb-2">
-                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
-                          <RefreshCw className="w-5 h-5 text-primary-foreground" />
+                        <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center">
+                          <RefreshCw className="w-4 h-4 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Revisão
                         </h4>
                       </div>
