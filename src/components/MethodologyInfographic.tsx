@@ -245,9 +245,9 @@ export default function MethodologyInfographic() {
             </div>
           </motion.div>
 
-          {/* Gestão de Vendas Ágil - Fundo preto forte */}
+          {/* Gestão de Vendas Ágil - Fundo azul clarinho */}
           <motion.div
-            className="p-6 md:p-10 rounded-2xl bg-foreground"
+            className="p-6 md:p-10 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/30"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -257,11 +257,11 @@ export default function MethodologyInfographic() {
               <span className="text-primary font-semibold text-sm uppercase tracking-wider">
                 Loboh Sales Agile
               </span>
-              <h3 className="text-2xl md:text-3xl font-bold text-background mt-2 mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+              <h3 className="text-2xl md:text-3xl font-bold text-foreground mt-2 mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 Gestão de Vendas Ágil
               </h3>
-              <p className="text-background/70 max-w-2xl mx-auto">
-                Rodamos sprints que orquestram ações em <span className="font-semibold text-background">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span>,
+              <p className="text-muted-foreground max-w-2xl mx-auto">
+                Rodamos sprints que orquestram ações em <span className="font-semibold text-foreground">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span>,
                 <br className="hidden md:block" />
                 sempre atacando o que gera <span className="font-semibold text-primary">maior resultado por esforço</span>.
               </p>
