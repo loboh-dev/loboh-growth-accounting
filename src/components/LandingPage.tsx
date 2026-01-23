@@ -82,18 +82,18 @@ const LandingPage = () => {
               </h1>
               
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-3 animate-fade-up animation-delay-200 leading-relaxed">
-                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe de vendas aplicando o método das scale-ups que mais crescem no Brasil.
+                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe de vendas aplicando método validado em scale-ups de sucesso no Brasil.
               </p>
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
-                <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender de indicações ou esforço heroico do dono.
+                <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender apenas de indicações.
               </p>
               
               {/* Benefits grid - Logo bar */}
-              <div className="flex items-center gap-8 mb-6 animate-fade-up animation-delay-300 opacity-60">
-                <img src={logoGupy} alt="Gupy" className="h-5 w-auto object-contain brightness-0 invert" />
+              <div className="flex items-center gap-8 mb-6 animate-fade-up animation-delay-300 opacity-40">
+                <img src={logoGupy} alt="Gupy" className="h-4 w-auto object-contain brightness-0 invert" />
                 <img src={logoRockContent} alt="Rock Content" className="h-5 w-auto object-contain brightness-0 invert" />
-                <img src={logoMovidesk} alt="Movidesk" className="h-5 w-auto object-contain brightness-0 invert" />
-                <img src={logoContaAzul} alt="ContaAzul" className="h-5 w-auto object-contain brightness-0 invert" />
+                <img src={logoMovidesk} alt="Movidesk" className="h-[18px] w-auto object-contain brightness-0 invert" />
+                <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 w-auto object-contain brightness-0 invert" />
               </div>
               
               <div className="flex flex-col sm:flex-row gap-3 animate-fade-up animation-delay-400">
