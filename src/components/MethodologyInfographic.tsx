@@ -267,122 +267,185 @@ export default function MethodologyInfographic() {
               </p>
             </div>
 
-            {/* Ciclo Visual Circular */}
+            {/* Ciclo Visual em Cruz */}
             <div className="relative mb-8">
-              {/* Desktop: Ciclo circular - leitura esquerda-direita, cima-baixo */}
+              {/* Desktop: Ciclo em cruz com Análise no topo */}
               <div className="hidden md:block relative">
                 <div className="flex justify-center">
-                  <div className="relative w-[520px] h-[420px]">
-                    {/* Círculo de conexão */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 rounded-full border-2 border-dashed border-background/30" />
+                  <div className="relative w-[480px] h-[480px]">
                     
                     {/* Centro do ciclo */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-20 h-20 rounded-full bg-primary flex items-center justify-center z-10">
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary flex items-center justify-center z-20 shadow-2xl">
                       <div className="text-center">
-                        <Repeat className="w-5 h-5 text-primary-foreground mx-auto mb-0.5" />
-                        <span className="text-[10px] font-bold text-primary-foreground">SPRINT</span>
+                        <Repeat className="w-6 h-6 text-primary-foreground mx-auto mb-1" />
+                        <span className="text-xs font-bold text-primary-foreground tracking-wide">SPRINT</span>
                       </div>
                     </div>
                     
-                    {/* Análise - Superior Esquerdo */}
+                    {/* Análise - Topo Centro */}
                     <motion.div
-                      className="absolute top-0 left-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
+                      className="absolute top-0 left-1/2 -translate-x-1/2 w-48 p-4 rounded-xl bg-background border border-border shadow-xl z-10"
+                      initial={{ opacity: 0, y: -20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: 0.2 }}
                     >
-                      <div className="flex items-center gap-2 mb-2">
-                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                          <Search className="w-4 h-4 text-primary-foreground" />
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
+                          <Search className="w-5 h-5 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Análise
                         </h4>
                       </div>
                       <p className="text-xs text-muted-foreground leading-relaxed">Identificamos causas raízes e oportunidades de maior impacto.</p>
                     </motion.div>
                     
-                    {/* Planejamento - Superior Direito */}
+                    {/* Planejamento - Direita Centro */}
                     <motion.div
-                      className="absolute top-0 right-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
+                      className="absolute top-1/2 right-0 -translate-y-1/2 w-48 p-4 rounded-xl bg-background border border-border shadow-xl z-10"
+                      initial={{ opacity: 0, x: 20 }}
+                      whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: 0.35 }}
                     >
-                      <div className="flex items-center gap-2 mb-2">
-                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                          <ClipboardList className="w-4 h-4 text-primary-foreground" />
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
+                          <ClipboardList className="w-5 h-5 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Planejamento
                         </h4>
                       </div>
                       <p className="text-xs text-muted-foreground leading-relaxed">Priorizamos ações pelo maior resultado com menor esforço.</p>
                     </motion.div>
                     
-                    {/* Execução - Inferior Direito */}
+                    {/* Execução - Baixo Centro */}
                     <motion.div
-                      className="absolute bottom-0 right-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
+                      className="absolute bottom-0 left-1/2 -translate-x-1/2 w-48 p-4 rounded-xl bg-background border border-border shadow-xl z-10"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: 0.5 }}
                     >
-                      <div className="flex items-center gap-2 mb-2">
-                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                          <Play className="w-4 h-4 text-primary-foreground" />
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
+                          <Play className="w-5 h-5 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Execução
                         </h4>
                       </div>
                       <p className="text-xs text-muted-foreground leading-relaxed">Acompanhamos a execução mão na massa das ações planejadas.</p>
                     </motion.div>
                     
-                    {/* Revisão - Inferior Esquerdo */}
+                    {/* Revisão - Esquerda Centro */}
                     <motion.div
-                      className="absolute bottom-0 left-0 w-44 p-4 rounded-xl bg-background border border-border shadow-xl"
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
+                      className="absolute top-1/2 left-0 -translate-y-1/2 w-48 p-4 rounded-xl bg-background border border-border shadow-xl z-10"
+                      initial={{ opacity: 0, x: -20 }}
+                      whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.4, delay: 0.65 }}
                     >
-                      <div className="flex items-center gap-2 mb-2">
-                        <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                          <RefreshCw className="w-4 h-4 text-primary-foreground" />
+                      <div className="flex items-center gap-3 mb-2">
+                        <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center">
+                          <RefreshCw className="w-5 h-5 text-primary-foreground" />
                         </div>
-                        <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                        <h4 className="font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                           Revisão
                         </h4>
                       </div>
                       <p className="text-xs text-muted-foreground leading-relaxed">Revisamos resultados e ajustamos o próximo ciclo.</p>
                     </motion.div>
                     
-                    {/* Setas de fluxo - sentido horário */}
-                    <svg className="absolute inset-0 w-full h-full pointer-events-none" viewBox="0 0 520 420">
+                    {/* Setas sofisticadas de fluxo - sentido horário */}
+                    <svg className="absolute inset-0 w-full h-full pointer-events-none z-0" viewBox="0 0 480 480">
                       <defs>
-                        <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
-                          <polygon points="0 0, 8 3, 0 6" fill="hsl(var(--primary))" />
+                        {/* Gradiente para as setas */}
+                        <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                          <stop offset="0%" stopColor="hsl(var(--primary))" stopOpacity="0.3" />
+                          <stop offset="50%" stopColor="hsl(var(--primary))" stopOpacity="0.8" />
+                          <stop offset="100%" stopColor="hsl(var(--primary))" stopOpacity="1" />
+                        </linearGradient>
+                        
+                        {/* Ponta de seta sofisticada */}
+                        <marker id="arrowPro" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+                          <path d="M 0 0 L 12 6 L 0 12 L 3 6 Z" fill="hsl(var(--primary))" />
                         </marker>
+                        
+                        {/* Glow effect */}
+                        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+                          <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+                          <feMerge>
+                            <feMergeNode in="coloredBlur"/>
+                            <feMergeNode in="SourceGraphic"/>
+                          </feMerge>
+                        </filter>
                       </defs>
-                      {/* Análise -> Planejamento (topo esquerda -> topo direita) */}
-                      <path d="M 180 55 Q 260 30 340 55" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
-                      {/* Planejamento -> Execução (topo direita -> baixo direita) */}
-                      <path d="M 465 115 Q 490 210 465 305" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
-                      {/* Execução -> Revisão (baixo direita -> baixo esquerda) */}
-                      <path d="M 340 365 Q 260 390 180 365" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
-                      {/* Revisão -> Análise (baixo esquerda -> topo esquerda) */}
-                      <path d="M 55 305 Q 30 210 55 115" stroke="hsl(var(--primary))" strokeWidth="2" fill="none" markerEnd="url(#arrowhead)" opacity="0.7" />
+                      
+                      {/* Análise -> Planejamento (topo -> direita) - curva suave */}
+                      <motion.path 
+                        d="M 290 95 C 340 95, 385 140, 385 190" 
+                        stroke="url(#arrowGradient)" 
+                        strokeWidth="3" 
+                        fill="none" 
+                        markerEnd="url(#arrowPro)"
+                        filter="url(#glow)"
+                        initial={{ pathLength: 0, opacity: 0 }}
+                        whileInView={{ pathLength: 1, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.4 }}
+                      />
+                      
+                      {/* Planejamento -> Execução (direita -> baixo) - curva suave */}
+                      <motion.path 
+                        d="M 385 290 C 385 340, 340 385, 290 385" 
+                        stroke="url(#arrowGradient)" 
+                        strokeWidth="3" 
+                        fill="none" 
+                        markerEnd="url(#arrowPro)"
+                        filter="url(#glow)"
+                        initial={{ pathLength: 0, opacity: 0 }}
+                        whileInView={{ pathLength: 1, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.55 }}
+                      />
+                      
+                      {/* Execução -> Revisão (baixo -> esquerda) - curva suave */}
+                      <motion.path 
+                        d="M 190 385 C 140 385, 95 340, 95 290" 
+                        stroke="url(#arrowGradient)" 
+                        strokeWidth="3" 
+                        fill="none" 
+                        markerEnd="url(#arrowPro)"
+                        filter="url(#glow)"
+                        initial={{ pathLength: 0, opacity: 0 }}
+                        whileInView={{ pathLength: 1, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.7 }}
+                      />
+                      
+                      {/* Revisão -> Análise (esquerda -> topo) - curva suave */}
+                      <motion.path 
+                        d="M 95 190 C 95 140, 140 95, 190 95" 
+                        stroke="url(#arrowGradient)" 
+                        strokeWidth="3" 
+                        fill="none" 
+                        markerEnd="url(#arrowPro)"
+                        filter="url(#glow)"
+                        initial={{ pathLength: 0, opacity: 0 }}
+                        whileInView={{ pathLength: 1, opacity: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 0.6, delay: 0.85 }}
+                      />
                     </svg>
                   </div>
                 </div>
               </div>
               
-              {/* Mobile: Grid com setas */}
+              {/* Mobile: Grid com setas - ordem: Análise, Planejamento, Revisão, Execução */}
               <div className="md:hidden grid grid-cols-2 gap-3">
-                {agileCycle.map((phase, index) => (
+                {[agileCycle[0], agileCycle[1], agileCycle[3], agileCycle[2]].map((phase, index) => (
                   <motion.div
                     key={phase.title}
                     className="relative p-4 rounded-xl bg-background border border-background/20 shadow-md"
@@ -392,7 +455,7 @@ export default function MethodologyInfographic() {
                     transition={{ duration: 0.3, delay: 0.1 + index * 0.1 }}
                   >
                     <div className="absolute -top-2 -left-2 w-6 h-6 rounded-full bg-primary flex items-center justify-center text-xs font-bold text-primary-foreground">
-                      {index + 1}
+                      {index === 0 ? 1 : index === 1 ? 2 : index === 2 ? 4 : 3}
                     </div>
                     <div className="flex items-center gap-2 mb-2">
                       <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
