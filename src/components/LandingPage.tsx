@@ -226,32 +226,186 @@ const LandingPage = () => {
       </section>
 
 
-      {/* Storytelling - Credibilidade e Multidisciplinaridade */}
-      <section className="py-12 md:py-16 bg-background">
+      {/* A Diferença Entre Comprar e Contratar - Design Visual Artesanal */}
+      <section className="py-12 md:py-16 bg-background overflow-hidden">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
             
-            {/* Header com filosofia */}
+            {/* Header Principal */}
             <motion.div 
-              className="text-center mb-10"
+              className="text-center mb-12"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6">
-                <ShieldCheck className="w-4 h-4 text-primary" />
-                <span className="text-foreground text-sm font-medium">Sem atalhos. Sem fórmulas prontas. Sem hacks milagrosos.</span>
-              </div>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                Apenas <span className="text-primary">execução disciplinada</span><br />da gestão comercial
+                Duas diferenças entre<br />
+                <span className="text-muted-foreground">comprar informação</span> e <span className="text-primary">contratar execução</span>
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Crescimento previsível vem de gente que já fez, não de quem só fala sobre fazer.
-              </p>
             </motion.div>
 
-            {/* Triangulação Visual */}
+            {/* Visual Diagram - Duas Diferenças */}
+            <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-12">
+              
+              {/* Diferença 1 - Resultado */}
+              <motion.div 
+                className="relative"
+                initial={{ opacity: 0, x: -40 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+              >
+                <div className="relative p-8 md:p-10 rounded-3xl bg-gradient-to-br from-loboh-navy via-loboh-navy to-loboh-navy/90 border border-primary/20 overflow-hidden">
+                  {/* Decorative Elements */}
+                  <div className="absolute top-0 right-0 w-40 h-40 bg-primary/5 rounded-full blur-3xl" />
+                  <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/5 rounded-full blur-2xl" />
+                  
+                  {/* Number Badge */}
+                  <div className="absolute -top-3 -left-3 w-14 h-14 rounded-2xl bg-primary flex items-center justify-center shadow-lg shadow-primary/30">
+                    <span className="text-2xl font-bold text-white" style={{ fontFamily: 'Oxanium, sans-serif' }}>1</span>
+                  </div>
+                  
+                  <div className="relative z-10 pt-4">
+                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-6" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                      O Resultado
+                    </h3>
+                    
+                    {/* Visual Comparison Box */}
+                    <div className="space-y-4">
+                      <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
+                        <div className="w-10 h-10 rounded-lg bg-destructive/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <X className="w-5 h-5 text-destructive" />
+                        </div>
+                        <div>
+                          <p className="text-white/60 text-sm uppercase tracking-wider mb-1">Informação</p>
+                          <p className="text-white/80">Você sabe mais. Talvez.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-start gap-4 p-4 rounded-xl bg-primary/10 border border-primary/30">
+                        <div className="w-10 h-10 rounded-lg bg-primary/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Check className="w-5 h-5 text-primary" />
+                        </div>
+                        <div>
+                          <p className="text-primary text-sm uppercase tracking-wider mb-1">Execução</p>
+                          <p className="text-white font-medium">Você vende mais. Sempre.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Logic Statement */}
+                    <div className="mt-6 pt-6 border-t border-white/10">
+                      <p className="text-loboh-gray-200 text-sm leading-relaxed italic">
+                        "Conhecimento sem aplicação é entretenimento.<br />Execução sem conhecimento é improviso.<br />Nós entregamos os dois — integrados."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+
+              {/* Diferença 2 - O Processo */}
+              <motion.div 
+                className="relative"
+                initial={{ opacity: 0, x: 40 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+              >
+                <div className="relative p-8 md:p-10 rounded-3xl bg-gradient-to-br from-card via-card to-secondary/50 border border-border overflow-hidden">
+                  {/* Decorative Elements */}
+                  <div className="absolute top-0 right-0 w-40 h-40 bg-accent/10 rounded-full blur-3xl" />
+                  <div className="absolute bottom-0 left-0 w-32 h-32 bg-primary/5 rounded-full blur-2xl" />
+                  
+                  {/* Number Badge */}
+                  <div className="absolute -top-3 -left-3 w-14 h-14 rounded-2xl bg-accent flex items-center justify-center shadow-lg shadow-accent/30">
+                    <span className="text-2xl font-bold text-white" style={{ fontFamily: 'Oxanium, sans-serif' }}>2</span>
+                  </div>
+                  
+                  <div className="relative z-10 pt-4">
+                    <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                      O Processo
+                    </h3>
+                    
+                    {/* Visual Comparison Box */}
+                    <div className="space-y-4">
+                      <div className="flex items-start gap-4 p-4 rounded-xl bg-muted/50 border border-border">
+                        <div className="w-10 h-10 rounded-lg bg-destructive/10 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <X className="w-5 h-5 text-destructive" />
+                        </div>
+                        <div>
+                          <p className="text-muted-foreground text-sm uppercase tracking-wider mb-1">Informação</p>
+                          <p className="text-muted-foreground">Você consome. E esquece.</p>
+                        </div>
+                      </div>
+                      
+                      <div className="flex items-start gap-4 p-4 rounded-xl bg-accent/10 border border-accent/30">
+                        <div className="w-10 h-10 rounded-lg bg-accent/30 flex items-center justify-center flex-shrink-0 mt-0.5">
+                          <Check className="w-5 h-5 text-accent" />
+                        </div>
+                        <div>
+                          <p className="text-accent text-sm uppercase tracking-wider mb-1">Execução</p>
+                          <p className="text-foreground font-medium">Você se compromete. E transforma.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Logic Statement */}
+                    <div className="mt-6 pt-6 border-t border-border">
+                      <p className="text-muted-foreground text-sm leading-relaxed italic">
+                        "Execução exige comprometimento.<br />Quem quer atalho, compra curso.<br />Quem quer resultado, contrata gestão."
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
+            </div>
+
+            {/* Manifesto Visual - Sem atalhos */}
+            <motion.div
+              className="relative rounded-3xl overflow-hidden mb-12"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
+              <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/90 to-accent" />
+              <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyek0zNiAyNHYySDI0di0yaDEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-50" />
+              
+              <div className="relative z-10 p-8 md:p-12">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+                  
+                  {/* Left - Statement */}
+                  <div className="text-center md:text-left">
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 mb-4">
+                      <ShieldCheck className="w-4 h-4 text-white" />
+                      <span className="text-white/90 text-sm font-medium">Nossa convicção</span>
+                    </div>
+                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-2" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                      Gestão Comercial Profissional
+                    </h3>
+                    <p className="text-white/80 text-lg">
+                      Metodologia validada. Execução disciplinada. Resultado mensurável.
+                    </p>
+                  </div>
+                  
+                  {/* Right - Anti-elements */}
+                  <div className="flex flex-wrap justify-center md:justify-end gap-3">
+                    {['Sem atalhos', 'Sem fórmulas mágicas', 'Sem hacks', 'Sem promessas vazias'].map((item, i) => (
+                      <div 
+                        key={i}
+                        className="flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20"
+                      >
+                        <X className="w-4 h-4 text-white/60" />
+                        <span className="text-white/90 text-sm font-medium">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Triangulação - Credenciais */}
             <div className="grid lg:grid-cols-3 gap-6 mb-10">
               
               {/* Pilar 1 - Scale-ups */}
@@ -269,7 +423,7 @@ const LandingPage = () => {
                   </div>
                   <h3 className="text-xl font-bold mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>Maturidade de Scale-up</h3>
                   <p className="text-loboh-gray-200 leading-relaxed mb-6">
-                    Empresas tech de alto crescimento têm o maior nível de maturidade em gestão de vendas do Brasil. Metodologia, processos, dados — tudo é sistemático.
+                    Scale-ups têm o maior nível de maturidade em gestão de vendas do Brasil. Metodologia, processos, dados — tudo é sistemático.
                   </p>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-3 py-1 rounded-full bg-white/10 text-xs font-medium">Playbooks</span>
