@@ -86,7 +86,7 @@ const LandingPage = () => {
               </h1>
               
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-3 animate-fade-up animation-delay-200 leading-relaxed">
-                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe de vendas aplicando método validado em scale-ups de sucesso no Brasil.
+                Fazemos a gestão <span className="font-bold">total ou parcial</span> da sua equipe comercial para imprimir um <span className="font-bold">ritmo constante e eficiente</span> de vendas.
               </p>
               <p className="text-base md:text-lg text-loboh-gray-200 max-w-xl mb-6 animate-fade-up animation-delay-200 leading-relaxed">
                 <span className="font-bold">Mais oportunidades, mais conversão, mais previsibilidade</span> — sem depender apenas de indicações ou esforço heroico do dono.
@@ -406,7 +406,7 @@ const LandingPage = () => {
                   
                   <div className="flex flex-col sm:flex-row items-center gap-6 relative z-10">
                     <div className="w-32 h-32 rounded-2xl overflow-hidden flex-shrink-0 ring-4 ring-accent/30">
-                      <img src={fayolaPhoto} alt="Fayola Damaceno" className="w-full h-full object-cover" />
+                      <img src={fayolaPhoto} alt="Fayola Damaceno" className="w-full h-full object-cover object-top" style={{ objectPosition: 'center 15%' }} />
                     </div>
                     
                     <div className="text-center sm:text-left flex-1">
@@ -440,16 +440,24 @@ const LandingPage = () => {
                 </motion.div>
               </div>
 
-              {/* Mensagem de sinergia */}
+              {/* Mensagem de sinergia - Fundação + Ciclo Contínuo */}
               <motion.div 
-                className="mt-10 p-6 rounded-xl bg-secondary border border-border text-center"
+                className="mt-10 p-8 rounded-2xl bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 text-center"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: 0.7 }}
               >
-                <p className="text-muted-foreground">
-                  Nosso time de especialistas traz uma rica variedade de <span className="font-bold text-foreground">competências complementares</span>, assegurando uma abordagem <span className="font-bold text-foreground">holística</span> e <span className="font-bold text-foreground">inovadora</span> em vendas.
+                <div className="flex items-center justify-center gap-3 mb-4">
+                  <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center">
+                    <ShieldCheck className="w-5 h-5 text-primary" />
+                  </div>
+                  <h4 className="text-lg font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    Fundação Sólida + Ciclo de Melhoria Contínua
+                  </h4>
+                </div>
+                <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+                  Nossa entrega começa com a <span className="font-bold text-foreground">GTM Foundation</span> — a base indispensável de playbook, CRM e treinamento — e evolui continuamente com o <span className="font-bold text-foreground">Loboh Sales Agile</span>: 5 pilares estratégicos orquestrados em sprints semanais. O resultado? <span className="font-bold text-primary">Um sistema de vendas que cresce com você, nunca para.</span>
                 </p>
               </motion.div>
             </motion.div>
