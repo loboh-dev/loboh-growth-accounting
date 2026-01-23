@@ -163,12 +163,22 @@ export default function MethodologyInfographic() {
                 </motion.div>
               ))}
             </div>
-            
-            <div className="text-center mt-6">
-              <p className="text-sm text-muted-foreground">
-                É <span className="font-semibold text-foreground">muita frente aberta</span> para uma liderança cuidar sozinha.
-                <br />
-                <span className="text-primary font-medium">Você precisa de ritmo. Nós orquestramos e executamos para você.</span>
+          </motion.div>
+
+          {/* Fundo preto forte - CTA de ritmo */}
+          <motion.div
+            className="p-6 md:p-8 rounded-2xl bg-foreground mb-12"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.15 }}
+          >
+            <div className="text-center">
+              <p className="text-sm text-background/70 mb-2">
+                É <span className="font-semibold text-background">muita frente aberta</span> para uma liderança cuidar sozinha.
+              </p>
+              <p className="text-lg md:text-xl font-bold text-background" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                Você precisa de ritmo. <span className="text-primary">Nós orquestramos e executamos para você.</span>
               </p>
             </div>
           </motion.div>
@@ -235,20 +245,23 @@ export default function MethodologyInfographic() {
             </div>
           </motion.div>
 
-          {/* Gestão de Vendas Ágil - Visual de Ciclo */}
+          {/* Gestão de Vendas Ágil - Fundo preto forte */}
           <motion.div
-            className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/30"
+            className="p-6 md:p-10 rounded-2xl bg-foreground"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <div className="text-center mb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                <span className="text-primary">Gestão de Vendas Ágil</span>
+            <div className="text-center mb-10">
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider">
+                Loboh Sales Agile
+              </span>
+              <h3 className="text-2xl md:text-3xl font-bold text-background mt-2 mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                Gestão de Vendas Ágil
               </h3>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Rodamos sprints que orquestram ações em <span className="font-semibold text-foreground">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span>,
+              <p className="text-background/70 max-w-2xl mx-auto">
+                Rodamos sprints que orquestram ações em <span className="font-semibold text-background">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span>,
                 <br className="hidden md:block" />
                 sempre atacando o que gera <span className="font-semibold text-primary">maior resultado por esforço</span>.
               </p>
@@ -261,13 +274,13 @@ export default function MethodologyInfographic() {
                 <div className="flex justify-center">
                   <div className="relative w-[400px] h-[400px]">
                     {/* Círculo de conexão */}
-                    <div className="absolute inset-8 rounded-full border-2 border-dashed border-primary/30" />
+                    <div className="absolute inset-8 rounded-full border-2 border-dashed border-background/30" />
                     
                     {/* Centro do ciclo */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary/10 border-2 border-primary flex items-center justify-center">
+                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 rounded-full bg-primary border-2 border-primary flex items-center justify-center">
                       <div className="text-center">
-                        <Repeat className="w-6 h-6 text-primary mx-auto mb-1" />
-                        <span className="text-xs font-bold text-primary">SPRINT</span>
+                        <Repeat className="w-6 h-6 text-primary-foreground mx-auto mb-1" />
+                        <span className="text-xs font-bold text-primary-foreground">SPRINT</span>
                       </div>
                     </div>
                     
@@ -284,7 +297,7 @@ export default function MethodologyInfographic() {
                       return (
                         <motion.div
                           key={phase.title}
-                          className="absolute w-36 p-4 rounded-xl bg-card border-2 border-primary/50 shadow-lg"
+                          className="absolute w-36 p-4 rounded-xl bg-background border border-background/20 shadow-xl"
                           style={pos}
                           initial={{ opacity: 0, scale: 0.8 }}
                           whileInView={{ opacity: 1, scale: 1 }}
@@ -330,7 +343,7 @@ export default function MethodologyInfographic() {
                 {agileCycle.map((phase, index) => (
                   <motion.div
                     key={phase.title}
-                    className="relative p-4 rounded-xl bg-card border-2 border-primary/50 shadow-md"
+                    className="relative p-4 rounded-xl bg-background border border-background/20 shadow-md"
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
@@ -340,8 +353,8 @@ export default function MethodologyInfographic() {
                       {index + 1}
                     </div>
                     <div className="flex items-center gap-2 mb-2">
-                      <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center">
-                        <phase.icon className="w-4 h-4 text-primary" />
+                      <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
+                        <phase.icon className="w-4 h-4 text-primary-foreground" />
                       </div>
                       <h4 className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                         {phase.title}
@@ -360,16 +373,16 @@ export default function MethodologyInfographic() {
                 viewport={{ once: true }}
                 transition={{ delay: 0.5 }}
               >
-                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
-                  <Repeat className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium text-primary">Ciclo contínuo</span>
+                <div className="flex items-center gap-2 px-4 py-2 rounded-full bg-primary border border-primary">
+                  <Repeat className="w-4 h-4 text-primary-foreground" />
+                  <span className="text-sm font-medium text-primary-foreground">Ciclo contínuo</span>
                 </div>
               </motion.div>
             </div>
 
             {/* Resultado Final */}
-            <div className="pt-6 border-t border-primary/20">
-              <p className="text-center text-sm font-semibold text-muted-foreground mb-4">RESULTADO:</p>
+            <div className="pt-6 border-t border-background/20">
+              <p className="text-center text-sm font-semibold text-background/60 mb-4">RESULTADO:</p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
                 {finalResults.map((result, index) => (
                   <motion.div
@@ -381,7 +394,7 @@ export default function MethodologyInfographic() {
                     transition={{ delay: 0.6 + index * 0.1 }}
                   >
                     <Check className="w-5 h-5 text-primary" />
-                    <span className="text-foreground font-medium">{result}</span>
+                    <span className="text-background font-medium">{result}</span>
                   </motion.div>
                 ))}
               </div>
