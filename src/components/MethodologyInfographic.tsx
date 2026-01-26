@@ -172,7 +172,7 @@ export default function MethodologyInfographic() {
           >
             <div className="text-center">
               <p className="text-sm text-background/70 mb-2">
-                São <span className="font-semibold text-background">múltiplas frentes estratégicas</span> para uma liderança gerir sozinha.
+                São <span className="font-semibold text-background">múltiplas frentes estratégicas, táticas e operacionais</span> para uma liderança gerir sozinha.
               </p>
               <p className="text-lg md:text-xl font-bold text-background" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 Você precisa de ritmo e método. <span className="text-primary">Nós orquestramos e executamos para você.</span>
