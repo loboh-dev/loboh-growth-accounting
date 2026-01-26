@@ -255,7 +255,7 @@ export default function MethodologyInfographic() {
             }}>
                 Implementação em 65 dias
               </p>
-              <p className="text-muted-foreground max-w-2xl mx-auto">Implementamos uma base sólida de Gestão do Conhecimento, Stack de tecnologia, Trilha de Capacitação e Rituais de Acompanhamento de Metas e KPIs que prepara seu time para escala de verdade.</p>
+              <p className="text-muted-foreground max-w-2xl mx-auto">Implementamos uma base sólida de Gestão do Conhecimento, Stack de Tecnologia, Trilha de Capacitação e Rituais de Acompanhamento de Metas e KPIs que prepara seu time para escala de verdade.</p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
