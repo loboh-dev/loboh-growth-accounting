@@ -227,13 +227,18 @@ export default function MethodologyInfographic() {
           delay: 0.2
         }}>
             <div className="text-center mb-8">
-              <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3" style={{
+              <h3 className="text-3xl md:text-4xl font-bold mb-3" style={{
               fontFamily: 'Oxanium, sans-serif'
             }}>
-                Implementação em <span className="text-primary">65 dias</span>
+                <span className="text-primary">Go-To-Market Foundation</span>
               </h3>
-              <p className="text-muted-foreground max-w-2xl mx-auto">GTM Foundation é a fundamentação sólida necessária para criar uma equipe de vendas escalável
-e que bate meta todos os meses.<span className="font-semibold text-foreground">Sem dados, como automatizar e ganhar escala?</span>
+              <p className="text-2xl md:text-3xl font-bold text-foreground mb-4" style={{
+              fontFamily: 'Oxanium, sans-serif'
+            }}>
+                Implementação em 65 dias
+              </p>
+              <p className="text-muted-foreground max-w-2xl mx-auto">Fundamentação sólida necessária para criar uma equipe de vendas escalável
+e que bate meta todos os meses. <span className="font-semibold text-foreground">Sem dados, como automatizar e ganhar escala?</span>
                 <br className="hidden md:block" />
                 <span className="text-primary font-medium">Preparamos seu time de vendas para escala de verdade.</span>
               </p>
