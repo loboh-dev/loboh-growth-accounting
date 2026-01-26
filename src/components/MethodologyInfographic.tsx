@@ -93,6 +93,27 @@ export default function MethodologyInfographic() {
             </p>
           </motion.div>
 
+          {/* Setinha animada - O que a Loboh faz? */}
+          <motion.div 
+            className="flex justify-center mb-6"
+            initial={{ opacity: 0, y: -10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <div className="flex flex-col items-center">
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">
+                O que a Loboh faz?
+              </span>
+              <motion.div
+                animate={{ y: [0, 6, 0] }}
+                transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <ArrowDown className="w-6 h-6 text-primary" />
+              </motion.div>
+            </div>
+          </motion.div>
+
           {/* 5 áreas críticas - todos os itens visíveis */}
           <motion.div className="p-6 md:p-8 rounded-2xl bg-gradient-to-br from-primary/10 via-primary/5 to-transparent border border-primary/30 mb-10" initial={{
           opacity: 0,
@@ -168,6 +189,27 @@ export default function MethodologyInfographic() {
             }}>
                 Você precisa de ritmo e método. <span className="text-primary">Nós orquestramos e executamos para você.</span>
               </p>
+            </div>
+          </motion.div>
+
+          {/* Setinha animada - Como funciona? */}
+          <motion.div 
+            className="flex justify-center mb-6"
+            initial={{ opacity: 0, y: -10 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <div className="flex flex-col items-center">
+              <span className="text-primary font-semibold text-sm uppercase tracking-wider mb-2">
+                Como funciona?
+              </span>
+              <motion.div
+                animate={{ y: [0, 6, 0] }}
+                transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+              >
+                <ArrowDown className="w-6 h-6 text-primary" />
+              </motion.div>
             </div>
           </motion.div>
 
