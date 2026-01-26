@@ -245,7 +245,7 @@ const ComparisonSection = () => {
           >
             <div className="text-center mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                As duas diferenças entre <span className="text-muted-foreground">comprar informação</span> e <span className="text-primary">contratar execução</span>
+                As duas diferenças entre <span className="text-destructive">comprar informação</span> e <span className="text-primary">contratar execução</span>
               </h3>
             </div>
 
