@@ -238,8 +238,6 @@ export default function MethodologyInfographic() {
                 Implementação em 65 dias
               </p>
               <p className="text-muted-foreground max-w-2xl mx-auto">
-                <span className="text-primary font-medium">Preparamos seu time de vendas para escala de verdade.</span>
-                <br className="hidden md:block" />
                 Implementamos uma base sólida de Processos, Stack de tecnologia, Trilha de Capacitação e Rituais de Acompanhamento de Metas e KPIs que prepara seu time para escala de verdade.
               </p>
             </div>
