@@ -237,10 +237,10 @@ export default function MethodologyInfographic() {
             }}>
                 Implementação em 65 dias
               </p>
-              <p className="text-muted-foreground max-w-2xl mx-auto">Fundamentação sólida necessária para criar uma equipe de vendas escalável
-e que bate meta todos os meses. <span className="font-semibold text-foreground">Sem dados, como automatizar e ganhar escala?</span>
-                <br className="hidden md:block" />
+              <p className="text-muted-foreground max-w-2xl mx-auto">
                 <span className="text-primary font-medium">Preparamos seu time de vendas para escala de verdade.</span>
+                <br className="hidden md:block" />
+                Implementamos uma base sólida de processos, arquitetura de tecnologia, Trilha de Capacitação e Modelo de Acompanhamento de Metas e KPIs que prepara seu time para escala de verdade.
               </p>
             </div>
 
