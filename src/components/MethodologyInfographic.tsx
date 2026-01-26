@@ -135,7 +135,7 @@ export default function MethodologyInfographic() {
                     <div className="w-7 h-7 rounded-full flex items-center justify-center bg-primary/10 text-primary">
                       <pillar.icon className="w-4 h-4" strokeWidth={2} />
                     </div>
-                    <span className="font-bold text-foreground text-sm">{pillar.title}</span>
+                    <span className="font-bold text-foreground text-sm" style={{ fontFamily: 'Oxanium, sans-serif' }}>{pillar.title}</span>
                   </div>
                   <div className="flex flex-wrap gap-1">
                     {pillar.includes.map((item, i) => <span key={i} className="inline-block px-2 py-0.5 rounded-full bg-primary/10 text-[10px] text-primary font-medium">
