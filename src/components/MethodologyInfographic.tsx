@@ -192,11 +192,11 @@ export default function MethodologyInfographic() {
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
                 Implementação em <span className="text-primary">65 dias</span>
               </h3>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Sem playbook não tem processo. Sem processo não tem dados. <span className="font-semibold text-foreground">Sem dados, como automatizar e ganhar escala?</span>
-                <br className="hidden md:block" />
-                <span className="text-primary font-medium">Preparamos seu time de vendas para escala de verdade.</span>
-              </p>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              <span className="font-semibold text-foreground">GTM Foundation</span> é a fundamentação necessária para criar uma equipe de vendas escalável
+              <br className="hidden md:block" />
+              <span className="text-primary font-medium">e que bate meta todos os meses.</span>
+            </p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
