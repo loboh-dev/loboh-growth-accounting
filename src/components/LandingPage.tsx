@@ -96,7 +96,7 @@ const LandingPage = () => {
               <div className="flex items-center gap-8 mb-6 animate-fade-up animation-delay-300 opacity-40">
                 <img src={logoGupy} alt="Gupy" className="h-4 w-auto object-contain brightness-0 invert" />
                 <img src={logoRockContent} alt="Rock Content" className="h-5 w-auto object-contain brightness-0 invert" />
-                <img src={logoMovidesk} alt="Movidesk" className="h-[18px] w-auto object-contain brightness-0 invert" />
+                <img src={logoMovidesk} alt="Movidesk" className="h-[22px] w-auto object-contain brightness-0 invert" />
                 <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 w-auto object-contain brightness-0 invert" />
               </div>
               
