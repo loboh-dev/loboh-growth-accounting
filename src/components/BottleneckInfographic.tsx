@@ -1,11 +1,7 @@
 import { motion } from "framer-motion";
 import { 
   Eye, 
-  Lightbulb, 
   Target, 
-  Package, 
-  AlertCircle, 
-  Cloud, 
   Users, 
   Link2
 } from "lucide-react";
@@ -14,58 +10,45 @@ const steps = [
   {
     number: 1,
     icon: Eye,
-    text: "Sofre com a ",
-    bold: "falta de visibilidade",
-    rest: " dos dados da operação de vendas."
+    parts: [
+      { text: "Sofre com a " },
+      { text: "falta de visibilidade", bold: true },
+      { text: " e " },
+      { text: "decide no escuro", bold: true },
+      { text: " o foco das estratégias." }
+    ]
   },
   {
     number: 2,
-    icon: Lightbulb,
-    text: "Decide ",
-    bold: "no escuro",
-    rest: " e não sabe qual deve ser o foco real das estratégias para o mercado."
+    icon: Target,
+    parts: [
+      { text: "Define " },
+      { text: "metas que não são alcançadas", bold: true },
+      { text: ", comprometendo o planejamento e escala." }
+    ]
   },
   {
     number: 3,
-    icon: Target,
-    text: "Não consegue ",
-    bold: "definir metas realistas",
-    rest: " nem identificar novas alavancas de crescimento."
+    icon: Users,
+    parts: [
+      { text: "Falta", bold: true },
+      { text: " " },
+      { text: "direção clara e capacitação", bold: true },
+      { text: " e time e liderança " },
+      { text: "ficam desmotivados", bold: true },
+      { text: "." }
+    ]
   },
   {
     number: 4,
-    icon: Package,
-    text: "Não gera ",
-    bold: "demanda suficiente",
-    rest: " ou os leads entram, mas não viram vendas."
-  },
-  {
-    number: 5,
-    icon: AlertCircle,
-    text: "As metas ",
-    bold: "não são alcançadas",
-    rest: ", comprometendo o planejamento de crescimento e escala."
-  },
-  {
-    number: 6,
-    icon: Cloud,
-    text: "Falta ",
-    bold: "direção clara",
-    rest: " e capacitação para a liderança e o time comercial."
-  },
-  {
-    number: 7,
-    icon: Users,
-    text: "A equipe de vendas fica ",
-    bold: "desmotivada",
-    rest: " por não ter capacitação e direcionamento."
-  },
-  {
-    number: 8,
     icon: Link2,
-    text: "O dono fica ",
-    bold: "preso",
-    rest: " na operação comercial e o crescimento depende sempre dele."
+    parts: [
+      { text: "O " },
+      { text: "resultado cai", bold: true },
+      { text: " e o " },
+      { text: "dono fica preso", bold: true },
+      { text: " na operação comercial porque tudo depende dele." }
+    ]
   }
 ];
 
@@ -137,9 +120,11 @@ const BottleneckInfographic = () => {
                         
                         {/* Text */}
                         <p className="text-foreground leading-relaxed flex-1 pt-1 text-left">
-                          {step.text}
-                          <span className={`font-bold ${isLast ? 'text-destructive' : 'text-foreground'}`}>{step.bold}</span>
-                          {step.rest}
+                          {step.parts.map((part, i) => (
+                            part.bold 
+                              ? <span key={i} className={`font-bold ${isLast ? 'text-destructive' : 'text-foreground'}`}>{part.text}</span>
+                              : <span key={i}>{part.text}</span>
+                          ))}
                         </p>
                       </div>
                     </div>
