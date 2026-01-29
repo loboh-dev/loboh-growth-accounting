@@ -9,7 +9,7 @@ import logoRockContent from "@/assets/logos/rock-content.png";
 import logoMovidesk from "@/assets/logos/movidesk-updated.png";
 import logoContaAzul from "@/assets/logos/contaazul-white.png";
 import logoForDoctor from "@/assets/logos/fordoctor.svg";
-import logoPejota from "@/assets/logos/pejota.svg";
+import logoPejota from "@/assets/logos/pejota.webp";
 import logoAMContabilidade from "@/assets/logos/am-contabilidade.webp";
 import foundersTransparent from "@/assets/founders-transparent.png";
 import tiagoPhoto from "@/assets/tiago-faria.jpg";
