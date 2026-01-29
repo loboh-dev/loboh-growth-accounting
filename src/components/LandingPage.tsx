@@ -8,6 +8,9 @@ import logoGupy from "@/assets/logos/gupy.svg";
 import logoRockContent from "@/assets/logos/rock-content.png";
 import logoMovidesk from "@/assets/logos/movidesk-updated.png";
 import logoContaAzul from "@/assets/logos/contaazul-white.png";
+import logoForDoctor from "@/assets/logos/fordoctor.svg";
+import logoPejota from "@/assets/logos/pejota.svg";
+import logoAMContabilidade from "@/assets/logos/am-contabilidade.webp";
 import foundersTransparent from "@/assets/founders-transparent.png";
 import tiagoPhoto from "@/assets/tiago-faria.jpg";
 import fayolaPhoto from "@/assets/fayola-damaceno.jpg";
@@ -185,40 +188,40 @@ const LandingPage = () => {
             </div>
             
             <div className="grid lg:grid-cols-3 gap-6">
-              {/* Case Gupy */}
+              {/* Case ForDoctor */}
               <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
                 <div className="h-12 mb-4 flex items-center">
-                  <img src={logoGupy} alt="Gupy" className="h-8 object-contain brightness-0 invert" />
+                  <img src={logoForDoctor} alt="ForDoctor" className="h-8 object-contain brightness-0 invert" />
                 </div>
                 <div className="mb-3">
                   <span className="text-4xl font-bold text-primary">2x</span>
                   <p className="text-lg font-semibold text-primary-foreground mt-1">mais conversão</p>
                 </div>
-                <p className="text-muted text-sm leading-relaxed">Transformação completa da operação comercial com processos claros e gestão orientada a dados.</p>
+                <p className="text-muted text-sm leading-relaxed">Com a entrada de novos players no mercado, a demanda gerada precisava ser aproveitada ao máximo. Otimizamos cada etapa do funil para dobrar a taxa de conversão.</p>
               </div>
 
-              {/* Case Rock Content */}
+              {/* Case Pejota Contabilidade */}
               <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
                 <div className="h-12 mb-4 flex items-center">
-                  <img src={logoRockContent} alt="Rock Content" className="h-8 object-contain brightness-0 invert" />
-                </div>
-                <div className="mb-3">
-                  <span className="text-4xl font-bold text-primary">3x</span>
-                  <p className="text-lg font-semibold text-primary-foreground mt-1">maior conversão</p>
-                </div>
-                <p className="text-muted text-sm leading-relaxed">Crescimento de receita consistente com redução de esforço operacional do dono.</p>
-              </div>
-
-              {/* Case Movidesk */}
-              <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
-                <div className="h-12 mb-4 flex items-center">
-                  <img src={logoMovidesk} alt="Movidesk" className="h-8 object-contain brightness-0 invert" />
+                  <img src={logoPejota} alt="Pejota Contabilidade" className="h-8 object-contain brightness-0 invert" />
                 </div>
                 <div className="mb-3">
                   <span className="text-4xl font-bold text-primary">2x</span>
-                  <p className="text-lg font-semibold text-primary-foreground mt-1">mais vendas</p>
+                  <p className="text-lg font-semibold text-primary-foreground mt-1">mais vendas no 1º ano</p>
                 </div>
-                <p className="text-muted text-sm leading-relaxed">Times mais organizados e produtivos com método validado de scale-ups.</p>
+                <p className="text-muted text-sm leading-relaxed">A visibilidade de dados dependia de planilhas e controles externos ao CRM. Com dados organizados, identificamos o ICP e dobramos as vendas — com 3 pessoas a menos no time.</p>
+              </div>
+
+              {/* Case AM Contabilidade */}
+              <div className="p-6 rounded-lg bg-loboh-gray-900/80 border border-muted/20 hover:border-primary/40 transition-all duration-200">
+                <div className="h-12 mb-4 flex items-center">
+                  <img src={logoAMContabilidade} alt="AM Contabilidade" className="h-8 object-contain brightness-0 invert" />
+                </div>
+                <div className="mb-3">
+                  <span className="text-4xl font-bold text-primary">3x</span>
+                  <p className="text-lg font-semibold text-primary-foreground mt-1">mais conversão + novo canal</p>
+                </div>
+                <p className="text-muted text-sm leading-relaxed">Com o banimento do principal canal de demanda, criamos uma campanha de indicações com a base que não só cobriu o canal perdido, mas triplicou a conversão.</p>
               </div>
             </div>
           </div>
