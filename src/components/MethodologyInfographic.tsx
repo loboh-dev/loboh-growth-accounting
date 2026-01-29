@@ -66,7 +66,7 @@ const agileCycle = [{
 }];
 const finalResults = ["Execução consistente", "Máquina de vendas sustentável", "Crescimento previsível"];
 export default function MethodologyInfographic() {
-  return <section className="py-16 md:py-20 bg-background overflow-hidden">
+  return <section className="py-10 md:py-12 bg-background overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
 
