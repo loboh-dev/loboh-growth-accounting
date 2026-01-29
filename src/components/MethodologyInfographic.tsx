@@ -152,6 +152,19 @@ export default function MethodologyInfographic() {
                   </div>
                 </motion.div>)}
             </div>
+
+            {/* Mensagem de flexibilidade */}
+            <motion.div 
+              className="mt-6 text-center"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.3 }}
+            >
+              <p className="text-muted-foreground text-sm md:text-base max-w-xl mx-auto">
+                <span className="font-semibold text-foreground">Flexibilidade total:</span> escolha um ou combine vários dos nossos serviços especializados. Cada área funciona poderosamente sozinha ou como parte de uma solução integrada.
+              </p>
+            </motion.div>
           </motion.div>
 
           {/* Fundo preto forte - CTA de ritmo - Copy melhorada */}
