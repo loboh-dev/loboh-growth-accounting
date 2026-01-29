@@ -323,10 +323,25 @@ export default function MethodologyInfographic() {
             }}>
                 Gestão de Vendas Ágil
               </h3>
-              <p className="text-muted-foreground max-w-2xl mx-auto">
-                Rodamos sprints que orquestram ações em <span className="font-semibold text-foreground">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span>,
-                <br className="hidden md:block" />
-                sempre atacando o que gera <span className="font-semibold text-primary">maior resultado por esforço</span>.
+              <p className="text-muted-foreground max-w-2xl mx-auto mb-4">
+                Rodamos <span className="font-semibold text-foreground">sprints</span> que orquestram ações em <span className="font-semibold text-foreground">Oferta, Gestão, Tecnologia, Capacitação e Cultura</span> nos níveis:
+              </p>
+              
+              {/* Níveis escaneáveis */}
+              <div className="flex flex-wrap justify-center gap-3 mb-4">
+                <span className="px-4 py-1.5 rounded-full bg-primary/10 border border-primary/30 text-sm font-semibold text-primary">
+                  Estratégico
+                </span>
+                <span className="px-4 py-1.5 rounded-full bg-primary/10 border border-primary/30 text-sm font-semibold text-primary">
+                  Tático
+                </span>
+                <span className="px-4 py-1.5 rounded-full bg-primary/10 border border-primary/30 text-sm font-semibold text-primary">
+                  Operacional
+                </span>
+              </div>
+              
+              <p className="text-muted-foreground max-w-xl mx-auto text-sm">
+                <span className="font-semibold text-primary">Priorização do esforço correto</span> é o que realmente vira o jogo.
               </p>
             </div>
 
