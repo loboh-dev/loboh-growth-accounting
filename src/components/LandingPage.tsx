@@ -405,8 +405,6 @@ const LandingPage = () => {
                       <span className="font-semibold text-white">Rock Content</span>
                       <span className="text-white/30">•</span>
                       <span className="font-semibold text-white">ContaAzul</span>
-                      <span className="text-white/30">•</span>
-                      <span className="font-semibold text-white">Kenoby</span>
                     </div>
                     
                     {/* Destaque Netlinks */}
