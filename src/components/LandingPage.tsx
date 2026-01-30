@@ -251,20 +251,6 @@ const LandingPage = () => {
           <div className="max-w-6xl mx-auto">
             
             {/* Header com filosofia */}
-            <motion.div 
-              className="text-center mb-10"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                A diferença entre <span className="text-muted-foreground">comprar informação</span> e <span className="text-primary">contratar execução</span>.
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Crescimento previsível não vem de modinha. Vem de <span className="font-semibold text-foreground">gestão comercial otimizada continuamente</span>.
-              </p>
-            </motion.div>
 
             {/* Header dos Especialistas */}
             <motion.div
