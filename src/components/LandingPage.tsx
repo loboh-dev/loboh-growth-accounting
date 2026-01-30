@@ -459,7 +459,7 @@ const LandingPage = () => {
                 </div>
                 
                 <p className="text-lg text-loboh-gray-200 leading-relaxed">
-                  <span className="text-primary font-bold">Maturidade de scale-up.</span> Lideramos vendas nas maiores empresas tech do Brasil. <span className="text-accent font-bold">Empreendemos com sucesso.</span> Fundamos empresas que faturam milhões.
+                  <span className="text-primary font-bold">Maturidade de scale-up.</span> Lideramos vendas nas maiores empresas tech do Brasil. <span className="text-accent font-bold">Empreendemos com sucesso.</span> Fundamos empresas que faturam milhões. Aplicamos nossos métodos no contexto da sua contabilidade.
                 </p>
                 <p className="text-lg text-white font-semibold mt-3">
                   Não vendemos teoria — entregamos execução.
