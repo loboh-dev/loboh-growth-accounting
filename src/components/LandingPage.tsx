@@ -133,6 +133,35 @@ const LandingPage = () => {
       {/* Metodologia Loboh - 5 Pilares Infográfico */}
       <MethodologyInfographic />
 
+      {/* Conexão - Fundação Sólida + Ciclo de Melhoria Contínua */}
+      <section className="py-8 md:py-12 bg-secondary">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto">
+            <motion.div
+              className="p-6 md:p-8 rounded-2xl bg-primary/5 border border-primary/20"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 mt-1">
+                  <ShieldCheck className="w-5 h-5 text-primary" />
+                </div>
+                <div>
+                  <h3 className="text-lg md:text-xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                    Fundação Sólida + Ciclo de Melhoria Contínua
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Nossa entrega começa com a <span className="font-semibold text-foreground">GTM Foundation</span> — a base indispensável de playbook, CRM e treinamento — e evolui continuamente com o <span className="font-semibold text-foreground">Loboh Sales Agile</span>: 5 pilares estratégicos orquestrados em sprints semanais. O resultado? <span className="font-semibold text-primary">Um sistema de vendas que cresce com você, nunca para.</span>
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* O que muda na prática */}
       <section className="py-12 md:py-16 bg-secondary">
         <div className="container mx-auto px-4">
