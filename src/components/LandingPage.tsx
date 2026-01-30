@@ -418,7 +418,7 @@ const LandingPage = () => {
                         <p className="text-white text-sm font-semibold">
                           Co-fundador da <span className="text-primary">Holding Global Netlinks</span>
                         </p>
-                        <p className="text-loboh-gray-400 text-xs">Agência de SEO com atuação internacional</p>
+                        <p className="text-loboh-gray-400 text-xs">Holding de Martechs com atuação multinacional</p>
                       </div>
                     </div>
                   </div>
