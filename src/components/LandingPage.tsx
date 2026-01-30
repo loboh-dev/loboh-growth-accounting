@@ -266,35 +266,6 @@ const LandingPage = () => {
               </p>
             </motion.div>
 
-            {/* Introdução aos Fundadores */}
-            <motion.div 
-              className="mb-10 p-8 rounded-2xl bg-loboh-navy text-white relative overflow-hidden"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            >
-              <div className="absolute top-0 right-0 w-48 h-48 bg-primary/10 rounded-full blur-3xl" />
-              <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/10 rounded-full blur-3xl" />
-              
-              <div className="relative z-10 max-w-3xl mx-auto text-center">
-                <div className="flex items-center justify-center gap-3 mb-6">
-                  <div className="flex items-center gap-4 opacity-60">
-                    <img src={logoGupy} alt="Gupy" className="h-4 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
-                    <img src={logoRockContent} alt="Rock Content" className="h-5 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
-                    <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
-                  </div>
-                </div>
-                
-                <p className="text-lg text-loboh-gray-200 leading-relaxed">
-                  <span className="text-primary font-bold">Maturidade de scale-up.</span> Lideramos vendas nas maiores empresas tech do Brasil. <span className="text-accent font-bold">Empreendemos com sucesso.</span> Fundamos empresas que faturam milhões.
-                </p>
-                <p className="text-lg text-white font-semibold mt-3">
-                  Não vendemos teoria — entregamos execução.
-                </p>
-              </div>
-            </motion.div>
-
             {/* Header dos Especialistas */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
@@ -464,6 +435,35 @@ const LandingPage = () => {
                     </a>
                   </div>
                 </motion.div>
+              </div>
+            </motion.div>
+
+            {/* Storytelling - Após os Sócios */}
+            <motion.div 
+              className="mt-10 p-8 rounded-2xl bg-loboh-navy text-white relative overflow-hidden"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="absolute top-0 right-0 w-48 h-48 bg-primary/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/10 rounded-full blur-3xl" />
+              
+              <div className="relative z-10 max-w-3xl mx-auto text-center">
+                <div className="flex items-center justify-center gap-3 mb-6">
+                  <div className="flex items-center gap-4 opacity-60">
+                    <img src={logoGupy} alt="Gupy" className="h-4 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
+                    <img src={logoRockContent} alt="Rock Content" className="h-5 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
+                    <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
+                  </div>
+                </div>
+                
+                <p className="text-lg text-loboh-gray-200 leading-relaxed">
+                  <span className="text-primary font-bold">Maturidade de scale-up.</span> Lideramos vendas nas maiores empresas tech do Brasil. <span className="text-accent font-bold">Empreendemos com sucesso.</span> Fundamos empresas que faturam milhões.
+                </p>
+                <p className="text-lg text-white font-semibold mt-3">
+                  Não vendemos teoria — entregamos execução.
+                </p>
               </div>
             </motion.div>
 
