@@ -1,4 +1,4 @@
-import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ArrowDown, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck, X, Check, Briefcase, Globe, Code, ChartNoAxesCombined, Linkedin, ChefHat } from "lucide-react";
+import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ArrowDown, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck, X, Check, Briefcase, Globe, Code, ChartNoAxesCombined, Linkedin, ChefHat, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-consulting.jpg";
@@ -423,22 +423,16 @@ const LandingPage = () => {
                     </div>
                   </div>
                   
-                  {/* Footer com competências e LinkedIn */}
-                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-between relative z-10">
-                    <div className="flex flex-wrap gap-4">
-                      <div className="flex items-center gap-2 text-loboh-gray-300 text-xs">
-                        <ChartNoAxesCombined className="w-4 h-4 text-primary" />
-                        <span>Sales Ops</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-loboh-gray-300 text-xs">
-                        <Code className="w-4 h-4 text-primary" />
-                        <span>Tech</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-loboh-gray-300 text-xs">
-                        <Globe className="w-4 h-4 text-primary" />
-                        <span>SEO Global</span>
-                      </div>
-                    </div>
+                  {/* Footer com redes sociais */}
+                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-end gap-3 relative z-10">
+                    <a 
+                      href="https://www.instagram.com/tiagofariabh/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-9 h-9 rounded-lg bg-primary/20 hover:bg-primary/30 flex items-center justify-center transition-colors"
+                    >
+                      <Instagram className="w-4 h-4 text-primary" />
+                    </a>
                     <a 
                       href="https://www.linkedin.com/in/tiagofariabh/" 
                       target="_blank" 
@@ -506,22 +500,16 @@ const LandingPage = () => {
                     </div>
                   </div>
                   
-                  {/* Footer com competências e LinkedIn */}
-                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-between relative z-10">
-                    <div className="flex flex-wrap gap-4">
-                      <div className="flex items-center gap-2 text-loboh-gray-300 text-xs">
-                        <GraduationCap className="w-4 h-4 text-accent" />
-                        <span>Treinamento</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-loboh-gray-300 text-xs">
-                        <Users className="w-4 h-4 text-accent" />
-                        <span>Gestão</span>
-                      </div>
-                      <div className="flex items-center gap-2 text-loboh-gray-300 text-xs">
-                        <Briefcase className="w-4 h-4 text-accent" />
-                        <span>Processos</span>
-                      </div>
-                    </div>
+                  {/* Footer com redes sociais */}
+                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-end gap-3 relative z-10">
+                    <a 
+                      href="https://www.instagram.com/fayoladamaceno/" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-9 h-9 rounded-lg bg-accent/20 hover:bg-accent/30 flex items-center justify-center transition-colors"
+                    >
+                      <Instagram className="w-4 h-4 text-accent" />
+                    </a>
                     <a 
                       href="https://www.linkedin.com/in/fayoladamaceno/" 
                       target="_blank" 
