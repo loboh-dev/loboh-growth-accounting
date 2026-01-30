@@ -7,13 +7,10 @@ import logoDark from "@/assets/logo-dark.svg";
 import logoGupy from "@/assets/logos/gupy.svg";
 import logoRockContent from "@/assets/logos/rock-content.png";
 import logoMovidesk from "@/assets/logos/movidesk-updated.png";
-import logoContaAzul from "@/assets/logos/contaazul-white.png";
+import logoContaAzul from "@/assets/logos/contaazul.svg";
 import logoForDoctor from "@/assets/logos/fordoctor.svg";
 import logoPejota from "@/assets/logos/pejota.webp";
 import logoAMContabilidade from "@/assets/logos/am-contabilidade.webp";
-import logoNetlinks from "@/assets/logos/netlinks.png";
-import logoCobli from "@/assets/logos/cobli.png";
-import logoKenoby from "@/assets/logos/kenoby.png";
 import foundersTransparent from "@/assets/founders-transparent.png";
 import tiagoPhoto from "@/assets/tiago-faria.jpg";
 import fayolaPhoto from "@/assets/fayola-damaceno.jpg";
@@ -400,20 +397,20 @@ const LandingPage = () => {
                     </div>
                   </div>
                   
-                  {/* Empresas com logos */}
+                  {/* Empresas */}
                   <div className="px-6 py-4 border-t border-white/10 relative z-10">
-                    <div className="flex flex-wrap items-center gap-4">
-                      <img src={logoGupy} alt="Gupy" className="h-4 opacity-60 brightness-0 invert" />
-                      <img src={logoRockContent} alt="Rock Content" className="h-5 opacity-60 brightness-0 invert" />
-                      <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 opacity-60 brightness-0 invert" />
-                      <img src={logoKenoby} alt="Kenoby" className="h-5 opacity-60 brightness-0 invert" />
+                    <div className="flex flex-wrap items-center gap-3 text-loboh-gray-300 text-sm">
+                      <span className="font-semibold text-white">Gupy</span>
+                      <span className="text-white/30">•</span>
+                      <span className="font-semibold text-white">Rock Content</span>
+                      <span className="text-white/30">•</span>
+                      <span className="font-semibold text-white">ContaAzul</span>
+                      <span className="text-white/30">•</span>
+                      <span className="font-semibold text-white">Kenoby</span>
                     </div>
                     <p className="text-loboh-gray-400 text-xs mt-3">
-                      Também co-fundador da agência global de SEO <span className="text-primary font-medium">Netlinks</span>
+                      Também co-fundador da agência global de SEO <span className="text-primary font-semibold">Netlinks</span>
                     </p>
-                    <div className="flex items-center gap-3 mt-2">
-                      <img src={logoNetlinks} alt="Netlinks" className="h-4 opacity-60 brightness-0 invert" />
-                    </div>
                   </div>
                   
                   {/* Footer com competências e LinkedIn */}
@@ -475,12 +472,14 @@ const LandingPage = () => {
                     </div>
                   </div>
                   
-                  {/* Empresas com logos */}
+                  {/* Empresas */}
                   <div className="px-6 py-4 border-t border-white/10 relative z-10">
-                    <div className="flex flex-wrap items-center gap-4">
-                      <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 opacity-60 brightness-0 invert" />
-                      <img src={logoCobli} alt="Cobli" className="h-5 opacity-60 brightness-0 invert" />
-                      <img src={logoMovidesk} alt="Movidesk" className="h-5 opacity-60 brightness-0 invert" />
+                    <div className="flex flex-wrap items-center gap-3 text-loboh-gray-300 text-sm">
+                      <span className="font-semibold text-white">ContaAzul</span>
+                      <span className="text-white/30">•</span>
+                      <span className="font-semibold text-white">Cobli</span>
+                      <span className="text-white/30">•</span>
+                      <span className="font-semibold text-white">Movidesk</span>
                     </div>
                   </div>
                   
