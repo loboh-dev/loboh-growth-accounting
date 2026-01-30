@@ -1,4 +1,4 @@
-import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ArrowDown, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck, X, Check, Briefcase, Globe, Code, ChartNoAxesCombined, Linkedin } from "lucide-react";
+import { Target, TrendingUp, Users, BarChart3, CheckCircle2, Rocket, Calendar, Lightbulb, Zap, Award, Building2, LineChart, ArrowRight, ArrowDown, ChevronRight, GitBranch, Eye, MessageCircleQuestion, ClipboardCheck, AlertTriangle, Cog, Monitor, GraduationCap, ShieldCheck, X, Check, Briefcase, Globe, Code, ChartNoAxesCombined, Linkedin, ChefHat } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-consulting.jpg";
@@ -478,6 +478,19 @@ const LandingPage = () => {
                         <p className="text-loboh-gray-300 text-sm leading-relaxed">
                           Especialista em <span className="text-accent font-medium">Sales Enablement</span> com mais de 15 anos de experiência. Treinou times de vendas de alta performance nas maiores scale-ups do Brasil.
                         </p>
+                      </div>
+                    </div>
+                    
+                    {/* Destaque FAM */}
+                    <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/10 border border-accent/20 mt-4">
+                      <div className="w-8 h-8 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
+                        <ChefHat className="w-4 h-4 text-accent" />
+                      </div>
+                      <div>
+                        <p className="text-white text-sm font-semibold">
+                          Co-fundadora do <span className="text-accent">Restaurante FAM</span>
+                        </p>
+                        <p className="text-loboh-gray-400 text-xs">Mais de 10.000 refeições vendidas mensalmente</p>
                       </div>
                     </div>
                   </div>
