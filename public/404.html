@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script>
+      const path = location.pathname + location.search + location.hash;
+      sessionStorage.setItem("redirectPath", path);
+      location.replace("/");
+    </script>
+  </head>
+  <body></body>
+</html>
