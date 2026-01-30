@@ -399,7 +399,7 @@ const LandingPage = () => {
                   
                   {/* Empresas */}
                   <div className="px-6 py-4 border-t border-white/10 relative z-10">
-                    <div className="flex flex-wrap items-center gap-3 text-loboh-gray-300 text-sm">
+                    <div className="flex flex-wrap items-center gap-3 text-sm mb-4">
                       <span className="font-semibold text-white">Gupy</span>
                       <span className="text-white/30">•</span>
                       <span className="font-semibold text-white">Rock Content</span>
@@ -408,9 +408,19 @@ const LandingPage = () => {
                       <span className="text-white/30">•</span>
                       <span className="font-semibold text-white">Kenoby</span>
                     </div>
-                    <p className="text-loboh-gray-400 text-xs mt-3">
-                      Também co-fundador da agência global de SEO <span className="text-primary font-semibold">Netlinks</span>
-                    </p>
+                    
+                    {/* Destaque Netlinks */}
+                    <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 border border-primary/20">
+                      <div className="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center flex-shrink-0">
+                        <Globe className="w-4 h-4 text-primary" />
+                      </div>
+                      <div>
+                        <p className="text-white text-sm font-semibold">
+                          Co-fundador da <span className="text-primary">Holding Global Netlinks</span>
+                        </p>
+                        <p className="text-loboh-gray-400 text-xs">Agência de SEO com atuação internacional</p>
+                      </div>
+                    </div>
                   </div>
                   
                   {/* Footer com competências e LinkedIn */}
