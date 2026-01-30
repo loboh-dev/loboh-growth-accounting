@@ -424,7 +424,7 @@ const LandingPage = () => {
                   </div>
                   
                   {/* Footer com redes sociais */}
-                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-end gap-3 relative z-10">
+                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-center gap-3 relative z-10">
                     <a 
                       href="https://www.instagram.com/tiagofariabh/" 
                       target="_blank" 
@@ -475,8 +475,20 @@ const LandingPage = () => {
                       </div>
                     </div>
                     
+                  </div>
+                  
+                  {/* Empresas */}
+                  <div className="px-6 py-4 border-t border-white/10 relative z-10">
+                    <div className="flex flex-wrap items-center gap-3 text-sm mb-4">
+                      <span className="font-semibold text-white">ContaAzul</span>
+                      <span className="text-white/30">•</span>
+                      <span className="font-semibold text-white">Cobli</span>
+                      <span className="text-white/30">•</span>
+                      <span className="font-semibold text-white">Movidesk</span>
+                    </div>
+                    
                     {/* Destaque FAM */}
-                    <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/10 border border-accent/20 mt-4">
+                    <div className="flex items-center gap-3 p-3 rounded-lg bg-accent/10 border border-accent/20">
                       <div className="w-8 h-8 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
                         <ChefHat className="w-4 h-4 text-accent" />
                       </div>
@@ -489,19 +501,8 @@ const LandingPage = () => {
                     </div>
                   </div>
                   
-                  {/* Empresas */}
-                  <div className="px-6 py-4 border-t border-white/10 relative z-10">
-                    <div className="flex flex-wrap items-center gap-3 text-loboh-gray-300 text-sm">
-                      <span className="font-semibold text-white">ContaAzul</span>
-                      <span className="text-white/30">•</span>
-                      <span className="font-semibold text-white">Cobli</span>
-                      <span className="text-white/30">•</span>
-                      <span className="font-semibold text-white">Movidesk</span>
-                    </div>
-                  </div>
-                  
                   {/* Footer com redes sociais */}
-                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-end gap-3 relative z-10">
+                  <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-center gap-3 relative z-10">
                     <a 
                       href="https://www.instagram.com/fayoladamaceno/" 
                       target="_blank" 
