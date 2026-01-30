@@ -446,13 +446,21 @@ const LandingPage = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-                <span className="text-primary font-semibold">Maturidade de scale-up.</span> Lideramos vendas nas maiores empresas tech do Brasil. <span className="text-accent font-semibold">Empreendemos com sucesso.</span> Fundamos empresas que faturam milhões.
-              </p>
-              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mt-2">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                <div className="p-4 rounded-lg bg-primary/5 border border-primary/20">
+                  <p className="text-primary font-semibold text-lg">Maturidade de scale-up</p>
+                  <p className="text-muted-foreground text-sm mt-1">Lideramos vendas nas maiores empresas tech do Brasil</p>
+                </div>
+                <div className="p-4 rounded-lg bg-accent/5 border border-accent/20">
+                  <p className="text-accent font-semibold text-lg">Empreendemos com sucesso</p>
+                  <p className="text-muted-foreground text-sm mt-1">Fundamos empresas que faturam milhões</p>
+                </div>
+              </div>
+              
+              <p className="text-lg text-muted-foreground leading-relaxed">
                 Aplicamos nossos métodos no contexto da sua contabilidade.
               </p>
-              <p className="text-xl md:text-2xl text-foreground font-bold mt-6">
+              <p className="text-xl md:text-2xl text-foreground font-bold mt-4">
                 Não vendemos teoria — entregamos execução.
               </p>
             </motion.div>
