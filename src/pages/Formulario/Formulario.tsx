@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import logoDark from "@/assets/logo-dark.svg";
 
 export default function Formulario() {
   useEffect(() => {
@@ -12,9 +13,20 @@ export default function Formulario() {
     };
   }, []);
 
-  return (
+   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
       <div className="w-full max-w-4xl px-6 py-16">
+        
+        {/* Logo */}
+        <div className="flex justify-center mb-10">
+          <img
+            src={logoDark}
+            alt="Company logo"
+            className="h-12 md:h-16"
+          />
+        </div>
+
+        {/* HubSpot form */}
         <div
           className="hs-form-frame"
           data-region="na1"
@@ -22,6 +34,6 @@ export default function Formulario() {
           data-portal-id="43715036"
         />
       </div>
-</div>
+    </div>
   );
 }
