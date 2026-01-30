@@ -70,6 +70,7 @@ export default {
             50: "hsl(var(--loboh-gray-50))",
             100: "hsl(var(--loboh-gray-100))",
             200: "hsl(var(--loboh-gray-200))",
+            300: "hsl(var(--loboh-gray-300))",
             400: "hsl(var(--loboh-gray-400))",
             600: "hsl(var(--loboh-gray-600))",
             800: "hsl(var(--loboh-gray-800))",
