@@ -266,101 +266,43 @@ const LandingPage = () => {
               </p>
             </motion.div>
 
-            {/* Triangulação Visual */}
-            <div className="grid lg:grid-cols-3 gap-6 mb-10">
+            {/* Introdução aos Fundadores */}
+            <motion.div 
+              className="mb-10 p-8 rounded-2xl bg-loboh-navy text-white relative overflow-hidden"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="absolute top-0 right-0 w-48 h-48 bg-primary/10 rounded-full blur-3xl" />
+              <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/10 rounded-full blur-3xl" />
               
-              {/* Pilar 1 - Scale-ups */}
-              <motion.div 
-                className="relative p-8 rounded-2xl bg-loboh-navy text-white overflow-hidden"
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.1 }}
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-primary/10 rounded-full blur-3xl" />
-                <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-xl bg-primary/20 flex items-center justify-center mb-6">
-                    <Rocket className="w-7 h-7 text-primary" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>Maturidade de Scale-up</h3>
-                  <p className="text-loboh-gray-200 leading-relaxed mb-6">
-                    Empresas tech de alto crescimento têm o maior nível de maturidade em gestão de vendas do Brasil. Metodologia, processos, dados — tudo é sistemático.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 rounded-full bg-white/10 text-xs font-medium">Playbooks</span>
-                    <span className="px-3 py-1 rounded-full bg-white/10 text-xs font-medium">OKRs</span>
-                    <span className="px-3 py-1 rounded-full bg-white/10 text-xs font-medium">Sprints</span>
-                    <span className="px-3 py-1 rounded-full bg-white/10 text-xs font-medium">Data-driven</span>
-                  </div>
-                </div>
-              </motion.div>
-
-              {/* Pilar 2 - Fomos lá */}
-              <motion.div 
-                className="relative p-8 rounded-2xl bg-card border border-border overflow-hidden"
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-accent/10 rounded-full blur-3xl" />
-                <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-xl bg-accent/20 flex items-center justify-center mb-6">
-                    <Award className="w-7 h-7 text-accent" />
-                  </div>
-                  <h3 className="text-xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>Estivemos Lá</h3>
-                  <p className="text-muted-foreground leading-relaxed mb-6">
-                    Lideramos vendas nas maiores scale-ups do Brasil. Não aprendemos em curso — construímos máquinas de vendas que geraram milhões.
-                  </p>
+              <div className="relative z-10 max-w-3xl mx-auto text-center">
+                <div className="flex items-center justify-center gap-3 mb-6">
                   <div className="flex items-center gap-4 opacity-60">
-                    <img src={logoGupy} alt="Gupy" className="h-4 object-contain" style={{ filter: 'grayscale(100%)' }} />
-                    <img src={logoRockContent} alt="Rock Content" className="h-5 object-contain" style={{ filter: 'grayscale(100%)' }} />
-                    <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 object-contain" style={{ filter: 'grayscale(100%)' }} />
+                    <img src={logoGupy} alt="Gupy" className="h-4 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
+                    <img src={logoRockContent} alt="Rock Content" className="h-5 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
+                    <img src={logoContaAzul} alt="ContaAzul" className="h-3.5 object-contain" style={{ filter: 'brightness(0) invert(1)' }} />
                   </div>
                 </div>
-              </motion.div>
+                
+                <p className="text-lg text-loboh-gray-200 leading-relaxed">
+                  <span className="text-primary font-bold">Maturidade de scale-up.</span> Lideramos vendas nas maiores empresas tech do Brasil. <span className="text-accent font-bold">Empreendemos com sucesso.</span> Fundamos empresas que faturam milhões. Não vendemos teoria — <span className="text-white font-semibold">entregamos execução</span>.
+                </p>
+              </div>
+            </motion.div>
 
-              {/* Pilar 3 - Empreendedorismo */}
-              <motion.div 
-                className="relative p-8 rounded-2xl bg-primary text-white overflow-hidden"
-                initial={{ opacity: 0, y: 40 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.3 }}
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-3xl" />
-                <div className="relative z-10">
-                  <div className="w-14 h-14 rounded-xl bg-white/20 flex items-center justify-center mb-6">
-                    <Building2 className="w-7 h-7 text-white" />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>Empreendemos com Sucesso</h3>
-                  <p className="text-white/80 leading-relaxed mb-6">
-                    Além de executivos, somos empreendedores. Fundamos empresas, entendemos a dor do dono e aplicamos o que funciona em contabilidades todos os dias.
-                  </p>
-                  <div className="flex flex-wrap gap-2">
-                    <span className="px-3 py-1 rounded-full bg-white/20 text-xs font-medium">Loboh</span>
-                    <span className="px-3 py-1 rounded-full bg-white/20 text-xs font-medium">Netlinks</span>
-                    <span className="px-3 py-1 rounded-full bg-white/20 text-xs font-medium">Contabilidades</span>
-                  </div>
-                </div>
-              </motion.div>
-            </div>
-
-            {/* Seção dos Especialistas - Premium */}
+            {/* Header dos Especialistas */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
             >
-              <div className="text-center mb-12">
-                <span className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-semibold uppercase tracking-wider mb-4">Quem Somos</span>
-                <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-3" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-                  Lideranças que fizeram história em vendas
+              <div className="text-center mb-8">
+                <h3 className="text-2xl md:text-3xl font-bold text-foreground" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+                  Conheça quem vai liderar sua transformação
                 </h3>
-                <p className="text-muted-foreground max-w-2xl mx-auto">
-                  <span className="font-bold text-foreground">Multidisciplinaridade</span> e <span className="font-bold text-foreground">diversidade</span> que geram resultados reais — porque entendemos a dor do dono e a pressão da meta.
-                </p>
               </div>
 
               <div className="grid md:grid-cols-2 gap-8">
