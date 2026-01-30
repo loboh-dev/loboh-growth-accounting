@@ -505,7 +505,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <img src={logoWhite} alt="Loboh" className="h-5" />
-            <p className="text-muted/60 text-sm">© 2025 Loboh. Todos os direitos reservados.</p>
+            <p className="text-muted/60 text-sm">© 2026 Loboh. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
