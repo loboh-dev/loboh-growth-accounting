@@ -472,8 +472,8 @@ const LandingPage = () => {
       <section id="cta-final" className="py-12 md:py-16 bg-loboh-navy">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4" style={{ fontFamily: 'Oxanium, sans-serif' }}>
-              Pronto para crescer como uma scale-up?
+            <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4 whitespace-nowrap" style={{ fontFamily: 'Oxanium, sans-serif' }}>
+              Pronto para crescer como uma <span className="text-nowrap">scale-up?</span>
             </h2>
             
             <p className="text-muted mb-8">
