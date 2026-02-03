@@ -326,7 +326,7 @@ const LandingPage = () => {
                   {/* Footer com redes sociais */}
                   <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-center gap-3 relative z-10">
                     <a 
-                      href="https://www.instagram.com/tiagofariabh/" 
+                      href="https://www.instagram.com/tiagodaloboh" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-9 h-9 rounded-lg bg-primary/20 hover:bg-primary/30 flex items-center justify-center transition-colors"
@@ -334,7 +334,7 @@ const LandingPage = () => {
                       <Instagram className="w-4 h-4 text-primary" />
                     </a>
                     <a 
-                      href="https://www.linkedin.com/in/tiagofariabh/" 
+                      href="https://www.linkedin.com/in/tiago-faria-aspira/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-9 h-9 rounded-lg bg-primary/20 hover:bg-primary/30 flex items-center justify-center transition-colors"
@@ -404,7 +404,7 @@ const LandingPage = () => {
                   {/* Footer com redes sociais */}
                   <div className="px-6 py-4 bg-white/5 border-t border-white/10 flex items-center justify-center gap-3 relative z-10">
                     <a 
-                      href="https://www.instagram.com/fayoladamaceno/" 
+                      href="https://www.instagram.com/vendascomfayola_loboh" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-9 h-9 rounded-lg bg-accent/20 hover:bg-accent/30 flex items-center justify-center transition-colors"
@@ -412,7 +412,7 @@ const LandingPage = () => {
                       <Instagram className="w-4 h-4 text-accent" />
                     </a>
                     <a 
-                      href="https://www.linkedin.com/in/fayoladamaceno/" 
+                      href="https://www.linkedin.com/in/fayola-damaceno/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="w-9 h-9 rounded-lg bg-accent/20 hover:bg-accent/30 flex items-center justify-center transition-colors"
