@@ -43,7 +43,7 @@ export default function Obrigado() {
         </p>
 
         <a
-          href="https://wa.me/5531971662712"
+          href="https://wa.me/5511974018842"
           target="_blank"
           rel="noopener noreferrer"
           style={{
