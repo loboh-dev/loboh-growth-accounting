@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import Formulario from "./pages/Formulario/Formulario";
+import Obrigado from "./pages/Obrigado";
 
 const queryClient = new QueryClient();
 
@@ -18,6 +19,7 @@ const App = () => (
         <Route path="/" element={<NotFound />} />
         <Route path="/contabilidade" element={<Index />} />
         <Route path="/formulario" element={<Formulario />} />
+        <Route path="/formulario/obrigado" element={<Obrigado />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </TooltipProvider>
